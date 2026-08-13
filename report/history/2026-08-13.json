@@ -1,10 +1,211 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-13",
-  "generated_at": "2026-08-13T13:06:15+08:00",
+  "generated_at": "2026-08-13T13:36:50+08:00",
   "timezone": "Asia/Taipei",
-  "markets": [],
-  "taiwan_market": [],
+  "markets": [
+    {
+      "kind": "market",
+      "symbol": "^GSPC",
+      "label": "S&P 500",
+      "price": 7748.5,
+      "change": 24.949999999999818,
+      "change_percent": 0.32303798123919464,
+      "currency": "USD",
+      "market_time": 1786567013,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "symbol": "^IXIC",
+      "label": "NASDAQ",
+      "price": 26588.488,
+      "change": 225.0480000000025,
+      "change_percent": 0.8536367029492453,
+      "currency": "USD",
+      "market_time": 1786569359,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "symbol": "^DJI",
+      "label": "道瓊",
+      "price": 53770.27,
+      "change": -578.8500000000058,
+      "change_percent": -1.0650586430838362,
+      "currency": "USD",
+      "market_time": 1786567439,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "symbol": "^SOX",
+      "label": "費城半導體",
+      "price": 12399.376,
+      "change": 390.496000000001,
+      "change_percent": 3.251727055312411,
+      "currency": "USD",
+      "market_time": 1786569359,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "symbol": "TSM",
+      "label": "台積電 ADR",
+      "price": 429.15,
+      "change": 15.149999999999977,
+      "change_percent": 3.659420289855067,
+      "currency": "USD",
+      "market_time": 1786564802,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "symbol": "NQ=F",
+      "label": "那斯達克期貨",
+      "price": 29915.5,
+      "change": 178.5,
+      "change_percent": 0.6002622994922151,
+      "currency": "USD",
+      "market_time": 1786598806,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "symbol": "ES=F",
+      "label": "標普期貨",
+      "price": 7779.0,
+      "change": 2.25,
+      "change_percent": 0.02893239463786286,
+      "currency": "USD",
+      "market_time": 1786598806,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "symbol": "GC=F",
+      "label": "黃金",
+      "price": 4464.0,
+      "change": 102.19999999999982,
+      "change_percent": 2.3430693750286538,
+      "currency": "USD",
+      "market_time": 1786598808,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "symbol": "CL=F",
+      "label": "WTI 原油",
+      "price": 82.96,
+      "change": 0.8299999999999983,
+      "change_percent": 1.0105929623767178,
+      "currency": "USD",
+      "market_time": 1786598804,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "symbol": "BZ=F",
+      "label": "布蘭特原油",
+      "price": 88.77,
+      "change": 1.0499999999999972,
+      "change_percent": 1.1969904240766043,
+      "currency": "USD",
+      "market_time": 1786598802,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "symbol": "TWD=X",
+      "label": "USD/TWD",
+      "price": 32.165,
+      "change": -0.04180000000000206,
+      "change_percent": -0.12978625631854782,
+      "currency": "TWD",
+      "market_time": 1786599406,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "symbol": "TWDJPY=X",
+      "label": "TWD/JPY",
+      "price": 4.9437,
+      "change": 0.026399999999999757,
+      "change_percent": 0.5368799951192678,
+      "currency": "JPY",
+      "market_time": 1786599320,
+      "source": "yahoo"
+    }
+  ],
+  "taiwan_market": [
+    {
+      "kind": "twse_summary",
+      "date": "115/08/12",
+      "volume": 9972596202,
+      "turnover": 892659784922,
+      "transactions": 4570191,
+      "index": 45518.07,
+      "change": 397.35,
+      "source": "twse",
+      "institutional": [
+        {
+          "name": "自營商(自行買賣)",
+          "buy": 9126172660,
+          "sell": 8005086194,
+          "net": 1121086466
+        },
+        {
+          "name": "自營商(避險)",
+          "buy": 31496291016,
+          "sell": 23916708747,
+          "net": 7579582269
+        },
+        {
+          "name": "投信",
+          "buy": 21174869805,
+          "sell": 18898597106,
+          "net": 2276272699
+        },
+        {
+          "name": "外資及陸資(不含外資自營商)",
+          "buy": 319565035470,
+          "sell": 308544223476,
+          "net": 11020811994
+        },
+        {
+          "name": "外資自營商",
+          "buy": 0,
+          "sell": 0,
+          "net": 0
+        },
+        {
+          "name": "合計",
+          "buy": 381362368951,
+          "sell": 359364615523,
+          "net": 21997753428
+        }
+      ]
+    }
+  ],
   "news": [],
-  "source_status": []
+  "source_status": [
+    {
+      "source": "yahoo",
+      "ok": true,
+      "records": 12,
+      "error": null
+    },
+    {
+      "source": "twse",
+      "ok": true,
+      "records": 1,
+      "error": null
+    },
+    {
+      "source": "rss",
+      "ok": false,
+      "records": 0,
+      "error": "所有 RSS 來源皆無法讀取"
+    }
+  ]
 }

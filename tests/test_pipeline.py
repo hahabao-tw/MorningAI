@@ -80,9 +80,13 @@ class PipelineTests(unittest.TestCase):
             {"kind": "news", "category": "domestic", "title": "台股標題", "summary": "重點：摘要。", "source": "yahoo_news"},
         ]
         markdown = render_markdown(build_report([CollectorResult("fixture", records)], self.now, "Asia/Taipei"), "MorningAI")
-        for heading in ("## 盤前重點摘要", "### 指數", "### ADR", "### 黃金原油", "### 匯率", "## 國際財經要聞（中譯）", "## 台股新聞"):
+        for heading in ("## 盤前重點摘要", "### 指數", "### ADR", "### 黃金原油", "### 匯率", "## 國際財經要聞（中文）", "## 台股新聞"):
             self.assertIn(heading, markdown)
         self.assertIn("重點：摘要。", markdown)
+
+    def test_international_filter_rejects_entertainment(self) -> None:
+        self.assertTrue(YahooHeadlineCollector._financial_headline("輝達財報帶動晶片股上漲"))
+        self.assertFalse(YahooHeadlineCollector._financial_headline("前女團成員分享整形心得"))
 
     def test_export_and_site_escape_untrusted_text(self) -> None:
         bad = "</script><script>alert(1)</script>"

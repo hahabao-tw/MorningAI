@@ -36,7 +36,9 @@ def _briefing(report: MorningReport) -> list[str]:
     if report.taiwan_market:
         market = report.taiwan_market[0]
         lines.append(f"台股最近交易日收 {_number(market.get('index'))} 點，漲跌 {_signed(market.get('change'))} 點。")
-    headlines = [item.get("title") for item in report.news if item.get("category") in {"international", "domestic"}]
+    preferred_news = [item for item in report.news if item.get("source") == "yahoo_news"]
+    news_pool = preferred_news or report.news
+    headlines = [item.get("title") for item in news_pool if item.get("category") in {"international", "domestic"}]
     if headlines:
         lines.append("新聞焦點涵蓋：" + "；".join(str(title) for title in headlines[:2]) + "。")
     return lines or ["目前可用資料不足，請查看下方來源狀態。"]

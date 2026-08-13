@@ -96,7 +96,7 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(positions, sorted(positions))
 
     def test_taifex_parser_selects_nearest_tx_after_hours_contract(self) -> None:
-        csv_text = "日期,契約,到期月份(週別),最後成交價,漲跌價,漲跌%,合計成交量,交易時段\n20260813,TX,202609,46100,▲100,0.22%,2000,盤後\n20260813,TX,202608,46000,▼-50,-0.11%,10000,盤後\n20260813,TX,202608,45900,-100,-0.22%,9999,一般\n"
+        csv_text = "日期,契約代號,到期月份(週別),最後成交價,漲跌價,漲跌%,合計成交量,交易時段\n20260813,TX,202609,46100,▲100,0.22%,2000,盤後\n20260813,TX,202608,46000,▼-50,-0.11%,10000,盤後\n20260813,TX,202608,45900,-100,-0.22%,9999,一般\n"
         records = TaifexCollector._parse(csv_text)
         self.assertEqual(records[0]["contract_month"], "202608")
         self.assertEqual(records[0]["price"], 46000)

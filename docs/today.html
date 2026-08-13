@@ -1,0 +1,30 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MorningAI</title><style>
+:root{color-scheme:light dark;--bg:#f5f7fb;--card:#fff;--text:#172033;--muted:#697386;--accent:#2457d6;--border:#dfe4ee}
+@media(prefers-color-scheme:dark){:root{--bg:#10131a;--card:#191e28;--text:#edf1f7;--muted:#a5afc0;--accent:#85a8ff;--border:#303849}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,sans-serif}
+main{max-width:860px;margin:auto;padding:24px}.top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:clamp(18px,4vw,36px);box-shadow:0 10px 30px #0000000d}
+button,.link{border:0;border-radius:10px;padding:11px 15px;background:var(--accent);color:white;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}
+.secondary{background:transparent;color:var(--accent);border:1px solid var(--accent)}.actions{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}
+pre{white-space:pre-wrap;word-break:break-word;font:15px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace}.muted{color:var(--muted)}
+ul{padding-left:22px}a{color:var(--accent)}
+</style></head><body><main><div class="top"><div><h1>MorningAI</h1><p class="muted">2026-08-13T13:06:15+08:00 更新</p></div><a class="link secondary" href="history/">歷史晨報</a></div><section class="card"><div class="actions"><button data-copy="markdown">複製 Markdown</button><button data-copy="prompt">複製 ChatGPT Prompt</button></div><pre># MorningAI 台股盤前戰情中心
+
+日期：2026-08-13
+更新：2026-08-13T13:06:15+08:00
+
+## 全球市場
+
+- 資料缺漏
+
+## 台股昨日
+
+- 資料缺漏
+
+## 國際新聞
+
+1. 資料缺漏
+
+## 資料狀態
+
+</pre></section></main><script>const payload={markdown:"# MorningAI 台股盤前戰情中心\n\n日期：2026-08-13\n更新：2026-08-13T13:06:15+08:00\n\n## 全球市場\n\n- 資料缺漏\n\n## 台股昨日\n\n- 資料缺漏\n\n## 國際新聞\n\n1. 資料缺漏\n\n## 資料狀態\n\n",prompt:"請依照我的 MorningAI Skill，根據以下晨報內容產生 LINE 圖卡。所有數字須忠於原文，不得臆測缺漏資料。\n\n# MorningAI 台股盤前戰情中心\n\n日期：2026-08-13\n更新：2026-08-13T13:06:15+08:00\n\n## 全球市場\n\n- 資料缺漏\n\n## 台股昨日\n\n- 資料缺漏\n\n## 國際新聞\n\n1. 資料缺漏\n\n## 資料狀態\n\n"};document.querySelectorAll('[data-copy]').forEach(button=>button.addEventListener('click',async()=>{const old=button.textContent;try{await navigator.clipboard.writeText(payload[button.dataset.copy]);button.textContent='已複製';}catch(e){const area=document.createElement('textarea');area.value=payload[button.dataset.copy];document.body.append(area);area.select();document.execCommand('copy');area.remove();button.textContent='已複製';}setTimeout(()=>button.textContent=old,1500);}));</script></body></html>

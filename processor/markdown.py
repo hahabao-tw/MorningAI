@@ -72,7 +72,7 @@ def render_markdown(report: MorningReport, title: str) -> str:
             lines.append(f"- {institution.get('name')}買賣超：{_number(institution.get('net'), 0)} 元")
     else:
         lines.append("- 資料缺漏")
-    for category, heading in (("international", "國際財經要聞（中譯）"), ("domestic", "台股新聞")):
+    for category, heading in (("international", "國際財經要聞（中文）"), ("domestic", "台股新聞")):
         lines.extend(["", f"## {heading}", ""])
         items = [item for item in report.news if item.get("category") == category]
         preferred = [item for item in items if item.get("source") == "yahoo_news"]

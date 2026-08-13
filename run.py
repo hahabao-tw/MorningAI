@@ -14,6 +14,7 @@ from crawler.news import RssCollector
 from crawler.taifex import TaifexCollector
 from crawler.twse import TwseCollector
 from crawler.yahoo import YahooMarketCollector
+from crawler.yahoo_news import YahooHeadlineCollector
 from processor.export import write_report
 from processor.markdown import render_markdown
 from processor.normalize import build_report
@@ -40,6 +41,13 @@ def collectors(config: dict, now: datetime) -> list[Collector]:
         items.append(TwseCollector(client, local_date))
     if enabled.get("rss_enabled", False):
         items.append(RssCollector(client, list(config["news"].get("feeds", [])), int(config["news"].get("max_items_per_feed", 5))))
+    if enabled.get("yahoo_news_enabled", False):
+        news = config["news"]
+        items.append(YahooHeadlineCollector(
+            client, str(news["international_url"]), str(news["domestic_url"]),
+            int(news.get("international_items", 4)), int(news.get("domestic_items", 4)),
+            bool(news.get("translate_international", True)),
+        ))
     if enabled.get("taifex_enabled", False):
         items.append(TaifexCollector())
     if enabled.get("mops_enabled", False):

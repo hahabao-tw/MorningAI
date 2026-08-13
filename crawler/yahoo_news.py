@@ -4,6 +4,7 @@ import html
 import json
 import re
 import urllib.parse
+import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 
 from .base import Collector, CollectorResult
@@ -61,22 +62,51 @@ class YahooHeadlineCollector(Collector):
         errors: list[str] = []
         for category, url, limit in self.sources:
             try:
-                items = self._headlines(self.client.get_text(url), url, limit)
+                page = self.client.get_text(url)
+                items = self._rss_items(page, limit) if "<rss" in page[:500].lower() else [(*item, "") for item in self._headlines(page, url, limit)]
                 if not items:
                     raise ValueError("no headlines")
-                for title, link in items:
+                for title, link, description in items:
                     original = title
-                    if category == "international" and self.translate_international:
+                    should_translate = category == "international" and self.translate_international and self._mostly_english(title)
+                    if should_translate:
                         title = self._translate(title)
+                    summary_text = self._clean_description(description) or title
+                    if should_translate and summary_text != title:
+                        summary_text = self._translate(summary_text)
                     records.append({
                         "kind": "news", "category": category, "title": title,
                         "original_title": original if title != original else None,
-                        "summary": self._summary(title), "link": link,
+                        "summary": self._summary(summary_text), "link": link,
                         "published_at": None, "source": self.name,
                     })
-            except (OSError, UnicodeError, ValueError, json.JSONDecodeError) as exc:
+            except (OSError, UnicodeError, ValueError, json.JSONDecodeError, ET.ParseError) as exc:
                 errors.append(f"{category}: {type(exc).__name__}")
         return CollectorResult(self.name, records, "; ".join(errors) if errors else None)
+
+    @staticmethod
+    def _rss_items(page: str, limit: int) -> list[tuple[str, str, str]]:
+        root = ET.fromstring(page)
+        records: list[tuple[str, str, str]] = []
+        for item in root.findall(".//item"):
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            description = item.findtext("description") or ""
+            if title and link:
+                records.append((title, link, description))
+            if len(records) >= limit:
+                break
+        return records
+
+    @staticmethod
+    def _clean_description(value: str) -> str:
+        without_tags = re.sub(r"<[^>]+>", " ", html.unescape(value))
+        return " ".join(without_tags.split())
+
+    @staticmethod
+    def _mostly_english(value: str) -> bool:
+        letters = sum(character.isascii() and character.isalpha() for character in value)
+        return letters >= max(8, len(value) // 2)
 
     @staticmethod
     def _headlines(page: str, base_url: str, limit: int) -> list[tuple[str, str]]:

@@ -31,6 +31,6 @@ mops_enabled = false
 [news]
 max_items_per_feed = 5
 feeds = [
-  "https://feeds.reuters.com/reuters/businessNews",
-  "https://feeds.reuters.com/reuters/technologyNews",
+  "https://feeds.bbci.co.uk/news/business/rss.xml",
+  "https://www.cnbc.com/id/100727362/device/rss/rss.html",
 ]

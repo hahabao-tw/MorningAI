@@ -61,6 +61,15 @@ class PipelineTests(unittest.TestCase):
             ("Second headline", "https://example.com/two"),
         ])
 
+    def test_yahoo_rss_parser_keeps_description_for_summary(self) -> None:
+        feed = """<?xml version='1.0'?><rss><channel><item><title>台股焦點</title>
+        <link>https://tw.stock.yahoo.com/a</link><description><![CDATA[<p>市場今日震盪。</p>]]></description>
+        </item></channel></rss>"""
+        self.assertEqual(YahooHeadlineCollector._rss_items(feed, 1), [
+            ("台股焦點", "https://tw.stock.yahoo.com/a", "<p>市場今日震盪。</p>"),
+        ])
+        self.assertEqual(YahooHeadlineCollector._clean_description("<p>市場今日震盪。</p>"), "市場今日震盪。")
+
     def test_markdown_has_required_card_sections_and_summaries(self) -> None:
         records = [
             {"kind": "market", "group": "indices", "label": "NASDAQ", "price": 10, "change": 1, "change_percent": 2},

@@ -1,0 +1,36 @@
+[report]
+timezone = "Asia/Taipei"
+title = "MorningAI 台股盤前戰情中心"
+prompt = "請依照我的 MorningAI Skill，根據以下晨報內容產生 LINE 圖卡。所有數字須忠於原文，不得臆測缺漏資料。"
+
+[network]
+timeout_seconds = 15
+user_agent = "MorningAI/0.1 (+https://github.com/hahabao-tw/MorningAI)"
+
+[sources]
+yahoo_enabled = true
+twse_enabled = true
+rss_enabled = true
+taifex_enabled = false
+mops_enabled = false
+
+[symbols]
+"^GSPC" = "S&P 500"
+"^IXIC" = "NASDAQ"
+"^DJI" = "道瓊"
+"^SOX" = "費城半導體"
+"TSM" = "台積電 ADR"
+"NQ=F" = "那斯達克期貨"
+"ES=F" = "標普期貨"
+"GC=F" = "黃金"
+"CL=F" = "WTI 原油"
+"BZ=F" = "布蘭特原油"
+"TWD=X" = "USD/TWD"
+"TWDJPY=X" = "TWD/JPY"
+
+[news]
+max_items_per_feed = 5
+feeds = [
+  "https://feeds.reuters.com/reuters/businessNews",
+  "https://feeds.reuters.com/reuters/technologyNews",
+]

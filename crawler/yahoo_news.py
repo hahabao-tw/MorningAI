@@ -63,7 +63,10 @@ class YahooHeadlineCollector(Collector):
         for category, url, limit in self.sources:
             try:
                 page = self.client.get_text(url)
-                items = self._rss_items(page, limit) if "<rss" in page[:500].lower() else [(*item, "") for item in self._headlines(page, url, limit)]
+                items = self._rss_items(page, limit * 5) if "<rss" in page[:500].lower() else [(*item, "") for item in self._headlines(page, url, limit * 5)]
+                if category == "international":
+                    items = [item for item in items if self._financial_headline(item[0])]
+                items = items[:limit]
                 if not items:
                     raise ValueError("no headlines")
                 for title, link, description in items:
@@ -107,6 +110,17 @@ class YahooHeadlineCollector(Collector):
     def _mostly_english(value: str) -> bool:
         letters = sum(character.isascii() and character.isalpha() for character in value)
         return letters >= max(8, len(value) // 2)
+
+    @staticmethod
+    def _financial_headline(value: str) -> bool:
+        keywords = (
+            "市場", "股", "債", "匯", "油價", "黃金", "經濟", "關稅", "聯準會", "央行",
+            "通膨", "財報", "投資", "晶片", "科技", "美元", "比特幣", "特斯拉", "輝達",
+            "銀行", "貿易", "market", "stock", "bond", "oil", "gold", "economy", "fed",
+            "inflation", "earnings", "invest", "chip", "dollar", "bitcoin", "trade",
+        )
+        lowered = value.casefold()
+        return any(keyword.casefold() in lowered for keyword in keywords)
 
     @staticmethod
     def _headlines(page: str, base_url: str, limit: int) -> list[tuple[str, str]]:

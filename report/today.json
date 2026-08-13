@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-13",
-  "generated_at": "2026-08-13T15:56:48+08:00",
+  "generated_at": "2026-08-13T16:03:43+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4432.4,
-      "change": 70.59999999999945,
-      "change_percent": 1.618597826585342,
+      "price": 4429.6,
+      "change": 67.80000000000018,
+      "change_percent": 1.5544041450777244,
       "currency": "USD",
-      "market_time": 1786607207,
+      "market_time": 1786607620,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 82.08,
-      "change": -0.04999999999999716,
-      "change_percent": -0.060879094119076056,
+      "price": 82.12,
+      "change": -0.009999999999990905,
+      "change_percent": -0.012175818823804828,
       "currency": "USD",
-      "market_time": 1786607209,
+      "market_time": 1786607624,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 87.85,
-      "change": 0.12999999999999545,
-      "change_percent": 0.14819881440947955,
+      "price": 87.82,
+      "change": 0.09999999999999432,
+      "change_percent": 0.11399908800728946,
       "currency": "USD",
-      "market_time": 1786607193,
+      "market_time": 1786607622,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.156,
-      "change": -0.0508000000000024,
-      "change_percent": -0.15773066557373722,
+      "price": 32.162,
+      "change": -0.04480000000000217,
+      "change_percent": -0.13910105940361095,
       "currency": "TWD",
-      "market_time": 1786607807,
+      "market_time": 1786608210,
       "source": "yahoo"
     },
     {
@@ -141,12 +141,25 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9454,
-      "change": 0.028100000000000236,
-      "change_percent": 0.5714518129868065,
+      "price": 4.9527,
+      "change": 0.0354000000000001,
+      "change_percent": 0.7199072661826632,
       "currency": "JPY",
-      "market_time": 1786607723,
+      "market_time": 1786608023,
       "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "TX",
+      "label": "台指期夜盤",
+      "price": 45279.0,
+      "change": 194.0,
+      "change_percent": 0.43,
+      "volume": 36518,
+      "contract_month": "202608",
+      "date": "20260812",
+      "source": "taifex"
     }
   ],
   "taiwan_market": [
@@ -293,6 +306,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "輝達不只賣GPU了！Nemotron 4最大模型上看1兆參數　中國低成本開放模型逼美國重新出手",
+      "original_title": null,
+      "summary": "重點：《放言科技傳媒》跳脫傳統媒體框架，透過權威專欄寫作揭露新聞內幕；邀請年輕世代踴躍書寫；結合AI大數據，探討網路民意並提供網路服務，呈現媒體即科技…。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E4%B8%8D%E5%8F%AA%E8%B3%A3gpu%E4%BA%86-nemotron-4%E6%9C%80%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%B8%8A%E7%9C%8B1%E5%85%86%E5%8F%83%E6%95%B8-%E4%B8%AD%E5%9C%8B%E4%BD%8E%E6%88%90%E6%9C%AC%E9%96%8B%E6%94%BE%E6%A8%A1%E5%9E%8B%E9%80%BC%E7%BE%8E%E5%9C%8B%E9%87%8D%E6%96%B0%E5%87%BA%E6%89%8B-075805245.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "AI題材行情回溫，道瓊歐洲Stoxx 600週四早盤小升，財報利空成隱憂",
       "original_title": null,
       "summary": "重點：【財訊快報／劉敏夫】歐洲股市週四盤初走升，人工智能相關交易回歸，但令人失望的業績表現可能對此構成威脅。道瓊歐洲Stoxx 600指數盤初上揚1.…。",
@@ -322,11 +345,21 @@
     },
     {
       "kind": "news",
-      "category": "international",
-      "title": "半導體股漲勢帶動   日經指數連3日收高",
+      "category": "domestic",
+      "title": "MSCI大洗牌加持！南亞科炸642億成交額稱霸　「這檔權值股」取代鴻海躍挪威主權基金第2大重回季線",
       "original_title": null,
-      "summary": "重點：（中央社東京13日綜合外電報導）日本股市今天在半導體股漲勢帶動下走高，基準日經指數連續第3個交易日大幅收高。",
-      "link": "https://tw.news.yahoo.com/%E5%8D%8A%E5%B0%8E%E9%AB%94%E8%82%A1%E6%BC%B2%E5%8B%A2%E5%B8%B6%E5%8B%95-%E6%97%A5%E7%B6%93%E6%8C%87%E6%95%B8%E9%80%A33%E6%97%A5%E6%94%B6%E9%AB%98-071522613.html",
+      "summary": "重點：[FTNN新聞網]記者邱梓欣／綜合報導受惠美股昨日收盤漲多跌少，台股今（13）日開高走高，加權指數於終場時上漲503點，以46021點作收，漲幅…。",
+      "link": "https://tw.stock.yahoo.com/news/msci%E5%A4%A7%E6%B4%97%E7%89%8C%E5%8A%A0%E6%8C%81-%E5%8D%97%E4%BA%9E%E7%A7%91%E7%82%B8642%E5%84%84%E6%88%90%E4%BA%A4%E9%A1%8D%E7%A8%B1%E9%9C%B8-%E9%80%99%E6%AA%94%E6%AC%8A%E5%80%BC%E8%82%A1-%E5%8F%96%E4%BB%A3%E9%B4%BB%E6%B5%B7%E8%BA%8D%E6%8C%AA%E5%A8%81%E4%B8%BB%E6%AC%8A%E5%9F%BA%E9%87%91%E7%AC%AC2%E5%A4%A7%E9%87%8D%E5%9B%9E%E5%AD%A3%E7%B7%9A-075500180.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "AI伺服器推鴻海雲端產品首度吃下51％營收！第2季賺600億元創同期新高　Vera Rubin第4季量產",
+      "original_title": null,
+      "summary": "重點：《放言科技傳媒》跳脫傳統媒體框架，透過權威專欄寫作揭露新聞內幕；邀請年輕世代踴躍書寫；結合AI大數據，探討網路民意並提供網路服務，呈現媒體即科技…。",
+      "link": "https://tw.news.yahoo.com/ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%8E%A8%E9%B4%BB%E6%B5%B7%E9%9B%B2%E7%AB%AF%E7%94%A2%E5%93%81%E9%A6%96%E5%BA%A6%E5%90%83%E4%B8%8B51-%E7%87%9F%E6%94%B6-%E7%AC%AC2%E5%AD%A3%E8%B3%BA600%E5%84%84%E5%85%83%E5%89%B5%E5%90%8C%E6%9C%9F%E6%96%B0%E9%AB%98-vera-rubin%E7%AC%AC4%E5%AD%A3%E9%87%8F%E7%94%A2-074839090.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -347,26 +380,6 @@
       "original_title": null,
       "summary": "重點：【財訊快報／編輯部】指數週四上漲503.41點，收在46021.48點，成交量1.09兆元。台指期上漲509點至46025點，正價差為3.52點…。",
       "link": "https://tw.stock.yahoo.com/news/%E6%B0%B8%E8%B1%90%E6%9C%9F%E8%B2%A8-%E5%8F%B0%E8%82%A1%E6%9A%B4%E8%A1%9D%E6%94%B6%E5%BE%A946-021-%E6%95%A3%E7%86%B1%E6%97%8F%E7%BE%A4%E5%BC%B7%E5%8B%A2%E8%A1%A8%E6%85%8B-073206102.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "鴻海Q2創新高竟跌3％！股價262元能撿？外資挺到底目標價喊435元",
-      "original_title": null,
-      "summary": "重點：鴻海公布第二季財報，稅後純益599.74億元創歷年同期新高，上半年狂賺逾千億！然而台股大漲之際，鴻海股價卻遭逢賣壓重挫逾3%至261元。外資野村…。",
-      "link": "https://tw.news.yahoo.com/%E9%B4%BB%E6%B5%B7q2%E5%89%B5%E6%96%B0%E9%AB%98%E7%AB%9F%E8%B7%8C3-%E8%82%A1%E5%83%B9262%E5%85%83%E8%83%BD%E6%92%BF-%E5%A4%96%E8%B3%87%E6%8C%BA%E5%88%B0%E5%BA%95%E7%9B%AE%E6%A8%99%E5%83%B9%E5%96%8A435%E5%85%83-073200515.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "Google Pixel 11系列登台　晶片採台積電3奈米",
-      "original_title": null,
-      "summary": "重點：（中央社記者江明晏台北2026年08月13日電）Google今天在台發表Pixel 11系列共4款新機，Google硬體副總裁彭昱鈞表示，4款新…。",
-      "link": "https://tw.stock.yahoo.com/news/google-pixel-11%E7%B3%BB%E5%88%97%E7%99%BB%E5%8F%B0-%E6%99%B6%E7%89%87%E6%8E%A1%E5%8F%B0%E7%A9%8D%E9%9B%BB3%E5%A5%88%E7%B1%B3-073137391.html",
       "published_at": null,
       "source": "yahoo_news"
     }

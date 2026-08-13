@@ -36,8 +36,8 @@ max_items_per_feed = 5
 international_items = 4
 domestic_items = 4
 translate_international = true
-international_url = "https://finance.yahoo.com/news/"
-domestic_url = "https://tw.stock.yahoo.com/news/"
+international_url = "https://tw.stock.yahoo.com/rss?category=intl-markets"
+domestic_url = "https://tw.stock.yahoo.com/rss?category=tw-market"
 feeds = [
   "https://feeds.bbci.co.uk/news/business/rss.xml",
   "https://www.cnbc.com/id/100727362/device/rss/rss.html",

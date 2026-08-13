@@ -11,6 +11,7 @@ user_agent = "MorningAI/0.1 (+https://github.com/hahabao-tw/MorningAI)"
 yahoo_enabled = true
 twse_enabled = true
 rss_enabled = true
+yahoo_news_enabled = true
 taifex_enabled = false
 mops_enabled = false
 
@@ -20,6 +21,8 @@ mops_enabled = false
 "^DJI" = "道瓊"
 "^SOX" = "費城半導體"
 "TSM" = "台積電 ADR"
+"UMC" = "聯電 ADR"
+"ASX" = "日月光 ADR"
 "NQ=F" = "那斯達克期貨"
 "ES=F" = "標普期貨"
 "GC=F" = "黃金"
@@ -30,6 +33,11 @@ mops_enabled = false
 
 [news]
 max_items_per_feed = 5
+international_items = 4
+domestic_items = 4
+translate_international = true
+international_url = "https://finance.yahoo.com/news/"
+domestic_url = "https://tw.stock.yahoo.com/news/"
 feeds = [
   "https://feeds.bbci.co.uk/news/business/rss.xml",
   "https://www.cnbc.com/id/100727362/device/rss/rss.html",

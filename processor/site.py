@@ -25,9 +25,9 @@ def _page(title: str, body: str, script: str = "") -> str:
 def _report_page(markdown: str, date: str, prompt: str) -> str:
     markdown_json = json.dumps(markdown, ensure_ascii=False).replace("</", "<\\/")
     prompt_json = json.dumps(prompt + "\n\n" + markdown, ensure_ascii=False).replace("</", "<\\/")
-    body = f"""<div class=\"top\"><div><h1>MorningAI</h1><p class=\"muted\">{html.escape(date)} 更新</p></div><a class=\"link secondary\" href=\"history/\">歷史晨報</a></div><section class=\"card\"><div class=\"actions\"><button data-copy=\"markdown\">複製 Markdown</button><button data-copy=\"prompt\">複製 ChatGPT Prompt</button></div><pre>{html.escape(markdown)}</pre></section>"""
+    body = f"""<div class=\"top\"><div><h1>F1台股盤前戰情早報</h1><p class=\"muted\">{html.escape(date)} 更新</p></div><a class=\"link secondary\" href=\"history/\">歷史晨報</a></div><section class=\"card\"><div class=\"actions\"><button data-copy=\"markdown\">複製 Markdown</button><button data-copy=\"prompt\">複製 ChatGPT Prompt</button></div><pre>{html.escape(markdown)}</pre></section>"""
     script = f"""const payload={{markdown:{markdown_json},prompt:{prompt_json}}};document.querySelectorAll('[data-copy]').forEach(button=>button.addEventListener('click',async()=>{{const old=button.textContent;try{{await navigator.clipboard.writeText(payload[button.dataset.copy]);button.textContent='已複製';}}catch(e){{const area=document.createElement('textarea');area.value=payload[button.dataset.copy];document.body.append(area);area.select();document.execCommand('copy');area.remove();button.textContent='已複製';}}setTimeout(()=>button.textContent=old,1500);}}));"""
-    return _page("MorningAI", body, script)
+    return _page("F1台股盤前戰情早報", body, script)
 
 
 def build_site(report_dir: Path, docs_dir: Path, prompt: str) -> None:
@@ -47,4 +47,3 @@ def build_site(report_dir: Path, docs_dir: Path, prompt: str) -> None:
     history_body = '<div class="top"><h1>歷史晨報</h1><a class="link secondary" href="../">回到今日</a></div><section class="card"><ul>' + "".join(links) + "</ul></section>"
     (docs_history / "index.html").write_text(_page("MorningAI 歷史晨報", history_body), encoding="utf-8")
     (docs_dir / ".nojekyll").write_text("", encoding="utf-8")
-

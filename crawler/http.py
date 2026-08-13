@@ -18,6 +18,9 @@ class HttpClient:
         with urllib.request.urlopen(request, timeout=self.timeout) as response:
             return response.read()
 
+    def get_text(self, url: str) -> str:
+        raw = self.get_bytes(url)
+        return raw.decode("utf-8", errors="replace")
+
     def get_json(self, url: str) -> Any:
         return json.loads(self.get_bytes(url).decode("utf-8"))
-

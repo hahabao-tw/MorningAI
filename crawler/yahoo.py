@@ -30,6 +30,7 @@ class YahooMarketCollector(Collector):
                 percent = None if change is None or previous is None else change / previous * 100
                 records.append({
                     "kind": "market",
+                    "group": self._group(symbol),
                     "symbol": symbol,
                     "label": label,
                     "price": price,
@@ -43,6 +44,16 @@ class YahooMarketCollector(Collector):
                 errors.append(f"{symbol}: {type(exc).__name__}")
         error = "; ".join(errors) if errors else None
         return CollectorResult(self.name, records, error)
+
+    @staticmethod
+    def _group(symbol: str) -> str:
+        if symbol.startswith("^") or symbol in {"NQ=F", "ES=F"}:
+            return "indices"
+        if symbol in {"TSM", "UMC", "ASX"}:
+            return "adr"
+        if symbol in {"GC=F", "CL=F", "BZ=F"}:
+            return "commodities"
+        return "fx"
 
     @staticmethod
     def _number(value: object) -> float | None:

@@ -37,7 +37,7 @@ class RssCollector(Collector):
             if not title:
                 continue
             published = self._date(item.findtext("pubDate"))
-            records.append({"kind": "news", "title": title, "link": link, "published_at": published, "feed": feed, "source": self.name})
+            records.append({"kind": "news", "category": "international", "title": title, "link": link, "published_at": published, "feed": feed, "source": self.name})
         return records
 
     @staticmethod
@@ -51,4 +51,3 @@ class RssCollector(Collector):
             return parsed.astimezone(timezone.utc).isoformat()
         except (TypeError, ValueError, OverflowError):
             return None
-

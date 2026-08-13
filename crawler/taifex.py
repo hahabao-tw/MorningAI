@@ -28,7 +28,7 @@ class TaifexCollector(Collector):
         rows = []
         for raw in csv.DictReader(io.StringIO(text.lstrip("\ufeff"))):
             row = {str(key).strip(): str(value).strip() for key, value in raw.items() if key is not None}
-            contract = cls._field(row, "契約", "Contract")
+            contract = cls._field(row, "契約代號", "契約", "Contract")
             session = cls._field(row, "交易時段", "Trading Session")
             month = cls._field(row, "到期月份(週別)", "到期月份（週別）", "Contract Month(Week)")
             if contract == "TX" and ("盤後" in session or "after" in session.lower()) and month.isdigit() and len(month) == 6:

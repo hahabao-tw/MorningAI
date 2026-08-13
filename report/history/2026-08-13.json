@@ -1,11 +1,12 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-13",
-  "generated_at": "2026-08-13T13:50:35+08:00",
+  "generated_at": "2026-08-13T14:09:41+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
       "kind": "market",
+      "group": "indices",
       "symbol": "^GSPC",
       "label": "S&P 500",
       "price": 7748.5,
@@ -17,6 +18,7 @@
     },
     {
       "kind": "market",
+      "group": "indices",
       "symbol": "^IXIC",
       "label": "NASDAQ",
       "price": 26588.488,
@@ -28,6 +30,7 @@
     },
     {
       "kind": "market",
+      "group": "indices",
       "symbol": "^DJI",
       "label": "道瓊",
       "price": 53770.27,
@@ -39,6 +42,7 @@
     },
     {
       "kind": "market",
+      "group": "indices",
       "symbol": "^SOX",
       "label": "費城半導體",
       "price": 12399.376,
@@ -50,6 +54,7 @@
     },
     {
       "kind": "market",
+      "group": "adr",
       "symbol": "TSM",
       "label": "台積電 ADR",
       "price": 429.15,
@@ -61,79 +66,110 @@
     },
     {
       "kind": "market",
+      "group": "adr",
+      "symbol": "UMC",
+      "label": "聯電 ADR",
+      "price": 19.31,
+      "change": 0.019999999999999574,
+      "change_percent": 0.10368066355624454,
+      "currency": "USD",
+      "market_time": 1786564802,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "ASX",
+      "label": "日月光 ADR",
+      "price": 39.28,
+      "change": 2.5,
+      "change_percent": 6.7971723762914635,
+      "currency": "USD",
+      "market_time": 1786564803,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
       "symbol": "NQ=F",
       "label": "那斯達克期貨",
-      "price": 29911.5,
-      "change": 174.5,
-      "change_percent": 0.5868110434811851,
+      "price": 29889.25,
+      "change": 152.25,
+      "change_percent": 0.5119884319198305,
       "currency": "USD",
-      "market_time": 1786599632,
+      "market_time": 1786600782,
       "source": "yahoo"
     },
     {
       "kind": "market",
+      "group": "indices",
       "symbol": "ES=F",
       "label": "標普期貨",
-      "price": 7779.5,
-      "change": 2.75,
-      "change_percent": 0.03536181566849905,
+      "price": 7777.25,
+      "change": 0.5,
+      "change_percent": 0.006429421030636192,
       "currency": "USD",
-      "market_time": 1786599629,
+      "market_time": 1786600774,
       "source": "yahoo"
     },
     {
       "kind": "market",
+      "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4458.3,
-      "change": 96.5,
-      "change_percent": 2.2123893805309733,
+      "price": 4438.4,
+      "change": 76.59999999999945,
+      "change_percent": 1.7561557155302732,
       "currency": "USD",
-      "market_time": 1786599628,
+      "market_time": 1786600779,
       "source": "yahoo"
     },
     {
       "kind": "market",
+      "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 82.97,
-      "change": 0.8400000000000034,
-      "change_percent": 1.02276878120054,
+      "price": 83.1,
+      "change": 0.9699999999999989,
+      "change_percent": 1.1810544259101412,
       "currency": "USD",
-      "market_time": 1786599631,
+      "market_time": 1786600772,
       "source": "yahoo"
     },
     {
       "kind": "market",
+      "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 88.74,
-      "change": 1.019999999999996,
-      "change_percent": 1.162790697674414,
+      "price": 88.9,
+      "change": 1.1800000000000068,
+      "change_percent": 1.3451892384861,
       "currency": "USD",
-      "market_time": 1786599579,
+      "market_time": 1786600760,
       "source": "yahoo"
     },
     {
       "kind": "market",
+      "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.175,
-      "change": -0.03180000000000405,
-      "change_percent": -0.09873691270167805,
+      "price": 32.18,
+      "change": -0.02680000000000149,
+      "change_percent": -0.08321224089323215,
       "currency": "TWD",
-      "market_time": 1786600235,
+      "market_time": 1786601381,
       "source": "yahoo"
     },
     {
       "kind": "market",
+      "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9424,
-      "change": 0.025100000000000122,
-      "change_percent": 0.5104427226323414,
+      "price": 4.9421,
+      "change": 0.024799999999999933,
+      "change_percent": 0.5043418135968912,
       "currency": "JPY",
-      "market_time": 1786600220,
+      "market_time": 1786601121,
       "source": "yahoo"
     }
   ],
@@ -190,6 +226,7 @@
   "news": [
     {
       "kind": "news",
+      "category": "international",
       "title": "South Korea’s Kospi has staged a stunning comeback. How long will the bull market last?",
       "link": "https://www.cnbc.com/2026/08/13/south-korea-kospi-bull-market-sk-hynix-samsung-surge.html",
       "published_at": "2026-08-13T05:22:03+00:00",
@@ -198,6 +235,7 @@
     },
     {
       "kind": "news",
+      "category": "international",
       "title": "‘Hormuz remains blocked’: Iran disputes Trump claims as traffic sinks to near 3-month lows",
       "link": "https://www.cnbc.com/2026/08/13/us-iran-war-trump-hormuz-irgc.html",
       "published_at": "2026-08-13T05:19:50+00:00",
@@ -206,6 +244,7 @@
     },
     {
       "kind": "news",
+      "category": "international",
       "title": "This Chinese firm has topped Micron and Kioxia in shipments of crucial NAND memory chips",
       "link": "https://www.cnbc.com/2026/08/13/chinese-firm-tops-micron-kioxia-shipments-nand-memory-chips.html",
       "published_at": "2026-08-13T02:59:50+00:00",
@@ -214,6 +253,7 @@
     },
     {
       "kind": "news",
+      "category": "international",
       "title": "Twitch users can now block Amazon from using their content to train AI",
       "link": "https://www.bbc.co.uk/news/articles/cp30pz8d09jo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-13T02:46:04+00:00",
@@ -222,6 +262,7 @@
     },
     {
       "kind": "news",
+      "category": "international",
       "title": "CNBC Daily Open: Markets look past soaring U.S. budget deficit",
       "link": "https://www.cnbc.com/2026/08/13/cnbc-daily-open-markets-look-past-soaring-us-budget-deficit-.html",
       "published_at": "2026-08-13T01:27:20+00:00",
@@ -230,6 +271,7 @@
     },
     {
       "kind": "news",
+      "category": "international",
       "title": "Inside India newsletter: Why global funds are flocking to GIFT City in Modi’s home state",
       "link": "https://www.cnbc.com/2026/08/13/global-funds-blackrock-modi-gift-city.html",
       "published_at": "2026-08-13T00:15:59+00:00",
@@ -238,6 +280,7 @@
     },
     {
       "kind": "news",
+      "category": "international",
       "title": "Why Japanese firms are being so slow to use AI",
       "link": "https://www.bbc.co.uk/news/articles/cwymw4434v7o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-12T23:00:47+00:00",
@@ -246,6 +289,7 @@
     },
     {
       "kind": "news",
+      "category": "international",
       "title": "Trump sued over Truth Social's $100,000 early access service",
       "link": "https://www.bbc.co.uk/news/articles/cq6dpm5y0yyo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-12T17:48:56+00:00",
@@ -254,6 +298,7 @@
     },
     {
       "kind": "news",
+      "category": "international",
       "title": "Discord ordered to suspend livestreams in Brazil",
       "link": "https://www.bbc.co.uk/news/articles/cgewpqxyrddo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-12T17:10:31+00:00",
@@ -262,6 +307,7 @@
     },
     {
       "kind": "news",
+      "category": "international",
       "title": "Burnham warned Iran war could hit UK growth next year",
       "link": "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-12T14:17:26+00:00",
@@ -273,7 +319,7 @@
     {
       "source": "yahoo",
       "ok": true,
-      "records": 12,
+      "records": 14,
       "error": null
     },
     {
@@ -287,6 +333,12 @@
       "ok": true,
       "records": 10,
       "error": null
+    },
+    {
+      "source": "yahoo_news",
+      "ok": false,
+      "records": 0,
+      "error": "international: ValueError; domestic: ValueError"
     }
   ]
 }

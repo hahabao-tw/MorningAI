@@ -49,7 +49,7 @@ def collectors(config: dict, now: datetime) -> list[Collector]:
             bool(news.get("translate_international", True)),
         ))
     if enabled.get("taifex_enabled", False):
-        items.append(TaifexCollector())
+        items.append(TaifexCollector(client))
     if enabled.get("mops_enabled", False):
         items.append(MopsCollector())
     return items

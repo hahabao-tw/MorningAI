@@ -37,10 +37,11 @@ def reuse_same_day_market_snapshots(report: MorningReport, report_dir: Path) -> 
     if previous.get("report_date") != report.report_date:
         return
     previous_markets = previous.get("markets", [])
-    if not any(item.get("source") == "yahoo_future" for item in report.markets):
-        quote = next((item for item in previous_markets if item.get("source") == "yahoo_future"), None)
-        if quote:
-            report.markets.append(quote)
+    for symbol in ("WTX&", "WCDF&"):
+        if not any(item.get("source") == "yahoo_future" and item.get("symbol") == symbol for item in report.markets):
+            quote = next((item for item in previous_markets if item.get("source") == "yahoo_future" and item.get("symbol") == symbol), None)
+            if quote:
+                report.markets.append(quote)
     if not any(item.get("group") == "taiwan_indices" for item in report.markets):
         report.markets.extend(item for item in previous_markets if item.get("group") == "taiwan_indices")
 

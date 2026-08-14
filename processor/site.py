@@ -15,6 +15,7 @@ button,.link{border:0;border-radius:10px;padding:11px 15px;background:var(--acce
 .secondary{background:transparent;color:var(--accent);border:1px solid var(--accent)}.actions{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}
 pre{white-space:pre-wrap;word-break:break-word;font:15px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace}.muted{color:var(--muted)}
 ul{padding-left:22px}a{color:var(--accent)}
+dialog{width:min(760px,calc(100% - 32px));max-height:85vh;border:1px solid var(--border);border-radius:16px;background:var(--card);color:var(--text);padding:24px}dialog::backdrop{background:#0008}.dialog-head{display:flex;justify-content:space-between;align-items:center;gap:16px}.dialog-body{max-height:62vh;overflow:auto;border:1px solid var(--border);border-radius:10px;padding:14px}
 """
 
 
@@ -24,9 +25,10 @@ def _page(title: str, body: str, script: str = "") -> str:
 
 def _report_page(markdown: str, date: str, prompt: str) -> str:
     markdown_json = json.dumps(markdown, ensure_ascii=False).replace("</", "<\\/")
-    prompt_json = json.dumps(prompt + "\n\n" + markdown, ensure_ascii=False).replace("</", "<\\/")
-    body = f"""<div class=\"top\"><div><h1>F1台股盤前戰情早報</h1><p class=\"muted\">{html.escape(date)} 更新</p></div><a class=\"link secondary\" href=\"history/\">歷史晨報</a></div><section class=\"card\"><div class=\"actions\"><button data-copy=\"markdown\">複製 Markdown</button><button data-copy=\"prompt\">複製 ChatGPT Prompt</button></div><pre>{html.escape(markdown)}</pre></section>"""
-    script = f"""const payload={{markdown:{markdown_json},prompt:{prompt_json}}};document.querySelectorAll('[data-copy]').forEach(button=>button.addEventListener('click',async()=>{{const old=button.textContent;try{{await navigator.clipboard.writeText(payload[button.dataset.copy]);button.textContent='已複製';}}catch(e){{const area=document.createElement('textarea');area.value=payload[button.dataset.copy];document.body.append(area);area.select();document.execCommand('copy');area.remove();button.textContent='已複製';}}setTimeout(()=>button.textContent=old,1500);}}));"""
+    full_prompt = prompt + "\n\n" + markdown
+    prompt_json = json.dumps(full_prompt, ensure_ascii=False).replace("</", "<\\/")
+    body = f"""<div class=\"top\"><div><h1>F1台股盤前戰情早報</h1><p class=\"muted\">{html.escape(date)}</p></div><a class=\"link secondary\" href=\"history/\">歷史晨報</a></div><section class=\"card\"><div class=\"actions\"><button data-copy=\"markdown\">複製 Markdown</button><button data-copy=\"prompt\">複製 ChatGPT Prompt</button></div><pre>{html.escape(markdown)}</pre></section><dialog id=\"prompt-dialog\"><div class=\"dialog-head\"><h2>已複製以下 ChatGPT Prompt</h2><form method=\"dialog\"><button>關閉</button></form></div><pre class=\"dialog-body\">{html.escape(full_prompt)}</pre></dialog>"""
+    script = f"""const payload={{markdown:{markdown_json},prompt:{prompt_json}}};const dialog=document.querySelector('#prompt-dialog');document.querySelectorAll('[data-copy]').forEach(button=>button.addEventListener('click',async()=>{{const old=button.textContent;try{{await navigator.clipboard.writeText(payload[button.dataset.copy]);button.textContent='已複製';}}catch(e){{const area=document.createElement('textarea');area.value=payload[button.dataset.copy];document.body.append(area);area.select();document.execCommand('copy');area.remove();button.textContent='已複製';}}if(button.dataset.copy==='prompt')dialog.showModal();setTimeout(()=>button.textContent=old,1500);}}));"""
     return _page("F1台股盤前戰情早報", body, script)
 
 
@@ -35,7 +37,7 @@ def build_site(report_dir: Path, docs_dir: Path, prompt: str) -> None:
     docs_history.mkdir(parents=True, exist_ok=True)
     markdown = (report_dir / "today.md").read_text(encoding="utf-8")
     payload = json.loads((report_dir / "today.json").read_text(encoding="utf-8"))
-    page = _report_page(markdown, payload["generated_at"], prompt)
+    page = _report_page(markdown, payload["report_date"], prompt)
     (docs_dir / "index.html").write_text(page, encoding="utf-8")
     (docs_dir / "today.html").write_text(page, encoding="utf-8")
     links: list[str] = []

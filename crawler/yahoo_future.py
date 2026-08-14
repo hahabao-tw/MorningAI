@@ -60,6 +60,8 @@ class YahooFutureCollector(Collector):
         parser.feed(page)
         values = parser.values
         update = next((value for value in values if re.search(r"\d{4}/\d{2}/\d{2} \d{2}:\d{2} 更新", value)), "")
+        if update and not update.startswith("收盤"):
+            raise ValueError("Yahoo quote is not closed")
         time_match = re.search(r" (\d{2}):(\d{2}) 更新", update)
         if time_match and 5 <= int(time_match.group(1)) < 15:
             raise ValueError("Yahoo quote has entered the regular session")

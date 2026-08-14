@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-14",
-  "generated_at": "2026-08-14T07:12:14+08:00",
+  "generated_at": "2026-08-14T08:45:04+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4408.9,
-      "change": 47.099999999999454,
-      "change_percent": 1.0798294282176957,
+      "price": 4401.8,
+      "change": 40.0,
+      "change_percent": 0.9170525929662064,
       "currency": "USD",
-      "market_time": 1786662132,
+      "market_time": 1786667698,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 81.1,
-      "change": -1.0300000000000011,
-      "change_percent": -1.2541093388530393,
+      "price": 81.23,
+      "change": -0.8999999999999915,
+      "change_percent": -1.0958236941434207,
       "currency": "USD",
-      "market_time": 1786662110,
+      "market_time": 1786667680,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 86.93,
-      "change": -0.789999999999992,
-      "change_percent": -0.9005927952576289,
+      "price": 87.01,
+      "change": -0.7099999999999937,
+      "change_percent": -0.809393524851794,
       "currency": "USD",
-      "market_time": 1786661324,
+      "market_time": 1786667608,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.125,
-      "change": -0.11010000000000275,
-      "change_percent": -0.34155315168869566,
+      "price": 32.12,
+      "change": -0.11510000000000531,
+      "change_percent": -0.35706419399972483,
       "currency": "TWD",
-      "market_time": 1786662734,
+      "market_time": 1786668302,
       "source": "yahoo"
     },
     {
@@ -141,25 +141,42 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9535,
-      "change": 0.05799999999999983,
-      "change_percent": 1.1847615156776596,
+      "price": 4.9523,
+      "change": 0.05679999999999996,
+      "change_percent": 1.160249208456745,
       "currency": "JPY",
-      "market_time": 1786662620,
+      "market_time": 1786668022,
       "source": "yahoo"
     },
     {
       "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "TWSE.php",
+      "label": "台灣加權",
+      "price": 46021.48,
+      "change": 503.41,
+      "change_percent": 1.11,
+      "source": "stockq"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "TWOTCI.php",
+      "label": "台灣櫃買",
+      "price": 406.12,
+      "change": 4.1,
+      "change_percent": 1.02,
+      "source": "stockq"
+    },
+    {
+      "kind": "market",
       "group": "taifex",
-      "symbol": "TX",
+      "symbol": "WTX&",
       "label": "台指期夜盤",
-      "price": 46117.0,
-      "change": 601.0,
-      "change_percent": 1.32,
-      "volume": 35208,
-      "contract_month": "202608",
-      "date": "20260813",
-      "source": "taifex"
+      "price": 46442.0,
+      "change": 417.0,
+      "change_percent": 0.91,
+      "source": "yahoo_future"
     }
   ],
   "taiwan_market": [
@@ -212,7 +229,29 @@
       ]
     }
   ],
+  "chips": [
+    {
+      "kind": "chips",
+      "date": "2026-08-13",
+      "foreign_tx_net": -86249,
+      "trust_tx_net": 82327,
+      "mtx_retail_ratio": 22.9,
+      "tmf_retail_ratio": 15.58,
+      "options_pc_ratio": 112.03,
+      "tsmc_impact": 8.463,
+      "source": "market_dashboard"
+    }
+  ],
   "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "From Apple to Ford: How Chinese tech is becoming harder for global companies to ignore",
+      "link": "https://www.cnbc.com/2026/08/14/china-tech-global-appeal-apple-ford-catl-deepseek.html",
+      "published_at": "2026-08-14T00:09:11+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
     {
       "kind": "news",
       "category": "international",
@@ -237,24 +276,6 @@
       "title": "Apple's Tim Cook joined by Howard Lutnick in opening Houston manufacturing plant",
       "link": "https://www.cnbc.com/2026/08/13/apples-tim-cook-and-howard-lutnick-open-houston-manufacturing-plant.html",
       "published_at": "2026-08-13T21:23:35+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "OpenAI loses revenue chief Denise Dresser, second major executive departure in days",
-      "link": "https://www.cnbc.com/2026/08/13/openai-denise-dresser-executive-exits.html",
-      "published_at": "2026-08-13T19:59:46+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "Trump-linked oil venture delays Greenland drilling plans after government warning",
-      "link": "https://www.cnbc.com/2026/08/13/greenland-energy-oil-drilling-trump.html",
-      "published_at": "2026-08-13T16:06:38+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
@@ -306,70 +327,89 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "卡位全球AI龍頭！精選6＋4檔美股科技ETF DRAM飆股也入列",
+      "title": "South Korea’s Kospi has staged a stunning comeback. How long will the bull market last?",
+      "link": "https://www.cnbc.com/2026/08/13/south-korea-kospi-bull-market-sk-hynix-samsung-surge.html",
+      "published_at": "2026-08-13T05:22:03+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "道瓊歐洲600指數週四續跌0.04%，礦業類股重挫3.03%成最大賣壓中心",
       "original_title": null,
-      "summary": "重點：雜誌官方line＠財經資訊不漏接 相較前一篇介紹的台股科技ETF，今（2026）年以來績效動輒70%以上，甚至突破100%打敗主動式，美股科技E…。",
-      "link": "https://tw.news.yahoo.com/%E5%8D%A1%E4%BD%8D%E5%85%A8%E7%90%83ai%E9%BE%8D%E9%A0%AD-%E7%B2%BE%E9%81%B86-4%E6%AA%94%E7%BE%8E%E8%82%A1%E7%A7%91%E6%8A%80etf-dram%E9%A3%86%E8%82%A1%E4%B9%9F%E5%85%A5%E5%88%97-230800072.html",
+      "summary": "重點：【財訊快報／陳孟朔】美國7月生產者物價指數(PPI)低於預期，緩解市場對聯準會(Fed)升息的憂慮，但美伊緊張局勢與商品價格回落壓抑風險胃納，歐…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%81%93%E7%93%8A%E6%AD%90%E6%B4%B2600%E6%8C%87%E6%95%B8%E9%80%B1%E5%9B%9B%E7%BA%8C%E8%B7%8C0-04-%E7%A4%A6%E6%A5%AD%E9%A1%9E%E8%82%A1%E9%87%8D%E6%8C%AB3-03-%E6%88%90%E6%9C%80%E5%A4%A7%E8%B3%A3%E5%A3%93%E4%B8%AD%E5%BF%83-002742821.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "CoreWeave稱「去輝達化」很難",
+      "title": "川普關稅戰重大勝利　取消小額包裹免稅裁定合法",
       "original_title": null,
-      "summary": "重點：CoreWeave向投資人示警，若要擺脫目前全面採用輝達（NVIDIA）AI晶片的做法，可能需要積極投入時間和資金。",
-      "link": "https://tw.news.yahoo.com/coreweave%E7%A8%B1-%E5%8E%BB%E8%BC%9D%E9%81%94%E5%8C%96-%E5%BE%88%E9%9B%A3-224649669.html",
+      "summary": "重點：（中央社華盛頓2026年08月13日綜合外電報導）美國總統川普終止小額包裹免課關稅，美國國際貿易法庭今天裁定合法。先前因課徵全球性關稅在法庭受挫…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E9%97%9C%E7%A8%85%E6%88%B0%E9%87%8D%E5%A4%A7%E5%8B%9D%E5%88%A9-%E5%8F%96%E6%B6%88%E5%B0%8F%E9%A1%8D%E5%8C%85%E8%A3%B9%E5%85%8D%E7%A8%85%E8%A3%81%E5%AE%9A%E5%90%88%E6%B3%95-001751517.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "通膨降溫緩解升息疑慮　美股標普創高、台積電ADR漲0.31％",
+      "title": "緩解升息壓力！美股4大指數收紅 標普500盤中首度突破7800點",
       "original_title": null,
-      "summary": "重點：美國7月生產者物價指數顯示通膨降溫，強化市場對於聯準會9月不會升息的預期，美股主要指數星期四全部收漲，標普500指數在記憶體類股漲勢帶動下創新高…。",
-      "link": "https://tw.news.yahoo.com/%E9%80%9A%E8%86%A8%E9%99%8D%E6%BA%AB%E7%B7%A9%E8%A7%A3%E5%8D%87%E6%81%AF%E7%96%91%E6%85%AE-%E7%BE%8E%E8%82%A1%E6%A8%99%E6%99%AE%E5%89%B5%E9%AB%98-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E6%BC%B20-31-224026058.html",
+      "summary": "重點：美國7月生產者物價指數PPI意外持平，進一步緩解市場對聯準會9月升息的擔憂，加上國際油價下跌超過2%，美股週四（13）全面收紅，標普500指數盤…。",
+      "link": "https://tw.news.yahoo.com/%E7%B7%A9%E8%A7%A3%E5%8D%87%E6%81%AF%E5%A3%93%E5%8A%9B-%E7%BE%8E%E8%82%A14%E5%A4%A7%E6%8C%87%E6%95%B8%E6%94%B6%E7%B4%85-%E6%A8%99%E6%99%AE500%E7%9B%A4%E4%B8%AD%E9%A6%96%E5%BA%A6%E7%AA%81%E7%A0%B47800%E9%BB%9E-000947792.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "美9月升息機率再降！美股全面收漲「標普創新高」　台指期夜盤漲364點",
+      "title": "美股4大指數齊揚！標普500創歷史新高",
       "original_title": null,
-      "summary": "重點：即時中心／綜合報導美國7月生產者物價指數持平，進一步緩解聯準會9月升息擔憂，美股週四（13日）全面收漲。終場道瓊工業指數小漲69.72點、0.1…。",
-      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E9%E6%9C%88%E5%8D%87%E6%81%AF%E6%A9%9F%E7%8E%87%E5%86%8D%E9%99%8D-%E7%BE%8E%E8%82%A1%E5%85%A8%E9%9D%A2%E6%94%B6%E6%BC%B2-%E6%A8%99%E6%99%AE%E5%89%B5%E6%96%B0%E9%AB%98-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E6%BC%B2364%E9%BB%9E-221741812.html",
+      "summary": "重點：據美國財經媒體《CNBC》的報導，布蘭特原油期貨下跌逾2%，收在每桶87.07美元；西德州中級原油期貨同樣下跌逾2%，收在每桶81.25美元。油…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A14%E5%A4%A7%E6%8C%87%E6%95%B8%E9%BD%8A%E6%8F%9A-%E6%A8%99%E6%99%AE500%E5%89%B5%E6%AD%B7%E5%8F%B2%E6%96%B0%E9%AB%98-000323981.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "Neocloud新興雲端客戶大量找上門 鴻海、廣達、仁寶、和碩曝關鍵原因",
+      "title": "【統一證券晨訊】台股震盪盤堅",
       "original_title": null,
-      "summary": "重點：大型雲端服務（CSP）業者今年資本支出衝破8,000億美元，成AI（人工智慧）伺服器採購主力，但令人矚目是，Neocloud新興雲端服務業者快速…。",
-      "link": "https://tw.news.yahoo.com/neocloud%E6%96%B0%E8%88%88%E9%9B%B2%E7%AB%AF%E5%AE%A2%E6%88%B6%E5%A4%A7%E9%87%8F%E6%89%BE%E4%B8%8A%E9%96%80-%E9%B4%BB%E6%B5%B7-%E5%BB%A3%E9%81%94-%E4%BB%81%E5%AF%B6-%E5%92%8C%E7%A2%A9%E6%9B%9D%E9%97%9C%E9%8D%B5%E5%8E%9F%E5%9B%A0-224324902.html",
+      "summary": "重點：日期：2026年 8月14日※盤勢分析通膨預期降溫、AI基本面力挺，台股震盪盤堅※昨日盤勢美國7月CPI數據符合預期，升息預期降溫，費半指數大漲…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%B5%B1-%E8%AD%89%E5%88%B8%E6%99%A8%E8%A8%8A-%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA%E7%9B%A4%E5%A0%85-001649251.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "【台股盤前】標普再創歷史新高！台指夜盤拉364點　台股攻勢還沒完",
+      "title": "台指期夜盤漲364點　法人：台股若放量有利上攻",
       "original_title": null,
-      "summary": "重點：在通膨與油價雙雙降溫下，美股週四全面收紅。標普500指數上漲50.49點、漲幅0.65%，收在7,798.99點，盤中更首度突破7,800點大關…。",
-      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E7%9B%A4%E5%89%8D-%E6%A8%99%E6%99%AE%E5%86%8D%E5%89%B5%E6%AD%B7%E5%8F%B2%E6%96%B0%E9%AB%98-%E5%8F%B0%E6%8C%87%E5%A4%9C%E7%9B%A4%E6%8B%89364%E9%BB%9E-%E5%8F%B0%E8%82%A1%E6%94%BB%E5%8B%A2%E9%82%84%E6%B2%92%E5%AE%8C-221900986.html",
+      "summary": "重點：（中央社記者鍾榮峰台北14日電）市場對升息疑慮降，美股勁揚，標普500創新高，台積電ADR小漲，台指期夜盤收46389點上漲364點，台積電期貨…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E6%BC%B2364%E9%BB%9E-%E6%B3%95%E4%BA%BA-%E5%8F%B0%E8%82%A1%E8%8B%A5%E6%94%BE%E9%87%8F%E6%9C%89%E5%88%A9%E4%B8%8A%E6%94%BB-001452742.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "友達ADR13日下跌0.0915美元跌幅1.12%折台股25.92元",
+      "title": "台股EPS王／NAND缺貨將持續多年！群聯潘健成：明年更缺　庫存900億還不夠",
       "original_title": null,
-      "summary": "重點：(中央社台北2026年 8月14日電)友達光電在OTC US掛牌ADR以8.0585美元作收，下跌0.0915美元，跌幅 1.12%。由於每單位…。",
-      "link": "https://tw.stock.yahoo.com/news/%E5%8F%8B%E9%81%94adr13%E6%97%A5%E4%B8%8B%E8%B7%8C0-0915%E7%BE%8E%E5%85%83%E8%B7%8C%E5%B9%851-12-%E6%8A%98%E5%8F%B0%E8%82%A125-92%E5%85%83-214154781.html",
+      "summary": "重點：NAND控制晶片大廠群聯（8299）公布第二季財報，EPS高達118.57元，榮登台股第二季ESP王，堪稱賺錢效率最高的公司，打破同為記憶體廠的…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1eps%E7%8E%8B-nand%E7%BC%BA%E8%B2%A8%E5%B0%87%E6%8C%81%E7%BA%8C%E5%A4%9A%E5%B9%B4-%E7%BE%A4%E8%81%AF%E6%BD%98%E5%81%A5%E6%88%90-%E6%98%8E%E5%B9%B4%E6%9B%B4%E7%BC%BA-%E5%BA%AB%E5%AD%98900%E5%84%84%E9%82%84%E4%B8%8D%E5%A4%A0-000100002.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股EPS王／不當高股息股！潘健成向股東喊話：群聯要抓緊一輩子一次的AI紅利",
+      "original_title": null,
+      "summary": "重點：NAND控制晶片大廠群聯（8299）公布第二季財報，EPS高達118.57元，榮登台股第二季ESP王，堪稱賺錢效率最高的公司，打破同為記憶體廠的…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1eps%E7%8E%8B-%E4%B8%8D%E7%95%B6%E9%AB%98%E8%82%A1%E6%81%AF%E8%82%A1-%E6%BD%98%E5%81%A5%E6%88%90%E5%90%91%E8%82%A1%E6%9D%B1%E5%96%8A%E8%A9%B1-%E7%BE%A4%E8%81%AF%E8%A6%81%E6%8A%93%E7%B7%8A-%E8%BC%A9%E5%AD%90-000000706.html",
       "published_at": null,
       "source": "yahoo_news"
     }

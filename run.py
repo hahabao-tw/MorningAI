@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 import tomllib
 from datetime import datetime, timezone
@@ -20,11 +21,26 @@ from crawler.yahoo_news import YahooHeadlineCollector
 from crawler.yahoo_future import YahooFutureCollector
 from processor.export import write_report
 from processor.markdown import render_markdown
+from processor.model import MorningReport
 from processor.normalize import build_report
 from processor.site import build_site
 
 
 ROOT = Path(__file__).resolve().parent
+
+
+def reuse_same_day_night_quote(report: MorningReport, report_dir: Path) -> None:
+    if any(item.get("source") == "yahoo_future" for item in report.markets):
+        return
+    previous_path = report_dir / "today.json"
+    if not previous_path.exists():
+        return
+    previous = json.loads(previous_path.read_text(encoding="utf-8"))
+    if previous.get("report_date") != report.report_date:
+        return
+    quote = next((item for item in previous.get("markets", []) if item.get("source") == "yahoo_future"), None)
+    if quote:
+        report.markets.append(quote)
 
 
 def load_config(path: Path) -> dict:
@@ -73,6 +89,7 @@ def main(argv: list[str] | None = None) -> int:
         now = datetime.now(timezone.utc)
         results = [item.collect() for item in collectors(config, now)]
         report = build_report(results, now, config["report"]["timezone"])
+        reuse_same_day_night_quote(report, ROOT / "report")
         markdown = render_markdown(report, config["report"]["title"])
         write_report(report, markdown, ROOT / "report")
         build_site(ROOT / "report", ROOT / "docs", config["report"]["prompt"])

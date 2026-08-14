@@ -110,8 +110,8 @@ class PipelineTests(unittest.TestCase):
             {"kind": "market", "group": "taifex", "symbol": "WCDF&", "label": "台積電期貨夜盤", "price": 2428, "change": 18, "change_percent": 0.75, "source": "yahoo_future"},
             {"kind": "twse_summary", "index": 45000, "change": 100, "turnover": 858_700_000_000, "institutional": [{"name": "外資", "net": 11_020_000_000}]},
             {"kind": "chips", "foreign_tx_net": -86249, "trust_tx_net": 82327, "mtx_retail_ratio": 22.9, "tmf_retail_ratio": 15.58, "options_pc_ratio": 112.03, "tsmc_impact": 8.463},
-            {"kind": "news", "category": "international", "title": "國際財經標題", "summary": "重點：國際摘要。", "source": "yahoo_news"},
-            {"kind": "news", "category": "domestic", "title": "台股標題", "summary": "重點：台股摘要。", "source": "yahoo_news"},
+            {"kind": "news", "category": "international", "title": "國際財經標題", "summary": "重點：國際摘要。", "link": "https://example.com/international", "source": "yahoo_news"},
+            {"kind": "news", "category": "domestic", "title": "台股標題", "summary": "重點：台股摘要。", "link": "https://example.com/domestic", "source": "yahoo_news"},
         ]
         markdown = render_markdown(build_report([CollectorResult("fixture", records)], self.now, "Asia/Taipei"), "F1台股盤前戰情早報")
         for heading in ("## 盤前重點摘要", "## 美股指數", "## ADR", "## 黃金原油", "## 匯率", "## 台股昨日", "## 台指期夜盤", "## 台股期貨籌碼變化", "## 台積電大盤影響點數", "## 台股法人買賣動向", "## 國際財經要聞（中文）", "## 台股新聞"):
@@ -125,6 +125,8 @@ class PipelineTests(unittest.TestCase):
         self.assertIn("台積電每跳 1 元：約影響 8.463 點", markdown)
         self.assertNotIn("更新：", markdown)
         self.assertNotIn("[國際財經標題]", markdown)
+        self.assertNotIn("[台股標題]", markdown)
+        self.assertNotIn("https://example.com", markdown)
         self.assertEqual(markdown.split("## 盤前重點摘要\n", 1)[1].split("## 美股指數", 1)[0].strip(), "")
         self.assertNotIn("那斯達克期貨：", markdown)
         positions = [markdown.index(name + "：") for name in ("NASDAQ", "費城半導體", "S&P 500", "道瓊指數")]

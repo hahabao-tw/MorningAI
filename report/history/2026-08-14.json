@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-14",
-  "generated_at": "2026-08-14T15:17:51+08:00",
+  "generated_at": "2026-08-14T15:19:56+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4389.8,
-      "change": -30.599999999999454,
-      "change_percent": -0.6922450456972097,
+      "price": 4390.3,
+      "change": -30.099999999999454,
+      "change_percent": -0.6809338521400655,
       "currency": "USD",
-      "market_time": 1786691258,
+      "market_time": 1786691392,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 82.66,
-      "change": 1.4099999999999966,
-      "change_percent": 1.7353846153846113,
+      "price": 82.64,
+      "change": 1.3900000000000006,
+      "change_percent": 1.7107692307692313,
       "currency": "USD",
-      "market_time": 1786691267,
+      "market_time": 1786691394,
       "source": "yahoo"
     },
     {
@@ -121,7 +121,7 @@
       "change": 1.2900000000000063,
       "change_percent": 1.4815665556448907,
       "currency": "USD",
-      "market_time": 1786691259,
+      "market_time": 1786691361,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.996,
-      "change": -0.12399999999999878,
-      "change_percent": -0.38605230386051925,
+      "price": 31.984,
+      "change": -0.13599999999999568,
+      "change_percent": -0.42341220423410864,
       "currency": "TWD",
-      "market_time": 1786691871,
+      "market_time": 1786691995,
       "source": "yahoo"
     },
     {
@@ -153,9 +153,9 @@
       "group": "taifex",
       "symbol": "WTX&",
       "label": "台指期夜盤",
-      "price": 45784.0,
-      "change": 28.0,
-      "change_percent": 0.06,
+      "price": 46389,
+      "change": 364,
+      "change_percent": 0.79,
       "source": "yahoo_future"
     },
     {
@@ -250,7 +250,7 @@
       "category": "international",
       "title": "Trump ally Nigel Farage wins special election to return to UK parliament",
       "link": "https://www.cnbc.com/2026/08/14/nigel-farage-reform-uk-parliament-re-election.html",
-      "published_at": "2026-08-14T07:16:00+00:00",
+      "published_at": "2026-08-14T07:17:43+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
@@ -340,6 +340,16 @@
       "category": "international",
       "title": "白宮：中國藉逾40國洗產地　美短收數百億美元關稅",
       "original_title": null,
+      "summary": "重點：（中央社華盛頓2026年08月13日綜合外電報導）白宮今天表示，中國企業越來越頻繁透過其他國家將貨物轉運至美國，以規避總統川普所加徵的關稅，並點…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%99%BD%E5%AE%AE-%E4%B8%AD%E5%9C%8B%E8%97%89%E9%80%BE40%E5%9C%8B%E6%B4%97%E7%94%A2%E5%9C%B0-%E7%BE%8E%E7%9F%AD%E6%94%B6%E6%95%B8%E7%99%BE%E5%84%84%E7%BE%8E%E5%85%83%E9%97%9C%E7%A8%85-065701420.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "白宮：中國藉逾40國洗產地　美短收數百億美元關稅",
+      "original_title": null,
       "summary": "重點：（中央社華盛頓13日綜合外電報導）白宮今天表示，中國企業越來越頻繁透過其他國家將貨物轉運至美國，以規避總統川普所加徵的關稅，並點名歐盟、墨西哥、…。",
       "link": "https://tw.news.yahoo.com/%E7%99%BD%E5%AE%AE-%E4%B8%AD%E5%9C%8B%E8%97%89%E9%80%BE40%E5%9C%8B%E6%B4%97%E7%94%A2%E5%9C%B0-%E7%BE%8E%E7%9F%AD%E6%94%B6%E6%95%B8%E7%99%BE%E5%84%84%E7%BE%8E%E5%85%83%E9%97%9C%E7%A8%85-065448850.html",
       "published_at": null,
@@ -362,16 +372,6 @@
       "original_title": null,
       "summary": "重點：《放言科技傳媒》跳脫傳統媒體框架，透過權威專欄寫作揭露新聞內幕；邀請年輕世代踴躍書寫；結合AI大數據，探討網路民意並提供網路服務，呈現媒體即科技…。",
       "link": "https://tw.news.yahoo.com/%E5%8D%B0%E5%BA%A6l-t%E5%8F%96%E5%BE%97%E6%9C%80%E9%AB%9815-7%E5%84%84%E7%BE%8E%E5%85%83ai%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E8%A8%82%E5%96%AE-together-ai%E6%8E%A1%E8%B3%BC%E8%90%AC%E9%A1%86%E8%BC%9D%E9%81%94b300-064943190.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "台灣人半年狂砸9.99兆元海外投資 凱基證解析AI新戰局美股三大趨勢",
-      "original_title": null,
-      "summary": "重點：台灣投資人布局海外市場熱度持續升溫，根據券商公會統計，2026年上半年海外證券交易金額已高達9.99兆元，短短半年就逼近2025年全年10.75…。",
-      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E7%81%A3%E4%BA%BA%E5%8D%8A%E5%B9%B4%E7%8B%82%E7%A0%B89-99%E5%85%86%E5%85%83%E6%B5%B7%E5%A4%96%E6%8A%95%E8%B3%87-%E5%87%B1%E5%9F%BA%E8%AD%89%E8%A7%A3%E6%9E%90ai%E6%96%B0%E6%88%B0%E5%B1%80%E7%BE%8E%E8%82%A1%E4%B8%89%E5%A4%A7%E8%B6%A8%E5%8B%A2-064309420.html",
       "published_at": null,
       "source": "yahoo_news"
     },

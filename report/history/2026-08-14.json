@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-14",
-  "generated_at": "2026-08-14T13:28:58+08:00",
+  "generated_at": "2026-08-14T13:57:58+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4372.6,
-      "change": -47.79999999999927,
-      "change_percent": -1.0813501040629643,
+      "price": 4376.1,
+      "change": -44.29999999999927,
+      "change_percent": -1.0021717491629551,
       "currency": "USD",
-      "market_time": 1786684736,
+      "market_time": 1786686476,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 81.34,
-      "change": 0.09000000000000341,
-      "change_percent": 0.11076923076923496,
+      "price": 81.57,
+      "change": 0.3199999999999932,
+      "change_percent": 0.3938461538461454,
       "currency": "USD",
-      "market_time": 1786684711,
+      "market_time": 1786686475,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 87.1,
-      "change": 0.030000000000001137,
-      "change_percent": 0.0344550361777893,
+      "price": 87.37,
+      "change": 0.30000000000001137,
+      "change_percent": 0.34455036177789294,
       "currency": "USD",
-      "market_time": 1786684594,
+      "market_time": 1786686361,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.971,
-      "change": -0.14899999999999736,
-      "change_percent": -0.4638854296388461,
+      "price": 31.966,
+      "change": -0.15399999999999636,
+      "change_percent": -0.4794520547945093,
       "currency": "TWD",
-      "market_time": 1786685337,
+      "market_time": 1786687077,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9705,
-      "change": 0.014100000000000001,
-      "change_percent": 0.2844806714550884,
+      "price": 4.975,
+      "change": 0.018599999999999284,
+      "change_percent": 0.3752723751109532,
       "currency": "JPY",
-      "market_time": 1786685122,
+      "market_time": 1786686923,
       "source": "yahoo"
     },
     {
@@ -248,6 +248,15 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Trump ally Nigel Farage wins special election to return to UK parliament",
+      "link": "https://www.cnbc.com/2026/08/14/nigel-farage-reform-uk-parliament-re-election.html",
+      "published_at": "2026-08-14T05:48:57+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "How a niche copper trade became a real-time gauge of Trump’s next tariff move",
       "link": "https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html",
       "published_at": "2026-08-14T05:00:01+00:00",
@@ -329,11 +338,22 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "In pictures: Europe's best solar eclipse since 1999",
-      "link": "https://www.cnbc.com/2026/08/13/europe-solar-eclipse-iceland-spain.html",
-      "published_at": "2026-08-13T10:06:50+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      "source": "rss"
+      "title": "川普祭無人機關稅高稅率100%！ 台日韓等盟友產品及零組件課15%",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 美國總統川普（Donald Trump）再度揮出關稅大刀，將對進口無人機及其零組件徵收最高達100%的關稅，以降低美國對…。",
+      "link": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E7%A5%AD%E7%84%A1%E4%BA%BA%E6%A9%9F%E9%97%9C%E7%A8%85%E9%AB%98%E7%A8%85%E7%8E%87100-%E5%8F%B0%E6%97%A5%E9%9F%93%E7%AD%89%E7%9B%9F%E5%8F%8B%E7%94%A2%E5%93%81%E5%8F%8A%E9%9B%B6%E7%B5%84%E4%BB%B6%E8%AA%B215-052538638.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "CPI放行美股再創歷史新高！債市卻以25年最貴利率借錢給政府　降息預期壓不住赤字疑慮",
+      "original_title": null,
+      "summary": "重點：《放言科技傳媒》跳脫傳統媒體框架，透過權威專欄寫作揭露新聞內幕；邀請年輕世代踴躍書寫；結合AI大數據，探討網路民意並提供網路服務，呈現媒體即科技…。",
+      "link": "https://tw.news.yahoo.com/cpi%E6%94%BE%E8%A1%8C%E7%BE%8E%E8%82%A1%E5%86%8D%E5%89%B5%E6%AD%B7%E5%8F%B2%E6%96%B0%E9%AB%98-%E5%82%B5%E5%B8%82%E5%8D%BB%E4%BB%A525%E5%B9%B4%E6%9C%80%E8%B2%B4%E5%88%A9%E7%8E%87%E5%80%9F%E9%8C%A2%E7%B5%A6%E6%94%BF%E5%BA%9C-%E9%99%8D%E6%81%AF%E9%A0%90%E6%9C%9F%E5%A3%93%E4%B8%8D%E4%BD%8F%E8%B5%A4%E5%AD%97%E7%96%91%E6%85%AE-051644886.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",
@@ -357,21 +377,21 @@
     },
     {
       "kind": "news",
-      "category": "international",
-      "title": "LG攜手輝達攻「實體AI」！人形機器人明年亮相  再蓋80MW AI工廠",
+      "category": "domestic",
+      "title": "台股收盤／台積電跌40元拖累！台股收黑210點　4萬6關卡沒守住",
       "original_title": null,
-      "summary": "重點：[Newtalk新聞] 韓國 LG 與輝達（NVIDIA）合作正式從策略規畫走向落地。LG 週四（13 日）宣布，雙方將擴大在機器人、AI 工廠…。",
-      "link": "https://tw.news.yahoo.com/lg%E6%94%9C%E6%89%8B%E8%BC%9D%E9%81%94%E6%94%BB-%E5%AF%A6%E9%AB%94ai-%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%E6%98%8E%E5%B9%B4%E4%BA%AE%E7%9B%B8-%E5%86%8D%E8%93%8B80mw-ai%E5%B7%A5%E5%BB%A0-044158923.html",
+      "summary": "重點：美國7月生產者物價指數（PPI）意外持平，進一步緩解市場對聯準會（Fed）9月升息的擔憂，加上國際油價下跌逾2%，帶動美股週四（13日）全面收紅…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%94%B6%E7%9B%A4-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%8C40%E5%85%83%E6%8B%96%E7%B4%AF-%E5%8F%B0%E8%82%A1%E6%94%B6%E9%BB%91210%E9%BB%9E-4%E8%90%AC6%E9%97%9C%E5%8D%A1%E6%B2%92%E5%AE%88%E4%BD%8F-055000099.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
-      "category": "international",
-      "title": "川普「美國製造」再出招！底特律三大車廠恐年增20億美元成本　日韓歐出口卻享低關稅",
+      "category": "domestic",
+      "title": "區間震盪整理！台股收跌210.47點　收45811.01點",
       "original_title": null,
-      "summary": "重點：[FTNN新聞網]實習記者盛琳／綜合報導根據《路透》報導，美國底特律三大車廠準備向川普政府提出警告，華府研議中的北美自由貿易協定調整方案，可能讓…。",
-      "link": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE-%E7%BE%8E%E5%9C%8B%E8%A3%BD%E9%80%A0-%E5%86%8D%E5%87%BA%E6%8B%9B-%E5%BA%95%E7%89%B9%E5%BE%8B%E4%B8%89%E5%A4%A7%E8%BB%8A%E5%BB%A0%E6%81%90%E5%B9%B4%E5%A2%9E20%E5%84%84%E7%BE%8E%E5%85%83%E6%88%90%E6%9C%AC-%E6%97%A5%E9%9F%93%E6%AD%90%E5%87%BA%E5%8F%A3%E5%8D%BB%E4%BA%AB%E4%BD%8E%E9%97%9C%E7%A8%85-044100490.html",
+      "summary": "重點：台股今（14日）震盪走低，加權指數終場收在45811.01點，下跌210.47點，跌幅0.46%。",
+      "link": "https://tw.news.yahoo.com/%E5%8D%80%E9%96%93%E9%9C%87%E7%9B%AA%E6%95%B4%E7%90%86-%E5%8F%B0%E8%82%A1%E6%94%B6%E8%B7%8C210-47%E9%BB%9E-%E6%94%B645811-01%E9%BB%9E-053500022.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -388,30 +408,10 @@
     {
       "kind": "news",
       "category": "domestic",
-      "title": "台灣霸榜MSCI！新興市場權重衝26.85%　台積電一檔「吃掉」15.46%",
+      "title": "個股評等》智伸科半導體占比破2成！UQD拉貨重啟、法人喊買目標225元",
       "original_title": null,
-      "summary": "重點：[FTNN新聞網]記者陳雅婷／綜合報導台灣在全球新興市場的地位再往上。證交所昨（13）日表示，明晟（MSCI）公布2026年第3季指數調整結果，…。",
-      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%81%A3%E9%9C%B8%E6%A6%9Cmsci-%E6%96%B0%E8%88%88%E5%B8%82%E5%A0%B4%E6%AC%8A%E9%87%8D%E8%A1%9D26-85-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E6%AA%94-051000867.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "AI股殺到腿軟竟是「假摔」？大行情藏後頭　台積電等4檔被點名",
-      "original_title": null,
-      "summary": "重點：[FTNN新聞網]記者陳雅婷／綜合報導AI晶片近期遭遇賣壓，市場一度擔心AI熱潮退燒，不過半導體產業最新數據卻透露不同訊號。美國半導體產業協會（…。",
-      "link": "https://tw.stock.yahoo.com/news/ai%E8%82%A1%E6%AE%BA%E5%88%B0%E8%85%BF%E8%BB%9F%E7%AB%9F%E6%98%AF-%E5%81%87%E6%91%94-%E5%A4%A7%E8%A1%8C%E6%83%85%E8%97%8F%E5%BE%8C%E9%A0%AD-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%AD%894%E6%AA%94%E8%A2%AB%E9%BB%9E%E5%90%8D-042000123.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "台股開盤穩了？記憶體領漲標普創新高　台指期夜盤彈364點",
-      "original_title": null,
-      "summary": "重點：【國際中心／綜合報導】美國通膨出現降溫，9月升息機率大減，美股今（13）日全收漲，標普500更寫下逼近7800點的歷史新高，記憶體族群全面反攻，…。",
-      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4%E7%A9%A9%E4%BA%86-%E8%A8%98%E6%86%B6%E9%AB%94%E9%A0%98%E6%BC%B2%E6%A8%99%E6%99%AE%E5%89%B5%E6%96%B0%E9%AB%98-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E5%BD%88364%E9%BB%9E-041800534.html",
+      "summary": "重點：[Newtalk新聞] 汽車零組件廠智伸科（4551）迎來產品組合持續優化，中信投顧最新報告給予「買進」評等，目標價上看225元。法人看好半導體…。",
+      "link": "https://tw.news.yahoo.com/%E5%80%8B%E8%82%A1%E8%A9%95%E7%AD%89-%E6%99%BA%E4%BC%B8%E7%A7%91%E5%8D%8A%E5%B0%8E%E9%AB%94%E5%8D%A0%E6%AF%94%E7%A0%B42%E6%88%90-uqd%E6%8B%89%E8%B2%A8%E9%87%8D%E5%95%9F-%E6%B3%95%E4%BA%BA%E5%96%8A%E8%B2%B7%E7%9B%AE%E6%A8%99225%E5%85%83-051043200.html",
       "published_at": null,
       "source": "yahoo_news"
     }

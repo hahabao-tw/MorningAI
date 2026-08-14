@@ -10,11 +10,14 @@ from zoneinfo import ZoneInfo
 from crawler.base import Collector
 from crawler.http import HttpClient
 from crawler.mops import MopsCollector
+from crawler.dashboard import MarketDashboardCollector
 from crawler.news import RssCollector
+from crawler.stockq import StockQCollector
 from crawler.taifex import TaifexCollector
 from crawler.twse import TwseCollector
 from crawler.yahoo import YahooMarketCollector
 from crawler.yahoo_news import YahooHeadlineCollector
+from crawler.yahoo_future import YahooFutureCollector
 from processor.export import write_report
 from processor.markdown import render_markdown
 from processor.normalize import build_report
@@ -52,6 +55,12 @@ def collectors(config: dict, now: datetime) -> list[Collector]:
         items.append(TaifexCollector(client))
     if enabled.get("mops_enabled", False):
         items.append(MopsCollector())
+    if enabled.get("stockq_enabled", False):
+        items.append(StockQCollector(client))
+    if enabled.get("yahoo_future_enabled", False):
+        items.append(YahooFutureCollector(client))
+    if enabled.get("market_dashboard_enabled", False):
+        items.append(MarketDashboardCollector(client))
     return items
 
 

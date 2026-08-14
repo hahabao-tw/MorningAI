@@ -130,7 +130,7 @@ class PipelineTests(unittest.TestCase):
             def get_text(self, url: str) -> str:
                 return "<table><tr><td>TWSE.php</td><td>08/14</td></tr></table>"
 
-        collector = StockQCollector(Client(), date(2026, 8, 14))
+        collector = StockQCollector(Client(), date(2026, 8, 14), before_open=False)
         records = collector._parse = lambda page: [
             {"kind": "market", "group": "taiwan_indices", "label": "台灣加權", "date": "08/14"},
             {"kind": "market", "group": "taiwan_indices", "label": "台灣櫃買", "date": "08/14"},

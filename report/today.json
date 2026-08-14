@@ -153,9 +153,9 @@
       "group": "taiwan_indices",
       "symbol": "TWSE.php",
       "label": "台灣加權",
-      "price": 46171.79,
-      "change": 150.31,
-      "change_percent": 0.33,
+      "price": 46021.48,
+      "change": 503.41,
+      "change_percent": 1.11,
       "source": "stockq"
     },
     {
@@ -163,9 +163,9 @@
       "group": "taiwan_indices",
       "symbol": "TWOTCI.php",
       "label": "台灣櫃買",
-      "price": 407.41,
-      "change": 1.29,
-      "change_percent": 0.32,
+      "price": 406.12,
+      "change": 4.1,
+      "change_percent": 1.02,
       "source": "stockq"
     },
     {

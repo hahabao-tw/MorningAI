@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 import tempfile
 import unittest
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 from crawler.base import CollectorResult
@@ -18,7 +18,7 @@ from processor.export import write_report
 from processor.markdown import render_markdown
 from processor.normalize import build_report
 from processor.site import build_site
-from run import reuse_same_day_night_quote
+from run import reuse_same_day_market_snapshots
 
 
 class PipelineTests(unittest.TestCase):
@@ -125,6 +125,20 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(records[0]["price"], 46021.48)
         self.assertEqual(records[1]["price"], 406.12)
 
+    def test_stockq_collector_rejects_current_day_intraday_rows(self) -> None:
+        class Client:
+            def get_text(self, url: str) -> str:
+                return "<table><tr><td>TWSE.php</td><td>08/14</td></tr></table>"
+
+        collector = StockQCollector(Client(), date(2026, 8, 14))
+        records = collector._parse = lambda page: [
+            {"kind": "market", "group": "taiwan_indices", "label": "台灣加權", "date": "08/14"},
+            {"kind": "market", "group": "taiwan_indices", "label": "台灣櫃買", "date": "08/14"},
+        ]
+        result = collector.collect()
+        self.assertEqual(result.records, [])
+        self.assertIsNotNone(result.error)
+
     def test_yahoo_future_parser_reads_visible_quote(self) -> None:
         page = "<div>收盤 | 2026/08/14 04:59 更新</div><h2>台指期近一即時行情</h2><div>成交</div><div>46,389.00</div><div>漲跌幅</div><div>0.79%</div><div>漲跌</div><div>364.00</div>"
         record = YahooFutureCollector._parse(page)
@@ -135,14 +149,19 @@ class PipelineTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "regular session"):
             YahooFutureCollector._parse(page)
 
-    def test_same_day_rerun_reuses_saved_night_quote(self) -> None:
+    def test_same_day_rerun_reuses_saved_market_snapshots(self) -> None:
         report = build_report([], self.now, "Asia/Taipei")
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
-            payload = {"report_date": "2026-08-13", "markets": [{"group": "taifex", "source": "yahoo_future", "price": 46389}]}
+            payload = {"report_date": "2026-08-13", "markets": [
+                {"group": "taifex", "source": "yahoo_future", "price": 46389},
+                {"group": "taiwan_indices", "source": "stockq", "label": "台灣加權", "price": 46021.48},
+                {"group": "taiwan_indices", "source": "stockq", "label": "台灣櫃買", "price": 406.12},
+            ]}
             (root / "today.json").write_text(json.dumps(payload), encoding="utf-8")
-            reuse_same_day_night_quote(report, root)
+            reuse_same_day_market_snapshots(report, root)
         self.assertEqual(report.markets[0]["price"], 46389)
+        self.assertEqual([item["price"] for item in report.markets[1:]], [46021.48, 406.12])
 
     def test_cross_day_rerun_does_not_reuse_stale_night_quote(self) -> None:
         report = build_report([], self.now, "Asia/Taipei")
@@ -150,7 +169,7 @@ class PipelineTests(unittest.TestCase):
             root = Path(temporary)
             payload = {"report_date": "2026-08-12", "markets": [{"group": "taifex", "source": "yahoo_future", "price": 45000}]}
             (root / "today.json").write_text(json.dumps(payload), encoding="utf-8")
-            reuse_same_day_night_quote(report, root)
+            reuse_same_day_market_snapshots(report, root)
         self.assertEqual(report.markets, [])
 
     def test_dashboard_collector_maps_requested_chip_fields(self) -> None:

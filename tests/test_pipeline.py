@@ -57,6 +57,25 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(YahooMarketCollector._group("GC=F"), "commodities")
         self.assertEqual(YahooMarketCollector._group("TWD=X"), "fx")
 
+    def test_yahoo_market_uses_single_day_previous_close(self) -> None:
+        class Client:
+            requested_url = ""
+
+            def get_json(self, url: str) -> dict:
+                self.requested_url = url
+                return {"chart": {"result": [{"meta": {
+                    "regularMarketPrice": 110,
+                    "chartPreviousClose": 100,
+                    "currency": "USD",
+                    "regularMarketTime": 1,
+                }}]}}
+
+        client = Client()
+        result = YahooMarketCollector(client, {"^IXIC": "NASDAQ"}).collect()
+        self.assertIn("range=1d", client.requested_url)
+        self.assertEqual(result.records[0]["change"], 10)
+        self.assertEqual(result.records[0]["change_percent"], 10)
+
     def test_yahoo_headline_parser_deduplicates_and_limits(self) -> None:
         page = """<article><h3><a href='/one'>First headline</a></h3></article>
         <article><h3><a href='/one-copy'>First headline</a></h3></article>

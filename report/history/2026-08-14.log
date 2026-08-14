@@ -1,8 +1,8 @@
-generated_at=2026-08-14T14:04:39+08:00
+generated_at=2026-08-14T15:15:21+08:00
 source=yahoo status=ok records=12
 source=twse status=ok records=1
 source=rss status=ok records=10
 source=yahoo_news status=ok records=8
 source=stockq status=failed records=0 error=尚無前一交易日完整指數
-source=yahoo_future status=failed records=0 error=WTX&: ValueError; WCDF&: ValueError
+source=yahoo_future status=partial records=1 error=WCDF&: ValueError
 source=market_dashboard status=ok records=1

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-14",
-  "generated_at": "2026-08-14T14:04:39+08:00",
+  "generated_at": "2026-08-14T15:15:21+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -37,7 +37,7 @@
       "change": 50.48999999999978,
       "change_percent": 0.651609989030132,
       "currency": "USD",
-      "market_time": 1786653303,
+      "market_time": 1786651200,
       "source": "yahoo"
     },
     {
@@ -45,11 +45,11 @@
       "group": "indices",
       "symbol": "^DJI",
       "label": "道瓊指數",
-      "price": 53839.99,
-      "change": 69.68999999999505,
-      "change_percent": 0.1296068647561852,
+      "price": 53840.0,
+      "change": 69.69999999999709,
+      "change_percent": 0.1296254623835037,
       "currency": "USD",
-      "market_time": 1786653574,
+      "market_time": 1786651200,
       "source": "yahoo"
     },
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4384.2,
-      "change": -36.19999999999982,
-      "change_percent": -0.8189304135372324,
+      "price": 4391.1,
+      "change": -29.299999999999272,
+      "change_percent": -0.6628359424486308,
       "currency": "USD",
-      "market_time": 1786686875,
+      "market_time": 1786691112,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 81.73,
-      "change": 0.480000000000004,
-      "change_percent": 0.5907692307692357,
+      "price": 82.6,
+      "change": 1.3499999999999943,
+      "change_percent": 1.6615384615384545,
       "currency": "USD",
-      "market_time": 1786686879,
+      "market_time": 1786691118,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 87.47,
-      "change": 0.4000000000000057,
-      "change_percent": 0.45940048237051306,
+      "price": 88.34,
+      "change": 1.2700000000000102,
+      "change_percent": 1.45859653152637,
       "currency": "USD",
-      "market_time": 1786686777,
+      "market_time": 1786691108,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.949,
-      "change": -0.17099999999999582,
-      "change_percent": -0.5323785803237728,
+      "price": 31.986,
+      "change": -0.1339999999999968,
+      "change_percent": -0.4171855541718456,
       "currency": "TWD",
-      "market_time": 1786687478,
+      "market_time": 1786691721,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9757,
-      "change": 0.01929999999999943,
-      "change_percent": 0.38939552901298174,
+      "price": 4.968,
+      "change": 0.01159999999999961,
+      "change_percent": 0.2340408360907031,
       "currency": "JPY",
-      "market_time": 1786687223,
+      "market_time": 1786691424,
       "source": "yahoo"
     },
     {
@@ -153,9 +153,9 @@
       "group": "taifex",
       "symbol": "WTX&",
       "label": "台指期夜盤",
-      "price": 46389.0,
-      "change": 364.0,
-      "change_percent": 0.79,
+      "price": 45794.0,
+      "change": 18.0,
+      "change_percent": 0.04,
       "source": "yahoo_future"
     },
     {
@@ -184,12 +184,12 @@
   "taiwan_market": [
     {
       "kind": "twse_summary",
-      "date": "115/08/13",
-      "volume": 11492166298,
-      "turnover": 1104024642159,
-      "transactions": 5240402,
-      "index": 46021.48,
-      "change": 503.41,
+      "date": "115/08/14",
+      "volume": 11956533514,
+      "turnover": 1104843637561,
+      "transactions": 5369646,
+      "index": 45811.01,
+      "change": -210.47,
       "source": "twse",
       "institutional": [
         {
@@ -250,7 +250,7 @@
       "category": "international",
       "title": "Trump ally Nigel Farage wins special election to return to UK parliament",
       "link": "https://www.cnbc.com/2026/08/14/nigel-farage-reform-uk-parliament-re-election.html",
-      "published_at": "2026-08-14T05:48:57+00:00",
+      "published_at": "2026-08-14T07:08:29+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
@@ -338,80 +338,80 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "川普祭無人機關稅高稅率100%！ 台日韓等盟友產品及零組件課15%",
+      "title": "白宮：中國藉逾40國洗產地　美短收數百億美元關稅",
       "original_title": null,
-      "summary": "重點：[Newtalk新聞] 美國總統川普（Donald Trump）再度揮出關稅大刀，將對進口無人機及其零組件徵收最高達100%的關稅，以降低美國對…。",
-      "link": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E7%A5%AD%E7%84%A1%E4%BA%BA%E6%A9%9F%E9%97%9C%E7%A8%85%E9%AB%98%E7%A8%85%E7%8E%87100-%E5%8F%B0%E6%97%A5%E9%9F%93%E7%AD%89%E7%9B%9F%E5%8F%8B%E7%94%A2%E5%93%81%E5%8F%8A%E9%9B%B6%E7%B5%84%E4%BB%B6%E8%AA%B215-052538638.html",
+      "summary": "重點：（中央社華盛頓13日綜合外電報導）白宮今天表示，中國企業越來越頻繁透過其他國家將貨物轉運至美國，以規避總統川普所加徵的關稅，並點名歐盟、墨西哥、…。",
+      "link": "https://tw.news.yahoo.com/%E7%99%BD%E5%AE%AE-%E4%B8%AD%E5%9C%8B%E8%97%89%E9%80%BE40%E5%9C%8B%E6%B4%97%E7%94%A2%E5%9C%B0-%E7%BE%8E%E7%9F%AD%E6%94%B6%E6%95%B8%E7%99%BE%E5%84%84%E7%BE%8E%E5%85%83%E9%97%9C%E7%A8%85-065448850.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "CPI放行美股再創歷史新高！債市卻以25年最貴利率借錢給政府　降息預期壓不住赤字疑慮",
+      "title": "AI與半導體股領軍，日經週五收漲405.21點或0.59%，愛德萬勁揚2.59%",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】日本股市週五走升，隨週四美股上揚漲勢起舞，因美國弱於預期的生產者價格數據舒緩了人們對聯準會進一步升息的擔憂。收盤時，東證第一…。",
+      "link": "https://tw.stock.yahoo.com/news/ai%E8%88%87%E5%8D%8A%E5%B0%8E%E9%AB%94%E8%82%A1%E9%A0%98%E8%BB%8D-%E6%97%A5%E7%B6%93%E9%80%B1%E4%BA%94%E6%94%B6%E6%BC%B2405-21%E9%BB%9E%E6%88%960-59-%E6%84%9B%E5%BE%B7%E8%90%AC%E5%8B%81%E6%8F%9A2-065321508.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "印度L&T取得最高15.7億美元AI資料中心訂單！Together AI採購萬顆輝達B300　打造印度最大單一GPU叢集",
       "original_title": null,
       "summary": "重點：《放言科技傳媒》跳脫傳統媒體框架，透過權威專欄寫作揭露新聞內幕；邀請年輕世代踴躍書寫；結合AI大數據，探討網路民意並提供網路服務，呈現媒體即科技…。",
-      "link": "https://tw.news.yahoo.com/cpi%E6%94%BE%E8%A1%8C%E7%BE%8E%E8%82%A1%E5%86%8D%E5%89%B5%E6%AD%B7%E5%8F%B2%E6%96%B0%E9%AB%98-%E5%82%B5%E5%B8%82%E5%8D%BB%E4%BB%A525%E5%B9%B4%E6%9C%80%E8%B2%B4%E5%88%A9%E7%8E%87%E5%80%9F%E9%8C%A2%E7%B5%A6%E6%94%BF%E5%BA%9C-%E9%99%8D%E6%81%AF%E9%A0%90%E6%9C%9F%E5%A3%93%E4%B8%8D%E4%BD%8F%E8%B5%A4%E5%AD%97%E7%96%91%E6%85%AE-051644886.html",
+      "link": "https://tw.news.yahoo.com/%E5%8D%B0%E5%BA%A6l-t%E5%8F%96%E5%BE%97%E6%9C%80%E9%AB%9815-7%E5%84%84%E7%BE%8E%E5%85%83ai%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E8%A8%82%E5%96%AE-together-ai%E6%8E%A1%E8%B3%BC%E8%90%AC%E9%A1%86%E8%BC%9D%E9%81%94b300-064943190.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "美國稱數十國助中國避特朗普關稅",
+      "title": "台灣人半年狂砸9.99兆元海外投資 凱基證解析AI新戰局美股三大趨勢",
       "original_title": null,
-      "summary": "重點：美國一份新報告稱，中國透過關稅較低的國家轉運貨物，以規避較高關稅。",
-      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E5%9C%8B%E7%A8%B1%E6%95%B8%E5%8D%81%E5%9C%8B%E5%8A%A9%E4%B8%AD%E5%9C%8B%E9%81%BF%E7%89%B9%E6%9C%97%E6%99%AE%E9%97%9C%E7%A8%85-051204754.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "川普祭無人機關稅！台日韓盟友課15%　漢翔、邑錡、雷虎等攻漲停",
-      "original_title": null,
-      "summary": "重點：美國總統川普（Donald Trump）對無人機及其零件徵收新的關稅，旨在減少美國公司、執法部門以及州和地方政府對中國無人機技術的依賴。由於台灣…。",
-      "link": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E7%A5%AD%E7%84%A1%E4%BA%BA%E6%A9%9F%E9%97%9C%E7%A8%85-%E5%8F%B0%E6%97%A5%E9%9F%93%E7%9B%9F%E5%8F%8B%E8%AA%B215-%E6%BC%A2%E7%BF%94-%E9%82%91%E9%8C%A1-%E9%9B%B7%E8%99%8E%E7%AD%89%E6%94%BB%E6%BC%B2%E5%81%9C-045322009.html",
+      "summary": "重點：台灣投資人布局海外市場熱度持續升溫，根據券商公會統計，2026年上半年海外證券交易金額已高達9.99兆元，短短半年就逼近2025年全年10.75…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E7%81%A3%E4%BA%BA%E5%8D%8A%E5%B9%B4%E7%8B%82%E7%A0%B89-99%E5%85%86%E5%85%83%E6%B5%B7%E5%A4%96%E6%8A%95%E8%B3%87-%E5%87%B1%E5%9F%BA%E8%AD%89%E8%A7%A3%E6%9E%90ai%E6%96%B0%E6%88%B0%E5%B1%80%E7%BE%8E%E8%82%A1%E4%B8%89%E5%A4%A7%E8%B6%A8%E5%8B%A2-064309420.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "台積電一句「為什麼不出貨？」讓林恩平下定決心！大立光300天急行軍搶攻CPO幕後",
+      "title": "【Follow法人】外資再加碼453億元！連5日買超台股破2千億元",
       "original_title": null,
-      "summary": "重點：昔日股王大立光行事向來低調，但近來在市場熱度升高，外界好奇台灣這家光學巨擘面對手機市場成長停滯，董事長林恩平如何創造新的成長曲線，大立光的一舉一…。",
-      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%B8%80%E5%8F%A5%E3%80%8C%E7%82%BA%E4%BB%80%E9%BA%BC%E4%B8%8D%E5%87%BA%E8%B2%A8%EF%BC%9F%E3%80%8D%E8%AE%93%E6%9E%97%E6%81%A9%E5%B9%B3%E4%B8%8B%E5%AE%9A%E6%B1%BA%E5%BF%83%EF%BC%81%E5%A4%A7%E7%AB%8B%E5%85%89300%E5%A4%A9%E6%80%A5%E8%A1%8C%E8%BB%8D%E6%90%B6%E6%94%BBcpo%E5%B9%95%E5%BE%8C-060120270.html",
+      "summary": "重點：台股今（14）日收盤失守46,000點整數關卡，不過三大法人持續買超508.86億元。其中，外資加碼453.51億元，累計連續五個交易日買超台股…。",
+      "link": "https://tw.stock.yahoo.com/news/%E3%80%90follow%E6%B3%95%E4%BA%BA%E3%80%91%E5%A4%96%E8%B3%87%E5%86%8D%E5%8A%A0%E7%A2%BC453%E5%84%84%E5%85%83%EF%BC%81%E9%80%A35%E6%97%A5%E8%B2%B7%E8%B6%85%E5%8F%B0%E8%82%A1%E7%A0%B42%E5%8D%83%E5%84%84%E5%85%83-070452345.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "台股收盤／台積電跌40元拖累！台股收黑210點　4萬6關卡沒守住",
+      "title": "台股連彈後整理，軍工無人機強攻，龍德造船成新焦點",
       "original_title": null,
-      "summary": "重點：美國7月生產者物價指數（PPI）意外持平，進一步緩解市場對聯準會（Fed）9月升息的擔憂，加上國際油價下跌逾2%，帶動美股週四（13日）全面收紅…。",
-      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%94%B6%E7%9B%A4-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%8C40%E5%85%83%E6%8B%96%E7%B4%AF-%E5%8F%B0%E8%82%A1%E6%94%B6%E9%BB%91210%E9%BB%9E-4%E8%90%AC6%E9%97%9C%E5%8D%A1%E6%B2%92%E5%AE%88%E4%BD%8F-055000099.html",
+      "summary": "重點：【財訊快報／黃啟乙】台股短線拉回，指數呈現突破各條均線後再度回測的走勢，其中台積電(2330)在2,400元上下震盪，加上被動元件股出現回檔，令…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%80%A3%E5%BD%88%E5%BE%8C%E6%95%B4%E7%90%86-%E8%BB%8D%E5%B7%A5%E7%84%A1%E4%BA%BA%E6%A9%9F%E5%BC%B7%E6%94%BB-%E9%BE%8D%E5%BE%B7%E9%80%A0%E8%88%B9%E6%88%90%E6%96%B0%E7%84%A6%E9%BB%9E-064433100.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "個股評等》藥華藥取得美ET藥證 法人喊買目標價1775元",
+      "title": "【台股盤後】軍工股飆不敵電子回檔　跌210點終結連4漲",
       "original_title": null,
-      "summary": "重點：[Newtalk新聞] 新藥廠藥華藥（6446）迎來產品與市場拓展新進展，中信投顧最新報告維持「買進」評等，目標價上調至1775元。法人看好藥華…。",
-      "link": "https://tw.news.yahoo.com/%E5%80%8B%E8%82%A1%E8%A9%95%E7%AD%89-%E8%97%A5%E8%8F%AF%E8%97%A5%E5%8F%96%E5%BE%97%E7%BE%8Eet%E8%97%A5%E8%AD%89-%E6%B3%95%E4%BA%BA%E5%96%8A%E8%B2%B7%E7%9B%AE%E6%A8%99%E5%83%B91775%E5%85%83-054127884.html",
+      "summary": "重點：（中央社記者鍾榮峰台北2026年08月14日電）台股今天走勢震盪下挫，儘管軍工股大漲，南亞鎖漲停207.5元激勵塑膠族群漲逾7%，代工廠緯穎、仁…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%9B%A4%E5%BE%8C-%E8%BB%8D%E5%B7%A5%E8%82%A1%E9%A3%86%E4%B8%8D%E6%95%B5%E9%9B%BB%E5%AD%90%E5%9B%9E%E6%AA%94-%E8%B7%8C210%E9%BB%9E%E7%B5%82%E7%B5%90%E9%80%A34%E6%BC%B2-063159934.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "區間震盪整理！台股收跌210.47點　收45811.01點",
+      "title": "軍工股飆不敵電子回檔　台股跌210點終結連4漲",
       "original_title": null,
-      "summary": "重點：台股今（14日）震盪走低，加權指數終場收在45811.01點，下跌210.47點，跌幅0.46%。",
-      "link": "https://tw.news.yahoo.com/%E5%8D%80%E9%96%93%E9%9C%87%E7%9B%AA%E6%95%B4%E7%90%86-%E5%8F%B0%E8%82%A1%E6%94%B6%E8%B7%8C210-47%E9%BB%9E-%E6%94%B645811-01%E9%BB%9E-053500022.html",
+      "summary": "重點：（中央社記者鍾榮峰台北14日電）台股今天走勢震盪下挫，儘管軍工股大漲，南亞鎖漲停207.5元激勵塑膠族群漲逾7%，代工廠緯穎、仁寶強勢，金融翻揚…。",
+      "link": "https://tw.news.yahoo.com/%E8%BB%8D%E5%B7%A5%E8%82%A1%E9%A3%86%E4%B8%8D%E6%95%B5%E9%9B%BB%E5%AD%90%E5%9B%9E%E6%AA%94-%E5%8F%B0%E8%82%A1%E8%B7%8C210%E9%BB%9E%E7%B5%82%E7%B5%90%E9%80%A34%E6%BC%B2-063025591.html",
       "published_at": null,
       "source": "yahoo_news"
     }

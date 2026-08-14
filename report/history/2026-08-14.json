@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-14",
-  "generated_at": "2026-08-14T15:15:21+08:00",
+  "generated_at": "2026-08-14T15:17:51+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4391.1,
-      "change": -29.299999999999272,
-      "change_percent": -0.6628359424486308,
+      "price": 4389.8,
+      "change": -30.599999999999454,
+      "change_percent": -0.6922450456972097,
       "currency": "USD",
-      "market_time": 1786691112,
+      "market_time": 1786691258,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 82.6,
-      "change": 1.3499999999999943,
-      "change_percent": 1.6615384615384545,
+      "price": 82.66,
+      "change": 1.4099999999999966,
+      "change_percent": 1.7353846153846113,
       "currency": "USD",
-      "market_time": 1786691118,
+      "market_time": 1786691267,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 88.34,
-      "change": 1.2700000000000102,
-      "change_percent": 1.45859653152637,
+      "price": 88.36,
+      "change": 1.2900000000000063,
+      "change_percent": 1.4815665556448907,
       "currency": "USD",
-      "market_time": 1786691108,
+      "market_time": 1786691259,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.986,
-      "change": -0.1339999999999968,
-      "change_percent": -0.4171855541718456,
+      "price": 31.996,
+      "change": -0.12399999999999878,
+      "change_percent": -0.38605230386051925,
       "currency": "TWD",
-      "market_time": 1786691721,
+      "market_time": 1786691871,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.968,
-      "change": 0.01159999999999961,
-      "change_percent": 0.2340408360907031,
+      "price": 4.9692,
+      "change": 0.012799999999999478,
+      "change_percent": 0.2582519570656016,
       "currency": "JPY",
-      "market_time": 1786691424,
+      "market_time": 1786691724,
       "source": "yahoo"
     },
     {
@@ -153,9 +153,9 @@
       "group": "taifex",
       "symbol": "WTX&",
       "label": "台指期夜盤",
-      "price": 45794.0,
-      "change": 18.0,
-      "change_percent": 0.04,
+      "price": 45784.0,
+      "change": 28.0,
+      "change_percent": 0.06,
       "source": "yahoo_future"
     },
     {
@@ -194,27 +194,27 @@
       "institutional": [
         {
           "name": "自營商(自行買賣)",
-          "buy": 14066013115,
-          "sell": 10808037054,
-          "net": 3257976061
+          "buy": 11160429833,
+          "sell": 13896418209,
+          "net": -2735988376
         },
         {
           "name": "自營商(避險)",
-          "buy": 41691722620,
-          "sell": 29888947276,
-          "net": 11802775344
+          "buy": 37989612273,
+          "sell": 36914812006,
+          "net": 1074800267
         },
         {
           "name": "投信",
-          "buy": 28305817016,
-          "sell": 29807555301,
-          "net": -1501738285
+          "buy": 26480037999,
+          "sell": 19283718809,
+          "net": 7196319190
         },
         {
           "name": "外資及陸資(不含外資自營商)",
-          "buy": 435459348263,
-          "sell": 359764831688,
-          "net": 75694516575
+          "buy": 427876353162,
+          "sell": 382525022741,
+          "net": 45351330421
         },
         {
           "name": "外資自營商",
@@ -224,9 +224,9 @@
         },
         {
           "name": "合計",
-          "buy": 519522901014,
-          "sell": 430269371319,
-          "net": 89253529695
+          "buy": 503506433267,
+          "sell": 452619971765,
+          "net": 50886461502
         }
       ]
     }
@@ -250,7 +250,7 @@
       "category": "international",
       "title": "Trump ally Nigel Farage wins special election to return to UK parliament",
       "link": "https://www.cnbc.com/2026/08/14/nigel-farage-reform-uk-parliament-re-election.html",
-      "published_at": "2026-08-14T07:08:29+00:00",
+      "published_at": "2026-08-14T07:16:00+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
@@ -398,20 +398,20 @@
     {
       "kind": "news",
       "category": "domestic",
-      "title": "【台股盤後】軍工股飆不敵電子回檔　跌210點終結連4漲",
+      "title": "〈台股盤後〉 開高走低跌210點失守4萬6大關 周線大漲1585點連2紅",
       "original_title": null,
-      "summary": "重點：（中央社記者鍾榮峰台北2026年08月14日電）台股今天走勢震盪下挫，儘管軍工股大漲，南亞鎖漲停207.5元激勵塑膠族群漲逾7%，代工廠緯穎、仁…。",
-      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%9B%A4%E5%BE%8C-%E8%BB%8D%E5%B7%A5%E8%82%A1%E9%A3%86%E4%B8%8D%E6%95%B5%E9%9B%BB%E5%AD%90%E5%9B%9E%E6%AA%94-%E8%B7%8C210%E9%BB%9E%E7%B5%82%E7%B5%90%E9%80%A34%E6%BC%B2-063159934.html",
+      "summary": "重點：台股受權值股、被動元件走弱影響由紅翻黑，盤面上軍工類股、PCB 及 NB 族群表現較佳，最後一盤在權值股賣壓下，下跌 210.47 點，收 45…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%9B%A4%E5%BE%8C-%E9%96%8B%E9%AB%98%E8%B5%B0%E4%BD%8E%E8%B7%8C210%E9%BB%9E%E5%A4%B1%E5%AE%884%E8%90%AC6%E5%A4%A7%E9%97%9C-%E5%91%A8%E7%B7%9A%E5%A4%A7%E6%BC%B21585%E9%BB%9E%E9%80%A32%E7%B4%85-063221242.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "軍工股飆不敵電子回檔　台股跌210點終結連4漲",
+      "title": "【台股盤後】軍工股飆不敵電子回檔　跌210點終結連4漲",
       "original_title": null,
-      "summary": "重點：（中央社記者鍾榮峰台北14日電）台股今天走勢震盪下挫，儘管軍工股大漲，南亞鎖漲停207.5元激勵塑膠族群漲逾7%，代工廠緯穎、仁寶強勢，金融翻揚…。",
-      "link": "https://tw.news.yahoo.com/%E8%BB%8D%E5%B7%A5%E8%82%A1%E9%A3%86%E4%B8%8D%E6%95%B5%E9%9B%BB%E5%AD%90%E5%9B%9E%E6%AA%94-%E5%8F%B0%E8%82%A1%E8%B7%8C210%E9%BB%9E%E7%B5%82%E7%B5%90%E9%80%A34%E6%BC%B2-063025591.html",
+      "summary": "重點：（中央社記者鍾榮峰台北2026年08月14日電）台股今天走勢震盪下挫，儘管軍工股大漲，南亞鎖漲停207.5元激勵塑膠族群漲逾7%，代工廠緯穎、仁…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%9B%A4%E5%BE%8C-%E8%BB%8D%E5%B7%A5%E8%82%A1%E9%A3%86%E4%B8%8D%E6%95%B5%E9%9B%BB%E5%AD%90%E5%9B%9E%E6%AA%94-%E8%B7%8C210%E9%BB%9E%E7%B5%82%E7%B5%90%E9%80%A34%E6%BC%B2-063159934.html",
       "published_at": null,
       "source": "yahoo_news"
     }

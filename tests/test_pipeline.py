@@ -114,8 +114,11 @@ class PipelineTests(unittest.TestCase):
             {"kind": "news", "category": "domestic", "title": "台股標題", "summary": "重點：台股摘要。", "link": "https://example.com/domestic", "source": "yahoo_news"},
         ]
         markdown = render_markdown(build_report([CollectorResult("fixture", records)], self.now, "Asia/Taipei"), "F1台股盤前戰情早報")
-        for heading in ("## 盤前重點摘要", "## 美股指數", "## ADR", "## 黃金原油", "## 匯率", "## 台股昨日", "## 台指期夜盤", "## 台股期貨籌碼變化", "## 台積電大盤影響點數", "## 台股法人買賣動向", "## 國際財經要聞（中文）", "## 台股新聞"):
+        for heading in ("## 盤前重點摘要", "## 美股指數", "## ADR", "## 黃金原油", "## 匯率", "## 台股昨日", "## 台指期夜盤", "## 台股期貨籌碼變化", "## 台積電大盤影響點數", "## 台股法人買賣動向", "## 華南期貨 F1 團隊，帶您快速掌握市場動向。", "## 國際財經要聞（中文）", "## 台股新聞"):
             self.assertIn(heading, markdown)
+        self.assertIn("本團隊已力求數據與資訊正確，如有錯誤，請以官方數據為主", markdown)
+        self.assertLess(markdown.index("## 台股法人買賣動向"), markdown.index("## 華南期貨 F1 團隊，帶您快速掌握市場動向。"))
+        self.assertLess(markdown.index("## 華南期貨 F1 團隊，帶您快速掌握市場動向。"), markdown.index("## 國際財經要聞（中文）"))
         self.assertIn("重點：國際摘要。", markdown)
         self.assertIn("台灣加權：指數 46,021.48｜漲跌 +503.41｜比例 +1.11%", markdown)
         self.assertIn("收盤：46,389", markdown)

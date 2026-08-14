@@ -30,19 +30,32 @@ class _VisibleText(HTMLParser):
 class YahooFutureCollector(Collector):
     name = "yahoo_future"
     url = "https://tw.stock.yahoo.com/quote/WTX%26"
+    quotes = (
+        ("https://tw.stock.yahoo.com/quote/WTX%26", "台指期近一即時行情", "WTX&", "台指期夜盤"),
+        ("https://tw.stock.yahoo.com/quote/WCDF%26", "台積電期貨近一即時行情", "WCDF&", "台積電期貨夜盤"),
+    )
 
     def __init__(self, client: HttpClient) -> None:
         self.client = client
 
     def collect(self) -> CollectorResult:
-        try:
-            record = self._parse(self.client.get_text(self.url))
-        except (OSError, ValueError) as exc:
-            return CollectorResult(self.name, error=f"{type(exc).__name__}: Yahoo 台指期讀取失敗")
-        return CollectorResult(self.name, [record])
+        records: list[dict[str, object]] = []
+        errors: list[str] = []
+        for url, title, symbol, label in self.quotes:
+            try:
+                records.append(self._parse(self.client.get_text(url), title, symbol, label))
+            except (OSError, ValueError) as exc:
+                errors.append(f"{symbol}: {type(exc).__name__}")
+        return CollectorResult(self.name, records, "; ".join(errors) or None)
 
     @classmethod
-    def _parse(cls, page: str) -> dict[str, object]:
+    def _parse(
+        cls,
+        page: str,
+        title: str = "台指期近一即時行情",
+        symbol: str = "WTX&",
+        label: str = "台指期夜盤",
+    ) -> dict[str, object]:
         parser = _VisibleText()
         parser.feed(page)
         values = parser.values
@@ -52,7 +65,7 @@ class YahooFutureCollector(Collector):
             raise ValueError("Yahoo quote has entered the regular session")
 
         def after(label: str) -> str:
-            start = values.index("台指期近一即時行情")
+            start = values.index(title)
             index = values.index(label, start)
             return values[index + 1]
 
@@ -62,8 +75,8 @@ class YahooFutureCollector(Collector):
         if price is None or change is None or percent is None:
             raise ValueError("missing Yahoo future quote")
         return {
-            "kind": "market", "group": "taifex", "symbol": "WTX&",
-            "label": "台指期夜盤", "price": price, "change": change,
+            "kind": "market", "group": "taifex", "symbol": symbol,
+            "label": label, "price": price, "change": change,
             "change_percent": percent, "source": cls.name,
         }
 

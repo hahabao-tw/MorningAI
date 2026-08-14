@@ -63,8 +63,8 @@ class YahooFutureCollector(Collector):
         if update and not update.startswith("收盤"):
             raise ValueError("Yahoo quote is not closed")
         time_match = re.search(r" (\d{2}):(\d{2}) 更新", update)
-        if time_match and 5 <= int(time_match.group(1)) < 15:
-            raise ValueError("Yahoo quote has entered the regular session")
+        if time_match and (int(time_match.group(1)), int(time_match.group(2))) > (5, 0):
+            raise ValueError("Yahoo quote is outside the completed night session")
 
         def after(label: str) -> str:
             start = values.index(title)

@@ -95,7 +95,7 @@
       "label": "黃金",
       "price": 4401.8,
       "change": 40.0,
-      "change_percent": 0.9170525929662064,
+      "change_percent": 0.7970525929662064,
       "currency": "USD",
       "market_time": 1786667698,
       "source": "yahoo"
@@ -173,9 +173,9 @@
       "group": "taifex",
       "symbol": "WTX&",
       "label": "台指期夜盤",
-      "price": 46442.0,
-      "change": 417.0,
-      "change_percent": 0.91,
+      "price": 46389.0,
+      "change": 364.0,
+      "change_percent": 0.79,
       "source": "yahoo_future"
     }
   ],

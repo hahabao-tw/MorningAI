@@ -12,9 +12,9 @@ class MorningReport:
     timezone: str
     markets: list[dict[str, Any]] = field(default_factory=list)
     taiwan_market: list[dict[str, Any]] = field(default_factory=list)
+    chips: list[dict[str, Any]] = field(default_factory=list)
     news: list[dict[str, Any]] = field(default_factory=list)
     source_status: list[dict[str, Any]] = field(default_factory=list)
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
-

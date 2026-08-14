@@ -179,8 +179,8 @@ class PipelineTests(unittest.TestCase):
             YahooFutureCollector._parse(page)
 
     def test_yahoo_future_parser_rejects_active_night_session_quote(self) -> None:
-        page = "<div>盤中 | 2026/08/14 17:30 更新</div><h2>台指期近一即時行情</h2><div>成交</div><div>45,794.00</div><div>漲跌幅</div><div>0.04%</div><div>漲跌</div><div>18.00</div>"
-        with self.assertRaisesRegex(ValueError, "not closed"):
+        page = "<div>收盤 | 2026/08/14 17:30 更新</div><h2>台指期近一即時行情</h2><div>成交</div><div>45,794.00</div><div>漲跌幅</div><div>0.04%</div><div>漲跌</div><div>18.00</div>"
+        with self.assertRaisesRegex(ValueError, "outside the completed night session"):
             YahooFutureCollector._parse(page)
 
     def test_yahoo_future_parser_reads_tsmc_night_quote(self) -> None:

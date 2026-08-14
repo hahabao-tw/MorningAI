@@ -20,7 +20,7 @@ class YahooMarketCollector(Collector):
         for symbol, label in self.symbols.items():
             try:
                 encoded = urllib.parse.quote(symbol, safe="")
-                url = f"https://query1.finance.yahoo.com/v8/finance/chart/{encoded}?range=5d&interval=1d"
+                url = f"https://query1.finance.yahoo.com/v8/finance/chart/{encoded}?range=1d&interval=1d"
                 payload = self.client.get_json(url)
                 result = payload["chart"]["result"][0]
                 meta = result["meta"]

@@ -125,9 +125,14 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(records[1]["price"], 406.12)
 
     def test_yahoo_future_parser_reads_visible_quote(self) -> None:
-        page = "<h2>台指期近一即時行情</h2><div>成交</div><div>46,389.00</div><div>漲跌幅</div><div>0.79%</div><div>漲跌</div><div>364.00</div>"
+        page = "<div>收盤 | 2026/08/14 04:59 更新</div><h2>台指期近一即時行情</h2><div>成交</div><div>46,389.00</div><div>漲跌幅</div><div>0.79%</div><div>漲跌</div><div>364.00</div>"
         record = YahooFutureCollector._parse(page)
         self.assertEqual((record["price"], record["change"], record["change_percent"]), (46389, 364, 0.79))
+
+    def test_yahoo_future_parser_rejects_regular_session_quote(self) -> None:
+        page = "<div>盤中 | 2026/08/14 08:46 更新</div><h2>台指期近一即時行情</h2><div>成交</div><div>46,442.00</div><div>漲跌幅</div><div>0.91%</div><div>漲跌</div><div>417.00</div>"
+        with self.assertRaisesRegex(ValueError, "regular session"):
+            YahooFutureCollector._parse(page)
 
     def test_dashboard_collector_maps_requested_chip_fields(self) -> None:
         class Client:

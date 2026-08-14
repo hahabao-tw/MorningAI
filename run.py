@@ -74,8 +74,9 @@ def collectors(config: dict, now: datetime) -> list[Collector]:
     if enabled.get("mops_enabled", False):
         items.append(MopsCollector())
     if enabled.get("stockq_enabled", False):
-        local_date = now.astimezone(ZoneInfo(config["report"]["timezone"])).date()
-        items.append(StockQCollector(client, local_date))
+        local_now = now.astimezone(ZoneInfo(config["report"]["timezone"]))
+        before_open = (local_now.hour, local_now.minute) < (8, 30)
+        items.append(StockQCollector(client, local_now.date(), before_open))
     if enabled.get("yahoo_future_enabled", False):
         items.append(YahooFutureCollector(client))
     if enabled.get("market_dashboard_enabled", False):

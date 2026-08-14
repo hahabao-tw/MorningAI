@@ -112,6 +112,13 @@ def render_markdown(report: MorningReport, title: str) -> str:
     else:
         lines.append("- 資料不足")
 
+    lines.extend([
+        "",
+        "## 華南期貨 F1 團隊，帶您快速掌握市場動向。",
+        "",
+        "本團隊已力求數據與資訊正確，如有錯誤，請以官方數據為主",
+    ])
+
     lines.extend(_news_section(report, "international", "國際財經要聞（中文）"))
     lines.extend(_news_section(report, "domestic", "台股新聞"))
     lines.append("")

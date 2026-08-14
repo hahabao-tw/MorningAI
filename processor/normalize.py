@@ -20,6 +20,8 @@ def build_report(results: list[CollectorResult], now: datetime, timezone_name: s
                 report.markets.append(record)
             elif kind == "twse_summary":
                 report.taiwan_market.append(record)
+            elif kind == "chips":
+                report.chips.append(record)
             elif kind == "news":
                 key = (str(record.get("title", "")), str(record.get("link", "")))
                 if key not in seen_news:
@@ -27,4 +29,3 @@ def build_report(results: list[CollectorResult], now: datetime, timezone_name: s
                     report.news.append(record)
     report.news.sort(key=lambda item: str(item.get("published_at") or ""), reverse=True)
     return report
-

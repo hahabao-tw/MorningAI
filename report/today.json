@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-14",
-  "generated_at": "2026-08-14T13:57:58+08:00",
+  "generated_at": "2026-08-14T14:04:39+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4376.1,
-      "change": -44.29999999999927,
-      "change_percent": -1.0021717491629551,
+      "price": 4384.2,
+      "change": -36.19999999999982,
+      "change_percent": -0.8189304135372324,
       "currency": "USD",
-      "market_time": 1786686476,
+      "market_time": 1786686875,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 81.57,
-      "change": 0.3199999999999932,
-      "change_percent": 0.3938461538461454,
+      "price": 81.73,
+      "change": 0.480000000000004,
+      "change_percent": 0.5907692307692357,
       "currency": "USD",
-      "market_time": 1786686475,
+      "market_time": 1786686879,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 87.37,
-      "change": 0.30000000000001137,
-      "change_percent": 0.34455036177789294,
+      "price": 87.47,
+      "change": 0.4000000000000057,
+      "change_percent": 0.45940048237051306,
       "currency": "USD",
-      "market_time": 1786686361,
+      "market_time": 1786686777,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.966,
-      "change": -0.15399999999999636,
-      "change_percent": -0.4794520547945093,
+      "price": 31.949,
+      "change": -0.17099999999999582,
+      "change_percent": -0.5323785803237728,
       "currency": "TWD",
-      "market_time": 1786687077,
+      "market_time": 1786687478,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.975,
-      "change": 0.018599999999999284,
-      "change_percent": 0.3752723751109532,
+      "price": 4.9757,
+      "change": 0.01929999999999943,
+      "change_percent": 0.38939552901298174,
       "currency": "JPY",
-      "market_time": 1786686923,
+      "market_time": 1786687223,
       "source": "yahoo"
     },
     {
@@ -378,6 +378,16 @@
     {
       "kind": "news",
       "category": "domestic",
+      "title": "台積電一句「為什麼不出貨？」讓林恩平下定決心！大立光300天急行軍搶攻CPO幕後",
+      "original_title": null,
+      "summary": "重點：昔日股王大立光行事向來低調，但近來在市場熱度升高，外界好奇台灣這家光學巨擘面對手機市場成長停滯，董事長林恩平如何創造新的成長曲線，大立光的一舉一…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%B8%80%E5%8F%A5%E3%80%8C%E7%82%BA%E4%BB%80%E9%BA%BC%E4%B8%8D%E5%87%BA%E8%B2%A8%EF%BC%9F%E3%80%8D%E8%AE%93%E6%9E%97%E6%81%A9%E5%B9%B3%E4%B8%8B%E5%AE%9A%E6%B1%BA%E5%BF%83%EF%BC%81%E5%A4%A7%E7%AB%8B%E5%85%89300%E5%A4%A9%E6%80%A5%E8%A1%8C%E8%BB%8D%E6%90%B6%E6%94%BBcpo%E5%B9%95%E5%BE%8C-060120270.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
       "title": "台股收盤／台積電跌40元拖累！台股收黑210點　4萬6關卡沒守住",
       "original_title": null,
       "summary": "重點：美國7月生產者物價指數（PPI）意外持平，進一步緩解市場對聯準會（Fed）9月升息的擔憂，加上國際油價下跌逾2%，帶動美股週四（13日）全面收紅…。",
@@ -388,30 +398,20 @@
     {
       "kind": "news",
       "category": "domestic",
+      "title": "個股評等》藥華藥取得美ET藥證 法人喊買目標價1775元",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 新藥廠藥華藥（6446）迎來產品與市場拓展新進展，中信投顧最新報告維持「買進」評等，目標價上調至1775元。法人看好藥華…。",
+      "link": "https://tw.news.yahoo.com/%E5%80%8B%E8%82%A1%E8%A9%95%E7%AD%89-%E8%97%A5%E8%8F%AF%E8%97%A5%E5%8F%96%E5%BE%97%E7%BE%8Eet%E8%97%A5%E8%AD%89-%E6%B3%95%E4%BA%BA%E5%96%8A%E8%B2%B7%E7%9B%AE%E6%A8%99%E5%83%B91775%E5%85%83-054127884.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
       "title": "區間震盪整理！台股收跌210.47點　收45811.01點",
       "original_title": null,
       "summary": "重點：台股今（14日）震盪走低，加權指數終場收在45811.01點，下跌210.47點，跌幅0.46%。",
       "link": "https://tw.news.yahoo.com/%E5%8D%80%E9%96%93%E9%9C%87%E7%9B%AA%E6%95%B4%E7%90%86-%E5%8F%B0%E8%82%A1%E6%94%B6%E8%B7%8C210-47%E9%BB%9E-%E6%94%B645811-01%E9%BB%9E-053500022.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "台股衝破46400點！老AI、記憶體全面爆發",
-      "original_title": null,
-      "summary": "重點：[NOWNEWS今日新聞]台股今（14）日延續多頭氣勢，在美國7月PPI低於預期、原油價格回落，市場對聯準會9月升息的疑慮進一步降溫，加上美股四…。",
-      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E8%A1%9D%E7%A0%B446400%E9%BB%9E-%E8%80%81ai-%E8%A8%98%E6%86%B6%E9%AB%94%E5%85%A8%E9%9D%A2%E7%88%86%E7%99%BC-014120086.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "個股評等》智伸科半導體占比破2成！UQD拉貨重啟、法人喊買目標225元",
-      "original_title": null,
-      "summary": "重點：[Newtalk新聞] 汽車零組件廠智伸科（4551）迎來產品組合持續優化，中信投顧最新報告給予「買進」評等，目標價上看225元。法人看好半導體…。",
-      "link": "https://tw.news.yahoo.com/%E5%80%8B%E8%82%A1%E8%A9%95%E7%AD%89-%E6%99%BA%E4%BC%B8%E7%A7%91%E5%8D%8A%E5%B0%8E%E9%AB%94%E5%8D%A0%E6%AF%94%E7%A0%B42%E6%88%90-uqd%E6%8B%89%E8%B2%A8%E9%87%8D%E5%95%9F-%E6%B3%95%E4%BA%BA%E5%96%8A%E8%B2%B7%E7%9B%AE%E6%A8%99225%E5%85%83-051043200.html",
       "published_at": null,
       "source": "yahoo_news"
     }

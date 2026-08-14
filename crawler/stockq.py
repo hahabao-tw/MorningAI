@@ -12,9 +12,10 @@ class StockQCollector(Collector):
     url = "https://www.stockq.org/"
     targets = (("TWSE.php", "台灣加權"), ("TWOTCI.php", "台灣櫃買"))
 
-    def __init__(self, client: HttpClient, today: date) -> None:
+    def __init__(self, client: HttpClient, today: date, before_open: bool = True) -> None:
         self.client = client
         self.today = today
+        self.before_open = before_open
 
     def collect(self) -> CollectorResult:
         try:
@@ -23,6 +24,8 @@ class StockQCollector(Collector):
             return CollectorResult(self.name, error=f"{type(exc).__name__}: StockQ 讀取失敗")
         current = self.today.strftime("%m/%d")
         records = [record for record in records if record.get("date") != current]
+        if not self.before_open:
+            records = []
         return CollectorResult(self.name, records) if len(records) == 2 else CollectorResult(self.name, records, "尚無前一交易日完整指數")
 
     @classmethod

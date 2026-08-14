@@ -107,17 +107,19 @@ class PipelineTests(unittest.TestCase):
             {"kind": "market", "group": "taiwan_indices", "label": "台灣加權", "price": 46021.48, "change": 503.41, "change_percent": 1.11},
             {"kind": "market", "group": "taiwan_indices", "label": "台灣櫃買", "price": 406.12, "change": 4.10, "change_percent": 1.02},
             {"kind": "market", "group": "taifex", "label": "台指期夜盤", "price": 46389, "change": 364, "change_percent": 0.79, "source": "yahoo_future"},
+            {"kind": "market", "group": "taifex", "symbol": "WCDF&", "label": "台積電期貨夜盤", "price": 2428, "change": 18, "change_percent": 0.75, "source": "yahoo_future"},
             {"kind": "twse_summary", "index": 45000, "change": 100, "turnover": 858_700_000_000, "institutional": [{"name": "外資", "net": 11_020_000_000}]},
             {"kind": "chips", "foreign_tx_net": -86249, "trust_tx_net": 82327, "mtx_retail_ratio": 22.9, "tmf_retail_ratio": 15.58, "options_pc_ratio": 112.03, "tsmc_impact": 8.463},
             {"kind": "news", "category": "international", "title": "國際財經標題", "summary": "重點：國際摘要。", "source": "yahoo_news"},
             {"kind": "news", "category": "domestic", "title": "台股標題", "summary": "重點：台股摘要。", "source": "yahoo_news"},
         ]
         markdown = render_markdown(build_report([CollectorResult("fixture", records)], self.now, "Asia/Taipei"), "F1台股盤前戰情早報")
-        for heading in ("## 盤前重點摘要", "## 美股指數", "## ADR", "## 黃金原油", "## 匯率", "## 台股昨日", "## 台指期夜盤", "## 臺股期貨籌碼", "## 台積電大盤影響點數", "## 法人買賣超", "## 國際財經要聞（中文）", "## 台股新聞"):
+        for heading in ("## 盤前重點摘要", "## 美股指數", "## ADR", "## 黃金原油", "## 匯率", "## 台股昨日", "## 台指期夜盤", "## 台股期貨籌碼變化", "## 台積電大盤影響點數", "## 台股法人買賣動向", "## 國際財經要聞（中文）", "## 台股新聞"):
             self.assertIn(heading, markdown)
         self.assertIn("重點：國際摘要。", markdown)
         self.assertIn("台灣加權：指數 46,021.48｜漲跌 +503.41｜比例 +1.11%", markdown)
         self.assertIn("收盤：46,389.00", markdown)
+        self.assertIn("台積電期貨夜盤收盤：2,428.00", markdown)
         self.assertNotIn("成交量：", markdown)
         self.assertIn("外資大台淨OI(口)：-86,249", markdown)
         self.assertIn("台積電每跳 1 元：約影響 8.463 點", markdown)
@@ -168,19 +170,27 @@ class PipelineTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "regular session"):
             YahooFutureCollector._parse(page)
 
+    def test_yahoo_future_parser_reads_tsmc_night_quote(self) -> None:
+        page = "<div>收盤 | 2026/08/14 04:59 更新</div><h2>台積電期貨近一即時行情</h2><div>成交</div><div>2,428</div><div>漲跌幅</div><div>0.75%</div><div>漲跌</div><div>18.00</div>"
+        record = YahooFutureCollector._parse(page, "台積電期貨近一即時行情", "WCDF&", "台積電期貨夜盤")
+        self.assertEqual(record["symbol"], "WCDF&")
+        self.assertEqual(record["price"], 2428)
+
     def test_same_day_rerun_reuses_saved_market_snapshots(self) -> None:
         report = build_report([], self.now, "Asia/Taipei")
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             payload = {"report_date": "2026-08-13", "markets": [
-                {"group": "taifex", "source": "yahoo_future", "price": 46389},
+                {"group": "taifex", "source": "yahoo_future", "symbol": "WTX&", "price": 46389},
+                {"group": "taifex", "source": "yahoo_future", "symbol": "WCDF&", "price": 2428},
                 {"group": "taiwan_indices", "source": "stockq", "label": "台灣加權", "price": 46021.48},
                 {"group": "taiwan_indices", "source": "stockq", "label": "台灣櫃買", "price": 406.12},
             ]}
             (root / "today.json").write_text(json.dumps(payload), encoding="utf-8")
             reuse_same_day_market_snapshots(report, root)
         self.assertEqual(report.markets[0]["price"], 46389)
-        self.assertEqual([item["price"] for item in report.markets[1:]], [46021.48, 406.12])
+        self.assertEqual(report.markets[1]["price"], 2428)
+        self.assertEqual([item["price"] for item in report.markets[2:]], [46021.48, 406.12])
 
     def test_cross_day_rerun_does_not_reuse_stale_night_quote(self) -> None:
         report = build_report([], self.now, "Asia/Taipei")

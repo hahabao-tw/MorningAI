@@ -24,27 +24,6 @@ def _market_line(item: dict[str, object]) -> str:
     )
 
 
-def _briefing(report: MorningReport) -> list[str]:
-    lines: list[str] = []
-    indices = [item for item in report.markets if item.get("group") == "indices" and item.get("change_percent") is not None]
-    if indices:
-        best = max(indices, key=lambda item: float(item["change_percent"]))
-        worst = min(indices, key=lambda item: float(item["change_percent"]))
-        lines.append(f"美股指數強弱分歧，{best['label']} {_signed(best['change_percent'], '%')}，{worst['label']} {_signed(worst['change_percent'], '%')}。")
-    adrs = [item for item in report.markets if item.get("group") == "adr" and item.get("change_percent") is not None]
-    if adrs:
-        leader = max(adrs, key=lambda item: float(item["change_percent"]))
-        lines.append(f"台灣 ADR 以{leader['label']}表現最強，漲跌幅 {_signed(leader['change_percent'], '%')}。")
-    if report.taiwan_market:
-        market = report.taiwan_market[0]
-        lines.append(f"台股最近交易日收 {_number(market.get('index'))} 點，漲跌 {_signed(market.get('change'))} 點。")
-    preferred_news = [item for item in report.news if item.get("source") == "yahoo_news"]
-    headlines = [item.get("title") for item in (preferred_news or report.news) if item.get("category") in {"international", "domestic"}]
-    if headlines:
-        lines.append("新聞焦點涵蓋：" + "；".join(str(title) for title in headlines[:2]) + "。")
-    return lines or ["目前可用資料有限，請查看各區塊內容。"]
-
-
 def _news_section(report: MorningReport, category: str, heading: str) -> list[str]:
     lines = ["", f"## {heading}", ""]
     items = [item for item in report.news if item.get("category") == category]
@@ -57,7 +36,7 @@ def _news_section(report: MorningReport, category: str, heading: str) -> list[st
         return lines + ["1. 資料不足"]
     for index, item in enumerate(items[:5], 1):
         title = str(item.get("title", "")).replace("[", "\\[").replace("]", "\\]")
-        link = item.get("link")
+        link = item.get("link") if category != "international" else None
         lines.append(f"{index}. [{title}]({link})" if link else f"{index}. {title}")
         if item.get("summary"):
             lines.append(f"   - {item['summary']}")
@@ -65,8 +44,7 @@ def _news_section(report: MorningReport, category: str, heading: str) -> list[st
 
 
 def render_markdown(report: MorningReport, title: str) -> str:
-    lines = [f"# {title}", "", f"日期：{report.report_date}", f"更新：{report.generated_at}", "", "## 盤前重點摘要", ""]
-    lines.extend(f"- {item}" for item in _briefing(report))
+    lines = [f"# {title}", "", f"日期：{report.report_date}", "", "## 盤前重點摘要", ""]
 
     lines.extend(["", "## 美股指數", ""])
     indices = {str(item.get("label")): item for item in report.markets if item.get("group") == "indices"}
@@ -84,27 +62,43 @@ def render_markdown(report: MorningReport, title: str) -> str:
             lines.append("- 資料不足")
 
     lines.extend(["", "## 台股昨日", ""])
-    if report.taiwan_market:
-        item = report.taiwan_market[0]
-        turnover = item.get("turnover")
-        lines.extend([
-            f"- 加權指數：{_number(item.get('index'))}",
-            f"- 漲跌：{_signed(item.get('change'))}",
-            f"- 成交金額：{_number(None if turnover is None else float(turnover) / 100_000_000)} 億元",
-        ])
+    taiwan_indices = [item for item in report.markets if item.get("group") == "taiwan_indices"]
+    if taiwan_indices:
+        for item in taiwan_indices:
+            lines.append(
+                f"- {item.get('label')}：指數 {_number(item.get('price'))}｜"
+                f"漲跌 {_signed(item.get('change'))}｜比例 {_signed(item.get('change_percent'), '%')}"
+            )
     else:
         lines.append("- 資料不足")
 
     lines.extend(["", "## 台指期夜盤", ""])
-    futures = [item for item in report.markets if item.get("group") == "taifex"]
+    futures = [item for item in report.markets if item.get("group") == "taifex" and item.get("source") == "yahoo_future"]
     if futures:
         item = futures[0]
         lines.extend([
-            f"- 最近月：{item.get('contract_month') or '資料不足'}",
             f"- 收盤：{_number(item.get('price'))}",
             f"- 漲跌：{_signed(item.get('change'))}（{_signed(item.get('change_percent'), '%')}）",
-            f"- 成交量：{_number(item.get('volume'), 0)} 口",
         ])
+    else:
+        lines.append("- 資料不足")
+
+    lines.extend(["", "## 臺股期貨籌碼", ""])
+    if report.chips:
+        chip = report.chips[0]
+        lines.extend([
+            f"- 外資大台淨OI(口)：{_signed(chip.get('foreign_tx_net')).replace('.00', '')}",
+            f"- 投信大台淨OI(口)：{_signed(chip.get('trust_tx_net')).replace('.00', '')}",
+            f"- 小台散戶多空比：{_signed(chip.get('mtx_retail_ratio'), '%')}",
+            f"- 微台散戶多空比：{_signed(chip.get('tmf_retail_ratio'), '%')}",
+            f"- 淨臺指選擇權 P/C 比：{_number(chip.get('options_pc_ratio'))}%",
+        ])
+    else:
+        lines.append("- 資料不足")
+
+    lines.extend(["", "## 台積電大盤影響點數", ""])
+    if report.chips:
+        lines.append(f"- 台積電每跳 1 元：約影響 {_number(report.chips[0].get('tsmc_impact'), 3)} 點")
     else:
         lines.append("- 資料不足")
 

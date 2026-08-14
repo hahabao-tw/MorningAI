@@ -1,419 +1,419 @@
 {
-    "schema_version":  1,
-    "report_date":  "2026-08-14",
-    "generated_at":  "2026-08-14T10:56:55+08:00",
-    "timezone":  "Asia/Taipei",
-    "markets":  [
-                    {
-                        "kind":  "market",
-                        "group":  "indices",
-                        "symbol":  "^IXIC",
-                        "label":  "NASDAQ",
-                        "price":  26803.025,
-                        "change":  454.6750000000029,
-                        "change_percent":  1.7256298781517738,
-                        "currency":  "USD",
-                        "market_time":  1786655759,
-                        "source":  "yahoo"
-                    },
-                    {
-                        "kind":  "market",
-                        "group":  "indices",
-                        "symbol":  "^SOX",
-                        "label":  "費城半導體",
-                        "price":  12455.998,
-                        "change":  407.3079999999991,
-                        "change_percent":  3.3805168860681043,
-                        "currency":  "USD",
-                        "market_time":  1786655759,
-                        "source":  "yahoo"
-                    },
-                    {
-                        "kind":  "market",
-                        "group":  "indices",
-                        "symbol":  "^GSPC",
-                        "label":  "S\u0026P 500",
-                        "price":  7798.99,
-                        "change":  89.02999999999975,
-                        "change_percent":  1.1547401024129793,
-                        "currency":  "USD",
-                        "market_time":  1786653303,
-                        "source":  "yahoo"
-                    },
-                    {
-                        "kind":  "market",
-                        "group":  "indices",
-                        "symbol":  "^DJI",
-                        "label":  "道瓊指數",
-                        "price":  53839.99,
-                        "change":  -45.11000000000058,
-                        "change_percent":  -0.08371516430330571,
-                        "currency":  "USD",
-                        "market_time":  1786653574,
-                        "source":  "yahoo"
-                    },
-                    {
-                        "kind":  "market",
-                        "group":  "adr",
-                        "symbol":  "TSM",
-                        "label":  "台積電 ADR",
-                        "price":  430.49,
-                        "change":  12.29000000000002,
-                        "change_percent":  2.9387852702056483,
-                        "currency":  "USD",
-                        "market_time":  1786651202,
-                        "source":  "yahoo"
-                    },
-                    {
-                        "kind":  "market",
-                        "group":  "adr",
-                        "symbol":  "UMC",
-                        "label":  "聯電 ADR",
-                        "price":  19.38,
-                        "change":  0.17999999999999972,
-                        "change_percent":  0.9374999999999986,
-                        "currency":  "USD",
-                        "market_time":  1786651202,
-                        "source":  "yahoo"
-                    },
-                    {
-                        "kind":  "market",
-                        "group":  "adr",
-                        "symbol":  "ASX",
-                        "label":  "日月光 ADR",
-                        "price":  39.64,
-                        "change":  2.3900000000000006,
-                        "change_percent":  6.416107382550337,
-                        "currency":  "USD",
-                        "market_time":  1786651203,
-                        "source":  "yahoo"
-                    },
-                    {
-                        "kind":  "market",
-                        "group":  "commodities",
-                        "symbol":  "GC=F",
-                        "label":  "黃金",
-                        "price":  4375.1,
-                        "change":  13.300000000000182,
-                        "change_percent":  0.30491998716126784,
-                        "currency":  "USD",
-                        "market_time":  1786675612,
-                        "source":  "yahoo"
-                    },
-                    {
-                        "kind":  "market",
-                        "group":  "commodities",
-                        "symbol":  "CL=F",
-                        "label":  "WTI 原油",
-                        "price":  81.32,
-                        "change":  -0.8100000000000023,
-                        "change_percent":  -0.9862413247290909,
-                        "currency":  "USD",
-                        "market_time":  1786675615,
-                        "source":  "yahoo"
-                    },
-                    {
-                        "kind":  "market",
-                        "group":  "commodities",
-                        "symbol":  "BZ=F",
-                        "label":  "布蘭特原油",
-                        "price":  87.12,
-                        "change":  -0.5999999999999943,
-                        "change_percent":  -0.6839945280437693,
-                        "currency":  "USD",
-                        "market_time":  1786675562,
-                        "source":  "yahoo"
-                    },
-                    {
-                        "kind":  "market",
-                        "group":  "fx",
-                        "symbol":  "TWD=X",
-                        "label":  "USD/TWD",
-                        "price":  31.976,
-                        "change":  -0.25910000000000366,
-                        "change_percent":  -0.8037822125571307,
-                        "currency":  "TWD",
-                        "market_time":  1786676216,
-                        "source":  "yahoo"
-                    },
-                    {
-                        "kind":  "market",
-                        "group":  "fx",
-                        "symbol":  "TWDJPY=X",
-                        "label":  "TWD/JPY",
-                        "price":  4.9761,
-                        "change":  0.08059999999999956,
-                        "change_percent":  1.6464099683382607,
-                        "currency":  "JPY",
-                        "market_time":  1786676124,
-                        "source":  "yahoo"
-                    },
-                    {
-                        "kind":  "market",
-                        "group":  "taiwan_indices",
-                        "symbol":  "TWSE.php",
-                        "label":  "台灣加權",
-                        "price":  46021.48,
-                        "change":  503.41,
-                        "change_percent":  1.11,
-                        "source":  "stockq",
-                        "date":  null
-                    },
-                    {
-                        "kind":  "market",
-                        "group":  "taiwan_indices",
-                        "symbol":  "TWOTCI.php",
-                        "label":  "台灣櫃買",
-                        "price":  406.12,
-                        "change":  4.1,
-                        "change_percent":  1.02,
-                        "source":  "stockq",
-                        "date":  null
-                    },
-                    {
-                        "kind":  "market",
-                        "group":  "taifex",
-                        "symbol":  "WTX\u0026",
-                        "label":  "台指期夜盤",
-                        "price":  46389.0,
-                        "change":  364.0,
-                        "change_percent":  0.79,
-                        "source":  "yahoo_future"
-                    }
-                ],
-    "taiwan_market":  [
-                          {
-                              "kind":  "twse_summary",
-                              "date":  "115/08/13",
-                              "volume":  11492166298,
-                              "turnover":  1104024642159,
-                              "transactions":  5240402,
-                              "index":  46021.48,
-                              "change":  503.41,
-                              "source":  "twse",
-                              "institutional":  [
-                                                    {
-                                                        "name":  "自營商(自行買賣)",
-                                                        "buy":  14066013115,
-                                                        "sell":  10808037054,
-                                                        "net":  3257976061
-                                                    },
-                                                    {
-                                                        "name":  "自營商(避險)",
-                                                        "buy":  41691722620,
-                                                        "sell":  29888947276,
-                                                        "net":  11802775344
-                                                    },
-                                                    {
-                                                        "name":  "投信",
-                                                        "buy":  28305817016,
-                                                        "sell":  29807555301,
-                                                        "net":  -1501738285
-                                                    },
-                                                    {
-                                                        "name":  "外資及陸資(不含外資自營商)",
-                                                        "buy":  435459348263,
-                                                        "sell":  359764831688,
-                                                        "net":  75694516575
-                                                    },
-                                                    {
-                                                        "name":  "外資自營商",
-                                                        "buy":  0,
-                                                        "sell":  0,
-                                                        "net":  0
-                                                    },
-                                                    {
-                                                        "name":  "合計",
-                                                        "buy":  519522901014,
-                                                        "sell":  430269371319,
-                                                        "net":  89253529695
-                                                    }
-                                                ]
-                          }
-                      ],
-    "chips":  [
-                  {
-                      "kind":  "chips",
-                      "date":  "2026-08-13",
-                      "foreign_tx_net":  -86249,
-                      "trust_tx_net":  82327,
-                      "mtx_retail_ratio":  22.9,
-                      "tmf_retail_ratio":  15.58,
-                      "options_pc_ratio":  112.03,
-                      "tsmc_impact":  8.463,
-                      "source":  "market_dashboard"
-                  }
-              ],
-    "news":  [
-                 {
-                     "kind":  "news",
-                     "category":  "international",
-                     "title":  "U.S. to use economic tactics on Iran \u0027that have never been seen\u0027; Navy works to relieve troubled carrier USS Abraham Lincoln",
-                     "link":  "https://www.cnbc.com/2026/08/14/us-iran-war-trump-hormuz-carrier-abraham-lincoln-george-washington.html",
-                     "published_at":  "2026-08-14T01:52:07+00:00",
-                     "feed":  "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-                     "source":  "rss"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "international",
-                     "title":  "CNBC Daily Open: An \u0027indefinite\u0027 war, and a record-breaking rally",
-                     "link":  "https://www.cnbc.com/2026/08/14/us-iran-war-hormuz-ai-south-korea-openai-anthropic-meta-.html",
-                     "published_at":  "2026-08-14T01:38:34+00:00",
-                     "feed":  "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-                     "source":  "rss"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "international",
-                     "title":  "Uber partners with China\u0027s Pony.ai for 2,000 robotaxis in Europe",
-                     "link":  "https://www.cnbc.com/2026/08/14/uber-partners-with-chinas-ponyai-for-2000-robotaxis-in-europe.html",
-                     "published_at":  "2026-08-14T01:02:39+00:00",
-                     "feed":  "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-                     "source":  "rss"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "international",
-                     "title":  "From Apple to Ford: How Chinese tech is becoming harder for global companies to ignore",
-                     "link":  "https://www.cnbc.com/2026/08/14/china-tech-global-appeal-apple-ford-catl-deepseek.html",
-                     "published_at":  "2026-08-14T00:09:11+00:00",
-                     "feed":  "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-                     "source":  "rss"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "international",
-                     "title":  "I got an £89 refund – how to cancel and  avoid unwanted subscriptions",
-                     "link":  "https://www.bbc.co.uk/news/articles/ckg6x3n5erpo?at_medium=RSS\u0026at_campaign=rss",
-                     "published_at":  "2026-08-13T23:03:07+00:00",
-                     "feed":  "https://feeds.bbci.co.uk/news/business/rss.xml",
-                     "source":  "rss"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "international",
-                     "title":  "\u0027I lost $14,000 in a month\u0027: Investors hit by Korean stock market\u0027s wild swings",
-                     "link":  "https://www.bbc.co.uk/news/articles/c2k7zj4knwlo?at_medium=RSS\u0026at_campaign=rss",
-                     "published_at":  "2026-08-13T22:00:10+00:00",
-                     "feed":  "https://feeds.bbci.co.uk/news/business/rss.xml",
-                     "source":  "rss"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "international",
-                     "title":  "Harvey Nichols bought by owner of Sports Direct",
-                     "link":  "https://www.bbc.co.uk/news/articles/cd69p89gl6xo?at_medium=RSS\u0026at_campaign=rss",
-                     "published_at":  "2026-08-13T14:27:43+00:00",
-                     "feed":  "https://feeds.bbci.co.uk/news/business/rss.xml",
-                     "source":  "rss"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "international",
-                     "title":  "Water bills set to rise for many after firms permitted extra funding",
-                     "link":  "https://www.bbc.co.uk/news/articles/cx2j1j5ypjdo?at_medium=RSS\u0026at_campaign=rss",
-                     "published_at":  "2026-08-13T13:38:30+00:00",
-                     "feed":  "https://feeds.bbci.co.uk/news/business/rss.xml",
-                     "source":  "rss"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "international",
-                     "title":  "Flock boss admits surveillance firm took too long to act over police abuse",
-                     "link":  "https://www.bbc.co.uk/news/articles/crrv1rjwgl9o?at_medium=RSS\u0026at_campaign=rss",
-                     "published_at":  "2026-08-13T13:02:24+00:00",
-                     "feed":  "https://feeds.bbci.co.uk/news/business/rss.xml",
-                     "source":  "rss"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "international",
-                     "title":  "In pictures: Europe\u0027s best solar eclipse since 1999",
-                     "link":  "https://www.cnbc.com/2026/08/13/europe-solar-eclipse-iceland-spain.html",
-                     "published_at":  "2026-08-13T10:06:50+00:00",
-                     "feed":  "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-                     "source":  "rss"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "international",
-                     "title":  "馬斯克持股SpaceX達48.4%、市值逾9,000億美元，表決權超過82%",
-                     "original_title":  null,
-                     "summary":  "重點：【財訊快報／陳孟朔】用可回收火箭和星鏈網路，把人類送往火星的夢想變成了正在賺錢的現實商業帝國的SpaceX(美股代碼SPCX)最新監管文件顯示，…。",
-                     "link":  "https://tw.stock.yahoo.com/news/%E9%A6%AC%E6%96%AF%E5%85%8B%E6%8C%81%E8%82%A1spacex%E9%81%9448-4-%E5%B8%82%E5%80%BC%E9%80%BE9-000%E5%84%84%E7%BE%8E%E5%85%83-%E8%A1%A8%E6%B1%BA%E6%AC%8A%E8%B6%85%E9%81%8E82-024042289.html",
-                     "published_at":  null,
-                     "source":  "yahoo_news"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "international",
-                     "title":  "攜手輝達布局機器人與AI工廠，LG電子股價早盤大漲近9%",
-                     "original_title":  null,
-                     "summary":  "重點：【財訊快報／陳孟朔】韓國LG集團與輝達(Nvidia，美股代碼NVDA)簽署策略性業務合作備忘錄(MOU)，將在機器人、人工智慧(AI)工廠及移…。",
-                     "link":  "https://tw.stock.yahoo.com/news/%E6%94%9C%E6%89%8B%E8%BC%9D%E9%81%94%E5%B8%83%E5%B1%80%E6%A9%9F%E5%99%A8%E4%BA%BA%E8%88%87ai%E5%B7%A5%E5%BB%A0-lg%E9%9B%BB%E5%AD%90%E8%82%A1%E5%83%B9%E6%97%A9%E7%9B%A4%E5%A4%A7%E6%BC%B2%E8%BF%919-022143981.html",
-                     "published_at":  null,
-                     "source":  "yahoo_news"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "international",
-                     "title":  "日本資金大舉出海，上週淨買海外債券1.63兆日圓",
-                     "original_title":  null,
-                     "summary":  "重點：【財訊快報／陳孟朔】日本財務省週五公布最新數據顯示，截至8月7日止一週，日本投資人淨買進海外債券1兆6,294億日圓，較前一週的4,779億日圓…。",
-                     "link":  "https://tw.stock.yahoo.com/news/%E6%97%A5%E6%9C%AC%E8%B3%87%E9%87%91%E5%A4%A7%E8%88%89%E5%87%BA%E6%B5%B7-%E4%B8%8A%E9%80%B1%E6%B7%A8%E8%B2%B7%E6%B5%B7%E5%A4%96%E5%82%B5%E5%88%B81-63%E5%85%86%E6%97%A5%E5%9C%93-021334985.html",
-                     "published_at":  null,
-                     "source":  "yahoo_news"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "international",
-                     "title":  "美日再干預預期升溫，東京匯市早盤日圓止跌反彈、美元指數連二跌",
-                     "original_title":  null,
-                     "summary":  "重點：【財訊快報／陳孟朔】東京匯市週五早盤美元指數追低0.07%，連二跌至99.899；連續兩天回吐0.14%的日圓反彈0.04%，報159.44兌1…。",
-                     "link":  "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%97%A5%E5%86%8D%E5%B9%B2%E9%A0%90%E9%A0%90%E6%9C%9F%E5%8D%87%E6%BA%AB-%E6%9D%B1%E4%BA%AC%E5%8C%AF%E5%B8%82%E6%97%A9%E7%9B%A4%E6%97%A5%E5%9C%93%E6%AD%A2%E8%B7%8C%E5%8F%8D%E5%BD%88-%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B8%E9%80%A3%E4%BA%8C%E8%B7%8C-020837474.html",
-                     "published_at":  null,
-                     "source":  "yahoo_news"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "domestic",
-                     "title":  "台股高檔震盪，類股輪動啟動，漢翔、龍德成軍工族群焦點",
-                     "original_title":  null,
-                     "summary":  "重點：【財訊快報／黃啟乙】美股與日、韓股市開高領漲，台股今日也以高盤開出，但隨後出現震盪走低的整理走勢。台股自半年線低檔反彈以來，尤其前期跌深個股展開…。",
-                     "link":  "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%AB%98%E6%AA%94%E9%9C%87%E7%9B%AA-%E9%A1%9E%E8%82%A1%E8%BC%AA%E5%8B%95%E5%95%9F%E5%8B%95-%E6%BC%A2%E7%BF%94-%E9%BE%8D%E5%BE%B7%E6%88%90%E8%BB%8D%E5%B7%A5%E6%97%8F%E7%BE%A4%E7%84%A6%E9%BB%9E-025117980.html",
-                     "published_at":  null,
-                     "source":  "yahoo_news"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "domestic",
-                     "title":  "黃世杰緊咬台積電進駐　桃市府這句重砲反擊",
-                     "original_title":  null,
-                     "summary":  "重點：[NOWNEWS今日新聞]民進黨桃園市長參選人黃世杰近日持續追問台積電進駐桃園議題，桃園市政府新聞處長羅楚東今（13）日反擊，市府已多次奉勸黃世…。",
-                     "link":  "https://tw.news.yahoo.com/%E9%BB%83%E4%B8%96%E6%9D%B0%E7%B7%8A%E5%92%AC%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%80%B2%E9%A7%90-%E6%A1%83%E5%B8%82%E5%BA%9C%E9%80%99%E5%8F%A5%E9%87%8D%E7%A0%B2%E5%8F%8D%E6%93%8A-013531003.html",
-                     "published_at":  null,
-                     "source":  "yahoo_news"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "domestic",
-                     "title":  "外資大買台股並匯入　新台幣強升見31字頭",
-                     "original_title":  null,
-                     "summary":  "重點：[NOWNEWS今日新聞]美元指數回跌至100以下，加上外資回頭大買台股並匯入，新台幣兌美元今（14）日早盤進一步升破32元整數關卡，一度來到3…。",
-                     "link":  "https://tw.news.yahoo.com/%E5%A4%96%E8%B3%87%E5%A4%A7%E8%B2%B7%E5%8F%B0%E8%82%A1%E4%B8%A6%E5%8C%AF%E5%85%A5-%E6%96%B0%E5%8F%B0%E5%B9%A3%E5%BC%B7%E5%8D%87%E8%A6%8B31%E5%AD%97%E9%A0%AD-023403779.html",
-                     "published_at":  null,
-                     "source":  "yahoo_news"
-                 },
-                 {
-                     "kind":  "news",
-                     "category":  "domestic",
-                     "title":  "台股ETF誰最夯？8檔日均量破10萬張  2檔今年來漲幅飆破百",
-                     "original_title":  null,
-                     "summary":  "重點：[Newtalk新聞] 近期台股震盪劇烈，不過 8 月以來大盤仍累計反彈 6.73%，資金也重新回流台股 ETF。根據 CMoney 統計，截至…。",
-                     "link":  "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1etf%E8%AA%B0%E6%9C%80%E5%A4%AF-8%E6%AA%94%E6%97%A5%E5%9D%87%E9%87%8F%E7%A0%B410%E8%90%AC%E5%BC%B5-2%E6%AA%94%E4%BB%8A%E5%B9%B4%E4%BE%86%E6%BC%B2%E5%B9%85%E9%A3%86%E7%A0%B4%E7%99%BE-023321498.html",
-                     "published_at":  null,
-                     "source":  "yahoo_news"
-                 }
-             ]
+  "schema_version": 1,
+  "report_date": "2026-08-14",
+  "generated_at": "2026-08-14T11:22:20+08:00",
+  "timezone": "Asia/Taipei",
+  "markets": [
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^IXIC",
+      "label": "NASDAQ",
+      "price": 26803.025,
+      "change": 454.6750000000029,
+      "change_percent": 1.7256298781517738,
+      "currency": "USD",
+      "market_time": 1786655759,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^SOX",
+      "label": "費城半導體",
+      "price": 12455.998,
+      "change": 407.3079999999991,
+      "change_percent": 3.3805168860681043,
+      "currency": "USD",
+      "market_time": 1786655759,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^GSPC",
+      "label": "S&P 500",
+      "price": 7798.99,
+      "change": 89.02999999999975,
+      "change_percent": 1.1547401024129793,
+      "currency": "USD",
+      "market_time": 1786651200,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^DJI",
+      "label": "道瓊指數",
+      "price": 53840.0,
+      "change": -45.099999999998545,
+      "change_percent": -0.083696606297471,
+      "currency": "USD",
+      "market_time": 1786651200,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "TSM",
+      "label": "台積電 ADR",
+      "price": 430.49,
+      "change": 12.29000000000002,
+      "change_percent": 2.9387852702056483,
+      "currency": "USD",
+      "market_time": 1786651202,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "UMC",
+      "label": "聯電 ADR",
+      "price": 19.38,
+      "change": 0.17999999999999972,
+      "change_percent": 0.9374999999999986,
+      "currency": "USD",
+      "market_time": 1786651202,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "ASX",
+      "label": "日月光 ADR",
+      "price": 39.64,
+      "change": 2.3900000000000006,
+      "change_percent": 6.416107382550337,
+      "currency": "USD",
+      "market_time": 1786651203,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "GC=F",
+      "label": "黃金",
+      "price": 4374.1,
+      "change": 12.300000000000182,
+      "change_percent": 0.2819936723371127,
+      "currency": "USD",
+      "market_time": 1786677135,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "CL=F",
+      "label": "WTI 原油",
+      "price": 81.3,
+      "change": -0.8299999999999983,
+      "change_percent": -1.0105929623767178,
+      "currency": "USD",
+      "market_time": 1786677138,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "BZ=F",
+      "label": "布蘭特原油",
+      "price": 87.08,
+      "change": -0.6400000000000006,
+      "change_percent": -0.7295941632466947,
+      "currency": "USD",
+      "market_time": 1786677138,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWD=X",
+      "label": "USD/TWD",
+      "price": 31.94,
+      "change": -0.2951000000000015,
+      "change_percent": -0.9154617171964767,
+      "currency": "TWD",
+      "market_time": 1786677740,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWDJPY=X",
+      "label": "TWD/JPY",
+      "price": 4.9768,
+      "change": 0.0812999999999997,
+      "change_percent": 1.6607088142171322,
+      "currency": "JPY",
+      "market_time": 1786677620,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WTX&",
+      "label": "台指期夜盤",
+      "price": 46389.0,
+      "change": 364.0,
+      "change_percent": 0.79,
+      "source": "yahoo_future"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "TWSE.php",
+      "label": "台灣加權",
+      "price": 46021.48,
+      "change": 503.41,
+      "change_percent": 1.11,
+      "source": "stockq",
+      "date": null
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "TWOTCI.php",
+      "label": "台灣櫃買",
+      "price": 406.12,
+      "change": 4.1,
+      "change_percent": 1.02,
+      "source": "stockq",
+      "date": null
+    }
+  ],
+  "taiwan_market": [
+    {
+      "kind": "twse_summary",
+      "date": "115/08/13",
+      "volume": 11492166298,
+      "turnover": 1104024642159,
+      "transactions": 5240402,
+      "index": 46021.48,
+      "change": 503.41,
+      "source": "twse",
+      "institutional": [
+        {
+          "name": "自營商(自行買賣)",
+          "buy": 14066013115,
+          "sell": 10808037054,
+          "net": 3257976061
+        },
+        {
+          "name": "自營商(避險)",
+          "buy": 41691722620,
+          "sell": 29888947276,
+          "net": 11802775344
+        },
+        {
+          "name": "投信",
+          "buy": 28305817016,
+          "sell": 29807555301,
+          "net": -1501738285
+        },
+        {
+          "name": "外資及陸資(不含外資自營商)",
+          "buy": 435459348263,
+          "sell": 359764831688,
+          "net": 75694516575
+        },
+        {
+          "name": "外資自營商",
+          "buy": 0,
+          "sell": 0,
+          "net": 0
+        },
+        {
+          "name": "合計",
+          "buy": 519522901014,
+          "sell": 430269371319,
+          "net": 89253529695
+        }
+      ]
+    }
+  ],
+  "chips": [
+    {
+      "kind": "chips",
+      "date": "2026-08-13",
+      "foreign_tx_net": -86249,
+      "trust_tx_net": 82327,
+      "mtx_retail_ratio": 22.9,
+      "tmf_retail_ratio": 15.58,
+      "options_pc_ratio": 112.03,
+      "tsmc_impact": 8.463,
+      "source": "market_dashboard"
+    }
+  ],
+  "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "U.S. to use economic tactics on Iran 'that have never been seen'; Navy works to relieve troubled carrier USS Abraham Lincoln",
+      "link": "https://www.cnbc.com/2026/08/14/us-iran-war-trump-hormuz-carrier-abraham-lincoln-george-washington.html",
+      "published_at": "2026-08-14T01:52:07+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "CNBC Daily Open: An 'indefinite' war, and a record-breaking rally",
+      "link": "https://www.cnbc.com/2026/08/14/us-iran-war-hormuz-ai-south-korea-openai-anthropic-meta-.html",
+      "published_at": "2026-08-14T01:38:34+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Uber partners with China's Pony.ai for 2,000 robotaxis in Europe",
+      "link": "https://www.cnbc.com/2026/08/14/uber-partners-with-chinas-ponyai-for-2000-robotaxis-in-europe.html",
+      "published_at": "2026-08-14T01:02:39+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "From Apple to Ford: How Chinese tech is becoming harder for global companies to ignore",
+      "link": "https://www.cnbc.com/2026/08/14/china-tech-global-appeal-apple-ford-catl-deepseek.html",
+      "published_at": "2026-08-14T00:09:11+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "I got an £89 refund – how to cancel and  avoid unwanted subscriptions",
+      "link": "https://www.bbc.co.uk/news/articles/ckg6x3n5erpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-13T23:03:07+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "'I lost $14,000 in a month': Investors hit by Korean stock market's wild swings",
+      "link": "https://www.bbc.co.uk/news/articles/c2k7zj4knwlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-13T22:00:10+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Harvey Nichols bought by owner of Sports Direct",
+      "link": "https://www.bbc.co.uk/news/articles/cd69p89gl6xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-13T14:27:43+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Water bills set to rise for many after firms permitted extra funding",
+      "link": "https://www.bbc.co.uk/news/articles/cx2j1j5ypjdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-13T13:38:30+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Flock boss admits surveillance firm took too long to act over police abuse",
+      "link": "https://www.bbc.co.uk/news/articles/crrv1rjwgl9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-13T13:02:24+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "In pictures: Europe's best solar eclipse since 1999",
+      "link": "https://www.cnbc.com/2026/08/13/europe-solar-eclipse-iceland-spain.html",
+      "published_at": "2026-08-13T10:06:50+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "馬斯克持股SpaceX達48.4%、市值逾9,000億美元，表決權超過82%",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】用可回收火箭和星鏈網路，把人類送往火星的夢想變成了正在賺錢的現實商業帝國的SpaceX(美股代碼SPCX)最新監管文件顯示，…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%A6%AC%E6%96%AF%E5%85%8B%E6%8C%81%E8%82%A1spacex%E9%81%9448-4-%E5%B8%82%E5%80%BC%E9%80%BE9-000%E5%84%84%E7%BE%8E%E5%85%83-%E8%A1%A8%E6%B1%BA%E6%AC%8A%E8%B6%85%E9%81%8E82-024042289.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "攜手輝達布局機器人與AI工廠，LG電子股價早盤大漲近9%",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】韓國LG集團與輝達(Nvidia，美股代碼NVDA)簽署策略性業務合作備忘錄(MOU)，將在機器人、人工智慧(AI)工廠及移…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%94%9C%E6%89%8B%E8%BC%9D%E9%81%94%E5%B8%83%E5%B1%80%E6%A9%9F%E5%99%A8%E4%BA%BA%E8%88%87ai%E5%B7%A5%E5%BB%A0-lg%E9%9B%BB%E5%AD%90%E8%82%A1%E5%83%B9%E6%97%A9%E7%9B%A4%E5%A4%A7%E6%BC%B2%E8%BF%919-022143981.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "日本資金大舉出海，上週淨買海外債券1.63兆日圓",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】日本財務省週五公布最新數據顯示，截至8月7日止一週，日本投資人淨買進海外債券1兆6,294億日圓，較前一週的4,779億日圓…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%97%A5%E6%9C%AC%E8%B3%87%E9%87%91%E5%A4%A7%E8%88%89%E5%87%BA%E6%B5%B7-%E4%B8%8A%E9%80%B1%E6%B7%A8%E8%B2%B7%E6%B5%B7%E5%A4%96%E5%82%B5%E5%88%B81-63%E5%85%86%E6%97%A5%E5%9C%93-021334985.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美日再干預預期升溫，東京匯市早盤日圓止跌反彈、美元指數連二跌",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】東京匯市週五早盤美元指數追低0.07%，連二跌至99.899；連續兩天回吐0.14%的日圓反彈0.04%，報159.44兌1…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%97%A5%E5%86%8D%E5%B9%B2%E9%A0%90%E9%A0%90%E6%9C%9F%E5%8D%87%E6%BA%AB-%E6%9D%B1%E4%BA%AC%E5%8C%AF%E5%B8%82%E6%97%A9%E7%9B%A4%E6%97%A5%E5%9C%93%E6%AD%A2%E8%B7%8C%E5%8F%8D%E5%BD%88-%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B8%E9%80%A3%E4%BA%8C%E8%B7%8C-020837474.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股衝上46400點！27檔處置股名單曝光 交易受限一次看",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 台股今天(14日)續漲震盪，約11點，來到46400點，個股成交熱度持續升高，證交所也陸續針對交易異常、股價波動較大的個…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E8%A1%9D%E4%B8%8A46400%E9%BB%9E-27%E6%AA%94%E8%99%95%E7%BD%AE%E8%82%A1%E5%90%8D%E5%96%AE%E6%9B%9D%E5%85%89-%E4%BA%A4%E6%98%93%E5%8F%97%E9%99%90-%E6%AC%A1%E7%9C%8B-031538062.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股高檔震盪，類股輪動啟動，漢翔、龍德成軍工族群焦點",
+      "original_title": null,
+      "summary": "重點：【財訊快報／黃啟乙】美股與日、韓股市開高領漲，台股今日也以高盤開出，但隨後出現震盪走低的整理走勢。台股自半年線低檔反彈以來，尤其前期跌深個股展開…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%AB%98%E6%AA%94%E9%9C%87%E7%9B%AA-%E9%A1%9E%E8%82%A1%E8%BC%AA%E5%8B%95%E5%95%9F%E5%8B%95-%E6%BC%A2%E7%BF%94-%E9%BE%8D%E5%BE%B7%E6%88%90%E8%BB%8D%E5%B7%A5%E6%97%8F%E7%BE%A4%E7%84%A6%E9%BB%9E-025117980.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "黃世杰緊咬台積電進駐　桃市府這句重砲反擊",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]民進黨桃園市長參選人黃世杰近日持續追問台積電進駐桃園議題，桃園市政府新聞處長羅楚東今（13）日反擊，市府已多次奉勸黃世…。",
+      "link": "https://tw.news.yahoo.com/%E9%BB%83%E4%B8%96%E6%9D%B0%E7%B7%8A%E5%92%AC%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%80%B2%E9%A7%90-%E6%A1%83%E5%B8%82%E5%BA%9C%E9%80%99%E5%8F%A5%E9%87%8D%E7%A0%B2%E5%8F%8D%E6%93%8A-013531003.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "外資大買台股並匯入　新台幣強升見31字頭",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]美元指數回跌至100以下，加上外資回頭大買台股並匯入，新台幣兌美元今（14）日早盤進一步升破32元整數關卡，一度來到3…。",
+      "link": "https://tw.news.yahoo.com/%E5%A4%96%E8%B3%87%E5%A4%A7%E8%B2%B7%E5%8F%B0%E8%82%A1%E4%B8%A6%E5%8C%AF%E5%85%A5-%E6%96%B0%E5%8F%B0%E5%B9%A3%E5%BC%B7%E5%8D%87%E8%A6%8B31%E5%AD%97%E9%A0%AD-023403779.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    }
+  ]
 }

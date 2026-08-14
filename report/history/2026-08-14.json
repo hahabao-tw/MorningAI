@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-14",
-  "generated_at": "2026-08-14T10:56:55+08:00",
+  "generated_at": "2026-08-14T11:22:20+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -37,7 +37,7 @@
       "change": 89.02999999999975,
       "change_percent": 1.1547401024129793,
       "currency": "USD",
-      "market_time": 1786653303,
+      "market_time": 1786651200,
       "source": "yahoo"
     },
     {
@@ -45,11 +45,11 @@
       "group": "indices",
       "symbol": "^DJI",
       "label": "道瓊指數",
-      "price": 53839.99,
-      "change": -45.11000000000058,
-      "change_percent": -0.08371516430330571,
+      "price": 53840.0,
+      "change": -45.099999999998545,
+      "change_percent": -0.083696606297471,
       "currency": "USD",
-      "market_time": 1786653574,
+      "market_time": 1786651200,
       "source": "yahoo"
     },
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4375.1,
-      "change": 13.300000000000182,
-      "change_percent": 0.30491998716126784,
+      "price": 4374.1,
+      "change": 12.300000000000182,
+      "change_percent": 0.2819936723371127,
       "currency": "USD",
-      "market_time": 1786675612,
+      "market_time": 1786677135,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 81.32,
-      "change": -0.8100000000000023,
-      "change_percent": -0.9862413247290909,
+      "price": 81.3,
+      "change": -0.8299999999999983,
+      "change_percent": -1.0105929623767178,
       "currency": "USD",
-      "market_time": 1786675615,
+      "market_time": 1786677138,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 87.12,
-      "change": -0.5999999999999943,
-      "change_percent": -0.6839945280437693,
+      "price": 87.08,
+      "change": -0.6400000000000006,
+      "change_percent": -0.7295941632466947,
       "currency": "USD",
-      "market_time": 1786675562,
+      "market_time": 1786677138,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.976,
-      "change": -0.25910000000000366,
-      "change_percent": -0.8037822125571307,
+      "price": 31.94,
+      "change": -0.2951000000000015,
+      "change_percent": -0.9154617171964767,
       "currency": "TWD",
-      "market_time": 1786676216,
+      "market_time": 1786677740,
       "source": "yahoo"
     },
     {
@@ -141,34 +141,12 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9761,
-      "change": 0.08059999999999956,
-      "change_percent": 1.6464099683382607,
+      "price": 4.9768,
+      "change": 0.0812999999999997,
+      "change_percent": 1.6607088142171322,
       "currency": "JPY",
-      "market_time": 1786676124,
+      "market_time": 1786677620,
       "source": "yahoo"
-    },
-    {
-      "kind": "market",
-      "group": "taiwan_indices",
-      "symbol": "TWSE.php",
-      "label": "台灣加權",
-      "price": 46169.51,
-      "change": 148.03,
-      "change_percent": 0.32,
-      "source": "stockq",
-      "date": null
-    },
-    {
-      "kind": "market",
-      "group": "taiwan_indices",
-      "symbol": "TWOTCI.php",
-      "label": "台灣櫃買",
-      "price": 406.43,
-      "change": 0.31,
-      "change_percent": 0.08,
-      "source": "stockq",
-      "date": null
     },
     {
       "kind": "market",
@@ -179,6 +157,28 @@
       "change": 364.0,
       "change_percent": 0.79,
       "source": "yahoo_future"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "TWSE.php",
+      "label": "台灣加權",
+      "price": 46021.48,
+      "change": 503.41,
+      "change_percent": 1.11,
+      "source": "stockq",
+      "date": null
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "TWOTCI.php",
+      "label": "台灣櫃買",
+      "price": 406.12,
+      "change": 4.1,
+      "change_percent": 1.02,
+      "source": "stockq",
+      "date": null
     }
   ],
   "taiwan_market": [
@@ -378,6 +378,16 @@
     {
       "kind": "news",
       "category": "domestic",
+      "title": "台股衝上46400點！27檔處置股名單曝光 交易受限一次看",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 台股今天(14日)續漲震盪，約11點，來到46400點，個股成交熱度持續升高，證交所也陸續針對交易異常、股價波動較大的個…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E8%A1%9D%E4%B8%8A46400%E9%BB%9E-27%E6%AA%94%E8%99%95%E7%BD%AE%E8%82%A1%E5%90%8D%E5%96%AE%E6%9B%9D%E5%85%89-%E4%BA%A4%E6%98%93%E5%8F%97%E9%99%90-%E6%AC%A1%E7%9C%8B-031538062.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
       "title": "台股高檔震盪，類股輪動啟動，漢翔、龍德成軍工族群焦點",
       "original_title": null,
       "summary": "重點：【財訊快報／黃啟乙】美股與日、韓股市開高領漲，台股今日也以高盤開出，但隨後出現震盪走低的整理走勢。台股自半年線低檔反彈以來，尤其前期跌深個股展開…。",
@@ -402,16 +412,6 @@
       "original_title": null,
       "summary": "重點：[NOWNEWS今日新聞]美元指數回跌至100以下，加上外資回頭大買台股並匯入，新台幣兌美元今（14）日早盤進一步升破32元整數關卡，一度來到3…。",
       "link": "https://tw.news.yahoo.com/%E5%A4%96%E8%B3%87%E5%A4%A7%E8%B2%B7%E5%8F%B0%E8%82%A1%E4%B8%A6%E5%8C%AF%E5%85%A5-%E6%96%B0%E5%8F%B0%E5%B9%A3%E5%BC%B7%E5%8D%87%E8%A6%8B31%E5%AD%97%E9%A0%AD-023403779.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "台股ETF誰最夯？8檔日均量破10萬張  2檔今年來漲幅飆破百",
-      "original_title": null,
-      "summary": "重點：[Newtalk新聞] 近期台股震盪劇烈，不過 8 月以來大盤仍累計反彈 6.73%，資金也重新回流台股 ETF。根據 CMoney 統計，截至…。",
-      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1etf%E8%AA%B0%E6%9C%80%E5%A4%AF-8%E6%AA%94%E6%97%A5%E5%9D%87%E9%87%8F%E7%A0%B410%E8%90%AC%E5%BC%B5-2%E6%AA%94%E4%BB%8A%E5%B9%B4%E4%BE%86%E6%BC%B2%E5%B9%85%E9%A3%86%E7%A0%B4%E7%99%BE-023321498.html",
       "published_at": null,
       "source": "yahoo_news"
     }

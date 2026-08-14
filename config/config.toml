@@ -12,8 +12,11 @@ yahoo_enabled = true
 twse_enabled = true
 rss_enabled = true
 yahoo_news_enabled = true
-taifex_enabled = true
+taifex_enabled = false
 mops_enabled = false
+stockq_enabled = true
+yahoo_future_enabled = true
+market_dashboard_enabled = true
 
 [symbols]
 "^IXIC" = "NASDAQ"

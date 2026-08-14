@@ -7,10 +7,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from crawler.base import CollectorResult
+from crawler.dashboard import MarketDashboardCollector
+from crawler.stockq import StockQCollector
 from crawler.taifex import TaifexCollector
 from crawler.twse import TwseCollector
 from crawler.yahoo import YahooMarketCollector
 from crawler.yahoo_news import YahooHeadlineCollector
+from crawler.yahoo_future import YahooFutureCollector
 from processor.export import write_report
 from processor.markdown import render_markdown
 from processor.normalize import build_report
@@ -81,16 +84,26 @@ class PipelineTests(unittest.TestCase):
             {"kind": "market", "group": "adr", "label": "台積電 ADR", "price": 20, "change": 1, "change_percent": 3},
             {"kind": "market", "group": "commodities", "label": "黃金", "price": 30, "change": -1, "change_percent": -1},
             {"kind": "market", "group": "fx", "label": "USD/TWD", "price": 32, "change": 0.1, "change_percent": 0.3},
-            {"kind": "market", "group": "taifex", "label": "台指期夜盤", "price": 46000, "change": 100, "change_percent": 0.22, "volume": 10000, "contract_month": "202608"},
+            {"kind": "market", "group": "taiwan_indices", "label": "台灣加權", "price": 46021.48, "change": 503.41, "change_percent": 1.11},
+            {"kind": "market", "group": "taiwan_indices", "label": "台灣櫃買", "price": 406.12, "change": 4.10, "change_percent": 1.02},
+            {"kind": "market", "group": "taifex", "label": "台指期夜盤", "price": 46389, "change": 364, "change_percent": 0.79, "source": "yahoo_future"},
             {"kind": "twse_summary", "index": 45000, "change": 100, "turnover": 858_700_000_000, "institutional": [{"name": "外資", "net": 11_020_000_000}]},
+            {"kind": "chips", "foreign_tx_net": -86249, "trust_tx_net": 82327, "mtx_retail_ratio": 22.9, "tmf_retail_ratio": 15.58, "options_pc_ratio": 112.03, "tsmc_impact": 8.463},
             {"kind": "news", "category": "international", "title": "國際財經標題", "summary": "重點：國際摘要。", "source": "yahoo_news"},
             {"kind": "news", "category": "domestic", "title": "台股標題", "summary": "重點：台股摘要。", "source": "yahoo_news"},
         ]
         markdown = render_markdown(build_report([CollectorResult("fixture", records)], self.now, "Asia/Taipei"), "F1台股盤前戰情早報")
-        for heading in ("## 盤前重點摘要", "## 美股指數", "## ADR", "## 黃金原油", "## 匯率", "## 台股昨日", "## 台指期夜盤", "## 法人買賣超", "## 國際財經要聞（中文）", "## 台股新聞"):
+        for heading in ("## 盤前重點摘要", "## 美股指數", "## ADR", "## 黃金原油", "## 匯率", "## 台股昨日", "## 台指期夜盤", "## 臺股期貨籌碼", "## 台積電大盤影響點數", "## 法人買賣超", "## 國際財經要聞（中文）", "## 台股新聞"):
             self.assertIn(heading, markdown)
         self.assertIn("重點：國際摘要。", markdown)
-        self.assertIn("8,587.00 億元", markdown)
+        self.assertIn("台灣加權：指數 46,021.48｜漲跌 +503.41｜比例 +1.11%", markdown)
+        self.assertIn("收盤：46,389.00", markdown)
+        self.assertNotIn("成交量：", markdown)
+        self.assertIn("外資大台淨OI(口)：-86,249", markdown)
+        self.assertIn("台積電每跳 1 元：約影響 8.463 點", markdown)
+        self.assertNotIn("更新：", markdown)
+        self.assertNotIn("[國際財經標題]", markdown)
+        self.assertEqual(markdown.split("## 盤前重點摘要\n", 1)[1].split("## 美股指數", 1)[0].strip(), "")
         self.assertNotIn("那斯達克期貨：", markdown)
         positions = [markdown.index(name + "：") for name in ("NASDAQ", "費城半導體", "S&P 500", "道瓊指數")]
         self.assertEqual(positions, sorted(positions))
@@ -101,6 +114,38 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(records[0]["contract_month"], "202608")
         self.assertEqual(records[0]["price"], 46000)
         self.assertEqual(records[0]["change"], -50)
+
+    def test_stockq_parser_decodes_both_taiwan_indices(self) -> None:
+        def cell(parts: str, seed: int) -> str:
+            return f"<td><script>(function(){{var a=[{parts}],z={seed};var r=function(){{z=z*48271%2147483647;return z/2147483647}};r();r();var o=[0,1,2];for(var i=2;i>0;i--){{var j=Math.floor(r()*(i+1));var t=o[i];o[i]=o[j];o[j]=t}}r();var f1=Math.floor(r()*4);r();var f2=Math.floor(r()*5);a.splice(f2,1);a.splice(f1,1);}})();</script></td>"
+        page = "<table><tr><td>TWSE.php</td>" + cell("'4','46021.','8','959','561'", 601254252) * 3 + "</tr><tr><td>TWOTCI.php</td>" + cell("'40','323','6','.12','49'", 176717741) * 3 + "</tr></table>"
+        records = StockQCollector._parse(page)
+        self.assertEqual([item["label"] for item in records], ["台灣加權", "台灣櫃買"])
+        self.assertEqual(records[0]["price"], 46021.48)
+        self.assertEqual(records[1]["price"], 406.12)
+
+    def test_yahoo_future_parser_reads_visible_quote(self) -> None:
+        page = "<h2>台指期近一即時行情</h2><div>成交</div><div>46,389.00</div><div>漲跌幅</div><div>0.79%</div><div>漲跌</div><div>364.00</div>"
+        record = YahooFutureCollector._parse(page)
+        self.assertEqual((record["price"], record["change"], record["change_percent"]), (46389, 364, 0.79))
+
+    def test_dashboard_collector_maps_requested_chip_fields(self) -> None:
+        class Client:
+            def get_json(self, url: str) -> dict:
+                if url.endswith("futures.json"):
+                    return {"history": {
+                        "TX": [{"date": "2026-08-13", "inst": {"外資": {"net": -86249}, "投信": {"net": 82327}}}],
+                        "MTX": [{"retail": {"ratio": 22.9}}],
+                        "TMF": [{"retail": {"ratio": 15.58}}],
+                    }}
+                if url.endswith("options.json"):
+                    return {"pc_ratio": {"value": 112.03}}
+                return {"impact": 8.463}
+
+        result = MarketDashboardCollector(Client()).collect()
+        self.assertTrue(result.ok)
+        self.assertEqual(result.records[0]["foreign_tx_net"], -86249)
+        self.assertEqual(result.records[0]["tsmc_impact"], 8.463)
 
     def test_international_filter_rejects_entertainment(self) -> None:
         self.assertTrue(YahooHeadlineCollector._financial_headline("輝達財報帶動晶片股上漲"))
@@ -120,6 +165,9 @@ class PipelineTests(unittest.TestCase):
             self.assertNotIn("source_status", payload)
             self.assertNotIn("</script><script>alert", page)
             self.assertTrue((root / "docs" / "history" / "2026-08-13.html").exists())
+            self.assertIn("已複製以下 ChatGPT Prompt", page)
+            self.assertIn("dialog.showModal()", page)
+            self.assertNotIn("2026-08-13T06:30", page)
             log = (root / "report" / "history" / "2026-08-13.log").read_text(encoding="utf-8")
             self.assertIn("source=x status=ok records=1", log)
 

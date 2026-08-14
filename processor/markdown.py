@@ -11,10 +11,10 @@ def _number(value: object, digits: int = 2) -> str:
     return "資料不足" if value is None else f"{float(value):,.{digits}f}"
 
 
-def _signed(value: object, suffix: str = "") -> str:
+def _signed(value: object, suffix: str = "", digits: int = 2) -> str:
     if value is None:
         return "資料不足"
-    return f"{float(value):+,.2f}{suffix}"
+    return f"{float(value):+,.{digits}f}{suffix}"
 
 
 def _market_line(item: dict[str, object]) -> str:
@@ -76,8 +76,8 @@ def render_markdown(report: MorningReport, title: str) -> str:
     if futures:
         item = futures[0]
         lines.extend([
-            f"- 收盤：{_number(item.get('price'))}",
-            f"- 漲跌：{_signed(item.get('change'))}（{_signed(item.get('change_percent'), '%')}）",
+            f"- 收盤：{_number(item.get('price'), 0)}",
+            f"- 漲跌：{_signed(item.get('change'), digits=0)}（{_signed(item.get('change_percent'), '%')}）",
         ])
     else:
         lines.append("- 資料不足")
@@ -88,11 +88,11 @@ def render_markdown(report: MorningReport, title: str) -> str:
     if report.chips:
         chip = report.chips[0]
         lines.extend([
-            f"- 外資大台淨OI(口)：{_signed(chip.get('foreign_tx_net')).replace('.00', '')}",
-            f"- 投信大台淨OI(口)：{_signed(chip.get('trust_tx_net')).replace('.00', '')}",
-            f"- 小台散戶多空比：{_signed(chip.get('mtx_retail_ratio'), '%')}",
-            f"- 微台散戶多空比：{_signed(chip.get('tmf_retail_ratio'), '%')}",
-            f"- 淨臺指選擇權 P/C 比：{_number(chip.get('options_pc_ratio'))}%",
+            f"- 外資大台淨OI：{_signed(chip.get('foreign_tx_net'), digits=0)} 口",
+            f"- 投信大台淨OI：{_signed(chip.get('trust_tx_net'), digits=0)} 口",
+            f"- 小台散戶多空比：{_number(chip.get('mtx_retail_ratio'))}%",
+            f"- 微台散戶多空比：{_number(chip.get('tmf_retail_ratio'))}%",
+            f"- 臺指選擇權 P/C 比：{_number(chip.get('options_pc_ratio'))}%",
         ])
     else:
         lines.append("- 資料不足")

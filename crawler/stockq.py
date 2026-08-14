@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+from datetime import date
 
 from .base import Collector, CollectorResult
 from .http import HttpClient
@@ -11,15 +12,18 @@ class StockQCollector(Collector):
     url = "https://www.stockq.org/"
     targets = (("TWSE.php", "台灣加權"), ("TWOTCI.php", "台灣櫃買"))
 
-    def __init__(self, client: HttpClient) -> None:
+    def __init__(self, client: HttpClient, today: date) -> None:
         self.client = client
+        self.today = today
 
     def collect(self) -> CollectorResult:
         try:
             records = self._parse(self.client.get_text(self.url))
         except (OSError, ValueError) as exc:
             return CollectorResult(self.name, error=f"{type(exc).__name__}: StockQ 讀取失敗")
-        return CollectorResult(self.name, records) if len(records) == 2 else CollectorResult(self.name, records, "台股指數資料不完整")
+        current = self.today.strftime("%m/%d")
+        records = [record for record in records if record.get("date") != current]
+        return CollectorResult(self.name, records) if len(records) == 2 else CollectorResult(self.name, records, "尚無前一交易日完整指數")
 
     @classmethod
     def _parse(cls, page: str) -> list[dict[str, object]]:
@@ -31,10 +35,12 @@ class StockQCollector(Collector):
             if len(scripts) < 3:
                 continue
             values = [float(cls._decode(script)) for script in scripts[:3]]
+            dates = re.findall(r"\b\d{2}/\d{2}\b", row)
             records.append({
                 "kind": "market", "group": "taiwan_indices", "symbol": path,
                 "label": label, "price": values[0], "change": values[1],
                 "change_percent": values[2], "source": cls.name,
+                "date": dates[-1] if dates else None,
             })
         return records
 

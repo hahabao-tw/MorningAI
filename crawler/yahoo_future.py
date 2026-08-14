@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from html.parser import HTMLParser
 
 from .base import Collector, CollectorResult
@@ -45,6 +46,10 @@ class YahooFutureCollector(Collector):
         parser = _VisibleText()
         parser.feed(page)
         values = parser.values
+        update = next((value for value in values if re.search(r"\d{4}/\d{2}/\d{2} \d{2}:\d{2} 更新", value)), "")
+        time_match = re.search(r" (\d{2}):(\d{2}) 更新", update)
+        if time_match and 5 <= int(time_match.group(1)) < 15:
+            raise ValueError("Yahoo quote has entered the regular session")
 
         def after(label: str) -> str:
             start = values.index("台指期近一即時行情")

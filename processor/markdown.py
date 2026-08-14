@@ -36,8 +36,7 @@ def _news_section(report: MorningReport, category: str, heading: str) -> list[st
         return lines + ["1. 資料不足"]
     for index, item in enumerate(items[:5], 1):
         title = str(item.get("title", "")).replace("[", "\\[").replace("]", "\\]")
-        link = item.get("link") if category != "international" else None
-        lines.append(f"{index}. [{title}]({link})" if link else f"{index}. {title}")
+        lines.append(f"{index}. {title}")
         if item.get("summary"):
             lines.append(f"   - {item['summary']}")
     return lines

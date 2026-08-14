@@ -29,18 +29,20 @@ from processor.site import build_site
 ROOT = Path(__file__).resolve().parent
 
 
-def reuse_same_day_night_quote(report: MorningReport, report_dir: Path) -> None:
-    if any(item.get("source") == "yahoo_future" for item in report.markets):
-        return
+def reuse_same_day_market_snapshots(report: MorningReport, report_dir: Path) -> None:
     previous_path = report_dir / "today.json"
     if not previous_path.exists():
         return
     previous = json.loads(previous_path.read_text(encoding="utf-8"))
     if previous.get("report_date") != report.report_date:
         return
-    quote = next((item for item in previous.get("markets", []) if item.get("source") == "yahoo_future"), None)
-    if quote:
-        report.markets.append(quote)
+    previous_markets = previous.get("markets", [])
+    if not any(item.get("source") == "yahoo_future" for item in report.markets):
+        quote = next((item for item in previous_markets if item.get("source") == "yahoo_future"), None)
+        if quote:
+            report.markets.append(quote)
+    if not any(item.get("group") == "taiwan_indices" for item in report.markets):
+        report.markets.extend(item for item in previous_markets if item.get("group") == "taiwan_indices")
 
 
 def load_config(path: Path) -> dict:
@@ -72,7 +74,8 @@ def collectors(config: dict, now: datetime) -> list[Collector]:
     if enabled.get("mops_enabled", False):
         items.append(MopsCollector())
     if enabled.get("stockq_enabled", False):
-        items.append(StockQCollector(client))
+        local_date = now.astimezone(ZoneInfo(config["report"]["timezone"])).date()
+        items.append(StockQCollector(client, local_date))
     if enabled.get("yahoo_future_enabled", False):
         items.append(YahooFutureCollector(client))
     if enabled.get("market_dashboard_enabled", False):
@@ -89,7 +92,7 @@ def main(argv: list[str] | None = None) -> int:
         now = datetime.now(timezone.utc)
         results = [item.collect() for item in collectors(config, now)]
         report = build_report(results, now, config["report"]["timezone"])
-        reuse_same_day_night_quote(report, ROOT / "report")
+        reuse_same_day_market_snapshots(report, ROOT / "report")
         markdown = render_markdown(report, config["report"]["title"])
         write_report(report, markdown, ROOT / "report")
         build_site(ROOT / "report", ROOT / "docs", config["report"]["prompt"])

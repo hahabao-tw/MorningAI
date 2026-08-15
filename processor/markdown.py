@@ -81,8 +81,17 @@ def render_markdown(report: MorningReport, title: str) -> str:
         ])
     else:
         lines.append("- 資料不足")
+
+    lines.extend(["", "## 台積電期貨夜盤", ""])
     tsmc_future = next((item for item in report.markets if item.get("symbol") == "WCDF&"), None)
-    lines.append(f"- 台積電期貨夜盤收盤：{_number(tsmc_future.get('price')) if tsmc_future else '資料不足'}")
+    if tsmc_future:
+        lines.extend([
+            f"- 收盤：{_number(tsmc_future.get('price'), 0)}",
+            f"- 漲跌點數：{_signed(tsmc_future.get('change'), digits=0)}",
+            f"- 漲跌幅：{_signed(tsmc_future.get('change_percent'), '%')}",
+        ])
+    else:
+        lines.append("- 資料不足")
 
     lines.extend(["", "## 台股期貨籌碼變化", ""])
     if report.chips:

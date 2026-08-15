@@ -72,10 +72,11 @@ class YahooFutureCollector(Collector):
             return values[index + 1]
 
         price = cls._number(after("成交"))
-        change = cls._number(after("漲跌"))
-        percent = cls._number(after("漲跌幅").replace("%", ""))
-        if price is None or change is None or percent is None:
+        previous = cls._number(after("昨收"))
+        if price is None or previous in (None, 0):
             raise ValueError("missing Yahoo future quote")
+        change = price - previous
+        percent = round(change / previous * 100, 2)
         return {
             "kind": "market", "group": "taifex", "symbol": symbol,
             "label": label, "price": price, "change": change,

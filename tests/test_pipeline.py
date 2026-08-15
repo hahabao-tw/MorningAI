@@ -175,9 +175,14 @@ class PipelineTests(unittest.TestCase):
         self.assertIsNotNone(result.error)
 
     def test_yahoo_future_parser_reads_visible_quote(self) -> None:
-        page = "<div>收盤 | 2026/08/14 04:59 更新</div><h2>台指期近一即時行情</h2><div>成交</div><div>46,389.00</div><div>漲跌幅</div><div>0.79%</div><div>漲跌</div><div>364.00</div>"
+        page = "<div>收盤 | 2026/08/14 04:59 更新</div><h2>台指期近一即時行情</h2><div>成交</div><div>46,389.00</div><div>昨收</div><div>46,025.00</div><div>漲跌幅</div><div>0.79%</div><div>漲跌</div><div>364.00</div>"
         record = YahooFutureCollector._parse(page)
         self.assertEqual((record["price"], record["change"], record["change_percent"]), (46389, 364, 0.79))
+
+    def test_yahoo_future_parser_derives_negative_direction_from_previous_close(self) -> None:
+        page = "<div>收盤 | 2026/08/15 04:59 更新</div><h2>台指期近一即時行情</h2><div>成交</div><div>45,727.00</div><div>昨收</div><div>45,812.00</div><div>漲跌幅</div><div>0.19%</div><div>漲跌</div><div>85.00</div>"
+        record = YahooFutureCollector._parse(page)
+        self.assertEqual((record["price"], record["change"], record["change_percent"]), (45727, -85, -0.19))
 
     def test_yahoo_future_parser_rejects_regular_session_quote(self) -> None:
         page = "<div>盤中 | 2026/08/14 08:46 更新</div><h2>台指期近一即時行情</h2><div>成交</div><div>46,442.00</div><div>漲跌幅</div><div>0.91%</div><div>漲跌</div><div>417.00</div>"
@@ -190,7 +195,7 @@ class PipelineTests(unittest.TestCase):
             YahooFutureCollector._parse(page)
 
     def test_yahoo_future_parser_reads_tsmc_night_quote(self) -> None:
-        page = "<div>收盤 | 2026/08/14 04:59 更新</div><h2>台積電期貨近一即時行情</h2><div>成交</div><div>2,428</div><div>漲跌幅</div><div>0.75%</div><div>漲跌</div><div>18.00</div>"
+        page = "<div>收盤 | 2026/08/14 04:59 更新</div><h2>台積電期貨近一即時行情</h2><div>成交</div><div>2,428</div><div>昨收</div><div>2,410</div><div>漲跌幅</div><div>0.75%</div><div>漲跌</div><div>18.00</div>"
         record = YahooFutureCollector._parse(page, "台積電期貨近一即時行情", "WCDF&", "台積電期貨夜盤")
         self.assertEqual(record["symbol"], "WCDF&")
         self.assertEqual(record["price"], 2428)

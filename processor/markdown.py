@@ -64,10 +64,13 @@ def render_markdown(report: MorningReport, title: str) -> str:
     taiwan_indices = [item for item in report.markets if item.get("group") == "taiwan_indices"]
     if taiwan_indices:
         for item in taiwan_indices:
-            lines.append(
-                f"- {item.get('label')}：指數 {_number(item.get('price'))}｜"
-                f"漲跌 {_signed(item.get('change'))}｜比例 {_signed(item.get('change_percent'), '%')}"
-            )
+            lines.extend([
+                f"### {item.get('label')}",
+                "",
+                f"- 收盤：{_number(item.get('price'))}",
+                f"- 漲跌：{_signed(item.get('change'))}（{_signed(item.get('change_percent'), '%')}）",
+                "",
+            ])
     else:
         lines.append("- 資料不足")
 

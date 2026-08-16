@@ -87,8 +87,7 @@ def render_markdown(report: MorningReport, title: str) -> str:
     if tsmc_future:
         lines.extend([
             f"- 收盤：{_number(tsmc_future.get('price'), 0)}",
-            f"- 漲跌點數：{_signed(tsmc_future.get('change'), digits=0)}",
-            f"- 漲跌幅：{_signed(tsmc_future.get('change_percent'), '%')}",
+            f"- 漲跌：{_signed(tsmc_future.get('change'), digits=0)}（{_signed(tsmc_future.get('change_percent'), '%')}）",
         ])
     else:
         lines.append("- 資料不足")

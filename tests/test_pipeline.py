@@ -126,8 +126,8 @@ class PipelineTests(unittest.TestCase):
         self.assertNotIn("收盤：46,389.00", markdown)
         tsmc_night = markdown.split("## 台積電期貨夜盤", 1)[1].split("## 台股期貨籌碼變化", 1)[0]
         self.assertIn("收盤：2,428", tsmc_night)
-        self.assertIn("漲跌點數：+18", tsmc_night)
-        self.assertIn("漲跌幅：+0.75%", tsmc_night)
+        self.assertIn("漲跌：+18（+0.75%）", tsmc_night)
+        self.assertNotIn("漲跌點數：", tsmc_night)
         self.assertNotIn("成交量：", markdown)
         self.assertIn("外資大台淨OI：-86,249 口", markdown)
         self.assertIn("投信大台淨OI：+82,327 口", markdown)

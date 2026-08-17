@@ -107,7 +107,7 @@ def render_markdown(report: MorningReport, title: str) -> str:
 
     lines.extend([
         "",
-        "## 華南期貨 F1極速 團隊，帶您快速掌握市場動向 !",
+        "## 華南期貨 F1極速 團隊，帶您 快速 掌握市場動向 !",
         "",
         "本團隊已力求數據與資訊正確，如有錯誤，請以官方數據為主",
     ])

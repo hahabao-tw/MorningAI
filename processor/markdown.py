@@ -19,27 +19,9 @@ def _signed(value: object, suffix: str = "", digits: int = 2) -> str:
 
 def _market_line(item: dict[str, object]) -> str:
     return (
-        f"- {item.get('label', item.get('symbol'))}：{_number(item.get('price'))}"
+        f"- **{item.get('label', item.get('symbol'))}**：{_number(item.get('price'))}"
         f"（{_signed(item.get('change'))} / {_signed(item.get('change_percent'), '%')}）"
     )
-
-
-def _news_section(report: MorningReport, category: str, heading: str) -> list[str]:
-    lines = ["", f"## {heading}", ""]
-    items = [item for item in report.news if item.get("category") == category]
-    preferred = [item for item in items if item.get("source") == "yahoo_news"]
-    if preferred:
-        items = preferred
-    if not items and category == "international":
-        items = [item for item in report.news if not item.get("category")]
-    if not items:
-        return lines + ["1. 資料不足"]
-    for index, item in enumerate(items[:5], 1):
-        title = str(item.get("title", "")).replace("[", "\\[").replace("]", "\\]")
-        lines.append(f"{index}. {title}")
-        if item.get("summary"):
-            lines.append(f"   - {item['summary']}")
-    return lines
 
 
 def render_markdown(report: MorningReport, title: str) -> str:
@@ -125,12 +107,10 @@ def render_markdown(report: MorningReport, title: str) -> str:
 
     lines.extend([
         "",
-        "## 華南期貨 F1 團隊，帶您快速掌握市場動向。",
+        "## 華南期貨 F1極速 團隊，帶您快速掌握市場動向 !",
         "",
         "本團隊已力求數據與資訊正確，如有錯誤，請以官方數據為主",
     ])
 
-    lines.extend(_news_section(report, "international", "國際財經要聞（中文）"))
-    lines.extend(_news_section(report, "domestic", "台股新聞"))
     lines.append("")
     return "\n".join(lines)

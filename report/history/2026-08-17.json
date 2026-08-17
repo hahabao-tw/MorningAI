@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-17",
-  "generated_at": "2026-08-17T08:41:25+08:00",
+  "generated_at": "2026-08-17T08:47:17+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4447.8,
-      "change": 10.5,
-      "change_percent": 0.236630383341221,
+      "price": 4445.9,
+      "change": 8.599999999999454,
+      "change_percent": 0.19381155206994014,
       "currency": "USD",
-      "market_time": 1786926682,
+      "market_time": 1786927037,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 82.14,
-      "change": -0.2600000000000051,
-      "change_percent": -0.31553398058253046,
+      "price": 82.16,
+      "change": -0.2400000000000091,
+      "change_percent": -0.2912621359223411,
       "currency": "USD",
-      "market_time": 1786926684,
+      "market_time": 1786927024,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 88.56,
-      "change": 0.04000000000000625,
-      "change_percent": 0.04518752824221221,
+      "price": 88.58,
+      "change": 0.060000000000002274,
+      "change_percent": 0.0677812923633103,
       "currency": "USD",
-      "market_time": 1786926634,
+      "market_time": 1786926940,
       "source": "yahoo"
     },
     {
@@ -388,6 +388,26 @@
     {
       "kind": "news",
       "category": "domestic",
+      "title": "券商晨訊台股投資建議摘要 (1) 2026年 8月 17日",
+      "original_title": null,
+      "summary": "重點：【統一證券】技術面觀察，周五指數收帶上影線黑K，顯示上檔壓力逐漸浮現，但指數仍穩守各期均線之上，多頭架構尚未改變。KD與RSI略為下滑，短線動能…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%88%B8%E5%95%86%E6%99%A8%E8%A8%8A%E5%8F%B0%E8%82%A1%E6%8A%95%E8%B3%87%E5%BB%BA%E8%AD%B0%E6%91%98%E8%A6%81-1-2026%E5%B9%B4-8%E6%9C%88-17%E6%97%A5-003359691.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【國票金控晨訊】台股季線之上震盪　留意矽晶圓概念股",
+      "original_title": null,
+      "summary": "重點：日期：2026年 8月17日※操作建議與結論美國零售銷售數據降溫，美四大指數仍全數收跌台股季線之上震盪，留意矽晶圓概念股今日盤勢及未來走勢：(留…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E7%A5%A8%E9%87%91%E6%8E%A7%E6%99%A8%E8%A8%8A-%E5%8F%B0%E8%82%A1%E5%AD%A3%E7%B7%9A%E4%B9%8B%E4%B8%8A%E9%9C%87%E7%9B%AA-%E7%95%99%E6%84%8F%E7%9F%BD%E6%99%B6%E5%9C%93%E6%A6%82%E5%BF%B5%E8%82%A1-003257516.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
       "title": "台指期夜盤下跌 分析師：預估台股後市呈震盪盤堅走勢",
       "original_title": null,
       "summary": "重點：美國經濟和中東局勢前景未明，美股主要指數全面收低，與台股關聯性高的費城半導體指數上周五下跌38.947點。法人表示，台股14日下跌210.47點…。",
@@ -402,26 +422,6 @@
       "original_title": null,
       "summary": "重點：日期：2026年 8月17日※盤勢分析AI供應鏈重回主軸，台股躍過4萬6，亟欲重戰新高※昨日盤勢美國7月PPI數據低於市場預期，市場對聯準會後續…。",
       "link": "https://tw.stock.yahoo.com/news/%E7%B5%B1-%E8%AD%89%E5%88%B8%E6%99%A8%E8%A8%8A-ai%E4%BE%9B%E6%87%89%E9%8F%88%E9%87%8D%E5%9B%9E%E4%B8%BB%E8%BB%B8-%E5%8F%B0%E8%82%A1%E4%BA%9F%E6%AC%B2%E9%87%8D%E6%88%B0%E6%96%B0%E9%AB%98-001852223.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "【盤前焦點】法人：估台股維持震盪盤堅走勢",
-      "original_title": null,
-      "summary": "重點：（中央社記者張建中台北2026年08月17日電）美股主要指數全面收低，與台股關聯性高的費城半導體指數上週五下跌38.947點。法人表示，台股14…。",
-      "link": "https://tw.stock.yahoo.com/news/%E7%9B%A4%E5%89%8D%E7%84%A6%E9%BB%9E-%E6%B3%95%E4%BA%BA-%E4%BC%B0%E5%8F%B0%E8%82%A1%E7%B6%AD%E6%8C%81%E9%9C%87%E7%9B%AA%E7%9B%A4%E5%A0%85%E8%B5%B0%E5%8B%A2-001750149.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "台指期夜盤下跌　法人：估台股維持震盪盤堅走勢",
-      "original_title": null,
-      "summary": "重點：（中央社記者張建中台北17日電）美股主要指數全面收低，與台股關聯性高的費城半導體指數上週五下跌38.947點。法人表示，台股14日下跌210.4…。",
-      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E4%B8%8B%E8%B7%8C-%E6%B3%95%E4%BA%BA-%E4%BC%B0%E5%8F%B0%E8%82%A1%E7%B6%AD%E6%8C%81%E9%9C%87%E7%9B%AA%E7%9B%A4%E5%A0%85%E8%B5%B0%E5%8B%A2-001649819.html",
       "published_at": null,
       "source": "yahoo_news"
     }

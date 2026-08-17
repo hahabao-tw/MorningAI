@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-18",
-  "generated_at": "2026-08-18T06:52:00+08:00",
+  "generated_at": "2026-08-18T07:09:38+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4470.1,
-      "change": -3.5999999999994543,
-      "change_percent": -0.08047030422244349,
+      "price": 4468.0,
+      "change": -5.699999999999818,
+      "change_percent": -0.1274113150188841,
       "currency": "USD",
-      "market_time": 1787006514,
+      "market_time": 1787007572,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 85.12,
-      "change": 0.6200000000000045,
-      "change_percent": 0.7337278106508929,
+      "price": 84.98,
+      "change": 0.480000000000004,
+      "change_percent": 0.5680473372781113,
       "currency": "USD",
-      "market_time": 1787006519,
+      "market_time": 1787007569,
       "source": "yahoo"
     },
     {
@@ -121,7 +121,7 @@
       "change": 0.3399999999999892,
       "change_percent": 0.37416088918233653,
       "currency": "USD",
-      "market_time": 1787005853,
+      "market_time": 1787007560,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.861,
-      "change": -0.14299999999999713,
-      "change_percent": -0.44681914760654023,
+      "price": 31.859,
+      "change": -0.14499999999999602,
+      "change_percent": -0.45306836645418086,
       "currency": "TWD",
-      "market_time": 1787006988,
+      "market_time": 1787008178,
       "source": "yahoo"
     },
     {
@@ -141,12 +141,34 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9932,
-      "change": 0.024399999999999977,
-      "change_percent": 0.4910642408629846,
+      "price": 4.9929,
+      "change": 0.024099999999999788,
+      "change_percent": 0.48502656577040315,
       "currency": "JPY",
-      "market_time": 1787006995,
+      "market_time": 1787007895,
       "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "TWSE.php",
+      "label": "台灣加權",
+      "price": 45857.27,
+      "change": 46.26,
+      "change_percent": 0.1,
+      "source": "stockq",
+      "date": "08/17"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "TWOTCI.php",
+      "label": "台灣櫃買",
+      "price": 398.32,
+      "change": -2.63,
+      "change_percent": -0.66,
+      "source": "stockq",
+      "date": "08/17"
     },
     {
       "kind": "market",
@@ -236,6 +258,15 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "To joke or not to joke?: How to write a good out-of-office message",
+      "link": "https://www.bbc.co.uk/news/articles/c934xy32919o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-17T23:00:41+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Nvidia backing $105 billion in financing for OpenAI data center in Ohio",
       "link": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
       "published_at": "2026-08-17T21:22:37+00:00",
@@ -299,15 +330,6 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "Instagram and Facebook could change forever if Meta loses child privacy trial",
-      "link": "https://www.bbc.co.uk/news/articles/clyqpx6xk69o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-08-17T05:00:25+00:00",
-      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
       "title": "Ferrari's first ever electric car sold for record $40m",
       "link": "https://www.bbc.co.uk/news/articles/c77ggpgrp2do?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-17T02:22:04+00:00",
@@ -326,40 +348,40 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "別只買台積電、輝達！AI黃金三角曝光　3大族群值得布局",
+      "original_title": null,
+      "summary": "重點：受到2倍ETF降槓桿及融資籌碼清洗衝擊，日前韓股劇烈震盪；儘管如此，主要 AI記憶體需求與企業獲利成長趨勢卻未改變。投資人想補足輝達晶片設計、台…。",
+      "link": "https://tw.news.yahoo.com/%E5%88%A5%E5%8F%AA%E8%B2%B7%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E8%BC%9D%E9%81%94-ai%E9%BB%83%E9%87%91%E4%B8%89%E8%A7%92%E6%9B%9D%E5%85%89-3%E5%A4%A7%E6%97%8F%E7%BE%A4%E5%80%BC%E5%BE%97%E5%B8%83%E5%B1%80-230000884.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美伊未達共識油價上漲　美股漲跌互見、台積電ADR漲1.08％",
+      "original_title": null,
+      "summary": "重點：美國和伊朗的停火備忘錄到期，中東緊張局勢促使國際油價上漲，加劇市場對於通膨的擔憂，美股主要指數星期一大多下跌，記憶體和AI類股逆勢走強，帶動費城…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E4%BC%8A%E6%9C%AA%E9%81%94%E5%85%B1%E8%AD%98%E6%B2%B9%E5%83%B9%E4%B8%8A%E6%BC%B2-%E7%BE%8E%E8%82%A1%E6%BC%B2%E8%B7%8C%E4%BA%92%E8%A6%8B-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E6%BC%B21-08-225012580.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "【美股盤後】多收跌",
+      "original_title": null,
+      "summary": "重點：（中央社台北2026年8月18日電）中東地區緊張局勢使國際油價上漲，加劇市場對於通膨的擔憂，並推升美國公債殖利率，華爾街股市主要指數今天收盤大多…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E7%9B%A4%E5%BE%8C-%E5%A4%9A%E6%94%B6%E8%B7%8C-224407188.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "輝達點火 開啟AI矽光時代",
       "original_title": null,
       "summary": "重點：輝達透過官方社群帳號宣布，以共同封裝光學（CPO）技術打造的Spectrum-X乙太網路矽光子交換器進入全面量產出貨階段，宣告AI資料中心邁入「…。",
       "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E9%BB%9E%E7%81%AB-%E9%96%8B%E5%95%9Fai%E7%9F%BD%E5%85%89%E6%99%82%E4%BB%A3-224122575.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "中東局勢緊張推高油價、美債殖利率「美股多收黑」！台指期夜盤小跌56點",
-      "original_title": null,
-      "summary": "重點：即時中心／綜合報導美伊60天談判大限已到，美國總統川普稱戰事短期內難以結束，伊朗更決定將政策轉為「全面進攻」，讓中東局勢再度提升，油價再度攀高，…。",
-      "link": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E6%9D%B1%E5%B1%80%E5%8B%A2%E7%B7%8A%E5%BC%B5%E6%8E%A8%E9%AB%98%E6%B2%B9%E5%83%B9-%E7%BE%8E%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87-%E7%BE%8E%E8%82%A1%E5%A4%9A%E6%94%B6%E9%BB%91-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E5%B0%8F%E8%B7%8C56%E9%BB%9E-222038039.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "美伊再度緊張　美股道瓊收跌272點",
-      "original_title": null,
-      "summary": "重點：[NOWNEWS今日新聞]美國總統川普（DonaldTrump）週一接受美媒訪問時表示，不急於結束跟伊朗的戰爭，並警告阿曼不要妨礙美國封鎖伊朗船…。",
-      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E4%BC%8A%E5%86%8D%E5%BA%A6%E7%B7%8A%E5%BC%B5-%E7%BE%8E%E8%82%A1%E9%81%93%E7%93%8A%E6%94%B6%E8%B7%8C272%E9%BB%9E-220520414.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "中東緊張推升油價和美債殖利率　華爾街股市多收跌",
-      "original_title": null,
-      "summary": "重點：（中央社紐約17日綜合外電報導）中東地區緊張局勢使國際油價上漲，加劇市場對於通膨的擔憂，並推升美國公債殖利率，華爾街股市主要指數今天收盤大多挫跌。",
-      "link": "https://tw.news.yahoo.com/%E4%B8%AD%E6%9D%B1%E7%B7%8A%E5%BC%B5%E6%8E%A8%E5%8D%87%E6%B2%B9%E5%83%B9%E5%92%8C%E7%BE%8E%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87-%E8%8F%AF%E7%88%BE%E8%A1%97%E8%82%A1%E5%B8%82%E5%A4%9A%E6%94%B6%E8%B7%8C-215224048.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -380,26 +402,6 @@
       "original_title": null,
       "summary": "重點：美伊6月簽署的諒解備忘錄期限屆滿，原訂60天內就停戰、伊朗核計畫及荷莫茲海峽等議題達成協議，但期限屆滿仍未取得共識，美國總統川普又表示，看不到伊…。",
       "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E7%9B%A4%E5%89%8D-%E8%B2%BB%E5%8D%8A%E6%BC%B21-6-%E6%88%90%E6%95%91%E5%85%B5-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E8%B7%8C56%E9%BB%9E-222200780.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "欣興、聯發科....PCB女王「5檔寶藏股」拉回就是買點 2027繼續衝",
-      "original_title": null,
-      "summary": "重點：台股反彈後於46K附近震盪，市場仍瀰漫觀望氣氛。對此，有著PCB女王之稱的統一投顧總經理廖婉婷認為，台股利空已全數鈍化，只要拉回就是買點，看好台…。",
-      "link": "https://tw.stock.yahoo.com/news/%E6%AC%A3%E8%88%88-%E8%81%AF%E7%99%BC%E7%A7%91-pcb%E5%A5%B3%E7%8E%8B-5%E6%AA%94%E5%AF%B6%E8%97%8F%E8%82%A1-%E6%8B%89%E5%9B%9E%E5%B0%B1%E6%98%AF%E8%B2%B7%E9%BB%9E-220530943.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "億元董座2／這三家金控董事均酬飛越台積電　高風控激勵高績效",
-      "original_title": null,
-      "summary": "重點：2026年前7月，民營金控累計稅後純益表現最亮眼的前三名分別為富邦金（2881）、國泰金（2882）以及因合併效益爆發的台新新光金（2887）。…。",
-      "link": "https://tw.news.yahoo.com/%E5%84%84%E5%85%83%E8%91%A3%E5%BA%A72-%E9%80%99%E4%B8%89%E5%AE%B6%E9%87%91%E6%8E%A7%E8%91%A3%E4%BA%8B%E5%9D%87%E9%85%AC%E9%A3%9B%E8%B6%8A%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E9%AB%98%E9%A2%A8%E6%8E%A7%E6%BF%80%E5%8B%B5%E9%AB%98%E7%B8%BE%E6%95%88-220000016.html",
       "published_at": null,
       "source": "yahoo_news"
     }

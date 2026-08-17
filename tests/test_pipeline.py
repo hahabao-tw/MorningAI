@@ -274,6 +274,8 @@ class PipelineTests(unittest.TestCase):
             self.assertIn("id=\"summary-input\"", page)
             self.assertIn("自動加入下方 Markdown", page)
             self.assertIn("input.addEventListener('input',refreshPreview)", page)
+            self.assertIn("const separator=String.fromCharCode(10,10)", page)
+            self.assertNotIn("const body=summary?`\n\n${summary}\n\n`:'\n\n'", page)
             self.assertIn("重新整理頁面後會自動清除", page)
             self.assertIn("preview.textContent=currentMarkdown", page)
             self.assertNotIn("localStorage", page)

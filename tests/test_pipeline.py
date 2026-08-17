@@ -114,10 +114,10 @@ class PipelineTests(unittest.TestCase):
             {"kind": "news", "category": "domestic", "title": "台股標題", "summary": "重點：台股摘要。", "link": "https://example.com/domestic", "source": "yahoo_news"},
         ]
         markdown = render_markdown(build_report([CollectorResult("fixture", records)], self.now, "Asia/Taipei"), "F1台股盤前戰情早報")
-        for heading in ("## 盤前重點摘要", "## 美股指數", "## ADR", "## 黃金原油", "## 匯率", "## 台股昨日", "## 台指期夜盤", "## 台積電期貨夜盤", "## 台股期貨籌碼變化", "## 台積電大盤影響點數", "## 台股法人買賣動向", "## 華南期貨 F1極速 團隊，帶您快速掌握市場動向 !"):
+        for heading in ("## 盤前重點摘要", "## 美股指數", "## ADR", "## 黃金原油", "## 匯率", "## 台股昨日", "## 台指期夜盤", "## 台積電期貨夜盤", "## 台股期貨籌碼變化", "## 台積電大盤影響點數", "## 台股法人買賣動向", "## 華南期貨 F1極速 團隊，帶您 快速 掌握市場動向 !"):
             self.assertIn(heading, markdown)
         self.assertIn("本團隊已力求數據與資訊正確，如有錯誤，請以官方數據為主", markdown)
-        self.assertLess(markdown.index("## 台股法人買賣動向"), markdown.index("## 華南期貨 F1極速 團隊，帶您快速掌握市場動向 !"))
+        self.assertLess(markdown.index("## 台股法人買賣動向"), markdown.index("## 華南期貨 F1極速 團隊，帶您 快速 掌握市場動向 !"))
         self.assertNotIn("## 國際財經要聞（中文）", markdown)
         self.assertNotIn("## 台股新聞", markdown)
         self.assertNotIn("國際財經標題", markdown)
@@ -271,6 +271,12 @@ class PipelineTests(unittest.TestCase):
             self.assertNotIn("</script><script>alert", page)
             self.assertTrue((root / "docs" / "history" / "2026-08-13.html").exists())
             self.assertIn("複製 Markdown", page)
+            self.assertIn("id=\"summary-input\"", page)
+            self.assertIn("產生 Markdown", page)
+            self.assertIn("重新整理頁面後會自動清除", page)
+            self.assertIn("preview.textContent=currentMarkdown", page)
+            self.assertNotIn("localStorage", page)
+            self.assertNotIn("sessionStorage", page)
             self.assertNotIn("ChatGPT Prompt", page)
             self.assertNotIn("dialog.showModal()", page)
             self.assertNotIn("2026-08-13T06:30", page)

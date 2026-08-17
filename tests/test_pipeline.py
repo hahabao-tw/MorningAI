@@ -114,12 +114,14 @@ class PipelineTests(unittest.TestCase):
             {"kind": "news", "category": "domestic", "title": "台股標題", "summary": "重點：台股摘要。", "link": "https://example.com/domestic", "source": "yahoo_news"},
         ]
         markdown = render_markdown(build_report([CollectorResult("fixture", records)], self.now, "Asia/Taipei"), "F1台股盤前戰情早報")
-        for heading in ("## 盤前重點摘要", "## 美股指數", "## ADR", "## 黃金原油", "## 匯率", "## 台股昨日", "## 台指期夜盤", "## 台積電期貨夜盤", "## 台股期貨籌碼變化", "## 台積電大盤影響點數", "## 台股法人買賣動向", "## 華南期貨 F1 團隊，帶您快速掌握市場動向。", "## 國際財經要聞（中文）", "## 台股新聞"):
+        for heading in ("## 盤前重點摘要", "## 美股指數", "## ADR", "## 黃金原油", "## 匯率", "## 台股昨日", "## 台指期夜盤", "## 台積電期貨夜盤", "## 台股期貨籌碼變化", "## 台積電大盤影響點數", "## 台股法人買賣動向", "## 華南期貨 F1極速 團隊，帶您快速掌握市場動向 !"):
             self.assertIn(heading, markdown)
         self.assertIn("本團隊已力求數據與資訊正確，如有錯誤，請以官方數據為主", markdown)
-        self.assertLess(markdown.index("## 台股法人買賣動向"), markdown.index("## 華南期貨 F1 團隊，帶您快速掌握市場動向。"))
-        self.assertLess(markdown.index("## 華南期貨 F1 團隊，帶您快速掌握市場動向。"), markdown.index("## 國際財經要聞（中文）"))
-        self.assertIn("重點：國際摘要。", markdown)
+        self.assertLess(markdown.index("## 台股法人買賣動向"), markdown.index("## 華南期貨 F1極速 團隊，帶您快速掌握市場動向 !"))
+        self.assertNotIn("## 國際財經要聞（中文）", markdown)
+        self.assertNotIn("## 台股新聞", markdown)
+        self.assertNotIn("國際財經標題", markdown)
+        self.assertNotIn("台股標題", markdown)
         taiwan_yesterday = markdown.split("## 台股昨日", 1)[1].split("## 台指期夜盤", 1)[0]
         self.assertIn("### 台灣加權", taiwan_yesterday)
         self.assertIn("收盤：46,021.48", taiwan_yesterday)
@@ -147,7 +149,8 @@ class PipelineTests(unittest.TestCase):
         self.assertNotIn("https://example.com", markdown)
         self.assertEqual(markdown.split("## 盤前重點摘要\n", 1)[1].split("## 美股指數", 1)[0].strip(), "")
         self.assertNotIn("那斯達克期貨：", markdown)
-        positions = [markdown.index(name + "：") for name in ("NASDAQ", "費城半導體", "S&P 500", "道瓊指數")]
+        self.assertIn("**NASDAQ**：11.00（+1.00 / +2.00%）", markdown)
+        positions = [markdown.index(f"**{name}**：") for name in ("NASDAQ", "費城半導體", "S&P 500", "道瓊指數")]
         self.assertEqual(positions, sorted(positions))
 
     def test_taifex_parser_selects_nearest_tx_after_hours_contract(self) -> None:
@@ -267,8 +270,9 @@ class PipelineTests(unittest.TestCase):
             self.assertNotIn("source_status", payload)
             self.assertNotIn("</script><script>alert", page)
             self.assertTrue((root / "docs" / "history" / "2026-08-13.html").exists())
-            self.assertIn("已複製以下 ChatGPT Prompt", page)
-            self.assertIn("dialog.showModal()", page)
+            self.assertIn("複製 Markdown", page)
+            self.assertNotIn("ChatGPT Prompt", page)
+            self.assertNotIn("dialog.showModal()", page)
             self.assertNotIn("2026-08-13T06:30", page)
             log = (root / "report" / "history" / "2026-08-13.log").read_text(encoding="utf-8")
             self.assertIn("source=x status=ok records=1", log)

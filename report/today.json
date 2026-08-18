@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-19",
-  "generated_at": "2026-08-19T06:52:18+08:00",
+  "generated_at": "2026-08-19T07:32:25+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4387.2,
-      "change": -33.400000000000546,
-      "change_percent": -0.7555535447676909,
+      "price": 4389.6,
+      "change": -31.0,
+      "change_percent": -0.7012622720897616,
       "currency": "USD",
-      "market_time": 1787092935,
+      "market_time": 1787095343,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 84.48,
-      "change": 0.4200000000000017,
-      "change_percent": 0.4996431120628143,
+      "price": 84.51,
+      "change": 0.45000000000000284,
+      "change_percent": 0.535331905781588,
       "currency": "USD",
-      "market_time": 1787092926,
+      "market_time": 1787095312,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 91.31,
-      "change": 0.29000000000000625,
-      "change_percent": 0.3186112942210572,
+      "price": 91.38,
+      "change": 0.35999999999999943,
+      "change_percent": 0.3955174686881998,
       "currency": "USD",
-      "market_time": 1787092707,
+      "market_time": 1787095312,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.885,
-      "change": 0.03500000000000014,
-      "change_percent": 0.10989010989011032,
+      "price": 31.884,
+      "change": -0.013999999999999346,
+      "change_percent": -0.043889899053230125,
       "currency": "TWD",
-      "market_time": 1787093479,
+      "market_time": 1787095455,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9951,
-      "change": -0.000300000000000189,
-      "change_percent": -0.006005525083080214,
+      "price": 4.9948,
+      "change": 0.0013999999999994017,
+      "change_percent": 0.02803700885167224,
       "currency": "JPY",
-      "market_time": 1787093398,
+      "market_time": 1787095793,
       "source": "yahoo"
     },
     {
@@ -258,6 +258,51 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Nukes all around? A fraying U.S. nuclear umbrella is pushing allies to weigh defense options, raising risk of a proliferation cascade",
+      "link": "https://www.cnbc.com/2026/08/19/nuclear-proliferation-defense-risk-trump-umbrella-.html",
+      "published_at": "2026-08-18T23:25:38+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "What Chinese liquor maker Moutai's slump says about the country's economy",
+      "link": "https://www.cnbc.com/2026/08/19/china-economy-moutai-ai-property.html",
+      "published_at": "2026-08-18T23:18:47+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "'Banned over a pair of £2 sandals': Why some sellers are complaining about Vinted",
+      "link": "https://www.bbc.co.uk/news/articles/cx2kwnrn5zpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-18T23:14:49+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Mobile payments on the rise but cash decline slows",
+      "link": "https://www.bbc.co.uk/news/articles/cd7l9en2qrjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-18T23:04:53+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Meta hooked children on Facebook and Instagram, court hears",
+      "link": "https://www.bbc.co.uk/news/articles/cly5r7vr7q1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-18T22:11:07+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "30-year Treasury yield tops 5.33%, new 19-year high, on inflation and spending concerns",
       "link": "https://www.cnbc.com/2026/08/18/treasury-yields-.html",
       "published_at": "2026-08-18T20:33:38+00:00",
@@ -348,10 +393,79 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "'Absolutely crazy': Here's what South Korean stock investors are doing in U.S. markets",
+      "link": "https://www.cnbc.com/2026/08/18/korean-stock-investors-flee-bruising-home-market-pile-into-us.html",
+      "published_at": "2026-08-17T23:39:54+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美伊關係緊繃＋全球公債殖利率攀升！美股收黑「記憶體巨頭」海力士、晟碟下殺9%　台指期夜盤摔561點",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導中東關係再次緊張、荷莫茲海峽（StraitofHormuz）開放仍然遙遙無期，加上全球公債殖利率上升，半導…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E4%BC%8A%E9%97%9C%E4%BF%82%E7%B7%8A%E7%B9%83-%E5%85%A8%E7%90%83%E5%85%AC%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87%E6%94%80%E5%8D%87-%E7%BE%8E%E8%82%A1%E6%94%B6%E9%BB%91-%E8%A8%98%E6%86%B6%E9%AB%94%E5%B7%A8%E9%A0%AD-%E6%B5%B7%E5%8A%9B%E5%A3%AB-231500474.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "軟銀計畫向散戶發行1兆日圓債券，創日本史上最大規模",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】外電引述日經新聞的報導指出，專注於投資高科技領域的軟銀集團(SoftBank Group)正準備向散戶投資者發行1兆日圓的債…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%BB%9F%E9%8A%80%E8%A8%88%E7%95%AB%E5%90%91%E6%95%A3%E6%88%B6%E7%99%BC%E8%A1%8C1%E5%85%86%E6%97%A5%E5%9C%93%E5%82%B5%E5%88%B8-%E5%89%B5%E6%97%A5%E6%9C%AC%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%A4%A7%E8%A6%8F%E6%A8%A1-231453624.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "債市殖利率上揚引發美股下跌，週三台股恐受影響",
+      "original_title": null,
+      "summary": "重點：【財訊快報／魏聖峰】債市殖利率攀升，市場對AI題材想像力暫時消失，先前好不容易重返牛市的費城半導體指數週二下跌，擔心CSP業者今年龐大的資本支出…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%82%B5%E5%B8%82%E6%AE%96%E5%88%A9%E7%8E%87%E4%B8%8A%E6%8F%9A%E5%BC%95%E7%99%BC%E7%BE%8E%E8%82%A1%E4%B8%8B%E8%B7%8C-%E9%80%B1%E4%B8%89%E5%8F%B0%E8%82%A1%E6%81%90%E5%8F%97%E5%BD%B1%E9%9F%BF-231052165.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "美股全倒！費半狂瀉近5%　半導體股成重災區",
       "original_title": null,
       "summary": "重點：[NOWNEWS今日新聞]美股週二（18日）全面收黑，美伊談判陷入停滯，加上國際油價持續處於高檔，市場憂心通膨壓力恐怕難以快速消退，帶動全球公債…。",
       "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E5%85%A8%E5%80%92-%E8%B2%BB%E5%8D%8A%E7%8B%82%E7%80%89%E8%BF%915-%E5%8D%8A%E5%B0%8E%E9%AB%94%E8%82%A1%E6%88%90%E9%87%8D%E7%81%BD%E5%8D%80-223157434.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "安葆加速海外佈局，鴻海高雄資料中心最快第四季貢獻營收",
+      "original_title": null,
+      "summary": "重點：【財訊快報／記者戴海茜報導】電力系統整合服務商安葆(7792)昨天舉行法說會，安葆指出，受惠於全球AI資料中心建設熱潮及高科技廠房需求擴張，第二…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%AE%89%E8%91%86%E5%8A%A0%E9%80%9F%E6%B5%B7%E5%A4%96%E4%BD%88%E5%B1%80-%E9%B4%BB%E6%B5%B7%E9%AB%98%E9%9B%84%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E6%9C%80%E5%BF%AB%E7%AC%AC%E5%9B%9B%E5%AD%A3%E8%B2%A2%E7%8D%BB%E7%87%9F%E6%94%B6-230307115.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "美伊談判陷入僵局　美股費半跌近5％、台積電ADR重挫逾4％",
+      "original_title": null,
+      "summary": "重點：美國與伊朗停火協議到期，並且在重新開放荷莫茲海峽依舊沒有進展，美國股市主要指數星期二收低，費城半導體指數重挫628點，半導體、記憶體類股為重災區…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E4%BC%8A%E8%AB%87%E5%88%A4%E9%99%B7%E5%85%A5%E5%83%B5%E5%B1%80-%E7%BE%8E%E8%82%A1%E8%B2%BB%E5%8D%8A%E8%B7%8C%E8%BF%915-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E9%87%8D%E6%8C%AB%E9%80%BE4-224638343.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【台股盤前】費半崩近5%！台指夜盤重挫561點　台股今開盤恐再挫",
+      "original_title": null,
+      "summary": "重點：美股主要指數週二（18日）全數收黑，隨著國際油價攀升，市場重新擔心通膨壓力升高，加上企業融資成本可能持續上升，全球債市出現明顯賣壓，科技與半導體…。",
+      "link": "https://tw.news.yahoo.com/%E3%80%90%E5%8F%B0%E8%82%A1%E7%9B%A4%E5%89%8D%E3%80%91%E8%B2%BB%E5%8D%8A%E5%B4%A9%E8%BF%915%EF%BC%81%E5%8F%B0%E6%8C%87%E5%A4%9C%E7%9B%A4%E9%87%8D%E6%8C%AB561%E9%BB%9E-%E5%8F%B0%E8%82%A1%E4%BB%8A%E9%96%8B%E7%9B%A4%E6%81%90%E5%86%8D%E6%8C%AB-222600806.html",
       "published_at": null,
       "source": "yahoo_news"
     },

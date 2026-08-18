@@ -1,6 +1,8 @@
 # MorningAI
 
-每天 06:30（台北時間）自動整理盤前資料，保留標準化 Markdown、JSON 歷史紀錄，並部署成適合手機使用的 GitHub Pages。網站提供「複製 Markdown」與「複製 ChatGPT Prompt」按鈕；內容仍由人工審核後再發送。
+每天 06:30 與 07:05（台北時間）整理盤前資料，保留標準化 Markdown、JSON 歷史紀錄，並部署成適合手機使用的 GitHub Pages。07:05 重跑會補上新資料與先前缺項，不會以缺失或較舊資料回退既有輸出。
+
+工商時報盤前使用獨立流程，於 07:35 與 08:00（台北時間）讀取 Google News 的工商時報公開索引，輸出至 `docs/ctee/`，不混入原晨報內容。第二次執行同樣只補更新；來源暫時缺失時保留第一次結果。
 
 ## 目前範圍
 
@@ -16,14 +18,16 @@
 
 ```text
 MorningAI/
-├─ .github/workflows/morning.yml  # 排程、測試、保存歷史、部署 Pages
+├─ .github/workflows/morning.yml  # 06:30、07:05 晨報排程
+├─ .github/workflows/ctee.yml     # 07:35、08:00 工商盤前排程
 ├─ config/config.toml             # 資料來源、商品、Prompt 設定
 ├─ crawler/                       # 各資料來源介面與實作
 ├─ processor/                     # 正規化、Markdown/JSON、網站產生器
 ├─ report/                        # today 與日期化歷史資料（執行後產生）
 ├─ docs/                          # GitHub Pages 靜態網站（執行後產生）
 ├─ tests/                         # 無網路單元測試
-└─ run.py                         # 單一執行入口
+├─ run.py                         # 原晨報執行入口
+└─ run_ctee.py                    # 工商盤前獨立執行入口
 ```
 
 ## 第一次設定
@@ -34,7 +38,7 @@ MorningAI/
 4. Repository → **Actions → MorningAI daily report → Run workflow** 手動試跑。
 5. 全部通過後，Pages 網址會出現在 workflow 的 deployment 結果。
 
-排程 `30 22 * * *` 是每日 UTC 22:30，對應台北時間隔日 06:30。台灣假日仍會執行，但 TWSE 會回溯最近 14 日尋找上一交易日，涵蓋一般連假。
+GitHub Actions cron 使用 UTC。晨報的 `30 22 * * *`、`5 23 * * *` 分別對應台北時間隔日 06:30、07:05；工商盤前的 `35 23 * * *`、`0 0 * * *` 分別對應台北時間隔日 07:35、當日 08:00。台灣假日仍會執行，但 TWSE 會回溯最近 14 日尋找上一交易日，涵蓋一般連假。
 
 若 workflow 無法保存歷史資料，至 Repository → **Settings → Actions → General → Workflow permissions** 選 **Read and write permissions**。
 
@@ -45,6 +49,7 @@ MorningAI/
 ```powershell
 python -m unittest discover -s tests -v
 python run.py
+python run_ctee.py
 ```
 
 完成後開啟 `docs/index.html`。網路完全失敗時仍應產生頁面，來源狀態會顯示失敗。

@@ -1,11 +1,10 @@
-name: MorningAI daily report
+name: CTEE premarket report
 
 on:
   schedule:
-    # GitHub Actions cron uses UTC. 22:30 UTC = 06:30 Asia/Taipei next day.
-    - cron: "30 22 * * *"
-    # 23:05 UTC = 07:05 Asia/Taipei next day; same-day data is merged without rollback.
-    - cron: "5 23 * * *"
+    # GitHub Actions cron uses UTC. These are 07:35 and 08:00 Asia/Taipei.
+    - cron: "35 23 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -30,14 +29,14 @@ jobs:
           python-version: "3.12"
       - name: Run tests
         run: python -m unittest discover -s tests -v
-      - name: Generate report and site
-        run: python run.py
-      - name: Save report history
+      - name: Generate CTEE report and page
+        run: python run_ctee.py
+      - name: Save CTEE history
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add report docs
-          git diff --cached --quiet || git commit -m "chore: update morning report"
+          git add report/ctee docs/ctee
+          git diff --cached --quiet || git commit -m "chore: update CTEE premarket report"
           git push
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

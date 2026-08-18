@@ -7,6 +7,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 from crawler.base import CollectorResult
+from crawler.ctee import CteePremarketCollector
 from crawler.dashboard import MarketDashboardCollector
 from crawler.stockq import StockQCollector
 from crawler.taifex import TaifexCollector
@@ -15,10 +16,11 @@ from crawler.yahoo import YahooMarketCollector
 from crawler.yahoo_news import YahooHeadlineCollector
 from crawler.yahoo_future import YahooFutureCollector
 from processor.export import write_report
+from processor.ctee import build_ctee_site, update_ctee_report
 from processor.markdown import render_markdown
+from processor.merge import merge_same_day_report
 from processor.normalize import build_report
 from processor.site import build_site
-from run import reuse_same_day_market_snapshots
 
 
 class PipelineTests(unittest.TestCase):
@@ -209,21 +211,24 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(record["symbol"], "WCDF&")
         self.assertEqual(record["price"], 2428)
 
-    def test_same_day_rerun_reuses_saved_market_snapshots(self) -> None:
-        report = build_report([], self.now, "Asia/Taipei")
+    def test_same_day_rerun_fills_missing_records_and_rejects_older_values(self) -> None:
+        report = build_report([CollectorResult("new", [
+            {"kind": "market", "source": "yahoo", "symbol": "TSM", "price": 200, "market_time": 20},
+            {"kind": "market", "source": "yahoo", "symbol": "UMC", "price": 40, "market_time": 10},
+        ])], self.now, "Asia/Taipei")
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             payload = {"report_date": "2026-08-13", "markets": [
-                {"group": "taifex", "source": "yahoo_future", "symbol": "WTX&", "price": 46389},
-                {"group": "taifex", "source": "yahoo_future", "symbol": "WCDF&", "price": 2428},
-                {"group": "taiwan_indices", "source": "stockq", "label": "台灣加權", "price": 46021.48},
-                {"group": "taiwan_indices", "source": "stockq", "label": "台灣櫃買", "price": 406.12},
-            ]}
+                {"kind": "market", "source": "yahoo", "symbol": "TSM", "price": 100, "currency": "USD", "market_time": 10},
+                {"kind": "market", "source": "yahoo", "symbol": "UMC", "price": 50, "market_time": 20},
+                {"kind": "market", "source": "stockq", "symbol": "TWSE.php", "price": 46021.48},
+            ], "taiwan_market": [], "chips": [], "news": []}
             (root / "today.json").write_text(json.dumps(payload), encoding="utf-8")
-            reuse_same_day_market_snapshots(report, root)
-        self.assertEqual(report.markets[0]["price"], 46389)
-        self.assertEqual(report.markets[1]["price"], 2428)
-        self.assertEqual([item["price"] for item in report.markets[2:]], [46021.48, 406.12])
+            merge_same_day_report(report, root / "today.json")
+        self.assertEqual(report.markets[0]["price"], 200)
+        self.assertEqual(report.markets[0]["currency"], "USD")
+        self.assertEqual(report.markets[1]["price"], 50)
+        self.assertEqual(report.markets[2]["price"], 46021.48)
 
     def test_cross_day_rerun_does_not_reuse_stale_night_quote(self) -> None:
         report = build_report([], self.now, "Asia/Taipei")
@@ -231,8 +236,33 @@ class PipelineTests(unittest.TestCase):
             root = Path(temporary)
             payload = {"report_date": "2026-08-12", "markets": [{"group": "taifex", "source": "yahoo_future", "price": 45000}]}
             (root / "today.json").write_text(json.dumps(payload), encoding="utf-8")
-            reuse_same_day_market_snapshots(report, root)
+            merge_same_day_report(report, root / "today.json")
         self.assertEqual(report.markets, [])
+
+    def test_ctee_parser_keeps_only_requested_premarket_date(self) -> None:
+        feed = """<?xml version="1.0"?><rss><channel>
+        <item><title>8／18盤前｜今日重點 - 證券 - 工商時報</title>
+        <link>https://news.google.com/one</link><pubDate>Mon, 17 Aug 2026 23:30:00 GMT</pubDate><source>工商時報</source></item>
+        <item><title>8／17盤前｜昨日重點 - 工商時報</title>
+        <link>https://news.google.com/old</link><pubDate>Sun, 16 Aug 2026 23:30:00 GMT</pubDate><source>工商時報</source></item>
+        <item><title>美股盤前上漲 - 工商時報</title><link>https://news.google.com/noise</link></item>
+        </channel></rss>"""
+        records = CteePremarketCollector._parse(feed.encode(), date(2026, 8, 18))
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0]["title"], "8／18盤前｜今日重點")
+        self.assertEqual(records[0]["published_at"], "2026-08-17T23:30:00+00:00")
+
+    def test_ctee_second_run_retains_first_result_when_source_is_empty(self) -> None:
+        article = {"kind": "ctee_premarket", "title": "8／18盤前｜今日重點", "link": "https://news.google.com/one", "published_at": "2026-08-17T23:30:00+00:00", "source": "ctee_google_news"}
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            update_ctee_report(root / "report", "2026-08-18", "2026-08-18T07:35:00+08:00", "Asia/Taipei", [article])
+            payload = update_ctee_report(root / "report", "2026-08-18", "2026-08-18T08:00:00+08:00", "Asia/Taipei", [])
+            build_ctee_site(payload, root / "docs")
+            page = (root / "docs" / "ctee" / "index.html").read_text(encoding="utf-8")
+        self.assertEqual(payload["articles"], [article])
+        self.assertIn("8／18盤前｜今日重點", page)
+        self.assertIn('href="../"', page)
 
     def test_dashboard_collector_maps_requested_chip_fields(self) -> None:
         class Client:

@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import argparse
-import json
 import sys
 import tomllib
 from datetime import datetime, timezone
@@ -22,28 +21,12 @@ from crawler.yahoo_future import YahooFutureCollector
 from processor.export import write_report
 from processor.markdown import render_markdown
 from processor.model import MorningReport
+from processor.merge import merge_same_day_report
 from processor.normalize import build_report
 from processor.site import build_site
 
 
 ROOT = Path(__file__).resolve().parent
-
-
-def reuse_same_day_market_snapshots(report: MorningReport, report_dir: Path) -> None:
-    previous_path = report_dir / "today.json"
-    if not previous_path.exists():
-        return
-    previous = json.loads(previous_path.read_text(encoding="utf-8"))
-    if previous.get("report_date") != report.report_date:
-        return
-    previous_markets = previous.get("markets", [])
-    for symbol in ("WTX&", "WCDF&"):
-        if not any(item.get("source") == "yahoo_future" and item.get("symbol") == symbol for item in report.markets):
-            quote = next((item for item in previous_markets if item.get("source") == "yahoo_future" and item.get("symbol") == symbol), None)
-            if quote:
-                report.markets.append(quote)
-    if not any(item.get("group") == "taiwan_indices" for item in report.markets):
-        report.markets.extend(item for item in previous_markets if item.get("group") == "taiwan_indices")
 
 
 def load_config(path: Path) -> dict:
@@ -94,7 +77,7 @@ def main(argv: list[str] | None = None) -> int:
         now = datetime.now(timezone.utc)
         results = [item.collect() for item in collectors(config, now)]
         report = build_report(results, now, config["report"]["timezone"])
-        reuse_same_day_market_snapshots(report, ROOT / "report")
+        merge_same_day_report(report, ROOT / "report" / "today.json")
         markdown = render_markdown(report, config["report"]["title"])
         write_report(report, markdown, ROOT / "report")
         build_site(ROOT / "report", ROOT / "docs", config["report"]["prompt"])

@@ -25,9 +25,11 @@ def _page(title: str, body: str, script: str = "") -> str:
     return f"""<!doctype html><html lang=\"zh-Hant\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>{html.escape(title)}</title><style>{STYLE}</style></head><body><main>{body}</main><script>{script}</script></body></html>"""
 
 
-def _report_page(markdown: str, date: str) -> str:
+def _report_page(
+    markdown: str, date: str, history_prefix: str = "history/", ctee_prefix: str = "ctee/"
+) -> str:
     markdown_json = json.dumps(markdown, ensure_ascii=False).replace("</", "<\\/")
-    body = f"""<div class=\"top\"><div><h1>F1台股盤前戰情早報</h1><p class=\"muted\">{html.escape(date)}</p></div><a class=\"link secondary\" href=\"history/\">歷史晨報</a></div><section class=\"card summary-card\"><h2>盤前重點摘要</h2><p class=\"muted\">貼上的內容會自動加入下方 Markdown 的「盤前重點摘要」；重新整理頁面後會自動清除。</p><label for=\"summary-input\">整理後的新聞</label><textarea id=\"summary-input\" autocomplete=\"off\" placeholder=\"請在此貼上盤前重點摘要…\"></textarea></section><section class=\"card\"><div class=\"actions\"><button data-copy=\"markdown\">複製完整 Markdown</button></div><pre id=\"markdown-preview\">{html.escape(markdown)}</pre></section>"""
+    body = f"""<div class=\"top\"><div><h1>F1台股盤前戰情早報</h1><p class=\"muted\">{html.escape(date)}</p></div><div class=\"actions\"><a class=\"link secondary\" href=\"{html.escape(history_prefix, quote=True)}\">歷史晨報</a><a class=\"link secondary\" href=\"{html.escape(ctee_prefix, quote=True)}\">工商時報盤前</a></div></div><section class=\"card summary-card\"><h2>盤前重點摘要</h2><p class=\"muted\">貼上的內容會自動加入下方 Markdown 的「盤前重點摘要」；重新整理頁面後會自動清除。</p><label for=\"summary-input\">整理後的新聞</label><textarea id=\"summary-input\" autocomplete=\"off\" placeholder=\"請在此貼上盤前重點摘要…\"></textarea></section><section class=\"card\"><div class=\"actions\"><button data-copy=\"markdown\">複製完整 Markdown</button></div><pre id=\"markdown-preview\">{html.escape(markdown)}</pre></section>"""
     script = f"""const baseMarkdown={markdown_json};const summaryHeading='## 盤前重點摘要';const nextHeading='## 美股指數';const input=document.querySelector('#summary-input');const preview=document.querySelector('#markdown-preview');const copy=document.querySelector('[data-copy=\"markdown\"]');let currentMarkdown=baseMarkdown;function buildMarkdown(){{const start=baseMarkdown.indexOf(summaryHeading);const end=baseMarkdown.indexOf(nextHeading,start);if(start<0||end<0)return baseMarkdown;const headingEnd=start+summaryHeading.length;const summary=input.value.trim();const separator=String.fromCharCode(10,10);const body=summary?separator+summary+separator:separator;return baseMarkdown.slice(0,headingEnd)+body+baseMarkdown.slice(end);}}function refreshPreview(){{currentMarkdown=buildMarkdown();preview.textContent=currentMarkdown;}}window.addEventListener('pageshow',()=>{{input.value='';currentMarkdown=baseMarkdown;preview.textContent=baseMarkdown;}});input.addEventListener('input',refreshPreview);copy.addEventListener('click',async()=>{{refreshPreview();const old=copy.textContent;try{{await navigator.clipboard.writeText(currentMarkdown);copy.textContent='已複製';}}catch(e){{const area=document.createElement('textarea');area.value=currentMarkdown;document.body.append(area);area.select();document.execCommand('copy');area.remove();copy.textContent='已複製';}}setTimeout(()=>copy.textContent=old,1500);}});"""
     return _page("F1台股盤前戰情早報", body, script)
 
@@ -43,7 +45,7 @@ def build_site(report_dir: Path, docs_dir: Path, _prompt: str) -> None:
     links: list[str] = []
     for md_path in sorted((report_dir / "history").glob("*.md"), reverse=True):
         date = md_path.stem
-        history_page = _report_page(md_path.read_text(encoding="utf-8"), date)
+        history_page = _report_page(md_path.read_text(encoding="utf-8"), date, "./", "../ctee/")
         (docs_history / f"{date}.html").write_text(history_page, encoding="utf-8")
         links.append(f'<li><a href="{html.escape(date)}.html">{html.escape(date)}</a></li>')
     history_body = '<div class="top"><h1>歷史晨報</h1><a class="link secondary" href="../">回到今日</a></div><section class="card"><ul>' + "".join(links) + "</ul></section>"

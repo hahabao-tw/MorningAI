@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-20",
-  "generated_at": "2026-08-20T07:08:24+08:00",
+  "generated_at": "2026-08-20T07:09:22+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4576.9,
-      "change": 31.599999999999454,
-      "change_percent": 0.6952236376036665,
+      "price": 4575.9,
+      "change": 30.599999999999454,
+      "change_percent": 0.6732228895782336,
       "currency": "USD",
-      "market_time": 1787180292,
+      "market_time": 1787180360,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 84.3,
-      "change": -0.09000000000000341,
-      "change_percent": -0.10664770707430195,
+      "price": 84.4,
+      "change": 0.010000000000005116,
+      "change_percent": 0.011849745230483606,
       "currency": "USD",
-      "market_time": 1787180302,
+      "market_time": 1787180359,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 91.41,
-      "change": -0.21000000000000796,
-      "change_percent": -0.22920759659463869,
+      "price": 91.54,
+      "change": -0.0799999999999983,
+      "change_percent": -0.08731717965509528,
       "currency": "USD",
-      "market_time": 1787179915,
+      "market_time": 1787180347,
       "source": "yahoo"
     },
     {

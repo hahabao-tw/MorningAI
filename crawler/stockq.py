@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 import re
 from datetime import date
 
@@ -34,10 +35,14 @@ class StockQCollector(Collector):
         records: list[dict[str, object]] = []
         for path, label in cls.targets:
             row = next((item for item in rows if path in item), "")
-            scripts = re.findall(r"<script>(.*?)</script>", row, flags=re.IGNORECASE | re.DOTALL)
-            if len(scripts) < 3:
+            payloads = re.findall(r"data-sq=[\"']([^\"']+)[\"']", row, flags=re.IGNORECASE)
+            scripts = re.findall(r"<script[^>]*>(.*?)</script>", row, flags=re.IGNORECASE | re.DOTALL)
+            if len(payloads) >= 3:
+                values = [float(cls._decode_payload(payload)) for payload in payloads[:3]]
+            elif len(scripts) >= 3:
+                values = [float(cls._decode(script)) for script in scripts[:3]]
+            else:
                 continue
-            values = [float(cls._decode(script)) for script in scripts[:3]]
             dates = re.findall(r"\b\d{2}/\d{2}\b", row)
             records.append({
                 "kind": "market", "group": "taiwan_indices", "symbol": path,
@@ -53,7 +58,23 @@ class StockQCollector(Collector):
         if not match:
             raise ValueError("unexpected StockQ value format")
         parts = re.findall(r"'([^']*)'", match.group(1))
-        state = int(match.group(2))
+        return StockQCollector._decode_parts(parts, int(match.group(2)))
+
+    @staticmethod
+    def _decode_payload(payload: str) -> str:
+        try:
+            fields = base64.b64decode(payload, validate=True).decode("ascii").split("|")
+        except (ValueError, UnicodeDecodeError) as exc:
+            raise ValueError("unexpected StockQ data-sq format") from exc
+        if len(fields) != 6 or not fields[0].isdigit():
+            raise ValueError("unexpected StockQ data-sq format")
+        return StockQCollector._decode_parts(fields[1:], int(fields[0]))
+
+    @staticmethod
+    def _decode_parts(encoded_parts: list[str], state: int) -> str:
+        if len(encoded_parts) != 5:
+            raise ValueError("unexpected StockQ value parts")
+        parts = list(encoded_parts)
 
         def random_value() -> float:
             nonlocal state

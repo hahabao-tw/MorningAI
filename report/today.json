@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-20",
-  "generated_at": "2026-08-20T07:28:17+08:00",
+  "generated_at": "2026-08-20T07:32:45+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4576.7,
-      "change": 31.399999999999636,
-      "change_percent": 0.690823487998584,
+      "price": 4576.3,
+      "change": 31.0,
+      "change_percent": 0.6820231887884187,
       "currency": "USD",
-      "market_time": 1787181483,
+      "market_time": 1787181743,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 84.54,
-      "change": 0.15000000000000568,
-      "change_percent": 0.1777461784571699,
+      "price": 84.51,
+      "change": 0.12000000000000455,
+      "change_percent": 0.14219694276573594,
       "currency": "USD",
-      "market_time": 1787181488,
+      "market_time": 1787181757,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.856,
-      "change": 0.009000000000000341,
-      "change_percent": 0.028260118692499576,
+      "price": 31.828,
+      "change": -0.019000000000001904,
+      "change_percent": -0.059660250573058383,
       "currency": "TWD",
-      "market_time": 1787181884,
+      "market_time": 1787182364,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9562,
-      "change": 0.0011999999999998678,
-      "change_percent": 0.024217961654891377,
+      "price": 4.9569,
+      "change": 0.0019000000000000128,
+      "change_percent": 0.038345105953582495,
       "currency": "JPY",
-      "market_time": 1787181897,
+      "market_time": 1787182197,
       "source": "yahoo"
     },
     {
@@ -233,6 +233,15 @@
     }
   ],
   "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Trump announces 'economic warfare' on Iran, threatens ‘tremendous’ consequences for its backers",
+      "link": "https://www.cnbc.com/2026/08/19/us-iran-war-trump-hormuz-economic-warfare.html",
+      "published_at": "2026-08-19T23:25:32+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
     {
       "kind": "news",
       "category": "international",
@@ -374,10 +383,10 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "輝達H200 北京少量放行",
+      "title": "美股面臨「劇震」風險！Gamma恐轉負、賣壓一旦引爆恐加速下跌",
       "original_title": null,
-      "summary": "重點：北京已允許輝達（NVIDIA）少量H200圖形處理器（GPU）輸入中國大陸，協助國內主要AI業者追趕美國同業。",
-      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94h200-%E5%8C%97%E4%BA%AC%E5%B0%91%E9%87%8F%E6%94%BE%E8%A1%8C-223606567.html",
+      "summary": "重點：美股標普500指數逼近高點，但市場低相關性結構正出現變化。彭博策略師警告，若選擇權Gamma轉負，可能放大交易商避險賣壓，讓3%至4%的市場修正…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E9%9D%A2%E8%87%A8-%E5%8A%87%E9%9C%87-%E9%A2%A8%E9%9A%AA-gamma%E6%81%90%E8%BD%89%E8%B2%A0-%E8%B3%A3%E5%A3%93-224003218.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -388,6 +397,16 @@
       "original_title": null,
       "summary": "重點：台股昨（19）日受美股走跌、台指期壓低結算，以及三大法人賣超逾753.5億元影響，指數開低走低，摜破季線與45K大關，終場大跌589點、收44,…。",
       "link": "https://tw.news.yahoo.com/%E5%9C%8B%E9%9A%9B%E8%AE%8A%E6%95%B8%E5%A4%9A-%E6%8A%80%E8%A1%93%E9%9D%A2%E8%BD%89%E5%BC%B1-%E4%B8%89%E5%A4%A7%E6%B3%95%E4%BA%BA%E8%BD%89%E8%B3%A3-%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA-%E7%95%99%E6%84%8F%E4%B8%89%E5%A4%A7%E9%A2%A8%E9%9A%AA-223606089.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達H200 北京少量放行",
+      "original_title": null,
+      "summary": "重點：北京已允許輝達（NVIDIA）少量H200圖形處理器（GPU）輸入中國大陸，協助國內主要AI業者追趕美國同業。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94h200-%E5%8C%97%E4%BA%AC%E5%B0%91%E9%87%8F%E6%94%BE%E8%A1%8C-223606567.html",
       "published_at": null,
       "source": "yahoo_news"
     },

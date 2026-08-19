@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-20",
-  "generated_at": "2026-08-20T07:12:40+08:00",
+  "generated_at": "2026-08-20T07:20:14+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4578.8,
-      "change": 33.5,
-      "change_percent": 0.737025058852001,
+      "price": 4578.5,
+      "change": 33.19999999999982,
+      "change_percent": 0.7304248344443671,
       "currency": "USD",
-      "market_time": 1787180558,
+      "market_time": 1787181010,
       "source": "yahoo"
     },
     {
@@ -109,7 +109,7 @@
       "change": 0.060000000000002274,
       "change_percent": 0.07109847138286797,
       "currency": "USD",
-      "market_time": 1787180556,
+      "market_time": 1787181011,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 91.68,
-      "change": 0.060000000000002274,
-      "change_percent": 0.06548788474132533,
+      "price": 91.63,
+      "change": 0.009999999999990905,
+      "change_percent": 0.010914647456877216,
       "currency": "USD",
-      "market_time": 1787180560,
+      "market_time": 1787180989,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.853,
-      "change": 0.006000000000000227,
-      "change_percent": 0.01884007912833305,
+      "price": 31.856,
+      "change": 0.009000000000000341,
+      "change_percent": 0.028260118692499576,
       "currency": "TWD",
-      "market_time": 1787180809,
+      "market_time": 1787181570,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9566,
-      "change": 0.0015999999999998238,
-      "change_percent": 0.03229061553985517,
+      "price": 4.9563,
+      "change": 0.0012999999999996348,
+      "change_percent": 0.026236125126127847,
       "currency": "JPY",
-      "market_time": 1787180997,
+      "market_time": 1787181597,
       "source": "yahoo"
     },
     {

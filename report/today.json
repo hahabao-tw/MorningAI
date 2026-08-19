@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-20",
-  "generated_at": "2026-08-20T07:20:14+08:00",
+  "generated_at": "2026-08-20T07:28:17+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4578.5,
-      "change": 33.19999999999982,
-      "change_percent": 0.7304248344443671,
+      "price": 4576.7,
+      "change": 31.399999999999636,
+      "change_percent": 0.690823487998584,
       "currency": "USD",
-      "market_time": 1787181010,
+      "market_time": 1787181483,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 84.45,
-      "change": 0.060000000000002274,
-      "change_percent": 0.07109847138286797,
+      "price": 84.54,
+      "change": 0.15000000000000568,
+      "change_percent": 0.1777461784571699,
       "currency": "USD",
-      "market_time": 1787181011,
+      "market_time": 1787181488,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 91.63,
-      "change": 0.009999999999990905,
-      "change_percent": 0.010914647456877216,
+      "price": 91.72,
+      "change": 0.09999999999999432,
+      "change_percent": 0.10914647456886523,
       "currency": "USD",
-      "market_time": 1787180989,
+      "market_time": 1787181459,
       "source": "yahoo"
     },
     {
@@ -133,7 +133,7 @@
       "change": 0.009000000000000341,
       "change_percent": 0.028260118692499576,
       "currency": "TWD",
-      "market_time": 1787181570,
+      "market_time": 1787181884,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9563,
-      "change": 0.0012999999999996348,
-      "change_percent": 0.026236125126127847,
+      "price": 4.9562,
+      "change": 0.0011999999999998678,
+      "change_percent": 0.024217961654891377,
       "currency": "JPY",
-      "market_time": 1787181597,
+      "market_time": 1787181897,
       "source": "yahoo"
     },
     {
@@ -344,6 +344,26 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "莫德納暴漲176.97%！美債殖利率回落「美股3指數收紅」　台積電ADR跌0.32%、台指期夜盤漲302點",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導由於美國政府公債殖利率回落，外加疫苗製造商莫德納Moderna（MRNA）在癌症疫苗成果出現大突破，激勵股…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%8E%AB%E5%BE%B7%E7%B4%8D%E6%9A%B4%E6%BC%B2176-97-%E7%BE%8E%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87%E5%9B%9E%E8%90%BD-%E7%BE%8E%E8%82%A13%E6%8C%87%E6%95%B8%E6%94%B6%E7%B4%85-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C0-232000629.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美債殖利率回落！美股多收高　台積電ADR挫0.28%",
+      "original_title": null,
+      "summary": "重點：美國財政部宣布擴大長債回購規模，公債殖利率隨之下跌，華爾街股市3大指數週三（19日）小幅收高，但科技股持續走跌，台積電ADR下挫1.14美元或0…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87%E5%9B%9E%E8%90%BD-%E7%BE%8E%E8%82%A1%E5%A4%9A%E6%94%B6%E9%AB%98-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E6%8C%AB0-28-230049643.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "美債殖利率回落　美股3大指數小幅收高、台積電ADR跌0.28％",
       "original_title": null,
       "summary": "重點：美國政府公債殖利率回落，緩解股市壓力，加上疫苗製造商莫德納股價大漲，帶動醫療保健類股走高，美股3大指數星期三小幅上漲，AI硬體與半導體類股普遍下…。",
@@ -358,6 +378,16 @@
       "original_title": null,
       "summary": "重點：北京已允許輝達（NVIDIA）少量H200圖形處理器（GPU）輸入中國大陸，協助國內主要AI業者追趕美國同業。",
       "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94h200-%E5%8C%97%E4%BA%AC%E5%B0%91%E9%87%8F%E6%94%BE%E8%A1%8C-223606567.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "國際變數多、技術面轉弱、三大法人轉賣…台股震盪 留意三大風險",
+      "original_title": null,
+      "summary": "重點：台股昨（19）日受美股走跌、台指期壓低結算，以及三大法人賣超逾753.5億元影響，指數開低走低，摜破季線與45K大關，終場大跌589點、收44,…。",
+      "link": "https://tw.news.yahoo.com/%E5%9C%8B%E9%9A%9B%E8%AE%8A%E6%95%B8%E5%A4%9A-%E6%8A%80%E8%A1%93%E9%9D%A2%E8%BD%89%E5%BC%B1-%E4%B8%89%E5%A4%A7%E6%B3%95%E4%BA%BA%E8%BD%89%E8%B3%A3-%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA-%E7%95%99%E6%84%8F%E4%B8%89%E5%A4%A7%E9%A2%A8%E9%9A%AA-223606089.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -378,16 +408,6 @@
       "original_title": null,
       "summary": "重點：華盛頓郵報報導，美國國債本周可能突破四十兆美元大關，比原先預測提前數月，部分原因是美國總統川普的關稅政策被推翻，導致千億美元財政收入損失，迫使財…。",
       "link": "https://tw.news.yahoo.com/%E9%97%9C%E7%A8%85%E6%94%BF%E7%AD%96%E8%A2%AB%E6%8E%A8%E7%BF%BB-%E7%BE%8E%E5%9C%8B%E5%82%B5%E6%9C%AC%E5%91%A8%E6%81%90%E7%A0%B440%E5%85%86%E7%BE%8E%E5%85%83-223606605.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "國際變數多、技術面轉弱、三大法人轉賣…台股震盪 留意三大風險",
-      "original_title": null,
-      "summary": "重點：台股昨（19）日受美股走跌、台指期壓低結算，以及三大法人賣超逾753.5億元影響，指數開低走低，摜破季線與45K大關，終場大跌589點、收44,…。",
-      "link": "https://tw.news.yahoo.com/%E5%9C%8B%E9%9A%9B%E8%AE%8A%E6%95%B8%E5%A4%9A-%E6%8A%80%E8%A1%93%E9%9D%A2%E8%BD%89%E5%BC%B1-%E4%B8%89%E5%A4%A7%E6%B3%95%E4%BA%BA%E8%BD%89%E8%B3%A3-%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA-%E7%95%99%E6%84%8F%E4%B8%89%E5%A4%A7%E9%A2%A8%E9%9A%AA-223606089.html",
       "published_at": null,
       "source": "yahoo_news"
     },

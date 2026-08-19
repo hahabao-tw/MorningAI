@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-20",
-  "generated_at": "2026-08-20T07:09:22+08:00",
+  "generated_at": "2026-08-20T07:12:40+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4575.9,
-      "change": 30.599999999999454,
-      "change_percent": 0.6732228895782336,
+      "price": 4578.8,
+      "change": 33.5,
+      "change_percent": 0.737025058852001,
       "currency": "USD",
-      "market_time": 1787180360,
+      "market_time": 1787180558,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 84.4,
-      "change": 0.010000000000005116,
-      "change_percent": 0.011849745230483606,
+      "price": 84.45,
+      "change": 0.060000000000002274,
+      "change_percent": 0.07109847138286797,
       "currency": "USD",
-      "market_time": 1787180359,
+      "market_time": 1787180556,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 91.54,
-      "change": -0.0799999999999983,
-      "change_percent": -0.08731717965509528,
+      "price": 91.68,
+      "change": 0.060000000000002274,
+      "change_percent": 0.06548788474132533,
       "currency": "USD",
-      "market_time": 1787180347,
+      "market_time": 1787180560,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.957,
-      "change": 0.0019999999999997797,
-      "change_percent": 0.040363269424818965,
+      "price": 4.9566,
+      "change": 0.0015999999999998238,
+      "change_percent": 0.03229061553985517,
       "currency": "JPY",
-      "market_time": 1787180697,
+      "market_time": 1787180997,
       "source": "yahoo"
     },
     {
@@ -233,6 +233,15 @@
     }
   ],
   "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "I quit my £80,000 job to make ice cream - here's how",
+      "link": "https://www.bbc.co.uk/news/articles/cz97148eye0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-19T23:08:03+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
     {
       "kind": "news",
       "category": "international",

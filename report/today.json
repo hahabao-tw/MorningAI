@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-22",
-  "generated_at": "2026-08-22T06:52:20+08:00",
+  "generated_at": "2026-08-22T07:34:20+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.823,
-      "change": -0.036000000000001364,
-      "change_percent": -0.1129978969835882,
+      "price": 31.82,
+      "change": -0.03900000000000148,
+      "change_percent": -0.12241438839888721,
       "currency": "TWD",
-      "market_time": 1787347183,
+      "market_time": 1787353950,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9832,
-      "change": 0.00140000000000029,
-      "change_percent": 0.02810229234413846,
+      "price": 4.9917,
+      "change": 0.00990000000000002,
+      "change_percent": 0.19872335300493837,
       "currency": "JPY",
-      "market_time": 1787347794,
+      "market_time": 1787354696,
       "source": "yahoo"
     },
     {
@@ -348,6 +348,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "星期一開盤會跌？美股3大指數上漲　台指期夜盤卻收黑",
+      "original_title": null,
+      "summary": "重點：即時中心／陳奕劭報導美國8月商業活動維持擴張，綜合採購經理人指數初值創下52個月新高，推動美股週五（21日）收漲。雖然美股上漲，但台指期夜盤今（…。",
+      "link": "https://tw.news.yahoo.com/%E6%98%9F%E6%9C%9F-%E9%96%8B%E7%9B%A4%E6%9C%83%E8%B7%8C-%E7%BE%8E%E8%82%A13%E5%A4%A7%E6%8C%87%E6%95%B8%E4%B8%8A%E6%BC%B2-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E5%8D%BB%E6%94%B6%E9%BB%91-225226816.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "美債＋美元走弱　瑞銀上看金價每盎司5400鎂",
       "original_title": null,
       "summary": "重點：[NOWNEWS今日新聞]受到美國債券市場震盪、債務疑慮升溫及美元走弱帶動，投資人重新增加黃金配置，黃金價格強勢反彈，現貨黃金週五上漲1.55%…。",
@@ -377,11 +387,11 @@
     },
     {
       "kind": "news",
-      "category": "international",
-      "title": "川普稱美加協議「幾乎談妥」 汽車關稅可望由25%降至15%",
+      "category": "domestic",
+      "title": "鴻海砸60億擴大美AI產能 外界推測擴大當地製造規模",
       "original_title": null,
-      "summary": "重點：美國總統川普美東時間週五 (21 日) 表示，美加貿易協議「幾乎」已經談妥，雙方可望在午夜期限前達成共識。談判內容涵蓋汽車、鋼鋁、木材、農產品及…。",
-      "link": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E7%A8%B1%E7%BE%8E%E5%8A%A0%E5%8D%94%E8%AD%B0-%E5%B9%BE%E4%B9%8E%E8%AB%87%E5%A6%A5-%E6%B1%BD%E8%BB%8A%E9%97%9C%E7%A8%85%E5%8F%AF%E6%9C%9B%E7%94%B125-%E9%99%8D%E8%87%B315-214641792.html",
+      "summary": "重點：鴻海昨（21）日公告，增資美國子公司Q-Edge Corporation 1.88億美元（約新台幣60億元），外界推測將擴增美國人工智慧（AI）…。",
+      "link": "https://tw.news.yahoo.com/%E9%B4%BB%E6%B5%B7%E7%A0%B860%E5%84%84%E6%93%B4%E5%A4%A7%E7%BE%8Eai%E7%94%A2%E8%83%BD-%E5%A4%96%E7%95%8C%E6%8E%A8%E6%B8%AC%E6%93%B4%E5%A4%A7%E7%95%B6%E5%9C%B0%E8%A3%BD%E9%80%A0%E8%A6%8F%E6%A8%A1-224552531.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -412,6 +422,16 @@
       "original_title": null,
       "summary": "重點：公開資訊觀測站重大訊息公告(2317)鴻海-公告本公司參與投資人說明會符合條款第四條第XX款：12事實發生日：115/08/281.召開法人說明…。",
       "link": "https://tw.stock.yahoo.com/news/%E9%B4%BB%E6%B5%B78-28-9-3%E5%8F%83%E5%8A%A0%E5%AF%8C%E9%82%A6%E8%AD%89-rbc%E7%AD%89%E8%88%89%E8%BE%A6%E4%B9%8B%E6%B3%95%E8%AA%AA%E6%9C%83-211400738.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "川普稱美加協議「幾乎談妥」 汽車關稅可望由25%降至15%",
+      "original_title": null,
+      "summary": "重點：美國總統川普美東時間週五 (21 日) 表示，美加貿易協議「幾乎」已經談妥，雙方可望在午夜期限前達成共識。談判內容涵蓋汽車、鋼鋁、木材、農產品及…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E7%A8%B1%E7%BE%8E%E5%8A%A0%E5%8D%94%E8%AD%B0-%E5%B9%BE%E4%B9%8E%E8%AB%87%E5%A6%A5-%E6%B1%BD%E8%BB%8A%E9%97%9C%E7%A8%85%E5%8F%AF%E6%9C%9B%E7%94%B125-%E9%99%8D%E8%87%B315-214641792.html",
       "published_at": null,
       "source": "yahoo_news"
     },

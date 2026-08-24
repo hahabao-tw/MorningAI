@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-25",
-  "generated_at": "2026-08-25T06:54:30+08:00",
+  "generated_at": "2026-08-25T07:31:18+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4717.9,
-      "change": 20.099999999999454,
-      "change_percent": 0.42785984929114595,
+      "price": 4732.1,
+      "change": 34.30000000000018,
+      "change_percent": 0.7301289965515813,
       "currency": "USD",
-      "market_time": 1787611465,
+      "market_time": 1787613642,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 85.09,
-      "change": 0.0799999999999983,
-      "change_percent": 0.09410657569697481,
+      "price": 85.18,
+      "change": 0.1700000000000017,
+      "change_percent": 0.19997647335607774,
       "currency": "USD",
-      "market_time": 1787611458,
+      "market_time": 1787613636,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 92.07,
-      "change": -0.10000000000000853,
-      "change_percent": -0.10849517196485682,
+      "price": 92.13,
+      "change": -0.04000000000000625,
+      "change_percent": -0.043398068785945806,
       "currency": "USD",
-      "market_time": 1787609893,
+      "market_time": 1787611576,
       "source": "yahoo"
     },
     {
@@ -130,10 +130,10 @@
       "symbol": "TWD=X",
       "label": "USD/TWD",
       "price": 31.82,
-      "change": 0.0,
-      "change_percent": 0.0,
+      "change": 0.0010000000000012221,
+      "change_percent": 0.0031427763286125342,
       "currency": "TWD",
-      "market_time": 1787612071,
+      "market_time": 1787614244,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9897,
-      "change": -0.0019999999999997797,
-      "change_percent": -0.04006651040727167,
+      "price": 4.9901,
+      "change": 0.0008999999999996788,
+      "change_percent": 0.01803896416258476,
       "currency": "JPY",
-      "market_time": 1787611950,
+      "market_time": 1787614050,
       "source": "yahoo"
     },
     {
@@ -258,6 +258,42 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Trump says U.S. will hike Canada auto tariffs to 50% as trade war escalates",
+      "link": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html",
+      "published_at": "2026-08-24T23:27:01+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "'What you see is what you pay' - why some US restaurants are banning tips",
+      "link": "https://www.bbc.co.uk/news/articles/c4g36yze692o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-24T23:04:17+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "New 10p coin enters circulation - will you spot one?",
+      "link": "https://www.bbc.co.uk/news/articles/cn74lxrv110o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-24T23:03:42+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "CNBC's The China Connection newsletter: Robots need help learning human skills. These AI companies are rushing to meet the demand",
+      "link": "https://www.cnbc.com/2026/08/24/cnbcs-the-china-connection-newsletter-piling-into-human-skills-ai.html",
+      "published_at": "2026-08-24T23:00:01+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "70,000 social and affordable homes to be built across England as part of £39bn plan",
       "link": "https://www.bbc.co.uk/news/articles/cnvly73jrrdo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-24T21:58:41+00:00",
@@ -280,15 +316,6 @@
       "link": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-24T19:12:35+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "Trump says U.S. will hike Canada auto tariffs to 50% as trade war escalates",
-      "link": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html",
-      "published_at": "2026-08-24T19:08:56+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
     {
@@ -348,6 +375,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "輝達AI伺服器傳漲逾15％！台鏈提前暴衝　光寶科亮燈、10檔逆勢吸金",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者莊蕙如／綜合報導AI伺服器漲價題材點火台廠供應鏈！外媒報導，輝達（NVIDIA）已通知客戶，預計2027年初交付的AI伺服…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E5%82%B3%E6%BC%B2%E9%80%BE15-%E5%8F%B0%E9%8F%88%E6%8F%90%E5%89%8D%E6%9A%B4%E8%A1%9D-%E5%85%89%E5%AF%B6%E7%A7%91%E4%BA%AE%E7%87%88-10%E6%AA%94%E9%80%86%E5%8B%A2%E5%90%B8%E9%87%91-232000541.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "輝達財報前籌碼大換股？　外資、投信敲這15檔",
       "original_title": null,
       "summary": "重點：受輝達財報前夕觀望氛圍影響，台股24日震盪走低，終場失守45000點大關。法人建議投資人關注獲外資與投信雙資青睞、且具備防禦與題材性質的個股。在…。",
@@ -358,10 +395,60 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "【美股盤後】多收跌",
+      "original_title": null,
+      "summary": "重點：（中央社台北2026年8月25日電）投資人衡量美國向伊朗擴大施加經濟壓力，並準備迎接人工智慧晶片巨擘輝達公司（NVIDIA）財報和備受關注的通膨…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E7%9B%A4%E5%BE%8C-%E5%A4%9A%E6%94%B6%E8%B7%8C-224754484.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "輝達、美超微爆內鬼…高階AI伺服器非法輸陸 8人起訴",
       "original_title": null,
       "summary": "重點：基隆地檢署偵辦美超微高階ＡＩ伺服器從台灣非法轉賣案，查出輝達台灣分公司資深經理張登隆、美超微台灣子公司資深業務協理林長春、王祥懿均參與其中，非法…。",
       "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94-%E7%BE%8E%E8%B6%85%E5%BE%AE%E7%88%86%E5%85%A7%E9%AC%BC-%E9%AB%98%E9%9A%8Eai%E4%BC%BA%E6%9C%8D%E5%99%A8%E9%9D%9E%E6%B3%95%E8%BC%B8%E9%99%B8-8%E4%BA%BA%E8%B5%B7%E8%A8%B4-224214617.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "國際股市拉回，台股跌破季線",
+      "original_title": null,
+      "summary": "重點：【財訊快報／方亞申】美股上週進入震盪，亞洲股市週一大都開平走低，台股靠著聯電(2303)、日月光投控(3711)、欣興(3037)等高總市值股撐…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E9%9A%9B%E8%82%A1%E5%B8%82%E6%8B%89%E5%9B%9E-%E5%8F%B0%E8%82%A1%E8%B7%8C%E7%A0%B4%E5%AD%A3%E7%B7%9A-230921638.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股千點震盪成日常？兩種人兩種命運 掌握4重點悠然走過牛熊市！",
+      "original_title": null,
+      "summary": "重點：雜誌官方line＠財經資訊不漏接 台股站上4萬點，千點震盪成日常。你是泰然自若還是如坐針氈？差別就在資金來源。本次剖析兩種投資人的差異，並提醒用…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%8D%83%E9%BB%9E%E9%9C%87%E7%9B%AA%E6%88%90%E6%97%A5%E5%B8%B8-%E5%85%A9%E7%A8%AE%E4%BA%BA%E5%85%A9%E7%A8%AE%E5%91%BD%E9%81%8B-%E6%8E%8C%E6%8F%A14%E9%87%8D%E9%BB%9E%E6%82%A0%E7%84%B6%E8%B5%B0%E9%81%8E%E7%89%9B%E7%86%8A%E5%B8%82-230800009.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "270萬人的選擇！台股ETF「三大」賽道霸主出爐",
+      "original_title": null,
+      "summary": "重點：台股ETF熱度持續升溫，今年受益人累計突破270萬大關，單周再增14萬人。儘管受國際局勢與技術修正影響，台股出現高檔震盪，但資金仍積極布局。最新…。",
+      "link": "https://tw.news.yahoo.com/270%E8%90%AC%E4%BA%BA%E7%9A%84%E9%81%B8%E6%93%87-%E5%8F%B0%E8%82%A1etf-%E4%B8%89%E5%A4%A7-%E8%B3%BD%E9%81%93%E9%9C%B8%E4%B8%BB%E5%87%BA%E7%88%90-230500635.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "4檔台股抓去關！這檔漲太兇被列25分撮合　全處置到8／31",
+      "original_title": null,
+      "summary": "重點：天瀚（6225）：90個營業日狂漲618.91％ 每25分鐘撮合一次此次4檔處置股中，微型投影商天瀚近期股價漲勢最受市場關注。根據公告，天瀚最近…。",
+      "link": "https://tw.news.yahoo.com/4%E6%AA%94%E5%8F%B0%E8%82%A1%E6%8A%93%E5%8E%BB%E9%97%9C-%E9%80%99%E6%AA%94%E6%BC%B2%E5%A4%AA%E5%85%87%E8%A2%AB%E5%88%9725%E5%88%86%E6%92%AE%E5%90%88-%E5%85%A8%E8%99%95%E7%BD%AE%E5%88%B08-31-224054312.html",
       "published_at": null,
       "source": "yahoo_news"
     },

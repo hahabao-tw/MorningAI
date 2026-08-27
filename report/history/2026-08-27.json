@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-27",
-  "generated_at": "2026-08-27T11:28:25+08:00",
+  "generated_at": "2026-08-27T12:29:18+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4688.1,
-      "change": 34.80000000000018,
-      "change_percent": 0.7478563600025827,
+      "price": 4680.3,
+      "change": 27.0,
+      "change_percent": 0.5802333827606215,
       "currency": "USD",
-      "market_time": 1787800702,
+      "market_time": 1787804348,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 81.71,
-      "change": -0.5200000000000102,
-      "change_percent": -0.6323726134014473,
+      "price": 81.86,
+      "change": -0.37000000000000455,
+      "change_percent": -0.4499574364587189,
       "currency": "USD",
-      "market_time": 1787800682,
+      "market_time": 1787804321,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 86.4,
-      "change": -0.539999999999992,
-      "change_percent": -0.6211180124223511,
+      "price": 86.54,
+      "change": -0.3999999999999915,
+      "change_percent": -0.460087416609146,
       "currency": "USD",
-      "market_time": 1787800588,
+      "market_time": 1787804194,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.736,
-      "change": -0.10999999999999943,
-      "change_percent": -0.34541229667775997,
+      "price": 31.727,
+      "change": -0.11899999999999977,
+      "change_percent": -0.3736733027695779,
       "currency": "TWD",
-      "market_time": 1787801305,
+      "market_time": 1787804933,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 5.0105,
-      "change": 0.019000000000000128,
-      "change_percent": 0.38064710007012176,
+      "price": 5.0132,
+      "change": 0.021700000000000053,
+      "change_percent": 0.43473905639587407,
       "currency": "JPY",
-      "market_time": 1787801166,
+      "market_time": 1787804768,
       "source": "yahoo"
     },
     {
@@ -255,6 +255,15 @@
     }
   ],
   "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Japanese startups, IPOs set for boost with platform to trade unlisted companies",
+      "link": "https://www.cnbc.com/2026/08/27/japan-startups-ipos-trading-platform-unlisted-companies-.html",
+      "published_at": "2026-08-27T03:41:00+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
     {
       "kind": "news",
       "category": "international",
@@ -389,6 +398,76 @@
       "published_at": "2026-08-26T16:25:09+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達財報亮眼淨利翻倍！黃仁勳坦言「唯一遺憾沒早點加碼」點名這2家AI公司",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]實習記者林子云／綜合報導AI晶片巨頭輝達（Nvidia）周三（26日）公布2027會計年度第二季財報，不僅營運成績超越市場預期…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E4%BA%AE%E7%9C%BC%E6%B7%A8%E5%88%A9%E7%BF%BB%E5%80%8D-%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9D%A6%E8%A8%80-%E5%94%AF-%E9%81%BA%E6%86%BE%E6%B2%92%E6%97%A9%E9%BB%9E%E5%8A%A0%E7%A2%BC-%E9%BB%9E%E5%90%8D%E9%80%992%E5%AE%B6ai%E5%85%AC%E5%8F%B8-042500889.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "傳輝達同意129億美元購併Hugging Face",
+      "original_title": null,
+      "summary": "重點：（中央社加州聖克拉拉2026年08月26日綜合外電報導）美國科技媒體The Information今天引述知情人士報導，輝達（Nvidia）同意…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%82%B3%E8%BC%9D%E9%81%94%E5%90%8C%E6%84%8F129%E5%84%84%E7%BE%8E%E5%85%83%E8%B3%BC%E4%BD%B5hugging-face-040753787.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達財報帶台股衝破4萬6！「瑤池金母師弟」與00406A連日上揚炸33萬　這「反向ETF」慘綠噴13萬張",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者張書翰／綜合報導受惠於全球AI巨頭輝達（NVIDIA）第二季財報超出預期，營收達962億美元，年增106%，超過華爾街預期…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E5%B8%B6%E5%8F%B0%E8%82%A1%E8%A1%9D%E7%A0%B44%E8%90%AC6-%E7%91%A4%E6%B1%A0%E9%87%91%E6%AF%8D%E5%B8%AB%E5%BC%9F-%E8%88%8700406a%E9%80%A3%E6%97%A5%E4%B8%8A%E6%8F%9A%E7%82%B833%E8%90%AC-%E9%80%99-%E5%8F%8D%E5%90%91etf-040500279.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "傳輝達同意129億美元購併Hugging Face",
+      "original_title": null,
+      "summary": "重點：（中央社加州聖克拉拉26日綜合外電報導）美國科技媒體The Information今天引述知情人士報導，輝達（Nvidia）同意以129億美元（…。",
+      "link": "https://tw.news.yahoo.com/%E5%82%B3%E8%BC%9D%E9%81%94%E5%90%8C%E6%84%8F129%E5%84%84%E7%BE%8E%E5%85%83%E8%B3%BC%E4%BD%B5hugging-face-040207014.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "立法院今表決無人機條例　14台股漲聲響起",
+      "original_title": null,
+      "summary": "重點：立法院今（27）日針對無人載具條例草案展開表決大戰，雖朝野對於主管機關與預算編列方式仍有分歧，但市場看好政策利多，帶動軍工與無人機族群強勢表態。…。",
+      "link": "https://tw.news.yahoo.com/%E7%AB%8B%E6%B3%95%E9%99%A2%E4%BB%8A%E8%A1%A8%E6%B1%BA%E7%84%A1%E4%BA%BA%E6%A9%9F%E6%A2%9D%E4%BE%8B-14%E5%8F%B0%E8%82%A1%E6%BC%B2%E8%81%B2%E9%9F%BF%E8%B5%B7-040800993.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "通膨重擊美股3大指數收低！費半獨紅　台積電ADR逆勢小漲",
+      "original_title": null,
+      "summary": "重點：【張雅婷／綜合外電】美國最新通膨數據高於市場預期，引發投資人觀望情緒，美股三大指數26日微幅收低。道瓊工業指數下跌逾百點，標普500與那斯達克指…。",
+      "link": "https://tw.news.yahoo.com/%E9%80%9A%E8%86%A8%E9%87%8D%E6%93%8A%E7%BE%8E%E8%82%A13%E5%A4%A7%E6%8C%87%E6%95%B8%E6%94%B6%E4%BD%8E-%E8%B2%BB%E5%8D%8A%E7%8D%A8%E7%B4%85-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E9%80%86%E5%8B%A2%E5%B0%8F%E6%BC%B2-040000670.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【Hot台股】國巨反彈漲逾4%！網酸「560就套牢區了」 分析師：仍偏空方修正",
+      "original_title": null,
+      "summary": "重點：今日社群台股最Hot議題 「國巨每天走自己的路XD」、「國巨也生氣了0.0」、「國巨韭菜前仆後繼」、「560國巨就套牢區了 570折折還帶會員買…。",
+      "link": "https://tw.stock.yahoo.com/news/%E3%80%90hot%E5%8F%B0%E8%82%A1%E3%80%91%E5%9C%8B%E5%B7%A8%E5%8F%8D%E5%BD%88%E6%BC%B2%E9%80%BE4%EF%BC%81%E7%B6%B2%E9%85%B8%E3%80%8C560%E5%B0%B1%E5%A5%97%E7%89%A2%E5%8D%80%E4%BA%86%E3%80%8D-%E5%88%86%E6%9E%90%E5%B8%AB%EF%BC%9A%E4%BB%8D%E5%81%8F%E7%A9%BA%E6%96%B9%E4%BF%AE%E6%AD%A3-035207039.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

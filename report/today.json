@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-27",
-  "generated_at": "2026-08-27T07:17:31+08:00",
+  "generated_at": "2026-08-27T11:28:25+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4665.2,
-      "change": 11.899999999999636,
-      "change_percent": 0.2557324909204142,
+      "price": 4688.1,
+      "change": 34.80000000000018,
+      "change_percent": 0.7478563600025827,
       "currency": "USD",
-      "market_time": 1787785650,
+      "market_time": 1787800702,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 81.81,
-      "change": -0.4200000000000017,
-      "change_percent": -0.5107624954396226,
+      "price": 81.71,
+      "change": -0.5200000000000102,
+      "change_percent": -0.6323726134014473,
       "currency": "USD",
-      "market_time": 1787785623,
+      "market_time": 1787800682,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 86.56,
-      "change": -0.37999999999999545,
-      "change_percent": -0.4370830457786927,
+      "price": 86.4,
+      "change": -0.539999999999992,
+      "change_percent": -0.6211180124223511,
       "currency": "USD",
-      "market_time": 1787785110,
+      "market_time": 1787800588,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.792,
-      "change": -0.053999999999998494,
-      "change_percent": -0.16956603655089647,
+      "price": 31.736,
+      "change": -0.10999999999999943,
+      "change_percent": -0.34541229667775997,
       "currency": "TWD",
-      "market_time": 1787786009,
+      "market_time": 1787801305,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.998,
-      "change": 0.00649999999999995,
-      "change_percent": 0.13022137633977662,
+      "price": 5.0105,
+      "change": 0.019000000000000128,
+      "change_percent": 0.38064710007012176,
       "currency": "JPY",
-      "market_time": 1787786167,
+      "market_time": 1787801166,
       "source": "yahoo"
     },
     {
@@ -258,6 +258,42 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "China industrial profits growth cools to slowest in seven months as economic slowdown deepens",
+      "link": "https://www.cnbc.com/2026/08/27/china-industrial-profits-july-factory-production-.html",
+      "published_at": "2026-08-27T03:22:14+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Z.ai shares surge 8% after releasing new AI model running only on Chinese chips",
+      "link": "https://www.cnbc.com/2026/08/27/zai-shares-surge-new-ai-model-using-chinese-chips.html",
+      "published_at": "2026-08-27T03:20:14+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Bank of Korea delivers back-to-back rate hikes as core inflation stays elevated",
+      "link": "https://www.cnbc.com/2026/08/27/korea-bok-rate-hike-inflation.html",
+      "published_at": "2026-08-27T03:02:31+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Inside India newsletter: U.S., Russia vie for a bigger slice of the world’s third-largest energy market",
+      "link": "https://www.cnbc.com/2026/08/27/india-us-russia-energy-oil-market.html",
+      "published_at": "2026-08-27T00:21:44+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Experts' five tips to make a rented property feel like home",
       "link": "https://www.bbc.co.uk/news/articles/c3w0972z5d8o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-26T23:08:42+00:00",
@@ -270,6 +306,15 @@
       "title": "Plug-in solar panels are coming to a shop near you - here's what to know",
       "link": "https://www.bbc.co.uk/news/articles/c4g3y6398nwo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-08-26T23:06:41+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Meta's $18bn settlement may hasten reckoning for social media on child safety",
+      "link": "https://www.bbc.co.uk/news/articles/clyq4gxwe7go?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-08-26T23:04:24+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
@@ -344,6 +389,76 @@
       "published_at": "2026-08-26T16:25:09+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達財報超預期還不夠？ 基金經理人揭三大利多：半導體長線動能仍強",
+      "original_title": null,
+      "summary": "重點：AI晶片龍頭輝達最新財報再度優於市場預期，營收、獲利及財測全面報喜，盤後股價卻一度走跌，直到電話會議釋出2028會計年度營收可望成長70%的樂觀…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E8%B6%85%E9%A0%90%E6%9C%9F%E9%82%84%E4%B8%8D%E5%A4%A0%EF%BC%9F-%E5%9F%BA%E9%87%91%E7%B6%93%E7%90%86%E4%BA%BA%E6%8F%AD%E4%B8%89%E5%A4%A7%E5%88%A9%E5%A4%9A%EF%BC%9A%E5%8D%8A%E5%B0%8E%E9%AB%94%E9%95%B7%E7%B7%9A%E5%8B%95%E8%83%BD%E4%BB%8D%E5%BC%B7-031544459.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達財報救全村！黃仁勳45檔「背板概念股」開紅花 奇鋐臻鼎-KY飆逾5%最狂",
+      "original_title": null,
+      "summary": "重點：AI晶片霸主輝達（NVIDIA）在美股周三（26日）盤後公布最新財報，第二季營收與獲利均優於市場預期，並釋出2028會計年度營收可望成長約70%…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E6%95%91%E5%85%A8%E6%9D%91%EF%BC%81%E9%BB%83%E4%BB%81%E5%8B%B345%E6%AA%94%E3%80%8C%E8%83%8C%E6%9D%BF%E6%A6%82%E5%BF%B5%E8%82%A1%E3%80%8D%E9%96%8B%E7%B4%85%E8%8A%B1-%E5%A5%87%E9%8B%90%E8%87%BB%E9%BC%8E-ky%E9%A3%86%E9%80%BE5%E6%9C%80%E7%8B%82-030310279.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "台積漲20元台股彈569點　輝達財報再次超預期",
+      "original_title": null,
+      "summary": "重點：國泰基金經理人李翰林表示，輝達最新財報再次驗證AI產業需求並未降溫，且成長動能正從少數大型雲端業者，擴散至AI新創、企業與實體AI應用，顯示全球…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E6%BC%B220%E5%85%83%E5%8F%B0%E8%82%A1%E5%BD%88569%E9%BB%9E-%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E5%86%8D%E6%AC%A1%E8%B6%85%E9%A0%90%E6%9C%9F-030307656.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達財報助攻熱錢續匯入！新台幣勁揚近1角、升破31.8元",
+      "original_title": null,
+      "summary": "重點：儘管美國通膨數據大致符合市場預期，但通膨仍具黏著性，美元指數重返99大關之上，非美貨幣承壓。不過，輝達財報優於預期，帶動亞洲科技股走強，台股大漲…。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E5%8A%A9%E6%94%BB%E7%86%B1%E9%8C%A2%E7%BA%8C%E5%8C%AF%E5%85%A5-%E6%96%B0%E5%8F%B0%E5%B9%A3%E5%8B%81%E6%8F%9A%E8%BF%911%E8%A7%92-%E5%8D%87%E7%A0%B431-8%E5%85%83-030259781.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "主動ETF換股！台積電、旺矽遭提款 緯穎、創意獲資金獨寵",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 台股多方氣勢升溫之際，主動式ETF的資金動向也出現明顯分歧。根據「波波流投機指揮所」粉專(26日)最新資料，主動式ETF…。",
+      "link": "https://tw.news.yahoo.com/%E4%B8%BB%E5%8B%95etf%E6%8F%9B%E8%82%A1-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E6%97%BA%E7%9F%BD%E9%81%AD%E6%8F%90%E6%AC%BE-%E7%B7%AF%E7%A9%8E-%E5%89%B5%E6%84%8F%E7%8D%B2%E8%B3%87%E9%87%91%E7%8D%A8%E5%AF%B5-030809389.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股獲利流進豪宅？專家指台北有、中南部未受惠　六都與新竹交易一次看",
+      "original_title": null,
+      "summary": "重點：房市受限貸令影響買氣趨緩，但台北市豪宅市場卻展現強勁韌性。根據實價登錄數據，台北市豪宅交易占比從2023年的2.8%逐年攀升，2026年上半年更…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E7%8D%B2%E5%88%A9%E6%B5%81%E9%80%B2%E8%B1%AA%E5%AE%85-%E5%B0%88%E5%AE%B6%E6%8C%87%E5%8F%B0%E5%8C%97%E6%9C%89-%E4%B8%AD%E5%8D%97%E9%83%A8%E6%9C%AA%E5%8F%97%E6%83%A0-%E5%85%AD%E9%83%BD%E8%88%87%E6%96%B0%E7%AB%B9%E4%BA%A4%E6%98%93-%E6%AC%A1%E7%9C%8B-025800496.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "下一檔萬金股？大立光又漲停超車緯穎登千金股季軍 分析師揭：類似聯發科",
+      "original_title": null,
+      "summary": "重點：鏡頭龍頭廠大立光（3008）多頭氣勢如虹，繼26日收下漲停後，今（27）日開盤不久再度亮燈，股價鎖在6,915元，連續兩日改寫歷史新天價，並超車…。",
+      "link": "https://tw.stock.yahoo.com/news/%E4%B8%8B%E4%B8%80%E6%AA%94%E8%90%AC%E9%87%91%E8%82%A1%EF%BC%9F%E5%A4%A7%E7%AB%8B%E5%85%89%E5%8F%88%E6%BC%B2%E5%81%9C%E8%B6%85%E8%BB%8A%E7%B7%AF%E7%A9%8E%E7%99%BB%E5%8D%83%E9%87%91%E8%82%A1%E5%AD%A3%E8%BB%8D-%E5%88%86%E6%9E%90%E5%B8%AB%E6%8F%AD%EF%BC%9A%E9%A1%9E%E4%BC%BC%E8%81%AF%E7%99%BC%E7%A7%91-024439233.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

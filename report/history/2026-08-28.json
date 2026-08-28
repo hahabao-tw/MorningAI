@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-28",
-  "generated_at": "2026-08-28T14:14:11+08:00",
+  "generated_at": "2026-08-28T14:53:44+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4627.9,
-      "change": -36.100000000000364,
-      "change_percent": -0.7740137221269374,
+      "price": 4639.2,
+      "change": -24.800000000000182,
+      "change_percent": -0.5317324185248753,
       "currency": "USD",
-      "market_time": 1787897048,
+      "market_time": 1787899414,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 83.19,
-      "change": -0.3400000000000034,
-      "change_percent": -0.40703938704657416,
+      "price": 82.89,
+      "change": -0.6400000000000006,
+      "change_percent": -0.7661917873817796,
       "currency": "USD",
-      "market_time": 1787897051,
+      "market_time": 1787899409,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 88.29,
-      "change": -0.22999999999998977,
-      "change_percent": -0.25982828739266806,
+      "price": 88.04,
+      "change": -0.47999999999998977,
+      "change_percent": -0.5422503389064504,
       "currency": "USD",
-      "market_time": 1787897011,
+      "market_time": 1787899425,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.603,
-      "change": -0.06700000000000017,
-      "change_percent": -0.21155667824439586,
+      "price": 31.592,
+      "change": -0.07800000000000296,
+      "change_percent": -0.24628986422482774,
       "currency": "TWD",
-      "market_time": 1787897650,
+      "market_time": 1787900024,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 5.0385,
-      "change": 0.016199999999999548,
-      "change_percent": 0.322561376261863,
+      "price": 5.0363,
+      "change": 0.013999999999999346,
+      "change_percent": 0.2787567449176542,
       "currency": "JPY",
-      "market_time": 1787897467,
+      "market_time": 1787899868,
       "source": "yahoo"
     },
     {
@@ -192,6 +192,54 @@
     }
   ],
   "taiwan_market": [
+    {
+      "kind": "twse_summary",
+      "date": "115/08/28",
+      "volume": 11061813357,
+      "turnover": 1059214003734,
+      "transactions": 4945456,
+      "index": 46331.45,
+      "change": 356.23,
+      "source": "twse",
+      "institutional": [
+        {
+          "name": "自營商(自行買賣)",
+          "buy": 14056174917,
+          "sell": 8073396529,
+          "net": 5982778388
+        },
+        {
+          "name": "自營商(避險)",
+          "buy": 33909829060,
+          "sell": 24857431278,
+          "net": 9052397782
+        },
+        {
+          "name": "投信",
+          "buy": 19796054508,
+          "sell": 21246453215,
+          "net": -1450398707
+        },
+        {
+          "name": "外資及陸資(不含外資自營商)",
+          "buy": 363966697740,
+          "sell": 314872491123,
+          "net": 49094206617
+        },
+        {
+          "name": "外資自營商",
+          "buy": 0,
+          "sell": 0,
+          "net": 0
+        },
+        {
+          "name": "合計",
+          "buy": 431728756225,
+          "sell": 369049772145,
+          "net": 62678984080
+        }
+      ]
+    },
     {
       "kind": "twse_summary",
       "date": "115/08/27",
@@ -244,6 +292,17 @@
   "chips": [
     {
       "kind": "chips",
+      "date": "2026-08-28",
+      "foreign_tx_net": 0,
+      "trust_tx_net": 0,
+      "mtx_retail_ratio": 0.0,
+      "tmf_retail_ratio": 0.0,
+      "options_pc_ratio": 101.44,
+      "tsmc_impact": 8.573,
+      "source": "market_dashboard"
+    },
+    {
+      "kind": "chips",
       "date": "2026-08-27",
       "foreign_tx_net": -84836,
       "trust_tx_net": 76834,
@@ -260,7 +319,16 @@
       "category": "international",
       "title": "Trump’s Greenland fixation puts security at the heart of Iceland’s knife-edge EU vote",
       "link": "https://www.cnbc.com/2026/08/28/iceland-eu-referendum-trump-greenland-arctic.html",
-      "published_at": "2026-08-28T06:00:11+00:00",
+      "published_at": "2026-08-28T06:27:53+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "CNBC Daily Open: Waiting for Warsh",
+      "link": "https://www.cnbc.com/2026/08/28/cnbc-daily-open-warsh.html",
+      "published_at": "2026-08-28T06:14:12+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
@@ -402,10 +470,70 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "輝達紅利吃2天！台股一路走揚　收盤46331點",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]輝達（NVIDIA）昨（27）日財報優於預期，帶旺科技齊揚，台股昨吃到輝達紅利，今（28）日再吃一波，開盤即走高，隨後…。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E7%B4%85%E5%88%A9%E5%90%832%E5%A4%A9-%E5%8F%B0%E8%82%A1-%E8%B7%AF%E8%B5%B0%E6%8F%9A-%E6%94%B6%E7%9B%A446331%E9%BB%9E-062705683.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "劍指台灣？川普傳擬擴大晶片關稅　「這些產品」全中招",
+      "original_title": null,
+      "summary": "重點：美國前總統川普計畫擴大半導體關稅範疇，擬將筆電、遊戲機及AI伺服器等終端產品納入，此舉恐重創台灣電子代工供應鏈。據外媒披露，川普意圖將關稅豁免與…。",
+      "link": "https://tw.news.yahoo.com/%E5%8A%8D%E6%8C%87%E5%8F%B0%E7%81%A3-%E5%B7%9D%E6%99%AE%E5%82%B3%E6%93%AC%E6%93%B4%E5%A4%A7%E6%99%B6%E7%89%87%E9%97%9C%E7%A8%85-%E9%80%99%E4%BA%9B%E7%94%A2%E5%93%81-%E5%85%A8%E4%B8%AD%E6%8B%9B-060900549.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "美國關稅太狠！英國豪華越野車找競爭對手代工",
       "original_title": null,
       "summary": "重點：為因應美國關稅與匯率波動壓力，英國經典品牌Land Rover正研擬與Stellantis集團合作，計畫利用其美國工廠生產Defender車款。…。",
       "link": "https://tw.news.yahoo.com/%E7%BE%8E%E5%9C%8B%E9%97%9C%E7%A8%85%E5%A4%AA%E7%8B%A0-%E8%8B%B1%E5%9C%8B%E8%B1%AA%E8%8F%AF%E8%B6%8A%E9%87%8E%E8%BB%8A%E6%89%BE%E7%AB%B6%E7%88%AD%E5%B0%8D%E6%89%8B%E4%BB%A3%E5%B7%A5-060500557.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達財測驚艷 分析師看好市值衝到13兆美元",
+      "original_title": null,
+      "summary": "重點：Raymond James分析師Simon Leopold周四(27日)在一份報告中，將輝達(Nvidia)(NVDA-US)目標價從352美元…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E6%B8%AC%E9%A9%9A%E8%89%B7-%E5%88%86%E6%9E%90%E5%B8%AB%E7%9C%8B%E5%A5%BD%E5%B8%82%E5%80%BC%E8%A1%9D%E5%88%B013%E5%85%86%E7%BE%8E%E5%85%83-060004313.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "透視有錢人的財富傳承大計！台股3年滾出逾百兆元，他們都如何理財？",
+      "original_title": null,
+      "summary": "重點：在AI浪潮帶動下，上市櫃公司獲利迭創新高，激勵台股漲勢，三年來市值暴增逾百兆，累積的財富效益相當可觀。因此從企業家族、高階經理人，至一般股市投資…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%80%8F%E8%A6%96%E6%9C%89%E9%8C%A2%E4%BA%BA%E7%9A%84%E8%B2%A1%E5%AF%8C%E5%82%B3%E6%89%BF%E5%A4%A7%E8%A8%88%EF%BC%81%E5%8F%B0%E8%82%A13%E5%B9%B4%E6%BB%BE%E5%87%BA%E9%80%BE%E7%99%BE%E5%85%86%E5%85%83%EF%BC%8C%E4%BB%96%E5%80%91%E9%83%BD%E5%A6%82%E4%BD%95%E7%90%86%E8%B2%A1%EF%BC%9F-064947666.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台積電第2季員工分紅發放360億元　年增逾5成",
+      "original_title": null,
+      "summary": "重點：（中央社記者張建中新竹202608月28日電）台積電(2330)第2季員工分紅今天發放，據台積電財報指出，第2季員工分紅約新台幣360億元，較去…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%AC%AC2%E5%AD%A3%E5%93%A1%E5%B7%A5%E5%88%86%E7%B4%85%E7%99%BC%E6%94%BE360%E5%84%84%E5%85%83-%E5%B9%B4%E5%A2%9E%E9%80%BE5%E6%88%90-063932875.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "有望切台積電COUPE！「晶圓代工廠」獲法人喊價146元　進軍矽光子股價飆漲停炸32萬張",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳献朋／綜合報導在被動元件、PCB等強勢族群領漲下，台股大盤今（28）日持續收紅，加權指數終盤收在46331.45點，上漲…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%9C%89%E6%9C%9B%E5%88%87%E5%8F%B0%E7%A9%8D%E9%9B%BBcoupe-%E6%99%B6%E5%9C%93%E4%BB%A3%E5%B7%A5%E5%BB%A0-%E7%8D%B2%E6%B3%95%E4%BA%BA%E5%96%8A%E5%83%B9146%E5%85%83-%E9%80%B2%E8%BB%8D%E7%9F%BD%E5%85%89%E5%AD%90%E8%82%A1%E5%83%B9%E9%A3%86%E6%BC%B2%E5%81%9C%E7%82%B832%E8%90%AC%E5%BC%B5-063000492.html",
       "published_at": null,
       "source": "yahoo_news"
     },

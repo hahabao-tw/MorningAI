@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-08-29",
-  "generated_at": "2026-08-29T11:48:23+08:00",
+  "generated_at": "2026-08-29T12:07:26+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -326,6 +326,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Fed主席放鷹掀升息預期！美股費半跌3.47％、台積電ADR跌2.29%",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 美國聯邦準備理事會（Fed）主席華許（Kevin Warsh）在一場演說中強調對抗高通膨是當務之急，這番言論被外界解讀為…。",
+      "link": "https://tw.news.yahoo.com/fed%E4%B8%BB%E5%B8%AD%E6%94%BE%E9%B7%B9%E6%8E%80%E5%8D%87%E6%81%AF%E9%A0%90%E6%9C%9F-%E7%BE%8E%E8%82%A1%E8%B2%BB%E5%8D%8A%E8%B7%8C3-47-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C2-29-033819777.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "華許放鷹卻替美股留活路！升息預期升溫 長債穩定反而替股市開路",
       "original_title": null,
       "summary": "重點：美國聯準會(Fed)主席華許(Kevin Warsh)周五(28日)在懷俄明州傑克森霍爾(Jackson Hole)全球央行年會的演說中放鷹，市…。",
@@ -355,11 +365,11 @@
     },
     {
       "kind": "news",
-      "category": "international",
-      "title": "加拿大第二季經濟強勁反彈  專家示警美新一輪關稅衝擊變數",
+      "category": "domestic",
+      "title": "蘋果發表會登場倒數　台股供應鏈一次看「這家」獨供最受惠",
       "original_title": null,
-      "summary": "重點：（中央社記者程愛芬溫哥華2026年08月28日專電）加拿大經濟在第二季出現強勁反彈，年增長3.3%，表現為七大工業國集團（G7）中最強勁。有專家…。",
-      "link": "https://tw.stock.yahoo.com/news/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E7%AC%AC%E4%BA%8C%E5%AD%A3%E7%B6%93%E6%BF%9F%E5%BC%B7%E5%8B%81%E5%8F%8D%E5%BD%88-%E5%B0%88%E5%AE%B6%E7%A4%BA%E8%AD%A6%E7%BE%8E%E6%96%B0-%E8%BC%AA%E9%97%9C%E7%A8%85%E8%A1%9D%E6%93%8A%E8%AE%8A%E6%95%B8-012242092.html",
+      "summary": "重點：台積電（2330）、鴻海（2317）、大立光（3008）、玉晶光（3406）奇鋐（3017）、新日興（3376）等主要供應商可望受惠。根據Gar…。",
+      "link": "https://tw.news.yahoo.com/%E8%98%8B%E6%9E%9C%E7%99%BC%E8%A1%A8%E6%9C%83%E7%99%BB%E5%A0%B4%E5%80%92%E6%95%B8-%E5%8F%B0%E8%82%A1%E4%BE%9B%E6%87%89%E9%8F%88-%E6%AC%A1%E7%9C%8B-%E9%80%99%E5%AE%B6-%E7%8D%A8%E4%BE%9B%E6%9C%80%E5%8F%97%E6%83%A0-035233016.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -380,6 +390,16 @@
       "original_title": null,
       "summary": "重點：台灣證券交易所於6月公布數據顯示，台灣資本市場市值已達5.22兆美元，躍升為全球第四大股票市場。全體上市櫃公司今年上半年淨利也高達3.6兆元，表…。",
       "link": "https://tw.stock.yahoo.com/news/ai%E7%8B%82%E8%B3%BA-%E5%8F%B0%E8%82%A1%E6%9A%B4%E8%A1%9D%E5%85%A8%E7%90%83%E7%AC%AC4-%E5%B0%88%E5%AE%B6%E9%BB%9E%E5%90%8D-%E9%80%994%E6%AA%94%E5%A4%A7%E9%BB%91%E9%A6%AC-eps%E5%85%A8%E7%A0%B4%E7%99%BE-024543395.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "加拿大第二季經濟強勁反彈  專家示警美新一輪關稅衝擊變數",
+      "original_title": null,
+      "summary": "重點：（中央社記者程愛芬溫哥華2026年08月28日專電）加拿大經濟在第二季出現強勁反彈，年增長3.3%，表現為七大工業國集團（G7）中最強勁。有專家…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E7%AC%AC%E4%BA%8C%E5%AD%A3%E7%B6%93%E6%BF%9F%E5%BC%B7%E5%8B%81%E5%8F%8D%E5%BD%88-%E5%B0%88%E5%AE%B6%E7%A4%BA%E8%AD%A6%E7%BE%8E%E6%96%B0-%E8%BC%AA%E9%97%9C%E7%A8%85%E8%A1%9D%E6%93%8A%E8%AE%8A%E6%95%B8-012242092.html",
       "published_at": null,
       "source": "yahoo_news"
     }

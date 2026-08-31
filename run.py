@@ -18,6 +18,7 @@ from crawler.twse import TwseCollector
 from crawler.yahoo import YahooMarketCollector
 from crawler.yahoo_news import YahooHeadlineCollector
 from crawler.yahoo_future import YahooFutureCollector
+from crawler.yahoo_tw_indices import YahooTwIndexCollector
 from processor.export import write_report
 from processor.markdown import render_markdown
 from processor.model import MorningReport
@@ -61,6 +62,10 @@ def collectors(config: dict, now: datetime) -> list[Collector]:
         local_now = now.astimezone(ZoneInfo(config["report"]["timezone"]))
         before_open = (local_now.hour, local_now.minute) < (8, 30)
         items.append(StockQCollector(client, local_now.date(), before_open))
+    if enabled.get("yahoo_tw_indices_enabled", False):
+        local_now = now.astimezone(ZoneInfo(config["report"]["timezone"]))
+        before_open = (local_now.hour, local_now.minute) < (8, 30)
+        items.append(YahooTwIndexCollector(client, local_now.date(), before_open))
     if enabled.get("yahoo_future_enabled", False):
         items.append(YahooFutureCollector(client))
     if enabled.get("market_dashboard_enabled", False):

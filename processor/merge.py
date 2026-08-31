@@ -9,6 +9,14 @@ from .model import MorningReport
 
 
 def _record_key(record: dict[str, Any]) -> tuple[str, ...]:
+    if record.get("group") == "taiwan_indices":
+        aliases = {
+            "^TWII": "weighted", "TWSE.php": "weighted", "加權": "weighted", "台灣加權": "weighted",
+            "^TWOII": "otc", "TWOTCI.php": "otc", "櫃買": "otc", "台灣櫃買": "otc",
+        }
+        index = aliases.get(str(record.get("symbol") or "")) or aliases.get(str(record.get("label") or ""))
+        if index:
+            return ("market", "taiwan_indices", index)
     source = str(record.get("source") or "")
     if record.get("symbol"):
         return (source, "symbol", str(record["symbol"]))

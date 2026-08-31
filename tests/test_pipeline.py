@@ -15,6 +15,7 @@ from crawler.twse import TwseCollector
 from crawler.yahoo import YahooMarketCollector
 from crawler.yahoo_news import YahooHeadlineCollector
 from crawler.yahoo_future import YahooFutureCollector
+from crawler.yahoo_tw_indices import YahooTwIndexCollector
 from processor.export import write_report
 from processor.ctee import build_ctee_site, update_ctee_report
 from processor.markdown import render_markdown
@@ -106,8 +107,8 @@ class PipelineTests(unittest.TestCase):
             {"kind": "market", "group": "adr", "label": "台積電 ADR", "price": 20, "change": 1, "change_percent": 3},
             {"kind": "market", "group": "commodities", "label": "黃金", "price": 30, "change": -1, "change_percent": -1},
             {"kind": "market", "group": "fx", "label": "USD/TWD", "price": 32, "change": 0.1, "change_percent": 0.3},
-            {"kind": "market", "group": "taiwan_indices", "label": "台灣加權", "price": 46021.48, "change": 503.41, "change_percent": 1.11},
-            {"kind": "market", "group": "taiwan_indices", "label": "台灣櫃買", "price": 406.12, "change": 4.10, "change_percent": 1.02},
+            {"kind": "market", "group": "taiwan_indices", "label": "加權", "price": 46021.48, "change": 503.41, "change_percent": 1.11},
+            {"kind": "market", "group": "taiwan_indices", "label": "櫃買", "price": 406.12, "change": 4.10, "change_percent": 1.02},
             {"kind": "market", "group": "taifex", "label": "台指期夜盤", "price": 46389, "change": 364, "change_percent": 0.79, "source": "yahoo_future"},
             {"kind": "market", "group": "taifex", "symbol": "WCDF&", "label": "台積電期貨夜盤", "price": 2428, "change": 18, "change_percent": 0.75, "source": "yahoo_future"},
             {"kind": "twse_summary", "index": 45000, "change": 100, "turnover": 858_700_000_000, "institutional": [{"name": "外資", "net": 11_020_000_000}]},
@@ -125,10 +126,10 @@ class PipelineTests(unittest.TestCase):
         self.assertNotIn("國際財經標題", markdown)
         self.assertNotIn("台股標題", markdown)
         taiwan_yesterday = markdown.split("## 台股昨日", 1)[1].split("## 台指期夜盤", 1)[0]
-        self.assertIn("### 台灣加權", taiwan_yesterday)
+        self.assertIn("### 加權", taiwan_yesterday)
         self.assertIn("收盤：46,021.48", taiwan_yesterday)
         self.assertIn("漲跌：+503.41（+1.11%）", taiwan_yesterday)
-        self.assertIn("### 台灣櫃買", taiwan_yesterday)
+        self.assertIn("### 櫃買", taiwan_yesterday)
         self.assertIn("收盤：406.12", taiwan_yesterday)
         self.assertIn("漲跌：+4.10（+1.02%）", taiwan_yesterday)
         self.assertIn("收盤：46,389", markdown)
@@ -209,6 +210,26 @@ class PipelineTests(unittest.TestCase):
         record = YahooFutureCollector._parse(page)
         self.assertEqual((record["price"], record["change"], record["change_percent"]), (46389, 364, 0.79))
 
+    def test_yahoo_tw_index_parser_reads_visible_page_state(self) -> None:
+        page = """<script>root.App.main={"price":{"raw":"46,331.45","fmt":"46,331.45"},
+        "regularMarketPreviousClose":{"raw":"45,975.20","fmt":"45,975.20"},
+        "regularMarketTime":"2026-08-28T05:33:15Z","symbol":"^TWII","symbolName":"發行量加權股價指數"};</script>"""
+        record = YahooTwIndexCollector._parse(page, "^TWII", "加權")
+        self.assertEqual(record["group"], "taiwan_indices")
+        self.assertEqual(record["label"], "加權")
+        self.assertEqual(record["price"], 46331.45)
+        self.assertAlmostEqual(record["change"], 356.25)
+        self.assertEqual(record["date"], "08/28")
+
+    def test_yahoo_tw_indices_do_not_fetch_after_market_open(self) -> None:
+        class Client:
+            def get_text(self, url: str) -> str:
+                raise AssertionError("collector must not fetch after market open")
+
+        result = YahooTwIndexCollector(Client(), date(2026, 8, 31), before_open=False).collect()
+        self.assertEqual(result.records, [])
+        self.assertIsNotNone(result.error)
+
     def test_yahoo_future_parser_derives_negative_direction_from_previous_close(self) -> None:
         page = "<div>收盤 | 2026/08/15 04:59 更新</div><h2>台指期近一即時行情</h2><div>成交</div><div>45,727.00</div><div>昨收</div><div>45,812.00</div><div>漲跌幅</div><div>0.19%</div><div>漲跌</div><div>85.00</div>"
         record = YahooFutureCollector._parse(page)
@@ -248,6 +269,22 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(report.markets[0]["currency"], "USD")
         self.assertEqual(report.markets[1]["price"], 50)
         self.assertEqual(report.markets[2]["price"], 46021.48)
+
+    def test_same_day_source_change_replaces_stockq_taiwan_indices(self) -> None:
+        report = build_report([CollectorResult("new", [
+            {"kind": "market", "group": "taiwan_indices", "source": "yahoo_tw_indices", "symbol": "^TWII", "label": "加權", "price": 46331.45},
+            {"kind": "market", "group": "taiwan_indices", "source": "yahoo_tw_indices", "symbol": "^TWOII", "label": "櫃買", "price": 402.83},
+        ])], self.now, "Asia/Taipei")
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            payload = {"report_date": "2026-08-13", "markets": [
+                {"kind": "market", "group": "taiwan_indices", "source": "stockq", "symbol": "TWSE.php", "label": "台灣加權", "price": 46021.48},
+                {"kind": "market", "group": "taiwan_indices", "source": "stockq", "symbol": "TWOTCI.php", "label": "台灣櫃買", "price": 400.38},
+            ], "taiwan_market": [], "chips": [], "news": []}
+            (root / "today.json").write_text(json.dumps(payload), encoding="utf-8")
+            merge_same_day_report(report, root / "today.json")
+        indices = [item for item in report.markets if item.get("group") == "taiwan_indices"]
+        self.assertEqual([(item["label"], item["price"]) for item in indices], [("加權", 46331.45), ("櫃買", 402.83)])
 
     def test_cross_day_rerun_does_not_reuse_stale_night_quote(self) -> None:
         report = build_report([], self.now, "Asia/Taipei")

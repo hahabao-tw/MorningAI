@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-01",
-  "generated_at": "2026-09-01T09:21:52+08:00",
+  "generated_at": "2026-09-01T09:47:25+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4496.2,
-      "change": 14.699999999999818,
-      "change_percent": 0.32801517349101456,
+      "price": 4493.9,
+      "change": 12.399999999999636,
+      "change_percent": 0.27669307151622524,
       "currency": "USD",
-      "market_time": 1788225111,
+      "market_time": 1788226643,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 86.48,
-      "change": 0.7199999999999989,
-      "change_percent": 0.8395522388059687,
+      "price": 86.7,
+      "change": 0.9399999999999977,
+      "change_percent": 1.096082089552236,
       "currency": "USD",
-      "market_time": 1788225111,
+      "market_time": 1788226643,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 88.78,
-      "change": 0.4099999999999966,
-      "change_percent": 0.4639583569084492,
+      "price": 88.94,
+      "change": 0.5699999999999932,
+      "change_percent": 0.6450152766775977,
       "currency": "USD",
-      "market_time": 1788225043,
+      "market_time": 1788226521,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.634,
-      "change": -0.06400000000000006,
-      "change_percent": -0.20190548299577277,
+      "price": 31.622,
+      "change": -0.07600000000000051,
+      "change_percent": -0.23976276105748157,
       "currency": "TWD",
-      "market_time": 1788225712,
+      "market_time": 1788227243,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 5.0429,
-      "change": 0.013200000000000323,
-      "change_percent": 0.26244109986679764,
+      "price": 5.0403,
+      "change": 0.010600000000000165,
+      "change_percent": 0.2107481559536387,
       "currency": "JPY",
-      "market_time": 1788225470,
+      "market_time": 1788226970,
       "source": "yahoo"
     },
     {
@@ -262,6 +262,24 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Shein shares slide in long-awaited stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/c3v0qrz7z25o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-01T01:39:32+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Fast-fashion giant Shein's shares drop 7% in Hong Kong market debut",
+      "link": "https://www.cnbc.com/2026/09/01/shein-ipo-market-debut-hong-kong.html",
+      "published_at": "2026-09-01T01:34:01+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Venezuela grants U.S.-backed oil firm NABEP 100-year concessions for 17 oil fields, White House says",
       "link": "https://www.cnbc.com/2026/08/31/venezuela-grants-north-american-blue-energy-partners-100-year-concessions-for-17-oil-fields-white-house-says.html",
       "published_at": "2026-09-01T01:20:08+00:00",
@@ -275,15 +293,6 @@
       "link": "https://www.cnbc.com/2026/09/01/cnbc-daily-open-trump-us-growth-fed.html",
       "published_at": "2026-09-01T01:19:19+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "How Shein lost its shine ahead of long-awaited stock market debut",
-      "link": "https://www.bbc.co.uk/news/articles/c3v0qrz7z25o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-01T00:56:59+00:00",
-      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
     {
@@ -379,10 +388,80 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "輝達重金入股聯發科、台積電受惠！跌15元後翻紅 分析師看多",
+      "original_title": null,
+      "summary": "重點：輝達宣布斥資35億美元（約新台幣千億元）認購聯發科海外可轉債，為全球 AI 需求注入強心針，帶動費半指數逆勢成為美股唯一收紅的亮點。不過，台積電…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E9%87%8D%E9%87%91%E5%85%A5%E8%82%A1%E8%81%AF%E7%99%BC%E7%A7%91%E3%80%81%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%8F%97%E6%83%A0%EF%BC%81%E8%B7%8C15%E5%85%83%E5%BE%8C%E7%BF%BB%E7%B4%85-%E5%88%86%E6%9E%90%E5%B8%AB%E7%9C%8B%E5%A4%9A-012506836.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "台股開盤／美股收黑台股逆勢開紅！開盤漲逾400點　傳產小兵接棒",
+      "original_title": null,
+      "summary": "重點：美伊相隔一個月再度交火，中東緊張局勢升溫，國際油價走揚並推升美債殖利率，美股三大指數週一（31日）全面收黑，道瓊工業指數重挫374.09點，不過…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4-%E7%BE%8E%E8%82%A1%E6%94%B6%E9%BB%91%E5%8F%B0%E8%82%A1%E9%80%86%E5%8B%A2%E9%96%8B%E7%B4%85-%E9%96%8B%E7%9B%A4%E6%BC%B2%E9%80%BE400%E9%BB%9E-%E5%82%B3%E7%94%A2%E5%B0%8F%E5%85%B5%E6%8E%A5%E6%A3%92-011400021.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達助陣聯發科噴漲停、欣興打開跌停　台股大漲5百點、站穩四萬六",
+      "original_title": null,
+      "summary": "重點：美伊衝突再起，市場憂通膨，費半逆勢上揚0.57%，台指期盤後微漲1點，收45,978點，台積電ADR下跌0.53％。國際半導體展將登場，輝達持續…。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E5%8A%A9%E9%99%A3%E8%81%AF%E7%99%BC%E7%A7%91%E5%99%B4%E6%BC%B2%E5%81%9C-%E6%AC%A3%E8%88%88%E6%89%93%E9%96%8B%E8%B7%8C%E5%81%9C-%E5%8F%B0%E8%82%A1%E5%A4%A7%E6%BC%B25%E7%99%BE%E9%BB%9E-%E7%AB%99%E7%A9%A9%E5%9B%9B%E8%90%AC%E5%85%AD-011345305.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "小摩撤回短線看多美股立場，9月16日Fed會議前轉為「戰術性謹慎」",
       "original_title": null,
       "summary": "重點：【財訊快報／陳孟朔】外電報導，聯準會(Fed)主席華許(Kevin Warsh)在傑克森霍爾(Jackson Holl)全球央行年會發表鷹派談話…。",
       "link": "https://tw.stock.yahoo.com/news/%E5%B0%8F%E6%91%A9%E6%92%A4%E5%9B%9E%E7%9F%AD%E7%B7%9A%E7%9C%8B%E5%A4%9A%E7%BE%8E%E8%82%A1%E7%AB%8B%E5%A0%B4-9%E6%9C%8816%E6%97%A5fed%E6%9C%83%E8%AD%B0%E5%89%8D%E8%BD%89%E7%82%BA-%E6%88%B0%E8%A1%93%E6%80%A7%E8%AC%B9%E6%85%8E-005644202.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "少年股神狂湧！8月台股開戶數衝破1469萬人創新高",
+      "original_title": null,
+      "summary": "重點：台股 8 月市場交易熱度持續升溫，單月大漲逾 3,008 點，一舉站穩 46,000 點大關。根據台灣證券交易所最新統計，8 月台股總開戶數達…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%B0%91%E5%B9%B4%E8%82%A1%E7%A5%9E%E7%8B%82%E6%B9%A7%EF%BC%818%E6%9C%88%E5%8F%B0%E8%82%A1%E9%96%8B%E6%88%B6%E6%95%B8%E8%A1%9D%E7%A0%B41469%E8%90%AC%E4%BA%BA%E5%89%B5%E6%96%B0%E9%AB%98-014459843.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "聯發科攻漲停　台股早盤漲逾600點",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]美伊衝突再起，加上聯準會（Fed）升息陰霾揮之不去，美股主要指數多收黑，不過，費城半導體指數收紅，加上輝達（NVIDI…。",
+      "link": "https://tw.news.yahoo.com/%E8%81%AF%E7%99%BC%E7%A7%91%E6%94%BB%E6%BC%B2%E5%81%9C-%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E6%BC%B2%E9%80%BE600%E9%BB%9E-012840879.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【Yahoo早盤】多頭回神！台股大漲逾500點重回46700點 分析師郭經緯揭資金回流3大關鍵",
+      "original_title": null,
+      "summary": "重點：台股今（1）日強勢回神，早盤在聯發科開盤直攻漲停帶動下，電子、傳產及金融類股齊揚，指數大漲逾500點，一舉站回46,700點之上。國泰證期顧問協…。",
+      "link": "https://tw.stock.yahoo.com/news/%E3%80%90yahoo%E6%97%A9%E7%9B%A4%E3%80%91%E5%A4%9A%E9%A0%AD%E5%9B%9E%E7%A5%9E%EF%BC%81%E5%8F%B0%E8%82%A1%E5%A4%A7%E6%BC%B2%E9%80%BE500%E9%BB%9E%E9%87%8D%E5%9B%9E46700%E9%BB%9E-%E5%88%86%E6%9E%90%E5%B8%AB%E9%83%AD%E7%B6%93%E7%B7%AF%E6%8F%AD%E8%B3%87%E9%87%91%E5%9B%9E%E6%B5%813%E5%A4%A7%E9%97%9C%E9%8D%B5-013720133.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "力壓台積電！欣興綠燈僅閃一天 今買盤接手半小時炸450億元登吸金王",
+      "original_title": null,
+      "summary": "重點：ABF載板大廠欣興（3037）今日已打開昨日的跌停情況，早盤最高來到968元，跌幅收斂至3%。值得注意的是，僅開盤10分鐘內，欣興成交量就衝上3…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8A%9B%E5%A3%93%E5%8F%B0%E7%A9%8D%E9%9B%BB%EF%BC%81%E6%AC%A3%E8%88%88%E7%B6%A0%E7%87%88%E5%83%85%E9%96%83%E4%B8%80%E5%A4%A9-%E4%BB%8A%E8%B2%B7%E7%9B%A4%E6%8E%A5%E6%89%8B%E5%8D%8A%E5%B0%8F%E6%99%82%E7%82%B8450%E5%84%84%E5%85%83%E7%99%BB%E5%90%B8%E9%87%91%E7%8E%8B-013712461.html",
       "published_at": null,
       "source": "yahoo_news"
     },

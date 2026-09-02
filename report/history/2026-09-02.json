@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-02",
-  "generated_at": "2026-09-02T08:54:13+08:00",
+  "generated_at": "2026-09-02T08:56:03+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4375.3,
-      "change": -21.099999999999454,
-      "change_percent": -0.4799381311982407,
+      "price": 4377.1,
+      "change": -19.299999999999272,
+      "change_percent": -0.43899554180691647,
       "currency": "USD",
-      "market_time": 1788309851,
+      "market_time": 1788309960,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 91.51,
-      "change": 1.2900000000000063,
-      "change_percent": 1.4298381733540304,
+      "price": 91.54,
+      "change": 1.3200000000000074,
+      "change_percent": 1.4630902238971486,
       "currency": "USD",
-      "market_time": 1788309845,
+      "market_time": 1788309960,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 96.05,
-      "change": 1.3999999999999915,
-      "change_percent": 1.479133650290535,
+      "price": 96.04,
+      "change": 1.3900000000000006,
+      "change_percent": 1.4685684099313265,
       "currency": "USD",
-      "market_time": 1788309841,
+      "market_time": 1788309935,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.686,
-      "change": 0.038000000000000256,
-      "change_percent": 0.12007077856420707,
+      "price": 31.689,
+      "change": 0.04100000000000037,
+      "change_percent": 0.12955005055611846,
       "currency": "TWD",
-      "market_time": 1788310453,
+      "market_time": 1788310563,
       "source": "yahoo"
     },
     {
@@ -356,6 +356,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "STOXX成分股調整，諾基亞重返道瓊歐洲50指數、福斯汽車遭剔除",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】路透報導，指數編製公司STOXX週二公布年度成分股調整，芬蘭電信設備商諾基亞(Nokia)將在遭剔除一年後重返道瓊歐洲50指…。",
+      "link": "https://tw.stock.yahoo.com/news/stoxx%E6%88%90%E5%88%86%E8%82%A1%E8%AA%BF%E6%95%B4-%E8%AB%BE%E5%9F%BA%E4%BA%9E%E9%87%8D%E8%BF%94%E9%81%93%E7%93%8A%E6%AD%90%E6%B4%B250%E6%8C%87%E6%95%B8-%E7%A6%8F%E6%96%AF%E6%B1%BD%E8%BB%8A%E9%81%AD%E5%89%94%E9%99%A4-004945256.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "輝達掌握算力、融資與供應鏈，被喻為AI產業「央行」",
       "original_title": null,
       "summary": "重點：【財訊快報／陳孟朔】知名科技投資人貝克(Gavin Baker)表示，輝達(美股代碼NVDA)在AI產業扮演的角色已不只是晶片供應商，更逐漸成為…。",
@@ -385,11 +395,31 @@
     },
     {
       "kind": "news",
-      "category": "international",
-      "title": "油價、債息齊漲雙重夾擊，道瓊歐洲600指數週二跌0.56%至五週新低",
+      "category": "domestic",
+      "title": "券商晨訊台股投資建議摘要 (1) 2026年9月2日",
       "original_title": null,
-      "summary": "重點：【財訊快報／陳孟朔】美伊衝突升級推動油價大漲近5%，加上全球公債殖利率攀升及市場押注聯準會(Fed)9月升息機率逼近70%，歐洲股市週二反覆走低…。",
-      "link": "https://tw.stock.yahoo.com/news/%E6%B2%B9%E5%83%B9-%E5%82%B5%E6%81%AF%E9%BD%8A%E6%BC%B2%E9%9B%99%E9%87%8D%E5%A4%BE%E6%93%8A-%E9%81%93%E7%93%8A%E6%AD%90%E6%B4%B2600%E6%8C%87%E6%95%B8%E9%80%B1%E4%BA%8C%E8%B7%8C0-56-%E8%87%B3%E4%BA%94%E9%80%B1%E6%96%B0%E4%BD%8E-002833536.html",
+      "summary": "重點：【統一證券】中東衝突與債市風暴未歇，仍會對股市造成干擾，預期大盤震盪盤堅、類股輪動。操作建議低接不追高、選股以流動性佳的中大型AI權值股為主。【…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%88%B8%E5%95%86%E6%99%A8%E8%A8%8A%E5%8F%B0%E8%82%A1%E6%8A%95%E8%B3%87%E5%BB%BA%E8%AD%B0%E6%91%98%E8%A6%81-1-2026%E5%B9%B49%E6%9C%882%E6%97%A5-003745283.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【國票金控晨訊】台股早盤估開低　可留意蘋概股",
+      "original_title": null,
+      "summary": "重點：日期：2026年 9月 2日※操作建議與結論◎今日盤勢及未來走勢留意蘋概股布局機會升息與通膨隱憂使國際債市遭遇拋售，拖累美股主要指數全數收跌，幅…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E7%A5%A8%E9%87%91%E6%8E%A7%E6%99%A8%E8%A8%8A-%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E4%BC%B0%E9%96%8B%E4%BD%8E-%E5%8F%AF%E7%95%99%E6%84%8F%E8%98%8B%E6%A6%82%E8%82%A1-003743006.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【統一證券晨訊】預期大盤震盪盤堅　類股輪動",
+      "original_title": null,
+      "summary": "重點：日期：2026年 9月 2日※盤勢分析AI回神、半導體展登場，惟油價及債市干擾，台股震盪盤堅◎昨日盤勢周二台股受惠輝達投資35億美元聯發科ECB…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%B5%B1-%E8%AD%89%E5%88%B8%E6%99%A8%E8%A8%8A-%E9%A0%90%E6%9C%9F%E5%A4%A7%E7%9B%A4%E9%9C%87%E7%9B%AA%E7%9B%A4%E5%A0%85-%E9%A1%9E%E8%82%A1%E8%BC%AA%E5%8B%95-003541425.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -400,6 +430,16 @@
       "original_title": null,
       "summary": "重點：AI題材發展近4年，市場投資主軸逐漸從「拚算力」轉向「拚應用」。隨著人形機器人、自駕車與智慧工廠加速落地 ，感測器、光學鏡頭與AI視覺逐漸成為新…。",
       "link": "https://tw.news.yahoo.com/%E7%90%86%E8%B2%A1%E6%9C%80%E5%89%8D%E7%B7%9A-ai%E5%BE%9E%E5%A4%A7%E8%85%A6%E8%BD%89%E5%90%91%E4%BA%94%E6%84%9F-3%E6%AA%94%E5%8F%B0%E8%82%A1%E5%8D%A1%E4%BD%8D%E6%84%9F%E7%9F%A5%E6%96%B0%E5%95%86%E6%A9%9F-002951102.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "油價、債息齊漲雙重夾擊，道瓊歐洲600指數週二跌0.56%至五週新低",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】美伊衝突升級推動油價大漲近5%，加上全球公債殖利率攀升及市場押注聯準會(Fed)9月升息機率逼近70%，歐洲股市週二反覆走低…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%B2%B9%E5%83%B9-%E5%82%B5%E6%81%AF%E9%BD%8A%E6%BC%B2%E9%9B%99%E9%87%8D%E5%A4%BE%E6%93%8A-%E9%81%93%E7%93%8A%E6%AD%90%E6%B4%B2600%E6%8C%87%E6%95%B8%E9%80%B1%E4%BA%8C%E8%B7%8C0-56-%E8%87%B3%E4%BA%94%E9%80%B1%E6%96%B0%E4%BD%8E-002833536.html",
       "published_at": null,
       "source": "yahoo_news"
     },

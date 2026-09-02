@@ -28,11 +28,27 @@ from processor.site import build_site
 
 
 ROOT = Path(__file__).resolve().parent
+REQUIRED_MARKET_SYMBOLS = {"^TWII", "^TWOII", "WTX&", "WCDF&"}
 
 
 def load_config(path: Path) -> dict:
     with path.open("rb") as handle:
         return tomllib.load(handle)
+
+
+def missing_required_data(report: MorningReport) -> list[str]:
+    present_symbols = {str(item.get("symbol")) for item in report.markets}
+    missing = sorted(REQUIRED_MARKET_SYMBOLS - present_symbols)
+    if not report.chips:
+        missing.append("期貨籌碼")
+    institutions = (
+        report.taiwan_market[0].get("institutional")
+        if report.taiwan_market
+        else None
+    )
+    if not institutions:
+        missing.append("法人買賣動向")
+    return missing
 
 
 def collectors(config: dict, now: datetime) -> list[Collector]:
@@ -64,10 +80,10 @@ def collectors(config: dict, now: datetime) -> list[Collector]:
         items.append(StockQCollector(client, local_now.date(), before_open))
     if enabled.get("yahoo_tw_indices_enabled", False):
         local_now = now.astimezone(ZoneInfo(config["report"]["timezone"]))
-        before_open = (local_now.hour, local_now.minute) < (8, 30)
-        items.append(YahooTwIndexCollector(client, local_now.date(), before_open))
+        items.append(YahooTwIndexCollector(client, local_now.date()))
     if enabled.get("yahoo_future_enabled", False):
-        items.append(YahooFutureCollector(client))
+        local_date = now.astimezone(ZoneInfo(config["report"]["timezone"])).date()
+        items.append(YahooFutureCollector(client, local_date))
     if enabled.get("market_dashboard_enabled", False):
         items.append(MarketDashboardCollector(client))
     return items
@@ -83,6 +99,18 @@ def main(argv: list[str] | None = None) -> int:
         results = [item.collect() for item in collectors(config, now)]
         report = build_report(results, now, config["report"]["timezone"])
         merge_same_day_report(report, ROOT / "report" / "today.json")
+        missing = missing_required_data(report)
+        if missing:
+            failures = "; ".join(
+                f"{result.source}: {result.error}"
+                for result in results
+                if result.error
+            )
+            raise ValueError(
+                "required Taiwan market data missing: "
+                + ", ".join(missing)
+                + (f" ({failures})" if failures else "")
+            )
         markdown = render_markdown(report, config["report"]["title"])
         write_report(report, markdown, ROOT / "report")
         build_site(ROOT / "report", ROOT / "docs", config["report"]["prompt"])

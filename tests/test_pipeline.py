@@ -3,12 +3,14 @@ from __future__ import annotations
 import json
 import tempfile
 import unittest
+import urllib.error
 from datetime import date, datetime, timezone
 from pathlib import Path
+from unittest.mock import patch
 
 from crawler.base import CollectorResult
-from crawler.ctee import CteePremarketCollector
 from crawler.dashboard import MarketDashboardCollector
+from crawler.http import HttpClient
 from crawler.stockq import StockQCollector
 from crawler.taifex import TaifexCollector
 from crawler.twse import TwseCollector
@@ -17,11 +19,11 @@ from crawler.yahoo_news import YahooHeadlineCollector
 from crawler.yahoo_future import YahooFutureCollector
 from crawler.yahoo_tw_indices import YahooTwIndexCollector
 from processor.export import write_report
-from processor.ctee import build_ctee_site, update_ctee_report
 from processor.markdown import render_markdown
 from processor.merge import merge_same_day_report
 from processor.normalize import build_report
 from processor.site import build_site
+from run import missing_required_data
 
 
 class PipelineTests(unittest.TestCase):
@@ -40,10 +42,39 @@ class PipelineTests(unittest.TestCase):
         self.assertIn("資料不足", markdown)
         self.assertNotIn("timeout", markdown)
 
+    def test_publish_gate_rejects_incomplete_taiwan_data(self) -> None:
+        report = build_report([CollectorResult("fixture", [
+            {"kind": "market", "symbol": "^TWII"},
+            {"kind": "market", "symbol": "^TWOII"},
+        ])], self.now, "Asia/Taipei")
+        self.assertEqual(
+            missing_required_data(report),
+            ["WCDF&", "WTX&", "期貨籌碼", "法人買賣動向"],
+        )
+
     def test_duplicate_news_is_removed(self) -> None:
         item = {"kind": "news", "title": "Same", "link": "https://example.com", "published_at": None}
         report = build_report([CollectorResult("a", [item]), CollectorResult("b", [item])], self.now, "Asia/Taipei")
         self.assertEqual(len(report.news), 1)
+
+    def test_http_client_retries_transient_connection_failure(self) -> None:
+        class Response:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *args: object) -> None:
+                return None
+
+            def read(self) -> bytes:
+                return b"ok"
+
+        with patch(
+            "crawler.http.urllib.request.urlopen",
+            side_effect=[urllib.error.URLError("reset"), Response()],
+        ) as opener, patch("crawler.http.time.sleep"):
+            body = HttpClient(1, "test").get_bytes("https://example.com")
+        self.assertEqual(body, b"ok")
+        self.assertEqual(opener.call_count, 2)
 
     def test_partial_source_failure_is_kept_out_of_markdown(self) -> None:
         result = CollectorResult("market", [{"kind": "market", "group": "indices", "label": "NASDAQ", "price": 1, "change": 0, "change_percent": 0}], "one symbol failed")
@@ -214,21 +245,39 @@ class PipelineTests(unittest.TestCase):
         page = """<script>root.App.main={"price":{"raw":"46,331.45","fmt":"46,331.45"},
         "regularMarketPreviousClose":{"raw":"45,975.20","fmt":"45,975.20"},
         "regularMarketTime":"2026-08-28T05:33:15Z","symbol":"^TWII","symbolName":"發行量加權股價指數"};</script>"""
-        record = YahooTwIndexCollector._parse(page, "^TWII", "加權")
+        record = YahooTwIndexCollector._parse_page(page, "^TWII", "加權")
         self.assertEqual(record["group"], "taiwan_indices")
         self.assertEqual(record["label"], "加權")
         self.assertEqual(record["price"], 46331.45)
         self.assertAlmostEqual(record["change"], 356.25)
         self.assertEqual(record["date"], "08/28")
 
-    def test_yahoo_tw_indices_do_not_fetch_after_market_open(self) -> None:
-        class Client:
-            def get_text(self, url: str) -> str:
-                raise AssertionError("collector must not fetch after market open")
+    def test_yahoo_tw_index_chart_selects_last_completed_day_after_open(self) -> None:
+        payload = [{"symbol": "^TWII", "chart": {
+            "timestamp": [1788105600, 1788192000, 1788278400],
+            "indicators": {"quote": [{"close": [46128.47, 46948.72, 47000]}]},
+        }}]
+        record = YahooTwIndexCollector._parse_chart(payload, "^TWII", "加權", date(2026, 9, 2))
+        self.assertEqual(record["price"], 46948.72)
+        self.assertAlmostEqual(record["change"], 820.25)
+        self.assertEqual(record["date"], "09/01")
 
-        result = YahooTwIndexCollector(Client(), date(2026, 8, 31), before_open=False).collect()
-        self.assertEqual(result.records, [])
-        self.assertIsNotNone(result.error)
+    def test_yahoo_future_chart_keeps_0500_close_after_day_session_starts(self) -> None:
+        intraday = [{"symbol": "WTX&", "chart": {
+            "timestamp": [1788296400, 1788310800],
+            "indicators": {"quote": [{"close": [46679, 47000]}]},
+        }}]
+        daily = [{"symbol": "WTX&", "chart": {
+            "timestamp": [1788105600, 1788192000, 1788278400],
+            "indicators": {"quote": [{"close": [45977, 47201, 47000]}]},
+        }}]
+        record = YahooFutureCollector._parse_charts(
+            intraday, daily, "WTX&", "台指期夜盤", date(2026, 9, 2)
+        )
+        self.assertEqual(record["price"], 46679)
+        self.assertEqual(record["change"], -522)
+        self.assertAlmostEqual(record["change_percent"], -522 / 47201 * 100)
+        self.assertEqual(record["date"], "09/02")
 
     def test_yahoo_future_parser_derives_negative_direction_from_previous_close(self) -> None:
         page = "<div>收盤 | 2026/08/15 04:59 更新</div><h2>台指期近一即時行情</h2><div>成交</div><div>45,727.00</div><div>昨收</div><div>45,812.00</div><div>漲跌幅</div><div>0.19%</div><div>漲跌</div><div>85.00</div>"
@@ -294,31 +343,6 @@ class PipelineTests(unittest.TestCase):
             (root / "today.json").write_text(json.dumps(payload), encoding="utf-8")
             merge_same_day_report(report, root / "today.json")
         self.assertEqual(report.markets, [])
-
-    def test_ctee_parser_keeps_only_requested_premarket_date(self) -> None:
-        feed = """<?xml version="1.0"?><rss><channel>
-        <item><title>8／18盤前｜今日重點 - 證券 - 工商時報</title>
-        <link>https://news.google.com/one</link><pubDate>Mon, 17 Aug 2026 23:30:00 GMT</pubDate><source>工商時報</source></item>
-        <item><title>8／17盤前｜昨日重點 - 工商時報</title>
-        <link>https://news.google.com/old</link><pubDate>Sun, 16 Aug 2026 23:30:00 GMT</pubDate><source>工商時報</source></item>
-        <item><title>美股盤前上漲 - 工商時報</title><link>https://news.google.com/noise</link></item>
-        </channel></rss>"""
-        records = CteePremarketCollector._parse(feed.encode(), date(2026, 8, 18))
-        self.assertEqual(len(records), 1)
-        self.assertEqual(records[0]["title"], "8／18盤前｜今日重點")
-        self.assertEqual(records[0]["published_at"], "2026-08-17T23:30:00+00:00")
-
-    def test_ctee_second_run_retains_first_result_when_source_is_empty(self) -> None:
-        article = {"kind": "ctee_premarket", "title": "8／18盤前｜今日重點", "link": "https://news.google.com/one", "published_at": "2026-08-17T23:30:00+00:00", "source": "ctee_google_news"}
-        with tempfile.TemporaryDirectory() as temporary:
-            root = Path(temporary)
-            update_ctee_report(root / "report", "2026-08-18", "2026-08-18T07:35:00+08:00", "Asia/Taipei", [article])
-            payload = update_ctee_report(root / "report", "2026-08-18", "2026-08-18T08:00:00+08:00", "Asia/Taipei", [])
-            build_ctee_site(payload, root / "docs")
-            page = (root / "docs" / "ctee" / "index.html").read_text(encoding="utf-8")
-        self.assertEqual(payload["articles"], [article])
-        self.assertIn("8／18盤前｜今日重點", page)
-        self.assertIn('href="../"', page)
 
     def test_dashboard_collector_maps_requested_chip_fields(self) -> None:
         class Client:

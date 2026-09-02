@@ -1,10 +1,12 @@
 from __future__ import annotations
 
 import re
+from datetime import date, time
 from html.parser import HTMLParser
 
 from .base import Collector, CollectorResult
 from .http import HttpClient
+from .yahoo_chart import chart_series, chart_url
 
 
 class _VisibleText(HTMLParser):
@@ -35,18 +37,68 @@ class YahooFutureCollector(Collector):
         ("https://tw.stock.yahoo.com/quote/WCDF%26", "台積電期貨近一即時行情", "WCDF&", "台積電期貨夜盤"),
     )
 
-    def __init__(self, client: HttpClient) -> None:
+    def __init__(self, client: HttpClient, today: date) -> None:
         self.client = client
+        self.today = today
 
     def collect(self) -> CollectorResult:
         records: list[dict[str, object]] = []
         errors: list[str] = []
         for url, title, symbol, label in self.quotes:
             try:
-                records.append(self._parse(self.client.get_text(url), title, symbol, label))
-            except (OSError, ValueError) as exc:
-                errors.append(f"{symbol}: {type(exc).__name__}")
+                intraday = self.client.get_json(chart_url(symbol, "5m"))
+                daily = self.client.get_json(chart_url(symbol, "d"))
+                records.append(self._parse_charts(intraday, daily, symbol, label, self.today))
+            except (OSError, TypeError, ValueError) as exc:
+                try:
+                    records.append(self._parse(self.client.get_text(url), title, symbol, label))
+                except (OSError, ValueError) as fallback_exc:
+                    errors.append(
+                        f"{symbol}: chart={type(exc).__name__}, page={type(fallback_exc).__name__}"
+                    )
         return CollectorResult(self.name, records, "; ".join(errors) or None)
+
+    @classmethod
+    def _parse_charts(
+        cls,
+        intraday_payload: object,
+        daily_payload: object,
+        symbol: str,
+        label: str,
+        today: date,
+    ) -> dict[str, object]:
+        # The 05:00 five-minute candle is the completed night-session close. It
+        # remains available after the 08:45 day session starts.
+        night_rows = [
+            (stamp, close)
+            for stamp, close in chart_series(intraday_payload, symbol)
+            if stamp.date() <= today and time(4, 55) <= stamp.time() <= time(5, 5)
+        ]
+        if not night_rows:
+            raise ValueError("missing completed Yahoo night-session candle")
+        timestamp, price = night_rows[-1]
+
+        prior_daily = [
+            close
+            for stamp, close in chart_series(daily_payload, symbol)
+            if stamp.date() < timestamp.date()
+        ]
+        if not prior_daily or prior_daily[-1] == 0:
+            raise ValueError("missing previous Yahoo futures close")
+        previous = prior_daily[-1]
+        change = price - previous
+        return {
+            "kind": "market",
+            "group": "taifex",
+            "symbol": symbol,
+            "label": label,
+            "price": price,
+            "change": change,
+            "change_percent": change / previous * 100,
+            "market_time": int(timestamp.timestamp()),
+            "date": timestamp.strftime("%m/%d"),
+            "source": cls.name,
+        }
 
     @classmethod
     def _parse(

@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import time
+import urllib.error
 import urllib.request
 from typing import Any
 
@@ -15,8 +17,22 @@ class HttpClient:
             url,
             headers={"User-Agent": self.user_agent, "Accept": "application/json,text/xml,application/rss+xml,*/*"},
         )
-        with urllib.request.urlopen(request, timeout=self.timeout) as response:
-            return response.read()
+        last_error: OSError | None = None
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(request, timeout=self.timeout) as response:
+                    return response.read()
+            except urllib.error.HTTPError as exc:
+                if exc.code not in {408, 429} and exc.code < 500:
+                    raise
+                last_error = exc
+            except (urllib.error.URLError, TimeoutError) as exc:
+                last_error = exc
+            if attempt < 2:
+                time.sleep(0.5 * (2 ** attempt))
+        if last_error is None:
+            raise OSError("HTTP request failed without an error")
+        raise last_error
 
     def get_text(self, url: str) -> str:
         raw = self.get_bytes(url)

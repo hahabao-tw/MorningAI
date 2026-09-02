@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-02",
-  "generated_at": "2026-09-02T08:56:03+08:00",
+  "generated_at": "2026-09-02T08:59:36+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4377.1,
-      "change": -19.299999999999272,
-      "change_percent": -0.43899554180691647,
+      "price": 4369.8,
+      "change": -26.599999999999454,
+      "change_percent": -0.605040487671719,
       "currency": "USD",
-      "market_time": 1788309960,
+      "market_time": 1788310171,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 91.54,
-      "change": 1.3200000000000074,
-      "change_percent": 1.4630902238971486,
+      "price": 91.64,
+      "change": 1.4200000000000017,
+      "change_percent": 1.5739303923741983,
       "currency": "USD",
-      "market_time": 1788309960,
+      "market_time": 1788310175,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 96.04,
-      "change": 1.3900000000000006,
-      "change_percent": 1.4685684099313265,
+      "price": 96.17,
+      "change": 1.519999999999996,
+      "change_percent": 1.6059165346011577,
       "currency": "USD",
-      "market_time": 1788309935,
+      "market_time": 1788310148,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.689,
-      "change": 0.04100000000000037,
-      "change_percent": 0.12955005055611846,
+      "price": 31.681,
+      "change": 0.03300000000000125,
+      "change_percent": 0.10427199191102518,
       "currency": "TWD",
-      "market_time": 1788310563,
+      "market_time": 1788310774,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 5.0475,
-      "change": -0.0030999999999998806,
-      "change_percent": -0.06137884607769137,
+      "price": 5.0488,
+      "change": -0.0018000000000002458,
+      "change_percent": -0.03563932998060123,
       "currency": "JPY",
-      "market_time": 1788310372,
+      "market_time": 1788310673,
       "source": "yahoo"
     },
     {
@@ -376,20 +376,20 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "馬斯克估AI推升全球經濟20%-30%，十年內人形機器人上看10億台",
+      "title": "中東衝突再起推升通膨隱憂！美股道瓊跌419點 台積電ADR跌0.32%",
       "original_title": null,
-      "summary": "重點：【財訊快報／陳孟朔】身兼全美電動車一哥特斯拉(美股代碼TSLA)與火箭與衛星公司SpaceX(美股代碼SPCX)執行長馬斯克(Elon Musk…。",
-      "link": "https://tw.stock.yahoo.com/news/%E9%A6%AC%E6%96%AF%E5%85%8B%E4%BC%B0ai%E6%8E%A8%E5%8D%87%E5%85%A8%E7%90%83%E7%B6%93%E6%BF%9F20-30-%E5%8D%81%E5%B9%B4%E5%85%A7%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%E4%B8%8A%E7%9C%8B10%E5%84%84%E5%8F%B0-003107465.html",
+      "summary": "重點：[Newtalk新聞] 全球債市掀拋售潮之際，美國與伊朗敵對行動升高，引發投資人擔心能源價格飆漲恐迫使各國央行升息壓抑通膨，美國股市主要指數另一…。",
+      "link": "https://tw.news.yahoo.com/%E4%B8%AD%E6%9D%B1%E8%A1%9D%E7%AA%81%E5%86%8D%E8%B5%B7%E6%8E%A8%E5%8D%87%E9%80%9A%E8%86%A8%E9%9A%B1%E6%86%82-%E7%BE%8E%E8%82%A1%E9%81%93%E7%93%8A%E8%B7%8C419%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C0-32-003838500.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "油價突破90美元加劇通膨疑慮，美債週二全線走低，短天期公債領跌",
+      "title": "馬斯克估AI推升全球經濟20%-30%，十年內人形機器人上看10億台",
       "original_title": null,
-      "summary": "重點：【財訊快報／劉敏夫】美國公債週二下跌，引領殖利率走升，因通膨疑慮縈繞，加上國際油價上漲後，也令美國公債價格跌幅擴大。根據債券交易報價，2年期公債…。",
-      "link": "https://tw.stock.yahoo.com/news/%E6%B2%B9%E5%83%B9%E7%AA%81%E7%A0%B490%E7%BE%8E%E5%85%83%E5%8A%A0%E5%8A%87%E9%80%9A%E8%86%A8%E7%96%91%E6%85%AE-%E7%BE%8E%E5%82%B5%E9%80%B1%E4%BA%8C%E5%85%A8%E7%B7%9A%E8%B5%B0%E4%BD%8E-%E7%9F%AD%E5%A4%A9%E6%9C%9F%E5%85%AC%E5%82%B5%E9%A0%98%E8%B7%8C-003102860.html",
+      "summary": "重點：【財訊快報／陳孟朔】身兼全美電動車一哥特斯拉(美股代碼TSLA)與火箭與衛星公司SpaceX(美股代碼SPCX)執行長馬斯克(Elon Musk…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%A6%AC%E6%96%AF%E5%85%8B%E4%BC%B0ai%E6%8E%A8%E5%8D%87%E5%85%A8%E7%90%83%E7%B6%93%E6%BF%9F20-30-%E5%8D%81%E5%B9%B4%E5%85%A7%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%E4%B8%8A%E7%9C%8B10%E5%84%84%E5%8F%B0-003107465.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -420,6 +420,16 @@
       "original_title": null,
       "summary": "重點：日期：2026年 9月 2日※盤勢分析AI回神、半導體展登場，惟油價及債市干擾，台股震盪盤堅◎昨日盤勢周二台股受惠輝達投資35億美元聯發科ECB…。",
       "link": "https://tw.stock.yahoo.com/news/%E7%B5%B1-%E8%AD%89%E5%88%B8%E6%99%A8%E8%A8%8A-%E9%A0%90%E6%9C%9F%E5%A4%A7%E7%9B%A4%E9%9C%87%E7%9B%AA%E7%9B%A4%E5%A0%85-%E9%A1%9E%E8%82%A1%E8%BC%AA%E5%8B%95-003541425.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "油價突破90美元加劇通膨疑慮，美債週二全線走低，短天期公債領跌",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】美國公債週二下跌，引領殖利率走升，因通膨疑慮縈繞，加上國際油價上漲後，也令美國公債價格跌幅擴大。根據債券交易報價，2年期公債…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%B2%B9%E5%83%B9%E7%AA%81%E7%A0%B490%E7%BE%8E%E5%85%83%E5%8A%A0%E5%8A%87%E9%80%9A%E8%86%A8%E7%96%91%E6%85%AE-%E7%BE%8E%E5%82%B5%E9%80%B1%E4%BA%8C%E5%85%A8%E7%B7%9A%E8%B5%B0%E4%BD%8E-%E7%9F%AD%E5%A4%A9%E6%9C%9F%E5%85%AC%E5%82%B5%E9%A0%98%E8%B7%8C-003102860.html",
       "published_at": null,
       "source": "yahoo_news"
     },

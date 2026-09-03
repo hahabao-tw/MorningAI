@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-03",
-  "generated_at": "2026-09-03T08:06:55+08:00",
+  "generated_at": "2026-09-03T08:31:31+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4432.0,
-      "change": 17.399999999999636,
-      "change_percent": 0.39414669505730154,
+      "price": 4431.1,
+      "change": 16.5,
+      "change_percent": 0.37375979703710416,
       "currency": "USD",
-      "market_time": 1788393401,
+      "market_time": 1788394880,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 90.58,
-      "change": -0.4300000000000068,
-      "change_percent": -0.4724755521371353,
+      "price": 90.74,
+      "change": -0.27000000000001023,
+      "change_percent": -0.2966706955279752,
       "currency": "USD",
-      "market_time": 1788393406,
+      "market_time": 1788394881,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 95.21,
-      "change": -0.4200000000000017,
-      "change_percent": -0.43919272194918096,
+      "price": 95.16,
+      "change": -0.46999999999999886,
+      "change_percent": -0.49147756980027074,
       "currency": "USD",
-      "market_time": 1788393322,
+      "market_time": 1788394873,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.724,
-      "change": -0.01899999999999835,
-      "change_percent": -0.05985571622089391,
+      "price": 31.747,
+      "change": 0.004000000000001336,
+      "change_percent": 0.012601203414930333,
       "currency": "TWD",
-      "market_time": 1788393853,
+      "market_time": 1788395493,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.997,
-      "change": 0.008300000000000196,
-      "change_percent": 0.1663760097821115,
+      "price": 4.9934,
+      "change": 0.004700000000000593,
+      "change_percent": 0.09421292120192822,
       "currency": "JPY",
-      "market_time": 1788393770,
+      "market_time": 1788395270,
       "source": "yahoo"
     },
     {
@@ -266,6 +266,24 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Why Hilton calls this Asian country the fastest-growing tourism market",
+      "link": "https://www.cnbc.com/2026/09/03/hilton-hotel-market-expansion-india-china-southeast-asia.html",
+      "published_at": "2026-09-03T00:13:33+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Inside India newsletter: India’s economic growth is smashing forecasts, but its biggest stocks aren't feeling the love",
+      "link": "https://www.cnbc.com/2026/09/03/india-nifty-sensex-manufacturing-economy-gdp.html",
+      "published_at": "2026-09-03T00:08:50+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Uber launches UK's first robotaxis with a driver - here's what it's like to ride in one",
       "link": "https://www.bbc.co.uk/news/articles/ce9e838jzpzo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-09-02T23:36:49+00:00",
@@ -356,6 +374,26 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "韓國砸9190億美元建AI基建，輝達成最大贏家、SK海力士獲利空間承壓",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】韓國將人工智慧(AI)提升至國家戰略層級，計畫投資9,190億美元，在2029年前建成8.4吉瓦數據中心算力，並於2035年…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%9F%93%E5%9C%8B%E7%A0%B89190%E5%84%84%E7%BE%8E%E5%85%83%E5%BB%BAai%E5%9F%BA%E5%BB%BA-%E8%BC%9D%E9%81%94%E6%88%90%E6%9C%80%E5%A4%A7%E8%B4%8F%E5%AE%B6-sk%E6%B5%B7%E5%8A%9B%E5%A3%AB%E7%8D%B2%E5%88%A9%E7%A9%BA%E9%96%93%E6%89%BF%E5%A3%93-001608712.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "雪佛龍砸70億美元擴產委國石油，週三股價收211.78美元創新高",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】美國與委內瑞拉石油合作加速推進，雪佛龍(Chevron，美股代碼CVX)、義大利埃尼(ENI)等能源業者週三在加拉加斯簽署多…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%9B%AA%E4%BD%9B%E9%BE%8D%E7%A0%B870%E5%84%84%E7%BE%8E%E5%85%83%E6%93%B4%E7%94%A2%E5%A7%94%E5%9C%8B%E7%9F%B3%E6%B2%B9-%E9%80%B1%E4%B8%89%E8%82%A1%E5%83%B9%E6%94%B6211-78%E7%BE%8E%E5%85%83%E5%89%B5%E6%96%B0%E9%AB%98-000224425.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "格里爾密會眾院共和黨人，美加關稅戰與牛肉進口案添期中選舉壓力",
       "original_title": null,
       "summary": "重點：【財訊快報／陳孟朔】外電報導，美國貿易代表格里爾(Jamieson Greer)週三與眾議院共和黨議員舉行閉門會議，討論川普政府與加拿大持續升級…。",
@@ -375,31 +413,21 @@
     },
     {
       "kind": "news",
-      "category": "international",
-      "title": "手握逾百億美元！蔡力行揭聯發科下一步：攜手輝達推 XPU、研發只會「更加速」",
+      "category": "domestic",
+      "title": "中秋變盤？　台股抗震傳產電金佈局20檔",
       "original_title": null,
-      "summary": "重點：聯發科在第二季底已手握約 70 億美元現金，如今再獲大額資金到位，形同手握逾百。",
-      "link": "https://tw.news.yahoo.com/%E6%89%8B%E6%8F%A1%E9%80%BE%E7%99%BE%E5%84%84%E7%BE%8E%E5%85%83-%E8%94%A1%E5%8A%9B%E8%A1%8C%E6%8F%AD%E8%81%AF%E7%99%BC%E7%A7%91%E4%B8%8B-%E6%AD%A5-%E6%94%9C%E6%89%8B%E8%BC%9D%E9%81%94%E6%8E%A8-xpu-233535731.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "川普擬祭新晶片關稅！在美建廠享豁免，盧特尼克稱台灣將再擴大投資",
-      "original_title": null,
-      "summary": "重點：【財訊快報／劉敏夫】外電報導指出，美國商務部長盧特尼克週三表示，川普政府正在考慮對進口半導體實施新一輪關稅措施，可能進一步提高對外國晶片的關稅，…。",
-      "link": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E6%93%AC%E7%A5%AD%E6%96%B0%E6%99%B6%E7%89%87%E9%97%9C%E7%A8%85-%E5%9C%A8%E7%BE%8E%E5%BB%BA%E5%BB%A0%E4%BA%AB%E8%B1%81%E5%85%8D-%E7%9B%A7%E7%89%B9%E5%B0%BC%E5%85%8B%E7%A8%B1%E5%8F%B0%E7%81%A3%E5%B0%87%E5%86%8D%E6%93%B4%E5%A4%A7%E6%8A%95%E8%B3%87-233148061.html",
+      "summary": "重點：近期AI企業大舉發債推升美債殖利率，壓抑科技股評價，但法人分析，AI供應鏈基本面穩健，下一世代算力平台技術障礙降低，台灣相關供應鏈成長動能仍看好…。",
+      "link": "https://tw.news.yahoo.com/%E4%B8%AD%E7%A7%8B%E8%AE%8A%E7%9B%A4-%E5%8F%B0%E8%82%A1%E6%8A%97%E9%9C%87%E5%82%B3%E7%94%A2%E9%9B%BB%E9%87%91%E4%BD%88%E5%B1%8020%E6%AA%94-235000169.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "中秋變盤？　台股抗震傳產電金佈局20檔",
+      "title": "手握逾百億美元！蔡力行揭聯發科下一步：攜手輝達推 XPU、研發只會「更加速」",
       "original_title": null,
-      "summary": "重點：近期AI企業大舉發債推升美債殖利率，壓抑科技股評價，但法人分析，AI供應鏈基本面穩健，下一世代算力平台技術障礙降低，台灣相關供應鏈成長動能仍看好…。",
-      "link": "https://tw.news.yahoo.com/%E4%B8%AD%E7%A7%8B%E8%AE%8A%E7%9B%A4-%E5%8F%B0%E8%82%A1%E6%8A%97%E9%9C%87%E5%82%B3%E7%94%A2%E9%9B%BB%E9%87%91%E4%BD%88%E5%B1%8020%E6%AA%94-235000169.html",
+      "summary": "重點：聯發科在第二季底已手握約 70 億美元現金，如今再獲大額資金到位，形同手握逾百。",
+      "link": "https://tw.news.yahoo.com/%E6%89%8B%E6%8F%A1%E9%80%BE%E7%99%BE%E5%84%84%E7%BE%8E%E5%85%83-%E8%94%A1%E5%8A%9B%E8%A1%8C%E6%8F%AD%E8%81%AF%E7%99%BC%E7%A7%91%E4%B8%8B-%E6%AD%A5-%E6%94%9C%E6%89%8B%E8%BC%9D%E9%81%94%E6%8E%A8-xpu-233535731.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -420,6 +448,16 @@
       "original_title": null,
       "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導受惠美債殖利率回落、油價漲勢趨緩等因素，美股週三（2日）在經歷連續3個交易日走跌後迎來收紅。台積電ADR收…。",
       "link": "https://tw.stock.yahoo.com/news/%E6%AE%96%E5%88%A9%E7%8E%87%E5%9B%9E%E8%90%BD-%E6%B2%B9%E5%83%B9%E6%BC%B2%E5%8B%A2%E9%99%8D%E6%BA%AB-%E7%BE%8E%E8%82%A1%E9%80%A33%E9%BB%91%E6%AD%A2%E6%AD%A5-%E9%81%93%E7%93%8A%E5%8F%8D%E5%BD%88%E8%BF%91300%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E6%94%B6%E7%B4%85-231500919.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "川普擬祭新晶片關稅！在美建廠享豁免，盧特尼克稱台灣將再擴大投資",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】外電報導指出，美國商務部長盧特尼克週三表示，川普政府正在考慮對進口半導體實施新一輪關稅措施，可能進一步提高對外國晶片的關稅，…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E6%93%AC%E7%A5%AD%E6%96%B0%E6%99%B6%E7%89%87%E9%97%9C%E7%A8%85-%E5%9C%A8%E7%BE%8E%E5%BB%BA%E5%BB%A0%E4%BA%AB%E8%B1%81%E5%85%8D-%E7%9B%A7%E7%89%B9%E5%B0%BC%E5%85%8B%E7%A8%B1%E5%8F%B0%E7%81%A3%E5%B0%87%E5%86%8D%E6%93%B4%E5%A4%A7%E6%8A%95%E8%B3%87-233148061.html",
       "published_at": null,
       "source": "yahoo_news"
     }

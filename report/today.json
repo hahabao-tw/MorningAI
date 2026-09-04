@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-04",
-  "generated_at": "2026-09-04T08:16:54+08:00",
+  "generated_at": "2026-09-04T08:56:20+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4529.3,
-      "change": -10.599999999999454,
-      "change_percent": -0.2334853190598792,
+      "price": 4529.1,
+      "change": -10.799999999999272,
+      "change_percent": -0.2378907024383637,
       "currency": "USD",
-      "market_time": 1788480412,
+      "market_time": 1788482776,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 91.69,
-      "change": 0.39000000000000057,
-      "change_percent": 0.4271631982475362,
+      "price": 91.5,
+      "change": 0.20000000000000284,
+      "change_percent": 0.2190580503833547,
       "currency": "USD",
-      "market_time": 1788480394,
+      "market_time": 1788482774,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 95.81,
-      "change": 0.29000000000000625,
-      "change_percent": 0.30360134003350736,
+      "price": 95.61,
+      "change": 0.09000000000000341,
+      "change_percent": 0.09422110552764176,
       "currency": "USD",
-      "market_time": 1788480349,
+      "market_time": 1788482738,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.683,
-      "change": -0.030000000000001137,
-      "change_percent": -0.09459842966607113,
+      "price": 31.693,
+      "change": -0.019999999999999574,
+      "change_percent": -0.06306561977737701,
       "currency": "TWD",
-      "market_time": 1788481013,
+      "market_time": 1788483380,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9003,
-      "change": -0.0045000000000001705,
-      "change_percent": -0.09174686021856489,
+      "price": 4.9031,
+      "change": -0.0016999999999995907,
+      "change_percent": -0.03465992497144819,
       "currency": "JPY",
-      "market_time": 1788480769,
+      "market_time": 1788483170,
       "source": "yahoo"
     },
     {
@@ -263,6 +263,33 @@
     }
   ],
   "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "South Korea's AI rally is reshaping romance, reality shows and academic preferences",
+      "link": "https://www.cnbc.com/2026/09/04/south-korea-ai-rally-society-impact.html",
+      "published_at": "2026-09-04T00:55:30+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Volkswagen board approves plan to cut another 50,000 jobs",
+      "link": "https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-04T00:51:11+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "A 'shakeout' in early-stage AI may be coming as VC money gets pickier on valuations",
+      "link": "https://www.cnbc.com/2026/09/04/ai-bubble-valuations-venture-capital.html",
+      "published_at": "2026-09-04T00:44:33+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
     {
       "kind": "news",
       "category": "international",
@@ -406,6 +433,76 @@
       "published_at": "2026-09-02T23:25:50+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "馬斯克旗下Boring完成新融資，估值約200億美元",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】《華爾街日報》報導，全球首富馬斯克(Elon Musk)旗下隧道企業無聊公司(The Boring Company)近期完成…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%A6%AC%E6%96%AF%E5%85%8B%E6%97%97%E4%B8%8Bboring%E5%AE%8C%E6%88%90%E6%96%B0%E8%9E%8D%E8%B3%87-%E4%BC%B0%E5%80%BC%E7%B4%84200%E5%84%84%E7%BE%8E%E5%85%83-004547064.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達斥資130億美元收購Hugging Face，週四股價續漲1.8%至史上次高",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】輝達(Nvidia，美股代碼NVDA)同意以約130億美元收購人工智慧(AI)模型共享平台Hugging Face，進一步擴…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E6%96%A5%E8%B3%87130%E5%84%84%E7%BE%8E%E5%85%83%E6%94%B6%E8%B3%BChugging-face-%E9%80%B1%E5%9B%9B%E8%82%A1%E5%83%B9%E7%BA%8C%E6%BC%B21-8-%E8%87%B3%E5%8F%B2%E4%B8%8A%E6%AC%A1%E9%AB%98-004025133.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "目標價喊到220元！「國家隊」加碼2.5億元掃進旺宏2142張　「這檔」切輝達、亞馬遜供應鏈大舉搶進1979張",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳思穎／綜合報導台股昨（3）日開高走低，終場收45857.66點，下跌307.06點，跌幅0.67%，成交額9488.16…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%9B%AE%E6%A8%99%E5%83%B9%E5%96%8A%E5%88%B0220%E5%85%83-%E5%9C%8B%E5%AE%B6%E9%9A%8A-%E5%8A%A0%E7%A2%BC2-5%E5%84%84%E5%85%83%E6%8E%83%E9%80%B2%E6%97%BA%E5%AE%8F2142%E5%BC%B5-%E9%80%99%E6%AA%94-004000804.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "【盤前焦點】美股收高台積電ADR小漲　投顧：AI訂單兌現台股韌性強",
+      "original_title": null,
+      "summary": "重點：（中央社記者江明晏台北2026年9月4日電）美股收高，那斯達克指數漲1.4%，台積電ADR小漲0.36%，台股3日跌307.06點，收在4585…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%9B%A4%E5%89%8D%E7%84%A6%E9%BB%9E-%E7%BE%8E%E8%82%A1%E6%94%B6%E9%AB%98%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E5%B0%8F%E6%BC%B2-%E6%8A%95%E9%A1%A7-ai%E8%A8%82%E5%96%AE%E5%85%8C%E7%8F%BE%E5%8F%B0%E8%82%A1%E9%9F%8C%E6%80%A7%E5%BC%B7-002848237.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "持股清單一比對驚覺「假分散」？股魚笑虧：買一堆ETF結果全在替台積電抬轎！",
+      "original_title": null,
+      "summary": "重點：你是不是也覺得自己超懂風險管理，抽屜打開抱了三、四檔不同的ETF，心裡還暗自得意「雞蛋沒有放在同一個籃子裡」？ […]。",
+      "link": "https://tw.news.yahoo.com/%E6%8C%81%E8%82%A1%E6%B8%85%E5%96%AE-%E6%AF%94%E5%B0%8D%E9%A9%9A%E8%A6%BA-%E5%81%87%E5%88%86%E6%95%A3-%E8%82%A1%E9%AD%9A%E7%AC%91%E8%99%A7-%E8%B2%B7-002837059.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "美股收高台積電ADR小漲　投顧：AI訂單兌現台股韌性強",
+      "original_title": null,
+      "summary": "重點：（中央社記者江明晏台北4日電）美股收高，那斯達克指數漲1.4%，台積電ADR小漲0.36%，台股3日跌307.06點，收在45857.66點。投…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E6%94%B6%E9%AB%98%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E5%B0%8F%E6%BC%B2-%E6%8A%95%E9%A1%A7-ai%E8%A8%82%E5%96%AE%E5%85%8C%E7%8F%BE%E5%8F%B0%E8%82%A1%E9%9F%8C%E6%80%A7%E5%BC%B7-002733304.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "SEMICON爐邊對談》供應鏈出海不是被逼的？鴻海劉揚偉細說「Made with Taiwan」戰略佈局",
+      "original_title": null,
+      "summary": "重點：劉楊偉表示我們必須思考如何『與台灣共同製造』，在產品的目標市場當地，將台灣的技。",
+      "link": "https://tw.news.yahoo.com/semicon%E7%88%90%E9%82%8A%E5%B0%8D%E8%AB%87-%E4%BE%9B%E6%87%89%E9%8F%88%E5%87%BA%E6%B5%B7%E4%B8%8D%E6%98%AF%E8%A2%AB%E9%80%BC%E7%9A%84-%E9%B4%BB%E6%B5%B7%E5%8A%89%E6%8F%9A%E5%81%89%E7%B4%B0%E8%AA%AA-made-taiwan-001017645.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

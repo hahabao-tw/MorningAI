@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-04",
-  "generated_at": "2026-09-04T06:55:53+08:00",
+  "generated_at": "2026-09-04T08:16:54+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4521.1,
-      "change": -18.799999999999272,
-      "change_percent": -0.41410603757790426,
+      "price": 4529.3,
+      "change": -10.599999999999454,
+      "change_percent": -0.2334853190598792,
       "currency": "USD",
-      "market_time": 1788475551,
+      "market_time": 1788480412,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 91.73,
-      "change": 0.4300000000000068,
-      "change_percent": 0.4709748083242134,
+      "price": 91.69,
+      "change": 0.39000000000000057,
+      "change_percent": 0.4271631982475362,
       "currency": "USD",
-      "market_time": 1788475530,
+      "market_time": 1788480394,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 95.82,
-      "change": 0.29999999999999716,
-      "change_percent": 0.314070351758791,
+      "price": 95.81,
+      "change": 0.29000000000000625,
+      "change_percent": 0.30360134003350736,
       "currency": "USD",
-      "market_time": 1788475481,
+      "market_time": 1788480349,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.713,
-      "change": -0.029999999999997584,
-      "change_percent": -0.09450902561193834,
+      "price": 31.683,
+      "change": -0.030000000000001137,
+      "change_percent": -0.09459842966607113,
       "currency": "TWD",
-      "market_time": 1788474879,
+      "market_time": 1788481013,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.91,
-      "change": -0.07869999999999955,
-      "change_percent": -1.577565297572505,
+      "price": 4.9003,
+      "change": -0.0045000000000001705,
+      "change_percent": -0.09174686021856489,
       "currency": "JPY",
-      "market_time": 1788475972,
+      "market_time": 1788480769,
       "source": "yahoo"
     },
     {
@@ -266,9 +266,54 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "'I lost my savings after a job interview scam'",
+      "link": "https://www.bbc.co.uk/news/articles/crk3xd8j3k5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-03T23:41:49+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Is India's internet boom running into an undersea problem?",
+      "link": "https://www.bbc.co.uk/news/articles/cx2r2mzelxko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-03T23:40:08+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "From cake to pizza: How to get the best birthday freebies (and why there's a catch)",
+      "link": "https://www.bbc.co.uk/news/articles/c5y4jr4yr2eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-03T23:25:45+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Controversial Jackdaw gas field set to be approved in weeks, sources say",
+      "link": "https://www.bbc.co.uk/news/articles/cj9xe09jz4eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-03T23:00:15+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Adobe names Anil Chakravarthy as CEO, replacing Shantanu Narayen",
       "link": "https://www.cnbc.com/2026/09/03/adobe-anil-chakravarthy-ceo.html",
       "published_at": "2026-09-03T21:59:29+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Automakers urge Congress to permanently ban Chinese connected vehicles in U.S.",
+      "link": "https://www.cnbc.com/2026/09/03/chinese-vehicles-congress.html",
+      "published_at": "2026-09-03T20:56:19+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
@@ -347,11 +392,100 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "The world appears to be entering a higher-rate era. Here’s who will pay the price",
+      "link": "https://www.cnbc.com/2026/09/03/global-bond-yields-rising-treasuries-jgb-bunds.html",
+      "published_at": "2026-09-03T04:20:20+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Stingy bosses and spare change: How much should you give to the office whip-round?",
       "link": "https://www.bbc.co.uk/news/articles/c2el0v48v0xo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-09-02T23:25:50+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "避險基金持有美債達2.6兆美元，外媒示警威脅恐超越中國",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】路透專欄作家Jamie McGeever最新發文指出，隨著中國與其他央行逐步降低美國公債持有比重，避險基金等短線資金大舉進場…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%81%BF%E9%9A%AA%E5%9F%BA%E9%87%91%E6%8C%81%E6%9C%89%E7%BE%8E%E5%82%B5%E9%81%942-6%E5%85%86%E7%BE%8E%E5%85%83-%E5%A4%96%E5%AA%92%E7%A4%BA%E8%AD%A6%E5%A8%81%E8%84%85%E6%81%90%E8%B6%85%E8%B6%8A%E4%B8%AD%E5%9C%8B-000855383.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "韓國官員稱美韓繼續磋商晶片關稅問題，惟華府未提及具體時間表",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】外電引述韓聯社的報導指出，韓國產業通商部長金正官(Kim Jung-kwan)在華府向媒體發表講話時聲稱，韓國和美國繼續就美…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%9F%93%E5%9C%8B%E5%AE%98%E5%93%A1%E7%A8%B1%E7%BE%8E%E9%9F%93%E7%B9%BC%E7%BA%8C%E7%A3%8B%E5%95%86%E6%99%B6%E7%89%87%E9%97%9C%E7%A8%85%E5%95%8F%E9%A1%8C-%E6%83%9F%E8%8F%AF%E5%BA%9C%E6%9C%AA%E6%8F%90%E5%8F%8A%E5%85%B7%E9%AB%94%E6%99%82%E9%96%93%E8%A1%A8-235901782.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美加貿易交鋒升溫，卡尼守汽車、鋼鋁底線，9/8反制關稅將上路",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】外電報導，美加貿易談判破裂近兩週後，加拿大總理卡尼(Mark Carney)週四表示，已準備好與美國達成互利協議，但必須確保…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%8A%A0%E8%B2%BF%E6%98%93%E4%BA%A4%E9%8B%92%E5%8D%87%E6%BA%AB-%E5%8D%A1%E5%B0%BC%E5%AE%88%E6%B1%BD%E8%BB%8A-%E9%8B%BC%E9%8B%81%E5%BA%95%E7%B7%9A-9-8%E5%8F%8D%E5%88%B6%E9%97%9C%E7%A8%85%E5%B0%87%E4%B8%8A%E8%B7%AF-234454140.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "日圓兌美元走強，三村淳直言「準備好繼續匯率戰」",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】外電報導指出，日本最高匯率事務官員三村淳表示，他已準備好繼續這場匯率戰。三村淳發表上述言論之際，日圓兌美元走強。三村淳從美國…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%97%A5%E5%9C%93%E5%85%8C%E7%BE%8E%E5%85%83%E8%B5%B0%E5%BC%B7-%E4%B8%89%E6%9D%91%E6%B7%B3%E7%9B%B4%E8%A8%80-%E6%BA%96%E5%82%99%E5%A5%BD%E7%B9%BC%E7%BA%8C%E5%8C%AF%E7%8E%87%E6%88%B0-232910588.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "公債殖利率走緩帶動美股收高　台積電ADR小漲",
+      "original_title": null,
+      "summary": "重點：美國公債殖利率走緩，加上大型科技股表現強勁，華爾街股市週四（9/3）收高。台積電ADR小漲0.36%或1.51美元，收到417.01美元。",
+      "link": "https://tw.news.yahoo.com/%E5%85%AC%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87%E8%B5%B0%E7%B7%A9%E5%B8%B6%E5%8B%95%E7%BE%8E%E8%82%A1%E6%94%B6%E9%AB%98-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E5%B0%8F%E6%BC%B2-232143097.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "外資週四補空單3754口＋美股升息疑慮緩解，有利週五台股反彈",
+      "original_title": null,
+      "summary": "重點：【財訊快報／魏聖峰】聯準會理事華勒表示，若未來經濟數據降溫，他將支持暫緩9月升息、維持利率不變，帶動美股反彈，週四美股三大指數均上漲超過1%，費…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%A4%96%E8%B3%87%E9%80%B1%E5%9B%9B%E8%A3%9C%E7%A9%BA%E5%96%AE3754%E5%8F%A3-%E7%BE%8E%E8%82%A1%E5%8D%87%E6%81%AF%E7%96%91%E6%85%AE%E7%B7%A9%E8%A7%A3-%E6%9C%89%E5%88%A9%E9%80%B1%E4%BA%94%E5%8F%B0%E8%82%A1%E5%8F%8D%E5%BD%88-232138579.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "Fed華勒釋出鴿派訊號！美股收紅「道瓊強漲624點」　科技7巨頭紅通通、台積電ADR揚升0.36%",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導聯準會（Fed）理事華勒（ChristopherWaller）釋出鴿派言論，未來兩週數據若顯示通膨降溫，他…。",
+      "link": "https://tw.stock.yahoo.com/news/fed%E8%8F%AF%E5%8B%92%E9%87%8B%E5%87%BA%E9%B4%BF%E6%B4%BE%E8%A8%8A%E8%99%9F-%E7%BE%8E%E8%82%A1%E6%94%B6%E7%B4%85-%E9%81%93%E7%93%8A%E5%BC%B7%E6%BC%B2624%E9%BB%9E-%E7%A7%91%E6%8A%807%E5%B7%A8%E9%A0%AD%E7%B4%85%E9%80%9A%E9%80%9A-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E6%8F%9A%E5%8D%870-231500341.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股基本面創新高卻藏危機！六貸同堂槓桿升溫 1指標抓行情轉折",
+      "original_title": null,
+      "summary": "重點：雜誌官方line＠財經資訊不漏接 台灣2026年上半年經濟成長率創50年最強，企業獲利史上新高，卻同時出現「六貸同堂」的槓桿警訊。從籌碼面看有風…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%9F%BA%E6%9C%AC%E9%9D%A2%E5%89%B5%E6%96%B0%E9%AB%98%E5%8D%BB%E8%97%8F%E5%8D%B1%E6%A9%9F-%E5%85%AD%E8%B2%B8%E5%90%8C%E5%A0%82%E6%A7%93%E6%A1%BF%E5%8D%87%E6%BA%AB-1%E6%8C%87%E6%A8%99%E6%8A%93%E8%A1%8C%E6%83%85%E8%BD%89%E6%8A%98-230900928.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

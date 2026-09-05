@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-05",
-  "generated_at": "2026-09-05T08:17:10+08:00",
+  "generated_at": "2026-09-05T08:53:01+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.6,
-      "change": -0.11299999999999955,
-      "change_percent": -0.3563207517421863,
+      "price": 31.62,
+      "change": -0.09299999999999997,
+      "change_percent": -0.2932551319648093,
       "currency": "TWD",
-      "market_time": 1788556491,
+      "market_time": 1788567967,
       "source": "yahoo"
     },
     {
@@ -356,6 +356,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "特斯拉Cybercab上路股價跌近6%、非農人口超預期 美股三指數下跌",
+      "original_title": null,
+      "summary": "重點：美國4日公布8月非農就業數據，新增16.2萬人遠超預期的5.3萬人，市場以此解讀聯準會（Fed）升息機率高，週五（4）美股收盤四大指數漲跌互見，…。",
+      "link": "https://tw.news.yahoo.com/%E7%89%B9%E6%96%AF%E6%8B%89cybercab%E4%B8%8A%E8%B7%AF%E8%82%A1%E5%83%B9%E8%B7%8C%E8%BF%916-%E9%9D%9E%E8%BE%B2%E4%BA%BA%E5%8F%A3%E8%B6%85%E9%A0%90%E6%9C%9F-%E7%BE%8E%E8%82%A1%E4%B8%89%E6%8C%87%E6%95%B8%E4%B8%8B%E8%B7%8C-002941970.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "美就業數據遠高於預期！美股費半勁揚3.37%、台積電ADR漲2.85%",
       "original_title": null,
       "summary": "重點：[Newtalk新聞] 美國公布8月新增就業人數遠高於預期，讓外界對聯邦準備理事會（Fed）將升息以抑制通膨的預期升高，美國股市4日多數收跌，道…。",
@@ -376,20 +386,10 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "美國非農數據高出預期！美股3指數收黑、特斯拉挫近6%　記憶體類股暴漲、台指期夜盤上揚473點",
+      "title": "「Cybercab風暴」成毛毛雨！僅45輛車 馬斯克也未出席 澆熄市場熱情 特斯拉挫近6%",
       "original_title": null,
-      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導雖然聯準會（Fed）理事華勒（ChristopherWaller）一度釋出鴿派言論、降低市場升息擔憂，但因…。",
-      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E9%9D%9E%E8%BE%B2%E6%95%B8%E6%93%9A%E9%AB%98%E5%87%BA%E9%A0%90%E6%9C%9F-%E7%BE%8E%E8%82%A13%E6%8C%87%E6%95%B8%E6%94%B6%E9%BB%91-%E7%89%B9%E6%96%AF%E6%8B%89%E6%8C%AB%E8%BF%916-%E8%A8%98%E6%86%B6%E9%AB%94%E9%A1%9E%E8%82%A1%E6%9A%B4%E6%BC%B2-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E4%B8%8A%E6%8F%9A473%E9%BB%9E-233000883.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "美就業數據強勁、升息機率大增　美股三大指數收黑",
-      "original_title": null,
-      "summary": "重點：美國公布8月新增就業人數遠高於預期，讓外界對聯準會（Fed）將升息以抑制通膨的預期升高，美股今天多數收黑。台積電ADR跌2.76%或11.51美…。",
-      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E5%B0%B1%E6%A5%AD%E6%95%B8%E6%93%9A%E5%BC%B7%E5%8B%81-%E5%8D%87%E6%81%AF%E6%A9%9F%E7%8E%87%E5%A4%A7%E5%A2%9E-%E7%BE%8E%E8%82%A1%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B8%E6%94%B6%E9%BB%91-230431812.html",
+      "summary": "重點：特斯拉Cybercab正式在奧斯汀提供無人駕駛載客服務, 但發布聲勢不如預期, 德州目前僅45輛登記上路。市場如今更關注純視覺自駕能否通過監管並…。",
+      "link": "https://tw.stock.yahoo.com/news/cybercab%E9%A2%A8%E6%9A%B4-%E6%88%90%E6%AF%9B%E6%AF%9B%E9%9B%A8-%E5%83%8545%E8%BC%9B%E8%BB%8A-%E9%A6%AC%E6%96%AF%E5%85%8B%E4%B9%9F%E6%9C%AA%E5%87%BA%E5%B8%AD-%E6%BE%86%E7%86%84%E5%B8%82%E5%A0%B4%E7%86%B1%E6%83%85-233006577.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -410,6 +410,36 @@
       "original_title": null,
       "summary": "重點：時序邁入9月，市場顯得不太平靜，不僅美伊衝突加劇，債市也迎來關鍵D-Day，包括美國財政部將在9月9日開始回購長天期公債，美國聯準會也將在9月1…。",
       "link": "https://tw.news.yahoo.com/%E5%AE%83-%E6%89%8B%E6%8A%B1%E5%82%B5-%E6%89%8B%E6%8A%93%E5%8F%B0%E8%82%A125%E5%BC%B7-%E9%99%A4%E6%81%AF%E6%9C%80%E5%BE%8C%E4%B8%8A%E8%BB%8A%E6%98%AF%E9%80%99%E5%A4%A9-221800067.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "5張台積電放27年狂賺1200萬！同樣AI神話能複製？ 專家曝存股致勝法則：鎖定3檔「絕對護城河」龍頭",
+      "original_title": null,
+      "summary": "重點：有些投資人做短線，也有投資人不看技術面，覺得長期存股就能財富自由。資深證券分析師蔡明翰指，抱得久並不一定能保證獲利，要在AI時代複製下一個台積電…。",
+      "link": "https://tw.stock.yahoo.com/news/5%E5%BC%B5%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%94%BE27%E5%B9%B4%E7%8B%82%E8%B3%BA1200%E8%90%AC-%E5%90%8C%E6%A8%A3ai%E7%A5%9E%E8%A9%B1%E8%83%BD%E8%A4%87%E8%A3%BD-%E5%B0%88%E5%AE%B6%E6%9B%9D%E5%AD%98%E8%82%A1%E8%87%B4%E5%8B%9D%E6%B3%95%E5%89%87-%E9%8E%96%E5%AE%9A3%E6%AA%94-%E7%B5%95%E5%B0%8D%E8%AD%B7%E5%9F%8E%E6%B2%B3-221730423.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美國非農數據高出預期！美股3指數收黑、特斯拉挫近6%　記憶體類股暴漲、台指期夜盤上揚473點",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導雖然聯準會（Fed）理事華勒（ChristopherWaller）一度釋出鴿派言論、降低市場升息擔憂，但因…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E9%9D%9E%E8%BE%B2%E6%95%B8%E6%93%9A%E9%AB%98%E5%87%BA%E9%A0%90%E6%9C%9F-%E7%BE%8E%E8%82%A13%E6%8C%87%E6%95%B8%E6%94%B6%E9%BB%91-%E7%89%B9%E6%96%AF%E6%8B%89%E6%8C%AB%E8%BF%916-%E8%A8%98%E6%86%B6%E9%AB%94%E9%A1%9E%E8%82%A1%E6%9A%B4%E6%BC%B2-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E4%B8%8A%E6%8F%9A473%E9%BB%9E-233000883.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美就業數據強勁、升息機率大增　美股三大指數收黑",
+      "original_title": null,
+      "summary": "重點：美國公布8月新增就業人數遠高於預期，讓外界對聯準會（Fed）將升息以抑制通膨的預期升高，美股今天多數收黑。台積電ADR跌2.76%或11.51美…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E5%B0%B1%E6%A5%AD%E6%95%B8%E6%93%9A%E5%BC%B7%E5%8B%81-%E5%8D%87%E6%81%AF%E6%A9%9F%E7%8E%87%E5%A4%A7%E5%A2%9E-%E7%BE%8E%E8%82%A1%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B8%E6%94%B6%E9%BB%91-230431812.html",
       "published_at": null,
       "source": "yahoo_news"
     },

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-06",
-  "generated_at": "2026-09-06T08:08:39+08:00",
+  "generated_at": "2026-09-06T08:51:33+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -356,6 +356,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "輝達RTX Spark點火！「板卡大廠」週漲11.38%　三大法人狂砸39億補貨",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導受惠輝達（NVIDIA）攜手台廠打造的RTXSpark高階晶片預購熱潮帶動，板卡大廠微星（2377）上週（…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94rtx-spark%E9%BB%9E%E7%81%AB-%E6%9D%BF%E5%8D%A1%E5%A4%A7%E5%BB%A0-%E9%80%B1%E6%BC%B211-38-001500790.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "美股距歷史新高只差1%　下週迎來3大魔王",
       "original_title": null,
       "summary": "重點：[NOWNEWS今日新聞]美國聯準會（Fed）9月利率決策進入關鍵倒數，華爾街投資人本週將緊盯最新通膨數據，其中11日公布的8月消費者物價指數（…。",
@@ -380,16 +390,6 @@
       "original_title": null,
       "summary": "重點：美國聯準會主席華許（Kevin Warsh）8月底在全球央行年會發表演說時表示，「我們必須確保基本通膨正明顯且以足夠的速度朝我們的目標靠近。否則…。",
       "link": "https://tw.news.yahoo.com/%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E6%A9%9F%E7%8E%87%E5%A4%A7%E5%A2%9E-%E5%B0%88%E5%AE%B6%E9%BB%9E%E5%90%8D%E9%AA%A8%E7%89%8C%E6%95%88%E6%87%89-3%E5%A4%A7%E5%9B%A0%E7%B4%A0-%E5%8F%B0%E8%82%A1%E6%81%90%E9%9D%A2%E8%87%A8%E5%9B%9E%E6%AA%94%E5%A3%93%E5%8A%9B-151900039.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "美股3指數齊跌「費半逆勢漲」、台指期夜盤強彈 下週台股強攻4萬7？",
-      "original_title": null,
-      "summary": "重點：受到非農就業數據成績亮眼影響，升息疑慮再起，美股週五三大指數全收黑，但費城半導體卻逆勢上漲，台指期夜盤也大漲400多點。有專家認為，下週一台股有…。",
-      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A13%E6%8C%87%E6%95%B8%E9%BD%8A%E8%B7%8C-%E8%B2%BB%E5%8D%8A%E9%80%86%E5%8B%A2%E6%BC%B2-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E5%BC%B7%E5%BD%88-%E4%B8%8B%E9%80%B1%E5%8F%B0%E8%82%A1%E5%BC%B7%E6%94%BB4%E8%90%AC7-144004608.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -430,6 +430,16 @@
       "original_title": null,
       "summary": "重點：蘋果秋季發表會即將在台灣時間9月10日凌晨登場，市場聚焦iPhone 18系列與首次亮相的折疊iPhone，目前包括台積電、鴻海、大立光等蘋果供…。",
       "link": "https://tw.news.yahoo.com/%E8%98%8B%E6%9E%9C%E5%B0%87%E6%8E%A8%E6%96%B0%E6%A9%9F-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E9%B4%BB%E6%B5%B7-%E5%A4%A7%E7%AB%8B%E5%85%89%E7%AD%89%E7%A9%8D%E6%A5%B5%E5%82%99%E8%B2%A8%E8%BF%8E%E5%95%86%E6%A9%9F-215213987.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美股3指數齊跌「費半逆勢漲」、台指期夜盤強彈 下週台股強攻4萬7？",
+      "original_title": null,
+      "summary": "重點：受到非農就業數據成績亮眼影響，升息疑慮再起，美股週五三大指數全收黑，但費城半導體卻逆勢上漲，台指期夜盤也大漲400多點。有專家認為，下週一台股有…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A13%E6%8C%87%E6%95%B8%E9%BD%8A%E8%B7%8C-%E8%B2%BB%E5%8D%8A%E9%80%86%E5%8B%A2%E6%BC%B2-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E5%BC%B7%E5%BD%88-%E4%B8%8B%E9%80%B1%E5%8F%B0%E8%82%A1%E5%BC%B7%E6%94%BB4%E8%90%AC7-144004608.html",
       "published_at": null,
       "source": "yahoo_news"
     }

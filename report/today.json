@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-07",
-  "generated_at": "2026-09-07T08:13:09+08:00",
+  "generated_at": "2026-09-07T08:55:51+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -97,7 +97,7 @@
       "change": 0.0,
       "change_percent": 0.0,
       "currency": "USD",
-      "market_time": 1788739379,
+      "market_time": 1788741943,
       "source": "yahoo"
     },
     {
@@ -109,7 +109,7 @@
       "change": 0.0,
       "change_percent": 0.0,
       "currency": "USD",
-      "market_time": 1788739380,
+      "market_time": 1788741945,
       "source": "yahoo"
     },
     {
@@ -121,7 +121,7 @@
       "change": 0.0,
       "change_percent": 0.0,
       "currency": "USD",
-      "market_time": 1788739380,
+      "market_time": 1788741923,
       "source": "yahoo"
     },
     {
@@ -266,6 +266,15 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Five dead after Amazon cargo plane crashes at Miami airport",
+      "link": "https://www.bbc.co.uk/news/articles/c0e3p1j7n3ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-07T00:39:45+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Data centers in space: Four big obstacles and Elon Musk's ambitious timeline",
       "link": "https://www.cnbc.com/2026/09/07/data-centers-space-elon-musk-obstacles.html",
       "published_at": "2026-09-07T00:06:18+00:00",
@@ -352,6 +361,86 @@
       "published_at": "2026-09-04T00:55:30+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "PIMCO低配美股七巨頭轉押亞洲，AI資本支出熱潮帶動設備鏈受青睞",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】外電報導，全球固定收益(債券)投資的絕對權威與領導品牌品浩(PIMCO)旗下旗艦60/40策略平衡收益與成長基金(Balan…。",
+      "link": "https://tw.stock.yahoo.com/news/pimco%E4%BD%8E%E9%85%8D%E7%BE%8E%E8%82%A1%E4%B8%83%E5%B7%A8%E9%A0%AD%E8%BD%89%E6%8A%BC%E4%BA%9E%E6%B4%B2-ai%E8%B3%87%E6%9C%AC%E6%94%AF%E5%87%BA%E7%86%B1%E6%BD%AE%E5%B8%B6%E5%8B%95%E8%A8%AD%E5%82%99%E9%8F%88%E5%8F%97%E9%9D%92%E7%9D%9E-004419418.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "福斯汽車力拚重振美國市場，關稅壓力迫使加速在地生產",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】《華爾街日報》報導，福斯汽車(Volkswagen)正力圖重振美國業務，並在兩年內第二度調整北美管理層。資深高管Marco…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%A6%8F%E6%96%AF%E6%B1%BD%E8%BB%8A%E5%8A%9B%E6%8B%9A%E9%87%8D%E6%8C%AF%E7%BE%8E%E5%9C%8B%E5%B8%82%E5%A0%B4-%E9%97%9C%E7%A8%85%E5%A3%93%E5%8A%9B%E8%BF%AB%E4%BD%BF%E5%8A%A0%E9%80%9F%E5%9C%A8%E5%9C%B0%E7%94%9F%E7%94%A2-003917002.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "強勁非農壓抑美債，2年期殖利率上週五升3.01基點、10年期逼近4.8%",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】美國公債價格上週五漲跌不一，中短期公債價格在強勁的就業報告後下跌，市場焦點轉向將於本週稍晚發布的美國消費者物價指數(CPI)…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%BC%B7%E5%8B%81%E9%9D%9E%E8%BE%B2%E5%A3%93%E6%8A%91%E7%BE%8E%E5%82%B5-2%E5%B9%B4%E6%9C%9F%E6%AE%96%E5%88%A9%E7%8E%87%E4%B8%8A%E9%80%B1%E4%BA%94%E5%8D%873-01%E5%9F%BA%E9%BB%9E-10%E5%B9%B4%E6%9C%9F%E9%80%BC%E8%BF%914-8-003807535.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美股基金連兩週失血，中東戰火與高殖利率壓抑風險胃納",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】路透報導，美國股票型基金連續第二週遭資金撤出。根據LSEG Lipper數據，截至9月2日止當週，美國股票基金淨流出111.…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E5%9F%BA%E9%87%91%E9%80%A3%E5%85%A9%E9%80%B1%E5%A4%B1%E8%A1%80-%E4%B8%AD%E6%9D%B1%E6%88%B0%E7%81%AB%E8%88%87%E9%AB%98%E6%AE%96%E5%88%A9%E7%8E%87%E5%A3%93%E6%8A%91%E9%A2%A8%E9%9A%AA%E8%83%83%E7%B4%8D-002511595.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "一年含息總報酬111%！009803成分股鴻海、緯創再獲外資加碼",
+      "original_title": null,
+      "summary": "重點：每年9月為國內高股息ETF密集除息、市場話題持續發酵的時節，多檔熱門標的的配息水準再度成為投資人關注焦點。市場 […]。",
+      "link": "https://tw.news.yahoo.com/%E5%B9%B4%E5%90%AB%E6%81%AF%E7%B8%BD%E5%A0%B1%E9%85%AC111-009803%E6%88%90%E5%88%86%E8%82%A1%E9%B4%BB%E6%B5%B7-%E7%B7%AF%E5%89%B5%E5%86%8D%E7%8D%B2%E5%A4%96%E8%B3%87%E5%8A%A0%E7%A2%BC-003923881.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "外資狂買562億回補大型權值！009803卡位鴻海、聯電 一年含息報酬高達111%",
+      "original_title": null,
+      "summary": "重點：9月4日台股在外資買盤回流帶動下強彈近700點，單日外資買超金額達562億元，資金重新集中回補鴻海、聯電、仁寶 […]。",
+      "link": "https://tw.news.yahoo.com/%E5%A4%96%E8%B3%87%E7%8B%82%E8%B2%B7562%E5%84%84%E5%9B%9E%E8%A3%9C%E5%A4%A7%E5%9E%8B%E6%AC%8A%E5%80%BC-009803%E5%8D%A1%E4%BD%8D%E9%B4%BB%E6%B5%B7-%E8%81%AF%E9%9B%BB-%E5%B9%B4%E5%90%AB%E6%81%AF%E5%A0%B1%E9%85%AC%E9%AB%98%E9%81%94111-003812913.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "券商晨訊台股投資建議摘要 (1) 2026年9月7日",
+      "original_title": null,
+      "summary": "重點：【統一證券】台股估將呈現震盪盤堅格局。操作建議低接不追高、選股以流動性佳的中大型AI權值股為主。【國票證券】美非農數據優於預期，美四大指數跌多漲…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%88%B8%E5%95%86%E6%99%A8%E8%A8%8A%E5%8F%B0%E8%82%A1%E6%8A%95%E8%B3%87%E5%BB%BA%E8%AD%B0%E6%91%98%E8%A6%81-1-2026%E5%B9%B49%E6%9C%887%E6%97%A5-003634268.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【盤前焦點】法人看台股持續受美國利率牽動　短線難脫盤整格局",
+      "original_title": null,
+      "summary": "重點：（中央社記者曾仁凱台北2026年9月7日電）台股上週高檔區間震盪，週五衝高693.47點，收在46551.13點，全週上漲219.68點或0.4…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%9B%A4%E5%89%8D%E7%84%A6%E9%BB%9E-%E6%B3%95%E4%BA%BA%E7%9C%8B%E5%8F%B0%E8%82%A1%E6%8C%81%E7%BA%8C%E5%8F%97%E7%BE%8E%E5%9C%8B%E5%88%A9%E7%8E%87%E7%89%BD%E5%8B%95-%E7%9F%AD%E7%B7%9A%E9%9B%A3%E8%84%AB%E7%9B%A4%E6%95%B4%E6%A0%BC%E5%B1%80-003532258.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

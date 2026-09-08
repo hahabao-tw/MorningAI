@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-08",
-  "generated_at": "2026-09-08T08:36:46+08:00",
+  "generated_at": "2026-09-08T09:07:58+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4466.7,
-      "change": -9.900000000000546,
-      "change_percent": -0.22114997989546853,
+      "price": 4471.3,
+      "change": -5.300000000000182,
+      "change_percent": -0.11839342358039989,
       "currency": "USD",
-      "market_time": 1788827188,
+      "market_time": 1788829067,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 92.4,
-      "change": 0.9200000000000017,
-      "change_percent": 1.0056843025798008,
+      "price": 92.35,
+      "change": 0.8699999999999903,
+      "change_percent": 0.9510275470047992,
       "currency": "USD",
-      "market_time": 1788827191,
+      "market_time": 1788829067,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 97.09,
-      "change": 0.8100000000000023,
-      "change_percent": 0.8412962193602017,
+      "price": 96.99,
+      "change": 0.7099999999999937,
+      "change_percent": 0.7374324885749831,
       "currency": "USD",
-      "market_time": 1788827190,
+      "market_time": 1788829067,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.489,
-      "change": -0.015000000000000568,
-      "change_percent": -0.047613001523617846,
+      "price": 31.483,
+      "change": -0.021000000000000796,
+      "change_percent": -0.06665820213306499,
       "currency": "TWD",
-      "market_time": 1788827805,
+      "market_time": 1788829678,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.8663,
-      "change": -0.023900000000000254,
-      "change_percent": -0.48873256717517183,
+      "price": 4.8743,
+      "change": -0.015900000000000247,
+      "change_percent": -0.32514007607051343,
       "currency": "JPY",
-      "market_time": 1788827550,
+      "market_time": 1788829650,
       "source": "yahoo"
     },
     {
@@ -268,7 +268,7 @@
       "category": "international",
       "title": "Trump threatens to stop sale of Canadian Bombardier jets in US",
       "link": "https://www.bbc.co.uk/news/articles/c4gj8xx5010o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-07T23:29:12+00:00",
+      "published_at": "2026-09-08T00:48:43+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
@@ -374,6 +374,26 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "槓上川普！加拿大祭「6500億報復關稅」生效時間曝光",
+      "original_title": null,
+      "summary": "重點：美加貿易戰火持續升溫，針對美國總統川普祭出的高額關稅，加拿大政府正式宣布實施報復性反制措施。自美東時間8日凌晨起，加拿大對價值約276億加幣的美…。",
+      "link": "https://tw.news.yahoo.com/%E6%A7%93%E4%B8%8A%E5%B7%9D%E6%99%AE-%E5%8A%A0%E6%8B%BF%E5%A4%A7%E7%A5%AD-6500%E5%84%84%E5%A0%B1%E5%BE%A9%E9%97%9C%E7%A8%85-%E7%94%9F%E6%95%88%E6%99%82%E9%96%93%E6%9B%9D%E5%85%89-003400405.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "國際油價衝6週高點　道瓊期貨跌逾300點、科技股逆勢撐盤",
+      "original_title": null,
+      "summary": "重點：美國股市週一（7日）因勞動節全天休市，但隨著國際油價升至6週高點，道瓊工業指數期貨開盤下跌超過300點，那斯達克指數期貨則逆勢上揚。投資人正密切…。",
+      "link": "https://tw.news.yahoo.com/%E5%9C%8B%E9%9A%9B%E6%B2%B9%E5%83%B9%E8%A1%9D6%E9%80%B1%E9%AB%98%E9%BB%9E-%E9%81%93%E7%93%8A%E6%9C%9F%E8%B2%A8%E8%B7%8C%E9%80%BE300%E9%BB%9E-%E7%A7%91%E6%8A%80%E8%82%A1%E9%80%86%E5%8B%A2%E6%92%90%E7%9B%A4-002823534.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "倫敦黃金現貨價週一下跌0.58%，市場聚焦油價波動與日圓匯率",
       "original_title": null,
       "summary": "重點：【財訊快報／劉敏夫】倫敦黃金現貨價格週一下跌，因投資人正密切關注波動劇烈的油價和日圓兌美元匯率的走勢。黃金現貨價格下跌25.68美元或0.58%…。",
@@ -388,6 +408,46 @@
       "original_title": null,
       "summary": "重點：【財訊快報／陳孟朔】美國長期公債殖利率持續攀升，可能成為AI投資熱潮面臨的最大威脅。英國《金融時報》報導，洛克菲勒國際董事長夏瑪(Ruchir…。",
       "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87%E9%80%BC%E8%BF%915-%E8%AD%A6%E6%88%92%E7%B7%9A-%E6%B4%9B%E5%85%8B%E8%8F%B2%E5%8B%92%E5%9C%8B%E9%9A%9B%E8%91%A3%E4%BA%8B%E9%95%B7%E7%A4%BA%E8%AD%A6%E6%81%90%E5%88%BA%E7%A0%B4ai%E6%B3%A1%E6%B2%AB-000453776.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股早盤漲逾百點 台積電漲15元",
+      "original_title": null,
+      "summary": "重點：美股7日因勞動節假期休市，台北股市今天（8日電）開盤3分鐘後，漲123.4點，早盤加權指數為47449.67點。台積電漲15元至2475元。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E6%BC%B2%E9%80%BE%E7%99%BE%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B215%E5%85%83-010411324.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "玉山投信：台股今年來漲幅反超韓國居亞股之首，有望再攻高點",
+      "original_title": null,
+      "summary": "重點：【財訊快報／記者劉居全報導】上週美國公布8月非農就業人口大幅增加，加上ISM製造業指數連8個月呈現擴張，推升FED 9月升息的可能性，外資動向自…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%8E%89%E5%B1%B1%E6%8A%95%E4%BF%A1-%E5%8F%B0%E8%82%A1%E4%BB%8A%E5%B9%B4%E4%BE%86%E6%BC%B2%E5%B9%85%E5%8F%8D%E8%B6%85%E9%9F%93%E5%9C%8B%E5%B1%85%E4%BA%9E%E8%82%A1%E4%B9%8B%E9%A6%96-%E6%9C%89%E6%9C%9B%E5%86%8D%E6%94%BB%E9%AB%98%E9%BB%9E-004901417.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "券商晨訊台股投資建議摘要 (1) 2026年9月8日",
+      "original_title": null,
+      "summary": "重點：【統一證券】AI基本面佳，台股指數穩上攻，聚焦8月營收及蘋果新品發表操作建議低接不追高、選股以流動性佳的中大型AI權值股為主。【國票證券】美國勞…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%88%B8%E5%95%86%E6%99%A8%E8%A8%8A%E5%8F%B0%E8%82%A1%E6%8A%95%E8%B3%87%E5%BB%BA%E8%AD%B0%E6%91%98%E8%A6%81-1-2026%E5%B9%B49%E6%9C%888%E6%97%A5-003915676.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【統一證券晨訊】台股指數穩上攻　類股表現分化",
+      "original_title": null,
+      "summary": "重點：日期：2026年 9月 8日※盤勢分析AI基本面佳，台股指數穩上攻，聚焦8月營收及蘋果新品發表※昨日盤勢美國8月非農數據意外強勁，然上週五費半逆…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%B5%B1-%E8%AD%89%E5%88%B8%E6%99%A8%E8%A8%8A-%E5%8F%B0%E8%82%A1%E6%8C%87%E6%95%B8%E7%A9%A9%E4%B8%8A%E6%94%BB-%E9%A1%9E%E8%82%A1%E8%A1%A8%E7%8F%BE%E5%88%86%E5%8C%96-003813380.html",
       "published_at": null,
       "source": "yahoo_news"
     },

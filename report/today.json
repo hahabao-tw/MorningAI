@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-09",
-  "generated_at": "2026-09-09T07:48:01+08:00",
+  "generated_at": "2026-09-09T07:48:29+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4400.5,
-      "change": -38.5,
-      "change_percent": -0.8673124577607568,
+      "price": 4400.7,
+      "change": -38.30000000000018,
+      "change_percent": -0.8628069384996662,
       "currency": "USD",
-      "market_time": 1788910658,
+      "market_time": 1788910705,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 94.42,
-      "change": 1.3900000000000006,
-      "change_percent": 1.4941416747285827,
+      "price": 94.44,
+      "change": 1.4099999999999966,
+      "change_percent": 1.5156401160915796,
       "currency": "USD",
-      "market_time": 1788910675,
+      "market_time": 1788910706,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 99.49,
-      "change": 1.5699999999999932,
-      "change_percent": 1.6033496732026074,
+      "price": 99.52,
+      "change": 1.5999999999999943,
+      "change_percent": 1.6339869281045694,
       "currency": "USD",
-      "market_time": 1788910484,
+      "market_time": 1788910704,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.496,
-      "change": -0.009000000000000341,
-      "change_percent": -0.028566894143787783,
+      "price": 31.499,
+      "change": -0.006000000000000227,
+      "change_percent": -0.019044596095858523,
       "currency": "TWD",
-      "market_time": 1788911281,
+      "market_time": 1788911298,
       "source": "yahoo"
     },
     {

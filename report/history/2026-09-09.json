@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-09",
-  "generated_at": "2026-09-09T08:27:35+08:00",
+  "generated_at": "2026-09-09T09:12:47+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4389.1,
-      "change": -49.899999999999636,
-      "change_percent": -1.1241270556431546,
+      "price": 4400.8,
+      "change": -38.19999999999982,
+      "change_percent": -0.8605541788691105,
       "currency": "USD",
-      "market_time": 1788913052,
+      "market_time": 1788915762,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 94.58,
-      "change": 1.5499999999999972,
-      "change_percent": 1.6661292056325887,
+      "price": 94.69,
+      "change": 1.6599999999999966,
+      "change_percent": 1.7843706331290943,
       "currency": "USD",
-      "market_time": 1788913051,
+      "market_time": 1788915765,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 99.41,
-      "change": 1.4899999999999949,
-      "change_percent": 1.5216503267973804,
+      "price": 99.44,
+      "change": 1.519999999999996,
+      "change_percent": 1.5522875816993422,
       "currency": "USD",
-      "market_time": 1788913047,
+      "market_time": 1788915758,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.492,
-      "change": -0.012999999999998124,
-      "change_percent": -0.04126329154101928,
+      "price": 31.477,
+      "change": -0.027999999999998693,
+      "change_percent": -0.08887478178066559,
       "currency": "TWD",
-      "market_time": 1788913573,
+      "market_time": 1788916367,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.8584,
-      "change": -0.01670000000000016,
-      "change_percent": -0.34255707575229555,
+      "price": 4.8729,
+      "change": -0.002200000000000202,
+      "change_percent": -0.045127279440425876,
       "currency": "JPY",
-      "market_time": 1788913654,
+      "market_time": 1788916350,
       "source": "yahoo"
     },
     {
@@ -268,7 +268,7 @@
       "category": "international",
       "title": "US slaps import ban on Canadian alcohol and other goods",
       "link": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-09T00:01:53+00:00",
+      "published_at": "2026-09-09T01:09:15+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
@@ -277,7 +277,16 @@
       "category": "international",
       "title": "U.S. military destroys five Iranian oil tankers after attempted attack on American warship, Centcom says",
       "link": "https://www.cnbc.com/2026/09/08/iran-us-sub-strait-hormuz.html",
-      "published_at": "2026-09-08T23:36:53+00:00",
+      "published_at": "2026-09-09T00:56:01+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Brent crude nears $100 a barrel as U.S.-Iran tit-for-tat strikes stoke supply worries",
+      "link": "https://www.cnbc.com/2026/09/09/oil-prices-today-wti-brent-us-iran-hormuz-attacks.html",
+      "published_at": "2026-09-09T00:33:31+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
@@ -361,6 +370,76 @@
       "published_at": "2026-09-08T17:41:42+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "TikTok芬蘭新數據中心容量達150兆瓦，「三葉草計畫」投資120億歐元",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】路透報導，短影音平台TikTok在最新經濟影響分析報告中披露，將從芬蘭一座新建數據中心取得合計150兆瓦(MW)容量。這份報…。",
+      "link": "https://tw.stock.yahoo.com/news/tiktok%E8%8A%AC%E8%98%AD%E6%96%B0%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E5%AE%B9%E9%87%8F%E9%81%94150%E5%85%86%E7%93%A6-%E4%B8%89%E8%91%89%E8%8D%89%E8%A8%88%E7%95%AB-%E6%8A%95%E8%B3%87120%E5%84%84%E6%AD%90%E5%85%83-005927298.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "高通攜手亞馬遜拚AI晶片，採購金額最高600億美元，週二股價大漲3.17%",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】路透報導，高通(Qualcomm，美股代碼QCOM)與亞馬遜(Amazon，美股代碼AMZN)達成多世代人工智慧(AI)基礎…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%AB%98%E9%80%9A%E6%94%9C%E6%89%8B%E4%BA%9E%E9%A6%AC%E9%81%9C%E6%8B%9Aai%E6%99%B6%E7%89%87-%E6%8E%A1%E8%B3%BC%E9%87%91%E9%A1%8D%E6%9C%80%E9%AB%98600%E5%84%84%E7%BE%8E%E5%85%83-%E9%80%B1%E4%BA%8C%E8%82%A1%E5%83%B9%E5%A4%A7%E6%BC%B23-17-005611602.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "花旗指美企盈利上調潮創2021年來最長紀錄，或成美股最強支撐",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】外電報導指出，隨著通膨風險高漲，美國企業強勁的盈利前景正在為美股提供支撐。花旗集團一項指數顯示，美國企業盈利預期已連續第21…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%8A%B1%E6%97%97%E6%8C%87%E7%BE%8E%E4%BC%81%E7%9B%88%E5%88%A9%E4%B8%8A%E8%AA%BF%E6%BD%AE%E5%89%B52021%E5%B9%B4%E4%BE%86%E6%9C%80%E9%95%B7%E7%B4%80%E9%8C%84-%E6%88%96%E6%88%90%E7%BE%8E%E8%82%A1%E6%9C%80%E5%BC%B7%E6%94%AF%E6%92%90-005328002.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "【國票金控晨訊】美股跌多漲少　台股走勢估高檔震盪",
+      "original_title": null,
+      "summary": "重點：日期：2026年 9月 9日※操作建議與結論美油價維持高檔，美股跌多漲少惟費半逆勢上揚，有望挹注台股多方攻勢延續今日盤勢及未來走勢：(台股維繫高…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E7%A5%A8%E9%87%91%E6%8E%A7%E6%99%A8%E8%A8%8A-%E7%BE%8E%E8%82%A1%E8%B7%8C%E5%A4%9A%E6%BC%B2%E5%B0%91-%E5%8F%B0%E8%82%A1%E8%B5%B0%E5%8B%A2%E4%BC%B0%E9%AB%98%E6%AA%94%E9%9C%87%E7%9B%AA-004724714.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股早盤漲302點 站上47400點 台積電漲15元",
+      "original_title": null,
+      "summary": "重點：中東局勢緊張壓抑投資人情緒，美股多收低，費城半導體指數獨強。台北股市今天開盤漲36.96點，加權股價指數為47142.74點，成交金額新台幣85…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E6%BC%B2302%E9%BB%9E-%E7%AB%99%E4%B8%8A47400%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B215%E5%85%83-010517776.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "券商晨訊台股投資建議摘要 (1) 2026年9月9日",
+      "original_title": null,
+      "summary": "重點：【統一證券】台股低檔買盤具支撐。惟中東地緣風險未歇、日圓急升引發利差交易平倉效應，短線仍須提防行情波動，操作建議低接不追高、選股以流動性佳的中大…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%88%B8%E5%95%86%E6%99%A8%E8%A8%8A%E5%8F%B0%E8%82%A1%E6%8A%95%E8%B3%87%E5%BB%BA%E8%AD%B0%E6%91%98%E8%A6%81-1-2026%E5%B9%B49%E6%9C%889%E6%97%A5-005026507.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【統一證券晨訊】台指期夜盤漲百點　估台股今震盪盤堅",
+      "original_title": null,
+      "summary": "重點：日期：2026年 9月 9日※盤勢分析AI供應鏈營收亮眼，美伊衝突油價上漲攪局，台股震盪盤堅※昨日盤勢美股週一因勞動節休市，然中東衝突持續升溫，…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%B5%B1-%E8%AD%89%E5%88%B8%E6%99%A8%E8%A8%8A-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E6%BC%B2%E7%99%BE%E9%BB%9E-%E4%BC%B0%E5%8F%B0%E8%82%A1%E4%BB%8A%E9%9C%87%E7%9B%AA%E7%9B%A4%E5%A0%85-004509803.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

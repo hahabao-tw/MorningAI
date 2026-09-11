@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-11",
-  "generated_at": "2026-09-11T08:23:43+08:00",
+  "generated_at": "2026-09-11T08:59:44+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4359.2,
-      "change": -48.100000000000364,
-      "change_percent": -1.0913711342545405,
+      "price": 4373.4,
+      "change": -33.900000000000546,
+      "change_percent": -0.7691784085494644,
       "currency": "USD",
-      "market_time": 1789085620,
+      "market_time": 1789087781,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 103.04,
-      "change": 0.5600000000000023,
-      "change_percent": 0.5464480874316962,
+      "price": 103.45,
+      "change": 0.9699999999999989,
+      "change_percent": 0.9465261514441831,
       "currency": "USD",
-      "market_time": 1789085620,
+      "market_time": 1789087783,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 108.08,
-      "change": 0.45000000000000284,
-      "change_percent": 0.41809904301774864,
+      "price": 108.66,
+      "change": 1.0300000000000011,
+      "change_percent": 0.9569822540183974,
       "currency": "USD",
-      "market_time": 1789085620,
+      "market_time": 1789087776,
       "source": "yahoo"
     },
     {
@@ -133,7 +133,7 @@
       "change": -0.01899999999999835,
       "change_percent": -0.06008095117631657,
       "currency": "TWD",
-      "market_time": 1789086208,
+      "market_time": 1789088385,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.8722,
-      "change": -0.0008999999999996788,
-      "change_percent": -0.018468736533206354,
+      "price": 4.8833,
+      "change": 0.010200000000000209,
+      "change_percent": 0.20931234737641766,
       "currency": "JPY",
-      "market_time": 1789086152,
+      "market_time": 1789088253,
       "source": "yahoo"
     },
     {
@@ -266,6 +266,33 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Chinese AI labs secretly used millions of Claude exchanges to train their models, Anthropic says",
+      "link": "https://www.cnbc.com/2026/09/11/chinese-ai-labs-moonshot-deepseek-alibaba-anthropic.html",
+      "published_at": "2026-09-11T00:59:22+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Bessent says 'a large bank' will be sanctioned on Monday as part of Iran strategy",
+      "link": "https://www.cnbc.com/2026/09/11/bessent-large-bank-sanctioned.html",
+      "published_at": "2026-09-11T00:54:51+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
+      "link": "https://www.cnbc.com/2026/09/11/the-iphone-duo-enters-chinas-crowded-foldable-market.html",
+      "published_at": "2026-09-11T00:19:54+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "I asked my husband to pay into my pension when we had a child - here's why",
       "link": "https://www.bbc.co.uk/news/articles/cde02k65427o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-09-10T23:04:30+00:00",
@@ -352,6 +379,66 @@
       "published_at": "2026-09-10T00:09:06+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "油價與PPI推高升息預期，美債殖利率全線上揚、10年期逼近5%",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】美國公債價格週四下跌，引領殖利率走升，因油價上漲以及美國財政部回購結果帶來沉重壓力。根據債券交易報價，2年期公債價格下跌，殖…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%B2%B9%E5%83%B9%E8%88%87ppi%E6%8E%A8%E9%AB%98%E5%8D%87%E6%81%AF%E9%A0%90%E6%9C%9F-%E7%BE%8E%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87%E5%85%A8%E7%B7%9A%E4%B8%8A%E6%8F%9A-10%E5%B9%B4%E6%9C%9F%E9%80%BC%E8%BF%915-003529181.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "【盤前焦點】台積電ADR跌1.68%　Fed會前台股恐觀望",
+      "original_title": null,
+      "summary": "重點：（中央社記者潘智義台北2026年9月11日電）美伊戰爭促使國際油價攀升，漲至5月以來的高點，通膨疑慮再起，美股下挫，費城半導體指數下跌2.66%…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%9B%A4%E5%89%8D%E7%84%A6%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C1-68-fed%E6%9C%83%E5%89%8D%E5%8F%B0%E8%82%A1%E6%81%90%E8%A7%80%E6%9C%9B-003015133.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "通膨憂心＋白宮銅關稅決策未定，LME期銅週四大跌3.62%",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】外電報導指出，週四倫敦銅價下跌逾3%，此前有報導指稱，出於對通膨的擔憂，美國政府就是否對銅徵收關稅的決策陷入停滯。倫敦金屬交…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%80%9A%E8%86%A8%E6%86%82%E5%BF%83-%E7%99%BD%E5%AE%AE%E9%8A%85%E9%97%9C%E7%A8%85%E6%B1%BA%E7%AD%96%E6%9C%AA%E5%AE%9A-lme%E6%9C%9F%E9%8A%85%E9%80%B1%E5%9B%9B%E5%A4%A7%E8%B7%8C3-62-002956834.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "聯準會升息機率增美股四指數收黑 輝達跌2.37%、台積電ADR跌1.68%",
+      "original_title": null,
+      "summary": "重點：葉門胡塞組織奪下紅海重要港口，威脅原油航運，兩大國際油價指標雙雙突破每桶一百美元大關；此外，美國8月生產者物價指數PPI年增率略高於市場預期，顯…。",
+      "link": "https://tw.news.yahoo.com/%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E6%A9%9F%E7%8E%87%E5%A2%9E%E7%BE%8E%E8%82%A1%E5%9B%9B%E6%8C%87%E6%95%B8%E6%94%B6%E9%BB%91-%E8%BC%9D%E9%81%94%E8%B7%8C2-37-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C1-68-002254698.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "國際油價受美伊戰爭影響走高　費半收跌台股觀望",
+      "original_title": null,
+      "summary": "重點：（中央社記者潘智義台北11日電）美伊戰爭促使國際油價攀升，漲至5月以來的高點，通膨疑慮再起，美股下挫，費城半導體指數下跌2.66%，台積電ADR…。",
+      "link": "https://tw.news.yahoo.com/%E5%9C%8B%E9%9A%9B%E6%B2%B9%E5%83%B9%E5%8F%97%E7%BE%8E%E4%BC%8A%E6%88%B0%E7%88%AD%E5%BD%B1%E9%9F%BF%E8%B5%B0%E9%AB%98-%E8%B2%BB%E5%8D%8A%E6%94%B6%E8%B7%8C%E5%8F%B0%E8%82%A1%E8%A7%80%E6%9C%9B-002921088.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "油價突破100美元！美股連跌4天　台積電ADR跌1.68%",
+      "original_title": null,
+      "summary": "重點：據美國財經媒體《CNBC》報導，道瓊工業平均指數收盤下跌316.56點，跌幅0.6%，報52,064.10點。標準普爾500指數下跌0.58%，…。",
+      "link": "https://tw.news.yahoo.com/%E6%B2%B9%E5%83%B9%E7%AA%81%E7%A0%B4100%E7%BE%8E%E5%85%83-%E7%BE%8E%E8%82%A1%E9%80%A3%E8%B7%8C4%E5%A4%A9-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C1-68-002221103.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

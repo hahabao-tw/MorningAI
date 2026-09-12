@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-12",
-  "generated_at": "2026-09-12T08:29:43+08:00",
+  "generated_at": "2026-09-12T09:03:34+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -356,6 +356,86 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "升息預期已提前反映　美股反彈收高",
+      "original_title": null,
+      "summary": "重點：（中央社紐約2026年09月11日綜合外電報導）原油價格高漲、美國柴油價格創高，加上新出爐的通膨數據等，讓外界幾乎確認聯準會（Fed）近期將升息…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8D%87%E6%81%AF%E9%A0%90%E6%9C%9F%E5%B7%B2%E6%8F%90%E5%89%8D%E5%8F%8D%E6%98%A0-%E7%BE%8E%E8%82%A1%E5%8F%8D%E5%BD%88%E6%94%B6%E9%AB%98-003857332.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美國8月通膨率停留在高點　聯準會升息機率增",
+      "original_title": null,
+      "summary": "重點：（中央社華盛頓2026年09月11日綜合外電報導）美國勞工部今天公布，8月消費者物價指數（CPI）年增率維持在3.4%，反映物價水準仍高。這使得…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B8%E6%9C%88%E9%80%9A%E8%86%A8%E7%8E%87%E5%81%9C%E7%95%99%E5%9C%A8%E9%AB%98%E9%BB%9E-%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E6%A9%9F%E7%8E%87%E5%A2%9E-003443178.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達與ASIC雙引擎催動　奇鋐雙鴻年底再拉新成長曲線",
+      "original_title": null,
+      "summary": "重點：（中央社記者曾仁凱台北2026年09月12日電）散熱雙雄奇鋐(3017)、雙鴻(3324)今年以來營運動能強勁，上半年獲利皆呈倍數成長。第4季起…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%88%87asic%E9%9B%99%E5%BC%95%E6%93%8E%E5%82%AC%E5%8B%95-%E5%A5%87%E9%8B%90%E9%9B%99%E9%B4%BB%E5%B9%B4%E5%BA%95%E5%86%8D%E6%8B%89%E6%96%B0%E6%88%90%E9%95%B7%E6%9B%B2%E7%B7%9A-003322397.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達與ASIC雙引擎催動　奇鋐雙鴻年底再拉新成長曲線",
+      "original_title": null,
+      "summary": "重點：（中央社記者曾仁凱台北12日電）散熱雙雄奇鋐、雙鴻今年以來營運動能強勁，上半年獲利皆呈倍數成長。第4季起隨著輝達（NVIDIA）Vera Rub…。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E8%88%87asic%E9%9B%99%E5%BC%95%E6%93%8E%E5%82%AC%E5%8B%95-%E5%A5%87%E9%8B%90%E9%9B%99%E9%B4%BB%E5%B9%B4%E5%BA%95%E5%86%8D%E6%8B%89%E6%96%B0%E6%88%90%E9%95%B7%E6%9B%B2%E7%B7%9A-003001539.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台積電跌40元能撿了？高盛喊3100元　陳重銘揭進場「1原則」",
+      "original_title": null,
+      "summary": "重點：台北股市11日盤中賣壓湧現，加權指數最低一度來到45942.44點，跌幅迅速擴大，終場下跌755.64點，以46184.85點作收，跌幅1.61…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%8C40%E5%85%83%E8%83%BD%E6%92%BF%E4%BA%86-%E9%AB%98%E7%9B%9B%E5%96%8A3100%E5%85%83-%E9%99%B3%E9%87%8D%E9%8A%98%E6%8F%AD%E9%80%B2%E5%A0%B4-1%E5%8E%9F%E5%89%87-002749486.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "國際油價回落「美股終結連4黑」 台積電ADR漲1.22%",
+      "original_title": null,
+      "summary": "重點：投資人暫時消化8月通膨升溫以及聯準會下週可能升息的壓力，轉而聚焦油價回落，美股終結連4黑，週五（11日）止跌回升，主要指數全面收紅。美股主要指數…。",
+      "link": "https://tw.news.yahoo.com/%E5%9C%8B%E9%9A%9B%E6%B2%B9%E5%83%B9%E5%9B%9E%E8%90%BD-%E7%BE%8E%E8%82%A1%E7%B5%82%E7%B5%90%E9%80%A34%E9%BB%91-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E6%BC%B21-22-235936073.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "升息預期已提前反映！美股道瓊終止連4跌強彈509點、台積電ADR漲1.22%",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 原油價格高漲、美國柴油價格創高，加上新出爐的通膨數據等，讓外界幾乎確認聯邦準備理事會（Fed）近期將升息因應，但股市前幾…。",
+      "link": "https://tw.news.yahoo.com/%E5%8D%87%E6%81%AF%E9%A0%90%E6%9C%9F%E5%B7%B2%E6%8F%90%E5%89%8D%E5%8F%8D%E6%98%A0-%E7%BE%8E%E8%82%A1%E9%81%93%E7%93%8A%E7%B5%82%E6%AD%A2%E9%80%A34%E8%B7%8C%E5%BC%B7%E5%BD%88509%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E6%BC%B21-22-235521612.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股盤前／台股下週一拚止跌！油價回落美股狂歡　台積電期貨盤後漲18元",
+      "original_title": null,
+      "summary": "重點：美股終於止跌！道瓊週五（11）日大漲逾500點，台指期夜盤同步上漲401點、台積電期貨盤後漲18元，加上融資大減40億元，台股下週一（14）日開…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E7%9B%A4%E5%89%8D-%E5%8F%B0%E8%82%A1%E4%B8%8B%E9%80%B1-%E6%8B%9A%E6%AD%A2%E8%B7%8C-%E6%B2%B9%E5%83%B9%E5%9B%9E%E8%90%BD%E7%BE%8E%E8%82%A1%E7%8B%82%E6%AD%A1-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%9C%9F%E8%B2%A8%E7%9B%A4%E5%BE%8C%E6%BC%B218%E5%85%83-233300649.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "投資別只盯輝達！「AI五層蛋糕」曝下一批贏家：選股看大、穩、賺",
       "original_title": null,
       "summary": "重點：AI浪潮席捲全球，投資人面臨進場焦慮。財經作家「財女珍妮」建議新手拒絕盲目追逐飆股，應掌握「大、穩、賺」選股原則，並透過「核心＋衛星」配置降低風…。",
@@ -366,30 +446,10 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "升息預期已提前反映！美股道瓊終止連4跌強彈509點、台積電ADR漲1.22%",
-      "original_title": null,
-      "summary": "重點：[Newtalk新聞] 原油價格高漲、美國柴油價格創高，加上新出爐的通膨數據等，讓外界幾乎確認聯邦準備理事會（Fed）近期將升息因應，但股市前幾…。",
-      "link": "https://tw.news.yahoo.com/%E5%8D%87%E6%81%AF%E9%A0%90%E6%9C%9F%E5%B7%B2%E6%8F%90%E5%89%8D%E5%8F%8D%E6%98%A0-%E7%BE%8E%E8%82%A1%E9%81%93%E7%93%8A%E7%B5%82%E6%AD%A2%E9%80%A34%E8%B7%8C%E5%BC%B7%E5%BD%88509%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E6%BC%B21-22-235521612.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
       "title": "市場已消化美升息預期　油價回跌推動美股回漲",
       "original_title": null,
       "summary": "重點：美國週五（9/11）公布最新通膨數據顯示，美國聯準會（Fed）9月升息機率可能進一步增高。市場顯然已事先反應升息衝擊，再加上國際油價回落，美股週…。",
       "link": "https://tw.news.yahoo.com/%E5%B8%82%E5%A0%B4%E5%B7%B2%E6%B6%88%E5%8C%96%E7%BE%8E%E5%8D%87%E6%81%AF%E9%A0%90%E6%9C%9F-%E6%B2%B9%E5%83%B9%E5%9B%9E%E8%B7%8C%E6%8E%A8%E5%8B%95%E7%BE%8E%E8%82%A1%E5%9B%9E%E6%BC%B2-234617436.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "台股盤前／台股下週一拚止跌！油價回落美股狂歡　台積電期貨盤後漲18元",
-      "original_title": null,
-      "summary": "重點：美股終於止跌！道瓊週五（11）日大漲逾500點，台指期夜盤同步上漲401點、台積電期貨盤後漲18元，加上融資大減40億元，台股下週一（14）日開…。",
-      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E7%9B%A4%E5%89%8D-%E5%8F%B0%E8%82%A1%E4%B8%8B%E9%80%B1-%E6%8B%9A%E6%AD%A2%E8%B7%8C-%E6%B2%B9%E5%83%B9%E5%9B%9E%E8%90%BD%E7%BE%8E%E8%82%A1%E7%8B%82%E6%AD%A1-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%9C%9F%E8%B2%A8%E7%9B%A4%E5%BE%8C%E6%BC%B218%E5%85%83-233300649.html",
       "published_at": null,
       "source": "yahoo_news"
     },

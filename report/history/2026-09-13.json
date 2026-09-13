@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-13",
-  "generated_at": "2026-09-13T08:09:04+08:00",
+  "generated_at": "2026-09-13T08:54:46+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -356,6 +356,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "美股12月啟動「23小時交易」　證交所：夜盤流動性低、對台股資金排擠有限",
+      "original_title": null,
+      "summary": "重點：美國主要交易所將自12月6日起推動每日23小時、每週5天（23/5）交易制度，藉此擴大全球投資人參與美股，但台灣證交所九月發布最新觀點分析指出，…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A112%E6%9C%88%E5%95%9F%E5%8B%95-23%E5%B0%8F%E6%99%82%E4%BA%A4%E6%98%93-%E8%AD%89%E4%BA%A4%E6%89%80-%E5%A4%9C%E7%9B%A4%E6%B5%81%E5%8B%95%E6%80%A7%E4%BD%8E-%E5%B0%8D%E5%8F%B0%E8%82%A1%E8%B3%87%E9%87%91%E6%8E%92%E6%93%A0%E6%9C%89%E9%99%90-000000071.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "美股警報一次響2個　華爾街屏息等下週",
       "original_title": null,
       "summary": "重點：[NOWNEWS今日新聞]美國聯準會（Fed）即將在下週召開利率決策會議，最新公布的8月消費者物價指數（CPI）再度升溫，讓市場對升息的押注急速…。",
@@ -385,11 +395,11 @@
     },
     {
       "kind": "news",
-      "category": "international",
-      "title": "估值上看2兆美元！Anthropic發起　傳輝達砸百億美元",
+      "category": "domestic",
+      "title": "聯發科連打2張牌　2奈米15日上、AI年底接棒",
       "original_title": null,
-      "summary": "重點：AI新創巨擘Anthropic正籌備史上最大規模IPO，目標估值達2兆美元並預計募資1000億美元。輝達擬投入百億美元擔任基石投資人，深化雙方戰…。",
-      "link": "https://tw.news.yahoo.com/%E4%BC%B0%E5%80%BC%E4%B8%8A%E7%9C%8B2%E5%85%86%E7%BE%8E%E5%85%83-anthropic%E7%99%BC%E8%B5%B7-%E5%82%B3%E8%BC%9D%E9%81%94%E7%A0%B8%E7%99%BE%E5%84%84%E7%BE%8E%E5%85%83-133400614.html",
+      "summary": "重點：聯發科新一代天璣旗艦晶片15日下午先亮相，官方預告首度打出「Pro」，市場聚焦2奈米新品能否把手機版圖再往頂端推；第四季首款AI加速器ASIC接…。",
+      "link": "https://tw.news.yahoo.com/%E8%81%AF%E7%99%BC%E7%A7%91%E9%80%A3%E6%89%932%E5%BC%B5%E7%89%8C-2%E5%A5%88%E7%B1%B315%E6%97%A5%E4%B8%8A-ai%E5%B9%B4%E5%BA%95%E6%8E%A5%E6%A3%92-000557479.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -400,6 +410,26 @@
       "original_title": null,
       "summary": "重點：美國勞工統計局公布8月消費者物價指數（CPI），月增0.4%、年增3.4%，符合市場預期。據CME FedWatch顯示，聯準會（Fed）9月升…。",
       "link": "https://tw.stock.yahoo.com/news/%E5%8D%87%E6%81%AF1%E7%A2%BC%E9%82%84%E6%98%AF3%E7%A2%BC-%E5%8F%B0%E8%82%A1%E6%80%8E%E9%BA%BC%E8%B2%B7-%E9%98%AE%E6%85%95%E9%A9%8A%E6%9B%9D-%E9%80%B2%E5%A0%B4%E8%A8%8A%E8%99%9F-%E9%80%99%E9%A1%9E%E8%82%A1%E6%9C%80%E5%8D%B1%E9%9A%AA-220530294.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "兒子獲贈10張900元台積電 在1500元賣光 爸爸過世漲到2400元 該用哪個價格計算遺產稅？",
+      "original_title": null,
+      "summary": "重點：爸爸趁台積電跌破900元時，贈與10張給兒子，兒子在1500元時賣光，誰知爸爸1年後過世，台積電已漲到2400元，因為是爸爸死亡前2年內贈與，賣…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%85%92%E5%AD%90%E7%8D%B2%E8%B4%8810%E5%BC%B5900%E5%85%83%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E5%9C%A81500%E5%85%83%E8%B3%A3%E5%85%89-%E7%88%B8%E7%88%B8%E9%81%8E%E4%B8%96%E6%BC%B2%E5%88%B02400%E5%85%83-%E8%A9%B2%E7%94%A8%E5%93%AA%E5%80%8B%E5%83%B9%E6%A0%BC%E8%A8%88%E7%AE%97%E9%81%BA%E7%94%A2%E7%A8%85-220030332.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "估值上看2兆美元！Anthropic發起　傳輝達砸百億美元",
+      "original_title": null,
+      "summary": "重點：AI新創巨擘Anthropic正籌備史上最大規模IPO，目標估值達2兆美元並預計募資1000億美元。輝達擬投入百億美元擔任基石投資人，深化雙方戰…。",
+      "link": "https://tw.news.yahoo.com/%E4%BC%B0%E5%80%BC%E4%B8%8A%E7%9C%8B2%E5%85%86%E7%BE%8E%E5%85%83-anthropic%E7%99%BC%E8%B5%B7-%E5%82%B3%E8%BC%9D%E9%81%94%E7%A0%B8%E7%99%BE%E5%84%84%E7%BE%8E%E5%85%83-133400614.html",
       "published_at": null,
       "source": "yahoo_news"
     },

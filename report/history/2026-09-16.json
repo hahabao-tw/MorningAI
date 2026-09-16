@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-16",
-  "generated_at": "2026-09-16T07:39:48+08:00",
+  "generated_at": "2026-09-16T08:41:30+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4323.6,
-      "change": -9.199999999999818,
-      "change_percent": -0.21233382570162063,
+      "price": 4323.4,
+      "change": -9.400000000000546,
+      "change_percent": -0.2169497784342814,
       "currency": "USD",
-      "market_time": 1789514984,
+      "market_time": 1789518687,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 105.47,
-      "change": -0.35999999999999943,
-      "change_percent": -0.3401681942738348,
+      "price": 104.85,
+      "change": -0.980000000000004,
+      "change_percent": -0.9260134177454445,
       "currency": "USD",
-      "market_time": 1789514956,
+      "market_time": 1789518687,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 108.41,
-      "change": -0.3400000000000034,
-      "change_percent": -0.3126436781609227,
+      "price": 107.79,
+      "change": -0.9599999999999937,
+      "change_percent": -0.8827586206896495,
       "currency": "USD",
-      "market_time": 1789514455,
+      "market_time": 1789518656,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.766,
-      "change": -0.03100000000000236,
-      "change_percent": -0.09749347422713577,
+      "price": 31.788,
+      "change": -0.009000000000000341,
+      "change_percent": -0.028304557033683495,
       "currency": "TWD",
-      "market_time": 1789515584,
+      "market_time": 1789519291,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.8704,
-      "change": 0.0018000000000002458,
-      "change_percent": 0.036971614016354716,
+      "price": 4.8731,
+      "change": 0.0045000000000001705,
+      "change_percent": 0.09242903504087768,
       "currency": "JPY",
-      "market_time": 1789515539,
+      "market_time": 1789519140,
       "source": "yahoo"
     },
     {
@@ -266,6 +266,42 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "BOJ expected to hike rates by 25 basis points to fresh three-decade high: CNBC survey",
+      "link": "https://www.cnbc.com/2026/09/16/boj-hike-rates-cnbc-survey.html",
+      "published_at": "2026-09-16T00:22:11+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "OpenAI boss says world 'right to be afraid' but 'should trust' AI firms",
+      "link": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-16T00:13:09+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "UK in talks about joining global defence bank led by Canada",
+      "link": "https://www.bbc.co.uk/news/articles/c6e30e98v7j1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-15T23:50:55+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Why doomsday warnings are not the only threat to the AI juggernaut",
+      "link": "https://www.bbc.co.uk/news/articles/cv986j48l66ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-15T23:39:55+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Why de-dollarization discussions are more talk, less action",
       "link": "https://www.cnbc.com/2026/09/16/de-dollarization-brics-china-russia-trump.html",
       "published_at": "2026-09-15T23:28:01+00:00",
@@ -311,15 +347,6 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "Nvidia boss says AI 'doesn't need new laws' as safety concerns grow",
-      "link": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-15T22:13:10+00:00",
-      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
       "title": "US borrowing costs hit highest level since 2007",
       "link": "https://www.bbc.co.uk/news/articles/cw804154z90ko?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-09-15T19:35:10+00:00",
@@ -352,6 +379,86 @@
       "published_at": "2026-09-15T18:29:56+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "LME期銅週二上漲0.59%，市場權衡現貨供應與聯準會升息預期",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】外電報導指出，倫敦銅價週二上漲，交易員權衡供應吃緊舒緩的跡象，以及市場對聯準會三年來首次升息的押注。倫敦金屬交易所(LME)…。",
+      "link": "https://tw.stock.yahoo.com/news/lme%E6%9C%9F%E9%8A%85%E9%80%B1%E4%BA%8C%E4%B8%8A%E6%BC%B20-59-%E5%B8%82%E5%A0%B4%E6%AC%8A%E8%A1%A1%E7%8F%BE%E8%B2%A8%E4%BE%9B%E6%87%89%E8%88%87%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E9%A0%90%E6%9C%9F-003312019.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "歷史經驗顯示，首次升息後三個月美股面臨明顯回調，平均10-17%",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】《Motley Fool》分析指出，市場預期，聯準會(Fed)週三結束為期兩天例會後料升息一碼，可能成為新一輪貨幣緊縮週期的…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%AD%B7%E5%8F%B2%E7%B6%93%E9%A9%97%E9%A1%AF%E7%A4%BA-%E9%A6%96%E6%AC%A1%E5%8D%87%E6%81%AF%E5%BE%8C%E4%B8%89%E5%80%8B%E6%9C%88%E7%BE%8E%E8%82%A1%E9%9D%A2%E8%87%A8%E6%98%8E%E9%A1%AF%E5%9B%9E%E8%AA%BF-%E5%B9%B3%E5%9D%8710-17-003115796.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美債殖利率週二全線走高，10年期升破5%，聯準會升息預期爆棚",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】美國公債價格週二下跌，引領殖利率走升，因20年期美國公債得標殖利率高於發行前交易水準，同時油價因供應風險上漲。根據債券交易報…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87%E9%80%B1%E4%BA%8C%E5%85%A8%E7%B7%9A%E8%B5%B0%E9%AB%98-10%E5%B9%B4%E6%9C%9F%E5%8D%87%E7%A0%B45-%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E9%A0%90%E6%9C%9F%E7%88%86%E6%A3%9A-002858597.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "LVMH今年股價暴跌37%、市值縮至2010億歐元，9年來首度跌出歐洲前十企業",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】全球精品需求持續萎縮，路易威登母公司(LVMH)週二股價再跌2.6%，市值降至約2,010億歐元(約2,320億美元)，略低…。",
+      "link": "https://tw.stock.yahoo.com/news/lvmh%E4%BB%8A%E5%B9%B4%E8%82%A1%E5%83%B9%E6%9A%B4%E8%B7%8C37-%E5%B8%82%E5%80%BC%E7%B8%AE%E8%87%B32010%E5%84%84%E6%AD%90%E5%85%83-9%E5%B9%B4%E4%BE%86%E9%A6%96%E5%BA%A6%E8%B7%8C%E5%87%BA%E6%AD%90%E6%B4%B2%E5%89%8D%E5%8D%81%E4%BC%81%E6%A5%AD-002800414.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "誰說高股息只能領息？這檔今年績效狠甩逾半台股　更直逼主動式前四強",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]財經中心／綜合報導台股今年漲勢凌厲，帶動主動式ETF繳出亮眼績效，不過，高股息ETF投資人也不用羨慕。包括復華台灣科技優息（0…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%AA%B0%E8%AA%AA%E9%AB%98%E8%82%A1%E6%81%AF%E5%8F%AA%E8%83%BD%E9%A0%98%E6%81%AF-%E9%80%99%E6%AA%94%E4%BB%8A%E5%B9%B4%E7%B8%BE%E6%95%88%E7%8B%A0%E7%94%A9%E9%80%BE%E5%8D%8A%E5%8F%B0%E8%82%A1-%E6%9B%B4%E7%9B%B4%E9%80%BC%E4%B8%BB%E5%8B%95%E5%BC%8F%E5%89%8D%E5%9B%9B%E5%BC%B7-003000092.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "美股3大指數收跌　投顧：台股量縮整理留意外資空單壓頂",
+      "original_title": null,
+      "summary": "重點：（中央社記者吳家豪台北16日電）投資人靜待美國聯邦準備理事會（Fed）本週利率決策，美股3大指數收跌，台積電美國存託憑證（ADR）下跌1.02%…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A13%E5%A4%A7%E6%8C%87%E6%95%B8%E6%94%B6%E8%B7%8C-%E6%8A%95%E9%A1%A7-%E5%8F%B0%E8%82%A1%E9%87%8F%E7%B8%AE%E6%95%B4%E7%90%86%E7%95%99%E6%84%8F%E5%A4%96%E8%B3%87%E7%A9%BA%E5%96%AE%E5%A3%93%E9%A0%82-002739677.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【統一證券晨訊】台股震盪整理　提防外資壓低結算",
+      "original_title": null,
+      "summary": "重點：日期：2026年 9月16日※盤勢分析油市及債市干擾股市，台股震盪整理，提防外資壓低結算※昨日盤勢油市及債市風暴未歇、AI三巨頭齊喊放緩先進模型…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%B5%B1-%E8%AD%89%E5%88%B8%E6%99%A8%E8%A8%8A-%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA%E6%95%B4%E7%90%86-%E6%8F%90%E9%98%B2%E5%A4%96%E8%B3%87%E5%A3%93%E4%BD%8E%E7%B5%90%E7%AE%97-002019789.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "閃過台股2000點跌勢！專家揭提前減碼關鍵：9月魔咒果然發威",
+      "original_title": null,
+      "summary": "重點：台股連日下跌，本周最低下探45398點，從波段高點47578.24點以來已修正近2200點。財經作家狄驤在臉書發文點出，他早在8月底便認為今年9…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%96%83%E9%81%8E%E5%8F%B0%E8%82%A12000%E9%BB%9E%E8%B7%8C%E5%8B%A2-%E5%B0%88%E5%AE%B6%E6%8F%AD%E6%8F%90%E5%89%8D%E6%B8%9B%E7%A2%BC%E9%97%9C%E9%8D%B5-9%E6%9C%88%E9%AD%94%E5%92%92%E6%9E%9C%E7%84%B6%E7%99%BC%E5%A8%81-000530012.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

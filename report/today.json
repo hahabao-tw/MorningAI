@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-17",
-  "generated_at": "2026-09-17T07:42:32+08:00",
+  "generated_at": "2026-09-17T08:48:01+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4309.1,
-      "change": -78.39999999999964,
-      "change_percent": -1.7868945868945787,
+      "price": 4323.9,
+      "change": -63.600000000000364,
+      "change_percent": -1.4495726495726577,
       "currency": "USD",
-      "market_time": 1789601545,
+      "market_time": 1789605481,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 101.98,
-      "change": -0.45000000000000284,
-      "change_percent": -0.43932441667480504,
+      "price": 101.36,
+      "change": -1.0700000000000074,
+      "change_percent": -1.0446158352045372,
       "currency": "USD",
-      "market_time": 1789601527,
+      "market_time": 1789605474,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 105.58,
-      "change": -0.25,
-      "change_percent": -0.23622791269016347,
+      "price": 104.85,
+      "change": -0.980000000000004,
+      "change_percent": -0.9260134177454445,
       "currency": "USD",
-      "market_time": 1789600433,
+      "market_time": 1789605450,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.832,
-      "change": 0.0010000000000012221,
-      "change_percent": 0.003141591530273074,
+      "price": 31.853,
+      "change": 0.022000000000002018,
+      "change_percent": 0.0691150136659295,
       "currency": "TWD",
-      "market_time": 1789601915,
+      "market_time": 1789606081,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.8952,
-      "change": -0.0034999999999998366,
-      "change_percent": -0.07144752689488715,
+      "price": 4.888,
+      "change": -0.010699999999999932,
+      "change_percent": -0.21842529650723522,
       "currency": "JPY",
-      "market_time": 1789601938,
+      "market_time": 1789605839,
       "source": "yahoo"
     },
     {
@@ -266,10 +266,37 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "US interest rates raised for first time in three years",
+      "link": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-17T00:40:17+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Inside India newsletter: The world’s largest real-time payments system will no longer be free for all",
+      "link": "https://www.cnbc.com/2026/09/17/upi-payments-visa-amazon-phonepe.html",
+      "published_at": "2026-09-17T00:33:41+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Trump says he still has confidence in Fed Chair Warsh, demands 1% or lower interest rates",
       "link": "https://www.cnbc.com/2026/09/16/trump-fed-interest-rate-warsh.html",
-      "published_at": "2026-09-16T23:21:14+00:00",
+      "published_at": "2026-09-16T23:45:02+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Snapchat 'willing to implement' daily time limits for teens, boss tells BBC",
+      "link": "https://www.bbc.co.uk/news/articles/cr3wjz3edd10o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-16T23:41:57+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
     {
@@ -293,10 +320,19 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "US interest rates raised for first time in three years",
-      "link": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-16T22:16:51+00:00",
-      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "title": "OpenAI reports 6 new instances of 'concerning model behavior' since March",
+      "link": "https://www.cnbc.com/2026/09/16/openai-6-new-instances-of-concerning-model-behavior-since-march.html",
+      "published_at": "2026-09-16T23:05:48+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "OpenAI CEO Sam Altman will attend state dinner for Trump-Xi summit in Washington",
+      "link": "https://www.cnbc.com/2026/09/16/openai-altman-trump-xi-summit.html",
+      "published_at": "2026-09-16T21:35:10+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
     {
@@ -352,6 +388,86 @@
       "published_at": "2026-09-16T14:30:51+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "聯準會升息一碼符合預期　五大重點一次掌握",
+      "original_title": null,
+      "summary": "重點：（中央社華盛頓2026年9月16日綜合外電報導）美國聯邦準備理事會（Fed）今天宣布升息一碼，符合市場普遍預期，但會後聲明與主席華許（Kevin…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF-%E7%A2%BC%E7%AC%A6%E5%90%88%E9%A0%90%E6%9C%9F-%E4%BA%94%E5%A4%A7%E9%87%8D%E9%BB%9E-%E6%AC%A1%E6%8E%8C%E6%8F%A1-003240012.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "聯準會升息一碼 五大重點一次掌握 川普批理事會「抱持敵意」",
+      "original_title": null,
+      "summary": "重點：美國聯邦準備理事會（Fed）16日宣布升息一碼，符合市場普遍預期，但會後聲明與主席華許（Kevin Warsh）的談話，仍釋放出偏向強硬的訊號。…。",
+      "link": "https://tw.news.yahoo.com/%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E4%B8%80%E7%A2%BC-%E4%BA%94%E5%A4%A7%E9%87%8D%E9%BB%9E%E4%B8%80%E6%AC%A1%E6%8E%8C%E6%8F%A1-%E5%B7%9D%E6%99%AE%E6%89%B9%E7%90%86%E4%BA%8B%E6%9C%83%E3%80%8C%E6%8A%B1%E6%8C%81%E6%95%B5%E6%84%8F%E3%80%8D-003233646.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達攜谷歌成立AI能源管理聯盟打造彈性電網，釋放最多100吉瓦容量",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】外電報導，輝達(美股代碼NVDA)、Google母公司Alphabet(美股代碼GOOG)與Emerald AI週三宣布成立…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E6%94%9C%E8%B0%B7%E6%AD%8C%E6%88%90%E7%AB%8Bai%E8%83%BD%E6%BA%90%E7%AE%A1%E7%90%86%E8%81%AF%E7%9B%9F%E6%89%93%E9%80%A0%E5%BD%88%E6%80%A7%E9%9B%BB%E7%B6%B2-%E9%87%8B%E6%94%BE%E6%9C%80%E5%A4%9A100%E5%90%89%E7%93%A6%E5%AE%B9%E9%87%8F-003233866.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "市場押注Fed再升息，美債價格週三跌多漲少，殖利率曲線大幅趨平",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】美國公債價格週三漲跌不一，殖利率曲線大幅趨平。市場愈發認為聯準會此次升息不會是最後一次。根據債券交易報價，2年期公債價格下跌…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%B8%82%E5%A0%B4%E6%8A%BC%E6%B3%A8fed%E5%86%8D%E5%8D%87%E6%81%AF-%E7%BE%8E%E5%82%B5%E5%83%B9%E6%A0%BC%E9%80%B1%E4%B8%89%E8%B7%8C%E5%A4%9A%E6%BC%B2%E5%B0%91-%E6%AE%96%E5%88%A9%E7%8E%87%E6%9B%B2%E7%B7%9A%E5%A4%A7%E5%B9%85%E8%B6%A8%E5%B9%B3-003056446.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【國票金控晨訊】美股跌多漲少　可留意FOPLP族群",
+      "original_title": null,
+      "summary": "重點：日期：2026年 9月17日※操作建議與結論Fed 升息1碼，美四大指數跌多漲少觀望資金可望重新進場，操作可留意FOPLP族群今日盤勢及未來走勢…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E7%A5%A8%E9%87%91%E6%8E%A7%E6%99%A8%E8%A8%8A-%E7%BE%8E%E8%82%A1%E8%B7%8C%E5%A4%9A%E6%BC%B2%E5%B0%91-%E5%8F%AF%E7%95%99%E6%84%8Ffoplp%E6%97%8F%E7%BE%A4-002934997.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【統一證券晨訊】台股高檔震盪　低接不追高",
+      "original_title": null,
+      "summary": "重點：日期：2026年 9月17日※盤勢分析聯準會重啟升息重挫道瓊、惟輝達與蘋果傳重啟合作，台股高檔震盪※昨日盤勢美10年期公債殖利率衝破5%大關，疊…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%B5%B1-%E8%AD%89%E5%88%B8%E6%99%A8%E8%A8%8A-%E5%8F%B0%E8%82%A1%E9%AB%98%E6%AA%94%E9%9C%87%E7%9B%AA-%E4%BD%8E%E6%8E%A5%E4%B8%8D%E8%BF%BD%E9%AB%98-002832276.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【盤前焦點】聯準會升息美股收黑　法人：台股留意美債殖利率",
+      "original_title": null,
+      "summary": "重點：（中央社記者何秀玲台北2026年9月17日電）美國聯邦準備理事會（Fed）如市場預期升息1碼，並釋出後續可能再升息訊號，美股指數多收黑；不過半導…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%9B%A4%E5%89%8D%E7%84%A6%E9%BB%9E-%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E7%BE%8E%E8%82%A1%E6%94%B6%E9%BB%91-%E6%B3%95%E4%BA%BA-%E5%8F%B0%E8%82%A1%E7%95%99%E6%84%8F%E7%BE%8E%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87-002523054.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "聯準會升息美股收黑　法人：台股留意美債殖利率",
+      "original_title": null,
+      "summary": "重點：（中央社記者何秀玲台北17日電）美國聯邦準備理事會（Fed）如市場預期升息1碼，並釋出後續可能再升息訊號，美股指數多收黑；不過半導體股相對抗跌，…。",
+      "link": "https://tw.news.yahoo.com/%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E7%BE%8E%E8%82%A1%E6%94%B6%E9%BB%91-%E6%B3%95%E4%BA%BA-%E5%8F%B0%E8%82%A1%E7%95%99%E6%84%8F%E7%BE%8E%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87-002439412.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

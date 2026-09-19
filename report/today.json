@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-19",
-  "generated_at": "2026-09-19T08:30:34+08:00",
+  "generated_at": "2026-09-19T09:07:50+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -266,6 +266,15 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Google's Gemini becomes latest AI model to break out and hack computer systems",
+      "link": "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html",
+      "published_at": "2026-09-19T00:53:27+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Trump says U.S. to build a 'large Military presence' in Greenland as part of a security deal with it and Denmark",
       "link": "https://www.cnbc.com/2026/09/18/trump-greenland-denmark-military-deal.html",
       "published_at": "2026-09-18T23:28:06+00:00",
@@ -356,10 +365,70 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "川習會下周登場！白宮設國宴迎習近平 輝達、OpenAI執行長等多位AI巨頭將出席",
+      "original_title": null,
+      "summary": "重點：中國國家主席習近平預計下周前往白宮進行訪問。一名美國官員18日表示，輝達（Nvidia）執行長黃仁勳與OpenAI執行長阿特曼（Sam Altm…。",
+      "link": "https://tw.news.yahoo.com/%E5%B7%9D%E7%BF%92%E6%9C%83%E4%B8%8B%E5%91%A8%E7%99%BB%E5%A0%B4%EF%BC%81%E7%99%BD%E5%AE%AE%E8%A8%AD%E5%9C%8B%E5%AE%B4%E8%BF%8E%E7%BF%92%E8%BF%91%E5%B9%B3-%E8%BC%9D%E9%81%94%E3%80%81openai%E5%9F%B7%E8%A1%8C%E9%95%B7%E7%AD%89%E5%A4%9A%E4%BD%8Dai%E5%B7%A8%E9%A0%AD%E5%B0%87%E5%87%BA%E5%B8%AD-005923811.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美債殖利率攀升、油價連3跌！ 美股漲跌互見、台積電ADR漲1.02%",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 人工智慧 （AI） 題材仍具動能，不過國際油價仍在每桶100美元以上，且美國10年期公債殖利率重返5%附近，市場受各國央…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87%E6%94%80%E5%8D%87-%E6%B2%B9%E5%83%B9%E9%80%A33%E8%B7%8C-%E7%BE%8E%E8%82%A1%E6%BC%B2%E8%B7%8C%E4%BA%92%E8%A6%8B-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E6%BC%B21-02-005148849.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "白宮設國宴迎習近平　輝達、OpenAI執行長將出席",
+      "original_title": null,
+      "summary": "重點：（中央社華盛頓18日綜合外電報導）一名美國官員今天表示，輝達（Nvidia）執行長黃仁勳與OpenAI執行長阿特曼（Sam Altman）等科技…。",
+      "link": "https://tw.news.yahoo.com/%E7%99%BD%E5%AE%AE%E8%A8%AD%E5%9C%8B%E5%AE%B4%E8%BF%8E%E7%BF%92%E8%BF%91%E5%B9%B3-%E8%BC%9D%E9%81%94-openai%E5%9F%B7%E8%A1%8C%E9%95%B7%E5%B0%87%E5%87%BA%E5%B8%AD-004137768.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "全球央行調控通膨　美股漲跌互見",
       "original_title": null,
       "summary": "重點：（中央社紐約2026年09月18日綜合外電報導）市場受各國央行調控通膨的行動主導，美股今天互有漲跌。道瓊工業指數終場下跌95.40點，或0.18…。",
       "link": "https://tw.stock.yahoo.com/news/%E5%85%A8%E7%90%83%E5%A4%AE%E8%A1%8C%E8%AA%BF%E6%8E%A7%E9%80%9A%E8%86%A8-%E7%BE%8E%E8%82%A1%E6%BC%B2%E8%B7%8C%E4%BA%92%E8%A6%8B-002005309.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台積電供應鏈聯合徵才三部曲最終場登場　慈善基金會董事長張淑芬親自出席活動",
+      "original_title": null,
+      "summary": "重點：台積電資材管理組織與台積電慈善基金會共同發起號召25家供應商共同參與「台積電供。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%BE%9B%E6%87%89%E9%8F%88%E8%81%AF%E5%90%88%E5%BE%B5%E6%89%8D%E4%B8%89%E9%83%A8%E6%9B%B2%E6%9C%80%E7%B5%82%E5%A0%B4%E7%99%BB%E5%A0%B4-%E6%85%88%E5%96%84%E5%9F%BA%E9%87%91%E6%9C%83%E8%91%A3%E4%BA%8B%E9%95%B7%E5%BC%B5%E6%B7%91%E8%8A%AC%E8%A6%AA%E8%87%AA%E5%87%BA%E5%B8%AD%E6%B4%BB%E5%8B%95-010043368.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股47K回來了！千金股增至47檔「8檔飆漲停」　專家曝「這點」更值得關注",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導台股18日多頭火力全開，除了法人、大戶同步回補，加上先前申購漢測（7856）凍結的市場資金釋放，挾量強攻4…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A147k%E5%9B%9E%E4%BE%86%E4%BA%86-%E5%8D%83%E9%87%91%E8%82%A1%E5%A2%9E%E8%87%B347%E6%AA%94-8%E6%AA%94%E9%A3%86%E6%BC%B2%E5%81%9C-%E5%B0%88%E5%AE%B6%E6%9B%9D-%E9%80%99%E9%BB%9E-005000503.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "美股「四巫日」道瓊震盪收黑！「記憶體A+股」飆漲10.99%　台積電ADR漲逾1%、台指期夜盤守住47K",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導美股週五（18日）適逢「四巫日」，成交量跟隨放大，但因美債殖利率、國際油價仍然維持漲勢，導致道瓊工業指數下…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1-%E5%9B%9B%E5%B7%AB%E6%97%A5-%E9%81%93%E7%93%8A%E9%9C%87%E7%9B%AA%E6%94%B6%E9%BB%91-%E8%A8%98%E6%86%B6%E9%AB%94a-%E8%82%A1-233000226.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -370,16 +439,6 @@
       "original_title": null,
       "summary": "重點：（中央社倫敦2026年09月18日綜合外電報導）市場本週主調為各國央行因應中東戰爭引發通貨膨脹壓力所做出的政策，歐洲央行、美國聯準會和日本央行相…。",
       "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%97%A5%E6%AD%90%E5%A4%AE%E8%A1%8C%E5%8D%87%E6%81%AF%E5%9B%A0%E6%87%89%E9%AB%98%E9%80%9A%E8%86%A8-%E6%AD%90%E8%82%A1%E6%94%B6%E9%BB%91-001901360.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "美股「四巫日」道瓊震盪收黑！「記憶體A+股」飆漲10.99%　台積電ADR漲逾1%、台指期夜盤守住47K",
-      "original_title": null,
-      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導美股週五（18日）適逢「四巫日」，成交量跟隨放大，但因美債殖利率、國際油價仍然維持漲勢，導致道瓊工業指數下…。",
-      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1-%E5%9B%9B%E5%B7%AB%E6%97%A5-%E9%81%93%E7%93%8A%E9%9C%87%E7%9B%AA%E6%94%B6%E9%BB%91-%E8%A8%98%E6%86%B6%E9%AB%94a-%E8%82%A1-233000226.html",
       "published_at": null,
       "source": "yahoo_news"
     },

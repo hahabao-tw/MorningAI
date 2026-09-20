@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-20",
-  "generated_at": "2026-09-20T08:17:14+08:00",
+  "generated_at": "2026-09-20T09:01:10+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -390,6 +390,16 @@
       "original_title": null,
       "summary": "重點：美國聯準會（Fed）16日宣布升息1碼，將聯邦資金利率目標區間調升至3.75%至4%。然而，台股18日仍強勢上漲，加權指數大漲892點，收在47…。",
       "link": "https://tw.news.yahoo.com/%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E5%8F%B0%E8%82%A1%E5%8F%8D%E9%A3%86892%E9%BB%9E-%E8%94%A1%E6%98%8E%E7%BF%B0%E7%A4%BA%E8%AD%A6%E5%85%A8%E7%90%83%E8%82%A1%E5%B8%82%E9%9C%87%E7%9B%AA-%E5%88%A5%E6%80%A5%E8%91%97%E8%BF%BD%E9%AB%98-150600812.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "水利署工程車現身嘉科二期引熱議！台積電AP7先進封裝廠動工真相揭曉",
+      "original_title": null,
+      "summary": "重點：南部科學園區嘉義園區隨著二期工程與台積電先進封裝七廠緊密推進，整座園區正以驚人的速度崛起。近期出現不少載著土方、車身印有「經濟部水利署第六河川分…。",
+      "link": "https://tw.news.yahoo.com/%E6%B0%B4%E5%88%A9%E7%BD%B2%E5%B7%A5%E7%A8%8B%E8%BB%8A%E7%8F%BE%E8%BA%AB%E5%98%89%E7%A7%91%E4%BA%8C%E6%9C%9F%E5%BC%95%E7%86%B1%E8%AD%B0-%E5%8F%B0%E7%A9%8D%E9%9B%BBap7%E5%85%88%E9%80%B2%E5%B0%81%E8%A3%9D%E5%BB%A0%E5%8B%95%E5%B7%A5%E7%9C%9F%E7%9B%B8%E6%8F%AD%E6%9B%89-003627561.html",
       "published_at": null,
       "source": "yahoo_news"
     },

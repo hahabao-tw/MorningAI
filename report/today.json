@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-21",
-  "generated_at": "2026-09-21T08:24:53+08:00",
+  "generated_at": "2026-09-21T09:01:36+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4403.3,
-      "change": -21.599999999999454,
-      "change_percent": -0.48814662478246873,
+      "price": 4402.8,
+      "change": -22.099999999999454,
+      "change_percent": -0.499446315170952,
       "currency": "USD",
-      "market_time": 1789949687,
+      "market_time": 1789951894,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 95.81,
-      "change": -0.269999999999996,
-      "change_percent": -0.281015820149871,
+      "price": 94.69,
+      "change": -1.3900000000000006,
+      "change_percent": -1.4467110741049132,
       "currency": "USD",
-      "market_time": 1789949687,
+      "market_time": 1789951895,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 99.19,
-      "change": -0.10000000000000853,
-      "change_percent": -0.10071507704704251,
+      "price": 98.18,
+      "change": -1.1099999999999994,
+      "change_percent": -1.1179373552220762,
       "currency": "USD",
-      "market_time": 1789949644,
+      "market_time": 1789951848,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.831,
-      "change": 0.06799999999999784,
-      "change_percent": 0.21408557126215358,
+      "price": 31.818,
+      "change": 0.054999999999999716,
+      "change_percent": 0.1731574473443935,
       "currency": "TWD",
-      "market_time": 1789950293,
+      "market_time": 1789952496,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9196,
-      "change": -0.009199999999999875,
-      "change_percent": -0.18665801006329888,
+      "price": 4.9191,
+      "change": -0.009699999999999598,
+      "change_percent": -0.19680246713195096,
       "currency": "JPY",
-      "market_time": 1789950250,
+      "market_time": 1789952351,
       "source": "yahoo"
     },
     {
@@ -266,6 +266,24 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Bessent calls meeting with China Vice Premier He Lifeng 'successful' ahead of Trump-Xi summit",
+      "link": "https://www.cnbc.com/2026/09/20/bessent-he-lifeng-trump-xi-summit.html",
+      "published_at": "2026-09-21T00:45:26+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Nvidia boss rejects AI extinction fears as 'doomsday narratives'",
+      "link": "https://www.bbc.co.uk/news/articles/cr5ye7p13jg7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-21T00:34:53+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Here are the 3 big things we're watching in the stock market this week",
       "link": "https://www.cnbc.com/2026/09/20/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html",
       "published_at": "2026-09-20T23:42:00+00:00",
@@ -279,15 +297,6 @@
       "link": "https://www.bbc.co.uk/news/articles/crq5x74yv6dxo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-09-20T23:02:45+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "Bessent meets China Vice Premier He Lifeng ahead of Trump-Xi summit",
-      "link": "https://www.cnbc.com/2026/09/20/bessent-he-lifeng-trump-xi-summit.html",
-      "published_at": "2026-09-20T16:56:14+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
     {
@@ -361,6 +370,76 @@
       "published_at": "2026-09-19T23:01:57+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "燃油上漲＋黃金週搶運，中美運價逼近疫情高峰，40呎櫃近1.1萬美元",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】外電引述航運數據商Xeneta資料顯示，在美伊戰爭推升船用燃料成本、加上中國十一黃金週前搶運潮帶動下，中國至美國東岸40呎貨…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%87%83%E6%B2%B9%E4%B8%8A%E6%BC%B2-%E9%BB%83%E9%87%91%E9%80%B1%E6%90%B6%E9%81%8B-%E4%B8%AD%E7%BE%8E%E9%81%8B%E5%83%B9%E9%80%BC%E8%BF%91%E7%96%AB%E6%83%85%E9%AB%98%E5%B3%B0-40%E5%91%8E%E6%AB%83%E8%BF%911-1%E8%90%AC%E7%BE%8E%E5%85%83-005033952.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "福斯汽車大砍2026年獲利展望，保時捷減值60億歐元，上週五股價重挫5.6%",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】歐洲汽車巨擘--福斯汽車(Volkswagen)再度下調2026年獲利展望，保時捷業務減值、中國市場競爭升溫及重組成本成為主…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%A6%8F%E6%96%AF%E6%B1%BD%E8%BB%8A%E5%A4%A7%E7%A0%8D2026%E5%B9%B4%E7%8D%B2%E5%88%A9%E5%B1%95%E6%9C%9B-%E4%BF%9D%E6%99%82%E6%8D%B7%E6%B8%9B%E5%80%BC60%E5%84%84%E6%AD%90%E5%85%83-%E4%B8%8A%E9%80%B1%E4%BA%94%E8%82%A1%E5%83%B9%E9%87%8D%E6%8C%AB5-6-004529097.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "高度依賴台積電製程＋傳Q4晶片漲價10%，AMD股價上週五收高2.7%",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】市場傳出超微(AMD，美股代碼AMD)計畫自2026年第四季起調高旗下多數晶片產品售價約10%，以反映台積電晶圓代工成本上升…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%AB%98%E5%BA%A6%E4%BE%9D%E8%B3%B4%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%A3%BD%E7%A8%8B-%E5%82%B3q4%E6%99%B6%E7%89%87%E6%BC%B2%E5%83%B910-amd%E8%82%A1%E5%83%B9%E4%B8%8A%E9%80%B1%E4%BA%94%E6%94%B6%E9%AB%982-7-004214352.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "川習會本周登場聚焦AI、關稅、稀土 美中經貿高層貝森特、何立峰紐約先行會晤",
+      "original_title": null,
+      "summary": "重點：川習會24日在白宮登場，美國財政部長貝森特20日與中國國務院副總理何立峰先行在紐約會晤，貝森特表示，他與中國官員針對貿易及人工智慧（AI）舉行的…。",
+      "link": "https://tw.news.yahoo.com/%E5%B7%9D%E7%BF%92%E6%9C%83%E6%9C%AC%E5%91%A8%E7%99%BB%E5%A0%B4%E8%81%9A%E7%84%A6ai%E3%80%81%E9%97%9C%E7%A8%85%E3%80%81%E7%A8%80%E5%9C%9F-%E7%BE%8E%E4%B8%AD%E7%B6%93%E8%B2%BF%E9%AB%98%E5%B1%A4%E8%B2%9D%E6%A3%AE%E7%89%B9%E3%80%81%E4%BD%95%E7%AB%8B%E5%B3%B0%E7%B4%90%E7%B4%84%E5%85%88%E8%A1%8C%E6%9C%83%E6%99%A4-004000674.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "券商晨訊台股投資建議摘要 (1) 2026年9月21日",
+      "original_title": null,
+      "summary": "重點：【統一證券】多方題材充沛可望支撐買盤，預期大盤高檔震盪盤堅、操作建議擇優布局流動性佳的中大型AI權值股，及業績題材股。【國票證券】估今日台股開於…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%88%B8%E5%95%86%E6%99%A8%E8%A8%8A%E5%8F%B0%E8%82%A1%E6%8A%95%E8%B3%87%E5%BB%BA%E8%AD%B0%E6%91%98%E8%A6%81-1-2026%E5%B9%B49%E6%9C%8821%E6%97%A5-004517249.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【國票金控晨訊】台股有望再創新高　可留意CCL族群",
+      "original_title": null,
+      "summary": "重點：日期：2026年 9月21日※操作建議與結論不畏四巫日結算，美四大指數仍漲多跌少台股有望再創波段新高，可留意CCL族群今日盤勢及未來走勢：(留意…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E7%A5%A8%E9%87%91%E6%8E%A7%E6%99%A8%E8%A8%8A-%E5%8F%B0%E8%82%A1%E6%9C%89%E6%9C%9B%E5%86%8D%E5%89%B5%E6%96%B0%E9%AB%98-%E5%8F%AF%E7%95%99%E6%84%8Fccl%E6%97%8F%E7%BE%A4-004514425.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【統一證券晨訊】台股技術面轉強　指數震盪盤堅",
+      "original_title": null,
+      "summary": "重點：日期：2026年 9月21日※盤勢分析AI結構性多頭展望佳，台股技術面轉強，指數震盪盤堅※昨日盤勢受到美債殖利率回檔、國際油價同步降溫的激勵，加…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%B5%B1-%E8%AD%89%E5%88%B8%E6%99%A8%E8%A8%8A-%E5%8F%B0%E8%82%A1%E6%8A%80%E8%A1%93%E9%9D%A2%E8%BD%89%E5%BC%B7-%E6%8C%87%E6%95%B8%E9%9C%87%E7%9B%AA%E7%9B%A4%E5%A0%85-002908868.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

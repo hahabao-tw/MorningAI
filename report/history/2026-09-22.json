@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-22",
-  "generated_at": "2026-09-22T09:02:22+08:00",
+  "generated_at": "2026-09-22T09:34:34+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4395.3,
-      "change": 11.400000000000546,
-      "change_percent": 0.26004242797510313,
+      "price": 4393.8,
+      "change": 9.900000000000546,
+      "change_percent": 0.22582631903101227,
       "currency": "USD",
-      "market_time": 1790038336,
+      "market_time": 1790040266,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 92.64,
-      "change": 0.269999999999996,
-      "change_percent": 0.2923026956804114,
+      "price": 92.77,
+      "change": 0.3999999999999915,
+      "change_percent": 0.4330410306376437,
       "currency": "USD",
-      "market_time": 1790038341,
+      "market_time": 1790040268,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 96.66,
-      "change": 0.4200000000000017,
-      "change_percent": 0.4364089775561115,
+      "price": 96.73,
+      "change": 0.4900000000000091,
+      "change_percent": 0.5091438071488041,
       "currency": "USD",
-      "market_time": 1790038229,
+      "market_time": 1790040038,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.677,
-      "change": -0.038000000000000256,
-      "change_percent": -0.119817121236009,
+      "price": 31.679,
+      "change": -0.036000000000001364,
+      "change_percent": -0.11351095696043312,
       "currency": "TWD",
-      "market_time": 1790038942,
+      "market_time": 1790040873,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9516,
-      "change": 0.0019999999999997797,
-      "change_percent": 0.040407305640855415,
+      "price": 4.9592,
+      "change": 0.009599999999999831,
+      "change_percent": 0.19395506707612395,
       "currency": "JPY",
-      "market_time": 1790038748,
+      "market_time": 1790040849,
       "source": "yahoo"
     },
     {
@@ -263,6 +263,15 @@
     }
   ],
   "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Jamie Dimon says hyperscaler AI spending could hit $1 trillion next year",
+      "link": "https://www.cnbc.com/2026/09/21/jamie-dimon-jpm-jpmorgan-indiaconference.html",
+      "published_at": "2026-09-22T01:30:01+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
     {
       "kind": "news",
       "category": "international",
@@ -399,6 +408,46 @@
       "original_title": null,
       "summary": "重點：【財訊快報／陳孟朔】歐洲股市週一全面收高，國際油價跨步追低且連四跌，舒緩市場對能源成本及通膨升溫的疑慮，加上科技與銀行類股聯袂走強，帶動美股早盤…。",
       "link": "https://tw.stock.yahoo.com/news/%E6%B2%B9%E5%83%B9%E7%BA%8C%E8%B7%8C-%E7%A7%91%E6%8A%80-%E9%8A%80%E8%A1%8C%E8%82%A1%E8%B5%B0%E5%BC%B7-%E9%81%93%E7%93%8A%E6%AD%90%E6%B4%B2600%E6%8C%87%E6%95%B8%E9%80%B1-%E6%BC%B21-004652195.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "魏哲家一個暗號！台積電漲30元至2510元 近一個月盤中最高價",
+      "original_title": null,
+      "summary": "重點：魏哲家一句「希望台積電股價趕快趕上聯發科」，市場樂看神山股價要起飛，台積電（2330）今（22）日盤中最高觸及2510元，上漲30元，股價創下9…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%AD%8F%E5%93%B2%E5%AE%B6%E4%B8%80%E5%80%8B%E6%9A%97%E8%99%9F%EF%BC%81%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B230%E5%85%83%E8%87%B32510%E5%85%83-%E8%BF%91%E4%B8%80%E5%80%8B%E6%9C%88%E7%9B%A4%E4%B8%AD%E6%9C%80%E9%AB%98%E5%83%B9-012706948.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "快訊／台股衝48601點刷新史高！股王信驊亮燈「首檔飆破2萬元」持有1張現賺198萬",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者吳峻光／綜合報導台股今（22）日刷新史高，加權指數盤中最高一度衝到48601.53點，股王信驊（5274）也發威，開盤飆漲…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%BF%AB%E8%A8%8A-%E5%8F%B0%E8%82%A1%E8%A1%9D48601%E9%BB%9E%E5%88%B7%E6%96%B0%E5%8F%B2%E9%AB%98-%E8%82%A1%E7%8E%8B%E4%BF%A1%E9%A9%8A%E4%BA%AE%E7%87%88-%E9%A6%96%E6%AA%94%E9%A3%86%E7%A0%B42%E8%90%AC%E5%85%83-%E6%8C%81%E6%9C%891%E5%BC%B5%E7%8F%BE%E8%B3%BA198%E8%90%AC-012600504.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股早盤狂拉880點創新高！台積電漲30元、聯發科飆逾7%",
+      "original_title": null,
+      "summary": "重點：美股4大指數在美東時間週一（21日）收紅，標普500指數漲1.49%，收在7,764.70點；納斯達克指數漲2.26%，收在27122.09點，…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E7%8B%82%E6%8B%89880%E9%BB%9E%E5%89%B5%E6%96%B0%E9%AB%98-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B230%E5%85%83-%E8%81%AF%E7%99%BC%E7%A7%91%E9%A3%86%E9%80%BE7-012034199.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "放棄台積電當老師、共軍擾台變教材 師鐸獎教師為孩子開路",
+      "original_title": null,
+      "summary": "重點：放棄進台積電，轉身成為物理老師；讓荒廢近80年的老車站重新亮燈；共軍擾台期間，孩子嫌戰機「好吵」，老師便將聲音轉化為國防教育；曾是全班最後一名的…。",
+      "link": "https://tw.news.yahoo.com/%E6%94%BE%E6%A3%84%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%95%B6%E8%80%81%E5%B8%AB-%E5%85%B1%E8%BB%8D%E6%93%BE%E5%8F%B0%E8%AE%8A%E6%95%99%E6%9D%90-%E5%B8%AB%E9%90%B8%E7%8D%8E%E6%95%99%E5%B8%AB%E7%82%BA%E5%AD%A9%E5%AD%90%E9%96%8B%E8%B7%AF-011826436.html",
       "published_at": null,
       "source": "yahoo_news"
     },

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-23",
-  "generated_at": "2026-09-23T07:02:46+08:00",
+  "generated_at": "2026-09-23T08:51:11+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4400.3,
-      "change": 23.900000000000546,
-      "change_percent": 0.5461109587789176,
+      "price": 4396.1,
+      "change": 19.700000000000728,
+      "change_percent": 0.45014166895166646,
       "currency": "USD",
-      "market_time": 1790117550,
+      "market_time": 1790124069,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 89.63,
-      "change": -0.8900000000000006,
-      "change_percent": -0.9832081307998239,
+      "price": 90.06,
+      "change": -0.45999999999999375,
+      "change_percent": -0.5081749889527107,
       "currency": "USD",
-      "market_time": 1790117532,
+      "market_time": 1790124065,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 98.44,
-      "change": -0.8100000000000023,
-      "change_percent": -0.8161209068010098,
+      "price": 99.04,
+      "change": -0.20999999999999375,
+      "change_percent": -0.2115869017632179,
       "currency": "USD",
-      "market_time": 1790116512,
+      "market_time": 1790124059,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.674,
-      "change": 0.00999999999999801,
-      "change_percent": 0.03158160687215137,
+      "price": 31.678,
+      "change": 0.013999999999999346,
+      "change_percent": 0.04421424962101865,
       "currency": "TWD",
-      "market_time": 1790118165,
+      "market_time": 1790124671,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9614,
-      "change": 0.011800000000000033,
-      "change_percent": 0.23840310328107384,
+      "price": 4.9619,
+      "change": 0.0023999999999997357,
+      "change_percent": 0.04839197499747425,
       "currency": "JPY",
-      "market_time": 1790117946,
+      "market_time": 1790124548,
       "source": "yahoo"
     },
     {
@@ -266,6 +266,33 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "'I don't have a buoyancy aid': Living without the Bank of Mum and Dad",
+      "link": "https://www.bbc.co.uk/news/articles/c8dx5p7gd4e9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-22T23:20:31+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Europe's car makers are in crisis. Will the threat of war rescue them?",
+      "link": "https://www.bbc.co.uk/news/articles/c6vgyq598k9po?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-22T23:11:33+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "IMF tells advanced economies to 'bring debt down' as borrowing costs rise",
+      "link": "https://www.bbc.co.uk/news/articles/cx305ymq4ldqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-22T23:01:28+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "New EU industry rules would damage UK, warns Burnham",
       "link": "https://www.bbc.co.uk/news/articles/cv2dwylkl7weo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-09-22T21:18:40+00:00",
@@ -305,6 +332,15 @@
       "title": "'We screwed up': Doordash admits underpaying New York workers",
       "link": "https://www.bbc.co.uk/news/articles/cjr4v72y6p4eo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-09-22T16:50:24+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Watch: Trump floats rebranding artificial intelligence as super intelligence",
+      "link": "https://www.bbc.co.uk/news/videos/c8n5d9x10v14o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-22T15:53:25+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
@@ -352,6 +388,86 @@
       "published_at": "2026-09-21T22:25:33+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "零售、科技股領漲，道瓊歐洲600指數週二追高0.13%，Kingfisher飆12.4%",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】歐洲股市週二(22日)震盪後小幅收高，在前一交易日創逾兩個月最大單日漲幅後，投資人一方面消化人工智慧(AI)題材重新升溫帶來…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%9B%B6%E5%94%AE-%E7%A7%91%E6%8A%80%E8%82%A1%E9%A0%98%E6%BC%B2-%E9%81%93%E7%93%8A%E6%AD%90%E6%B4%B2600%E6%8C%87%E6%95%B8%E9%80%B1%E4%BA%8C%E8%BF%BD%E9%AB%980-13-kingfisher%E9%A3%8612-003458194.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美債殖利率週二全面走高，10年期逼近5%，2年債標售殖利率創高",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】美國公債價格週二下跌，早盤漲幅隨國際油價跌幅收窄而有所消退。根據債券交易報價，2年期公債價格下跌，殖利率上揚0.72個基點，…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87%E9%80%B1%E4%BA%8C%E5%85%A8%E9%9D%A2%E8%B5%B0%E9%AB%98-10%E5%B9%B4%E6%9C%9F%E9%80%BC%E8%BF%915-2%E5%B9%B4%E5%82%B5%E6%A8%99%E5%94%AE%E6%AE%96%E5%88%A9%E7%8E%87%E5%89%B5%E9%AB%98-001514099.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美股收盤／科技股續漲！那指創新高、費半連6天收高　台積電ADR漲1.54%",
+      "original_title": null,
+      "summary": "重點：美股漲跌互見，晶片股延續漲勢，帶動那指連日創收盤新高，費城指數也漲超過2%，為連續第6個交易日收高。其中個股方面美光勁揚5.00%、SanDis…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E6%94%B6%E7%9B%A4-%E7%A7%91%E6%8A%80%E8%82%A1%E7%BA%8C%E6%BC%B2-%E9%82%A3%E6%8C%87%E5%89%B5%E6%96%B0%E9%AB%98-%E8%B2%BB%E5%8D%8A%E9%80%A36%E5%A4%A9%E6%94%B6%E9%AB%98-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E6%BC%B21-001500513.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "川習會國宴 黃仁勳、貝佐斯、阿特曼、馬斯克等科技廠大佬受邀出席",
+      "original_title": null,
+      "summary": "重點：美國總統川普款待中國國家主席習近平晚宴，受邀的美國科技廠大老以AI的前緣企業為。",
+      "link": "https://tw.news.yahoo.com/%E5%B7%9D%E7%BF%92%E6%9C%83%E5%9C%8B%E5%AE%B4-%E9%BB%83%E4%BB%81%E5%8B%B3-%E8%B2%9D%E4%BD%90%E6%96%AF-%E9%98%BF%E7%89%B9%E6%9B%BC-%E9%A6%AC%E6%96%AF%E5%85%8B%E7%AD%89%E7%A7%91%E6%8A%80%E5%BB%A0%E5%A4%A7%E4%BD%AC%E5%8F%97%E9%82%80%E5%87%BA%E5%B8%AD-001317282.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台指期夜盤上揚　法人：台股挑戰48000點關卡",
+      "original_title": null,
+      "summary": "重點：（中央社記者張建中台北23日電）美股主要指數漲跌互見，與台股關聯性高的費城半導體指數上揚256.65點，相對強勢。法人表示，台股9月22日盤中創…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E4%B8%8A%E6%8F%9A-%E6%B3%95%E4%BA%BA-%E5%8F%B0%E8%82%A1%E6%8C%91%E6%88%B048000%E9%BB%9E%E9%97%9C%E5%8D%A1-003247267.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【盤前焦點】台指期夜盤上揚　法人：台股挑戰48000點關卡",
+      "original_title": null,
+      "summary": "重點：（中央社記者張建中台北2026年9月23日電）美股主要指數漲跌互見，與台股關聯性高的費城半導體指數上揚256.65點，相對強勢。法人表示，台股9…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%9B%A4%E5%89%8D%E7%84%A6%E9%BB%9E-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E4%B8%8A%E6%8F%9A-%E6%B3%95%E4%BA%BA-%E5%8F%B0%E8%82%A1%E6%8C%91%E6%88%B048000%E9%BB%9E%E9%97%9C%E5%8D%A1-003222833.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【台股市值兆元宴2】不必5千萬！專家教戰自組「23檔兆元股ETF」月存6千滾出千萬資產",
+      "original_title": null,
+      "summary": "重點：23 家兆元巨頭是台股長線成長的領頭羊，但若每一家都買一張，總資金高達5,300萬元以上，遠超出小資族負擔。凱旭投顧分析師王士維指出除了ETF，…。",
+      "link": "https://tw.stock.yahoo.com/news/%E3%80%90%E5%8F%B0%E8%82%A1%E5%B8%82%E5%80%BC%E5%85%86%E5%85%83%E5%AE%B42%E3%80%91%E4%B8%8D%E5%BF%855%E5%8D%83%E8%90%AC%EF%BC%81%E5%B0%88%E5%AE%B6%E6%95%99%E6%88%B0%E8%87%AA%E7%B5%84%E3%80%8C23%E6%AA%94%E5%85%86%E5%85%83%E8%82%A1etf%E3%80%8D%E6%9C%88%E5%AD%986%E5%8D%83%E6%BB%BE%E5%87%BA%E5%8D%83%E8%90%AC%E8%B3%87%E7%94%A2-001955251.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【台股市值兆元宴1】台積電等23巨頭開主桌！分析師點名「4檔準兆元股」排隊進場 股王、健策全入列",
+      "original_title": null,
+      "summary": "重點：隨著台股衝刺新高，企業市值迎來大躍進，截至今日已累積23家企業成功跨過「市值兆元」門檻，形成「市值兆元宴」。凱旭投顧分析師王士維解析兆元宴結構，…。",
+      "link": "https://tw.stock.yahoo.com/news/%E3%80%90%E5%8F%B0%E8%82%A1%E5%B8%82%E5%80%BC%E5%85%86%E5%85%83%E5%AE%B41%E3%80%91%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%AD%8923%E5%B7%A8%E9%A0%AD%E9%96%8B%E4%B8%BB%E6%A1%8C%EF%BC%81%E5%88%86%E6%9E%90%E5%B8%AB%E9%BB%9E%E5%90%8D%E3%80%8C4%E6%AA%94%E6%BA%96%E5%85%86%E5%85%83%E8%82%A1%E3%80%8D%E6%8E%92%E9%9A%8A%E9%80%B2%E5%A0%B4-%E8%82%A1%E7%8E%8B%E3%80%81%E5%81%A5%E7%AD%96%E5%85%A8%E5%85%A5%E5%88%97-001856722.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

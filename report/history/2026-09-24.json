@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-24",
-  "generated_at": "2026-09-24T07:03:11+08:00",
+  "generated_at": "2026-09-24T08:44:49+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4322.8,
-      "change": 4.400000000000546,
-      "change_percent": 0.10188958873658174,
+      "price": 4327.7,
+      "change": 9.300000000000182,
+      "change_percent": 0.21535753982957073,
       "currency": "USD",
-      "market_time": 1790203982,
+      "market_time": 1790210086,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 92.24,
-      "change": 0.0799999999999983,
-      "change_percent": 0.0868055555555537,
+      "price": 91.53,
+      "change": -0.6299999999999955,
+      "change_percent": -0.683593749999995,
       "currency": "USD",
-      "market_time": 1790203986,
+      "market_time": 1790210082,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 97.9,
-      "change": -0.21999999999999886,
-      "change_percent": -0.22421524663677012,
+      "price": 97.44,
+      "change": -0.6800000000000068,
+      "change_percent": -0.6930289441500272,
       "currency": "USD",
-      "market_time": 1790203859,
+      "market_time": 1790210057,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.79,
-      "change": -0.022999999999999687,
-      "change_percent": -0.07229748844811772,
+      "price": 31.755,
+      "change": -0.05799999999999983,
+      "change_percent": -0.18231540565177706,
       "currency": "TWD",
-      "market_time": 1790204477,
+      "market_time": 1790210688,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9687,
-      "change": 0.009199999999999875,
-      "change_percent": 0.18550257082366922,
+      "price": 4.9712,
+      "change": 0.005199999999999427,
+      "change_percent": 0.10471204188480521,
       "currency": "JPY",
-      "market_time": 1790204351,
+      "market_time": 1790210648,
       "source": "yahoo"
     },
     {
@@ -266,6 +266,33 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Inside India newsletter: Apple set to take a bigger bite of the world’s second-largest smartphone market",
+      "link": "https://www.cnbc.com/2026/09/24/india-apple-iphone-samsung-chinese-smartphones.html",
+      "published_at": "2026-09-24T00:01:54+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit",
+      "link": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html",
+      "published_at": "2026-09-23T23:59:39+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "'Proteinflation': Meet the people paying up to £100 for a bag of protein",
+      "link": "https://www.bbc.co.uk/news/articles/cm93e2gz8y41o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-23T23:12:01+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "OpenAI and Anthropic bosses push UN for global terms on AI",
       "link": "https://www.bbc.co.uk/news/articles/ck87v27vdn1po?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-09-23T22:35:14+00:00",
@@ -320,6 +347,15 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Here's what happens to the economy when Treasury yields soar like they are now",
+      "link": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html",
+      "published_at": "2026-09-23T21:11:28+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Meta's standoff with Amazon over Muse could be a sign of things to come",
       "link": "https://www.cnbc.com/2026/09/23/metas-standoff-with-amazon-over-muse-comes-ahead-of-meta-connect.html",
       "published_at": "2026-09-23T21:04:47+00:00",
@@ -332,6 +368,15 @@
       "title": "OpenAI and Anthropic CEOs push for AI cooperation at UN after Trump rebuffs 'globalist scheme' to control it",
       "link": "https://www.cnbc.com/2026/09/23/altman-amodei-un-ai-safety.html",
       "published_at": "2026-09-23T20:29:20+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "10-year Treasury yield rockets to 19-year high. Here's what's driving the spike",
+      "link": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
+      "published_at": "2026-09-23T20:07:50+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
@@ -352,6 +397,76 @@
       "published_at": "2026-09-23T16:42:47+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "紐交所攜Blockchain.com探索股票代幣化，瞄準美股與ETF全天交易",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】路透報導，紐約證券交易所(NYSE)與加密資產經紀商Blockchain.com週三宣布合作，探索讓用戶透過區塊鏈交易美國上…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%B4%90%E4%BA%A4%E6%89%80%E6%94%9Cblockchain-com%E6%8E%A2%E7%B4%A2%E8%82%A1%E7%A5%A8%E4%BB%A3%E5%B9%A3%E5%8C%96-%E7%9E%84%E6%BA%96%E7%BE%8E%E8%82%A1%E8%88%87etf%E5%85%A8%E5%A4%A9%E4%BA%A4%E6%98%93-003054758.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "【盤前焦點】美股收低　投顧：台股創高後留意美伊局勢",
+      "original_title": null,
+      "summary": "重點：（中央社記者江明晏台北2026年9月24日電）美股收低，台積電ADR跌1.2%，台股23日震盪創高，終場上漲357.12點，收在48157.29…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%9B%A4%E5%89%8D%E7%84%A6%E9%BB%9E-%E7%BE%8E%E8%82%A1%E6%94%B6%E4%BD%8E-%E6%8A%95%E9%A1%A7-%E5%8F%B0%E8%82%A1%E5%89%B5%E9%AB%98%E5%BE%8C%E7%95%99%E6%84%8F%E7%BE%8E%E4%BC%8A%E5%B1%80%E5%8B%A2-002725611.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "PMI強勁疊加新債標售疲軟！美債重挫，5年期殖利率近20年首破5%",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】美國公債價格週三下跌，引領殖利率走升，5年期公債殖利率近20年來首次升逾5%，因美國採購經理人指數(PMI)表現強勁且新債標…。",
+      "link": "https://tw.stock.yahoo.com/news/pmi%E5%BC%B7%E5%8B%81%E7%96%8A%E5%8A%A0%E6%96%B0%E5%82%B5%E6%A8%99%E5%94%AE%E7%96%B2%E8%BB%9F-%E7%BE%8E%E5%82%B5%E9%87%8D%E6%8C%AB-5%E5%B9%B4%E6%9C%9F%E6%AE%96%E5%88%A9%E7%8E%87%E8%BF%9120%E5%B9%B4%E9%A6%96%E7%A0%B45-002706769.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "三星與樂金遭印度調查OLED零件關稅，優惠稅率5%適用範圍成爭點",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】路透引述五名知情人士報導，印度正在調查韓國兩大家電業者--三星電子(005930.KS)與樂金電子(LG Electroni…。",
+      "link": "https://tw.stock.yahoo.com/news/%E4%B8%89%E6%98%9F%E8%88%87%E6%A8%82%E9%87%91%E9%81%AD%E5%8D%B0%E5%BA%A6%E8%AA%BF%E6%9F%A5oled%E9%9B%B6%E4%BB%B6%E9%97%9C%E7%A8%85-%E5%84%AA%E6%83%A0%E7%A8%85%E7%8E%875-%E9%81%A9%E7%94%A8%E7%AF%84%E5%9C%8D%E6%88%90%E7%88%AD%E9%BB%9E-002655770.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股市值衝全球第四 AI浪潮助推加權指數創新高",
+      "original_title": null,
+      "summary": "重點：圖／示意圖商傳媒｜方承業／綜合外電報導臺灣股市在全球資本市場的地位顯著提升。根據《台北時報》報導，由於全球人工智慧（AI）發展熱潮的助推，臺灣股…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E5%B8%82%E5%80%BC%E8%A1%9D%E5%85%A8%E7%90%83%E7%AC%AC%E5%9B%9B-ai%E6%B5%AA%E6%BD%AE%E5%8A%A9%E6%8E%A8%E5%8A%A0%E6%AC%8A%E6%8C%87%E6%95%B8%E5%89%B5%E6%96%B0%E9%AB%98-003205506.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "美股收低　投顧：台股創高後留意美伊局勢",
+      "original_title": null,
+      "summary": "重點：（中央社記者江明晏台北24日電）美股收低，台積電ADR跌1.2%，台股23日震盪創高，終場上漲357.12點，收在48157.29點，再創台股收…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E6%94%B6%E4%BD%8E-%E6%8A%95%E9%A1%A7-%E5%8F%B0%E8%82%A1%E5%89%B5%E9%AB%98%E5%BE%8C%E7%95%99%E6%84%8F%E7%BE%8E%E4%BC%8A%E5%B1%80%E5%8B%A2-002417545.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "鴻海跨國助攻！沙烏地阿拉伯EXOBOT電動車榨出1111匹馬力",
+      "original_title": null,
+      "summary": "重點：沙烏地阿拉伯正式邁向汽車製造業，由公共投資基金與鴻海合資的本土品牌Ceer，重磅推出首批量產電動車Exobot。該車款採用800V高壓架構，頂規…。",
+      "link": "https://tw.news.yahoo.com/%E9%B4%BB%E6%B5%B7%E8%B7%A8%E5%9C%8B%E5%8A%A9%E6%94%BB-%E6%B2%99%E7%83%8F%E5%9C%B0%E9%98%BF%E6%8B%89%E4%BC%AFexobot%E9%9B%BB%E5%8B%95%E8%BB%8A%E6%A6%A8%E5%87%BA1111%E5%8C%B9%E9%A6%AC%E5%8A%9B-002000716.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

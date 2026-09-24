@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-24",
-  "generated_at": "2026-09-24T08:44:49+08:00",
+  "generated_at": "2026-09-24T09:19:27+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4327.7,
-      "change": 9.300000000000182,
-      "change_percent": 0.21535753982957073,
+      "price": 4330.1,
+      "change": 11.700000000000728,
+      "change_percent": 0.27093367914043925,
       "currency": "USD",
-      "market_time": 1790210086,
+      "market_time": 1790212165,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 91.53,
-      "change": -0.6299999999999955,
-      "change_percent": -0.683593749999995,
+      "price": 91.42,
+      "change": -0.7399999999999949,
+      "change_percent": -0.8029513888888834,
       "currency": "USD",
-      "market_time": 1790210082,
+      "market_time": 1790212165,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 97.44,
-      "change": -0.6800000000000068,
-      "change_percent": -0.6930289441500272,
+      "price": 97.2,
+      "change": -0.9200000000000017,
+      "change_percent": -0.9376273950264998,
       "currency": "USD",
-      "market_time": 1790210057,
+      "market_time": 1790212158,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.755,
-      "change": -0.05799999999999983,
-      "change_percent": -0.18231540565177706,
+      "price": 31.82,
+      "change": 0.0070000000000014495,
+      "change_percent": 0.022003583440736333,
       "currency": "TWD",
-      "market_time": 1790210688,
+      "market_time": 1790212766,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9712,
-      "change": 0.005199999999999427,
-      "change_percent": 0.10471204188480521,
+      "price": 4.9539,
+      "change": -0.012100000000000222,
+      "change_percent": -0.24365686669352038,
       "currency": "JPY",
-      "market_time": 1790210648,
+      "market_time": 1790212748,
       "source": "yahoo"
     },
     {
@@ -263,6 +263,42 @@
     }
   ],
   "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Chinese authorities reportedly in possession of F-35 components in Hong Kong",
+      "link": "https://www.cnbc.com/2026/09/24/chinaf-f35-components-hong-kong.html",
+      "published_at": "2026-09-24T01:16:34+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "SoftBank shares jump over 7% after $11.1 billion bond issuance to fund OpenAI bet",
+      "link": "https://www.cnbc.com/2026/09/24/softbank-shares-bond-issuance-openai.html",
+      "published_at": "2026-09-24T01:06:45+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "They were labelled 'pervert glasses'. Will a camera-free version transform their image?",
+      "link": "https://www.bbc.co.uk/news/articles/cwp80l0my1x2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-24T00:50:24+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "America’s Asian allies want a Trump-Xi truce — but not at their expense",
+      "link": "https://www.cnbc.com/2026/09/24/uss-asian-allies-want-a-trump-xi-truce-but-not-at-their-expense.html",
+      "published_at": "2026-09-24T00:48:04+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
     {
       "kind": "news",
       "category": "international",
@@ -401,6 +437,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "【國票金控晨訊】美股全數收跌　台股將量縮震盪",
+      "original_title": null,
+      "summary": "重點：日期：2026年 9月24日※操作建議與結論升息預期攀升，美股全數收跌 高階產能排擠，中低壓功率元件接棒受惠今日盤勢及未來走勢：(留意功率元件布…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E7%A5%A8%E9%87%91%E6%8E%A7%E6%99%A8%E8%A8%8A-%E7%BE%8E%E8%82%A1%E5%85%A8%E6%95%B8%E6%94%B6%E8%B7%8C-%E5%8F%B0%E8%82%A1%E5%B0%87%E9%87%8F%E7%B8%AE%E9%9C%87%E7%9B%AA-004448788.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "紐交所攜Blockchain.com探索股票代幣化，瞄準美股與ETF全天交易",
       "original_title": null,
       "summary": "重點：【財訊快報／陳孟朔】路透報導，紐約證券交易所(NYSE)與加密資產經紀商Blockchain.com週三宣布合作，探索讓用戶透過區塊鏈交易美國上…。",
@@ -425,6 +471,36 @@
       "original_title": null,
       "summary": "重點：【財訊快報／劉敏夫】美國公債價格週三下跌，引領殖利率走升，5年期公債殖利率近20年來首次升逾5%，因美國採購經理人指數(PMI)表現強勁且新債標…。",
       "link": "https://tw.stock.yahoo.com/news/pmi%E5%BC%B7%E5%8B%81%E7%96%8A%E5%8A%A0%E6%96%B0%E5%82%B5%E6%A8%99%E5%94%AE%E7%96%B2%E8%BB%9F-%E7%BE%8E%E5%82%B5%E9%87%8D%E6%8C%AB-5%E5%B9%B4%E6%9C%9F%E6%AE%96%E5%88%A9%E7%8E%87%E8%BF%9120%E5%B9%B4%E9%A6%96%E7%A0%B45-002706769.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股早盤跌逾300點 台積電跌30元",
+      "original_title": null,
+      "summary": "重點：美股收低，台北股市今天（24日）開盤跌81.9點，加權股價指數為48075.39點，成交金額新台幣94.6億元。開盤3分鐘後，跌逾300點，早盤…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E8%B7%8C%E9%80%BE300%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%8C30%E5%85%83-010643214.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台積電晶圓傳要漲價了！2027年1月起調高3%至6%，ADR週三跌1.2%",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】媒體引述供應鏈人士報導，台積電(2330)擬自2027年1月起，依製程調高晶圓出片(Wafer Out)價格約3%至6%，其…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%99%B6%E5%9C%93%E5%82%B3%E8%A6%81%E6%BC%B2%E5%83%B9%E4%BA%86-2027%E5%B9%B41%E6%9C%88%E8%B5%B7%E8%AA%BF%E9%AB%983-%E8%87%B36-adr%E9%80%B1%E4%B8%89%E8%B7%8C1-2-005154121.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "券商晨訊台股投資建議摘要 (1) 2026年9月24日",
+      "original_title": null,
+      "summary": "重點：【統一證券】美債殖利率破頂擾局，惟台股資金動能無虞，拉回即是良機。均線呈現多頭排列；指標部分，中短線多方動能正加速匯聚，技術方維持強勢。【國票證…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%88%B8%E5%95%86%E6%99%A8%E8%A8%8A%E5%8F%B0%E8%82%A1%E6%8A%95%E8%B3%87%E5%BB%BA%E8%AD%B0%E6%91%98%E8%A6%81-1-2026%E5%B9%B49%E6%9C%8824%E6%97%A5-004550410.html",
       "published_at": null,
       "source": "yahoo_news"
     },

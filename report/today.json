@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-25",
-  "generated_at": "2026-09-25T08:42:22+08:00",
+  "generated_at": "2026-09-25T09:25:19+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4303.2,
-      "change": 5.199999999999818,
-      "change_percent": 0.12098650535132198,
+      "price": 4325.4,
+      "change": 27.399999999999636,
+      "change_percent": 0.6375058166589027,
       "currency": "USD",
-      "market_time": 1790296339,
+      "market_time": 1790298918,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 93.78,
-      "change": -0.8299999999999983,
-      "change_percent": -0.8772856991861308,
+      "price": 93.54,
+      "change": -1.0699999999999932,
+      "change_percent": -1.1309586724447662,
       "currency": "USD",
-      "market_time": 1790296334,
+      "market_time": 1790298917,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 105.92,
-      "change": -0.6799999999999926,
-      "change_percent": -0.6378986866791675,
+      "price": 105.85,
+      "change": -0.75,
+      "change_percent": -0.7035647279549719,
       "currency": "USD",
-      "market_time": 1790296219,
+      "market_time": 1790298853,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.834,
-      "change": 0.030000000000001137,
-      "change_percent": 0.09432775751478159,
+      "price": 31.756,
+      "change": -0.047999999999998266,
+      "change_percent": -0.15092441202363938,
       "currency": "TWD",
-      "market_time": 1790296942,
+      "market_time": 1790299519,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9797,
-      "change": -0.0028999999999994586,
-      "change_percent": -0.05820254485608836,
+      "price": 4.9848,
+      "change": 0.002200000000000202,
+      "change_percent": 0.044153654718424154,
       "currency": "JPY",
-      "market_time": 1790296747,
+      "market_time": 1790299448,
       "source": "yahoo"
     },
     {
@@ -266,9 +266,36 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "China's Xi urges U.S. to cooperate on AI",
+      "link": "https://www.cnbc.com/2026/09/25/chinas-xi-urges-us-to-cooperate-on-ai.html",
+      "published_at": "2026-09-25T01:22:17+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "CNBC Daily Open: Stability is on the menu as Trump and Xi start dinner",
+      "link": "https://www.cnbc.com/2026/09/25/cnbc-daily-open-stability-is-on-the-menu-as-trump-and-xi-start-dinner.html",
+      "published_at": "2026-09-25T01:19:33+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Atlanta is getting pandas: China's Xi revives a longtime diplomatic strategy at summit with U.S.",
+      "link": "https://www.cnbc.com/2026/09/25/china-us-xi-trump-visit-panda-student-visa-.html",
+      "published_at": "2026-09-25T01:12:19+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Here's who is attending the Trump-Xi state dinner",
       "link": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html",
-      "published_at": "2026-09-25T00:22:31+00:00",
+      "published_at": "2026-09-25T01:02:40+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
@@ -356,6 +383,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "美股收盤／美債殖利率攀升！道瓊跌161點「連3黑」　台積電ADR逆勢漲1.03%",
+      "original_title": null,
+      "summary": "重點：油價與美債殖利率攀升，加上聯準會官員持續釋出升息訊號，美股一度下挫，隨著美伊傳磋商分階段結束戰事、重開荷姆茲海峽，三大指數收復跌幅。其中台積電A…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E6%94%B6%E7%9B%A4-%E7%BE%8E%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87%E6%94%80%E5%8D%87-%E9%81%93%E7%93%8A%E8%B7%8C161%E9%BB%9E-%E9%80%A33%E9%BB%91-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E9%80%86%E5%8B%A2%E6%BC%B21-005600818.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "投資人聚焦美伊戰爭　美股多收黑",
       "original_title": null,
       "summary": "重點：（中央社紐約2026年09月24日綜合外電報導）在微軟股價下跌但Meta Platforms走高的情況下，美股標普500指數今天小幅收低，而隨著…。",
@@ -380,6 +417,46 @@
       "original_title": null,
       "summary": "重點：晶片大廠高通2026驍龍高峰論壇進入第二天議程，展現出代理式AI PC的願景，該公司與微軟再續前緣，於現場展示微軟12吋Surface Pro與…。",
       "link": "https://tw.news.yahoo.com/%E9%AB%98%E9%80%9Anb%E6%99%B6%E7%89%87%E5%87%BA%E6%93%8A-%E5%BE%AE%E8%BB%9F%E5%8A%9B%E6%8C%BA-%E5%92%8C%E7%A2%A9-%E5%BB%A3%E9%81%94%E7%AD%89%E4%BB%A3%E5%B7%A5%E5%BB%A0%E5%8F%97%E6%83%A0-224435941.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "友達ADR24日下跌0.021美元跌幅0.20%折台股33.78元",
+      "original_title": null,
+      "summary": "重點：(中央社台北2026年 9月25日電)友達光電在OTC US掛牌ADR以 10.63美元作收，下跌0.021美元，跌幅 0.20%。由於每單位友…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%8B%E9%81%94adr24%E6%97%A5%E4%B8%8B%E8%B7%8C0-021%E7%BE%8E%E5%85%83%E8%B7%8C%E5%B9%850-20-%E6%8A%98%E5%8F%B0%E8%82%A133-78%E5%85%83-005634802.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "中華電信ADR24日下跌0.13美元跌幅0.28%折台股146.41元",
+      "original_title": null,
+      "summary": "重點：(中央社台北2026年 9月25日電)中華電信在NYSE掛牌ADR 以 46.07美元作收，下跌0.13美元，跌幅 0.28%。由於每單位中華電…。",
+      "link": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E8%8F%AF%E9%9B%BB%E4%BF%A1adr24%E6%97%A5%E4%B8%8B%E8%B7%8C0-13%E7%BE%8E%E5%85%83%E8%B7%8C%E5%B9%850-28-%E6%8A%98%E5%8F%B0%E8%82%A1146-41%E5%85%83-005630207.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "聯電ADR24日下跌0.58美元跌幅2.35%折台股153.18元",
+      "original_title": null,
+      "summary": "重點：(中央社台北2026年 9月25日電)聯電在NYSE掛牌 ADR以24.10美元作收，下跌0.58美元，跌幅 2.35%。由於每單位聯電 ADR…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%81%AF%E9%9B%BBadr24%E6%97%A5%E4%B8%8B%E8%B7%8C0-58%E7%BE%8E%E5%85%83%E8%B7%8C%E5%B9%852-35-%E6%8A%98%E5%8F%B0%E8%82%A1153-18%E5%85%83-005628824.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台積電ADR24日上漲4.58美元漲幅1.03%折台股2867.51元",
+      "original_title": null,
+      "summary": "重點：(中央社台北2026年 9月25日電)台積電在NYSE掛牌 ADR以451.15美元作收，上漲4.58美元，漲幅 1.03%。由於每單位台積電…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BBadr24%E6%97%A5%E4%B8%8A%E6%BC%B24-58%E7%BE%8E%E5%85%83%E6%BC%B2%E5%B9%851-03-%E6%8A%98%E5%8F%B0%E8%82%A12867-51%E5%85%83-005625240.html",
       "published_at": null,
       "source": "yahoo_news"
     },

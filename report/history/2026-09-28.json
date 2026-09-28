@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-28",
-  "generated_at": "2026-09-28T09:03:02+08:00",
+  "generated_at": "2026-09-28T09:35:18+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4266.6,
-      "change": -54.599999999999454,
-      "change_percent": -1.2635379061371714,
+      "price": 4253.1,
+      "change": -68.09999999999945,
+      "change_percent": -1.5759511246875741,
       "currency": "USD",
-      "market_time": 1790556774,
+      "market_time": 1790558716,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 93.03,
-      "change": 0.6200000000000045,
-      "change_percent": 0.6709230602748669,
+      "price": 93.44,
+      "change": 1.0300000000000011,
+      "change_percent": 1.1145979872308205,
       "currency": "USD",
-      "market_time": 1790556778,
+      "market_time": 1790558717,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 98.07,
-      "change": 0.6299999999999955,
-      "change_percent": 0.6465517241379264,
+      "price": 98.44,
+      "change": 1.0,
+      "change_percent": 1.026272577996716,
       "currency": "USD",
-      "market_time": 1790556753,
+      "market_time": 1790558679,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.756,
-      "change": 0.06099999999999994,
-      "change_percent": 0.1924593784508596,
+      "price": 31.786,
+      "change": 0.09100000000000108,
+      "change_percent": 0.28711153178735155,
       "currency": "TWD",
-      "market_time": 1790557381,
+      "market_time": 1790559318,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9567,
-      "change": 0.005999999999999339,
-      "change_percent": 0.12119498252771001,
+      "price": 4.9577,
+      "change": 0.006999999999999673,
+      "change_percent": 0.14139414628233732,
       "currency": "JPY",
-      "market_time": 1790557137,
+      "market_time": 1790559238,
       "source": "yahoo"
     },
     {
@@ -266,6 +266,24 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Northern Star shares pop as Australian gold miner rejects $27-billion takeover proposal",
+      "link": "https://www.cnbc.com/2026/09/28/northern-star-shares-gold-fields-takeover-bid.html",
+      "published_at": "2026-09-28T01:19:23+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "CNBC Daily Open: The art of the deal-ish",
+      "link": "https://www.cnbc.com/2026/09/28/cnbc-daily-open-the-art-of-the-deal-ish.html",
+      "published_at": "2026-09-28T01:11:39+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Oil gains over 1% as Trump rejects Iranian proposal to reopen Hormuz Strait",
       "link": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html",
       "published_at": "2026-09-28T00:32:09+00:00",
@@ -356,6 +374,26 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "中國傳考慮放行輝達新晶片採購 阿里巴巴.字節跳動被要求申報需求",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 中國科技企業採購輝達（Nvidia）晶片，可能出現新進展，《The Information》引述兩名知情人士報導，中國工…。",
+      "link": "https://tw.news.yahoo.com/%E4%B8%AD%E5%9C%8B%E5%82%B3%E8%80%83%E6%85%AE%E6%94%BE%E8%A1%8C%E8%BC%9D%E9%81%94%E6%96%B0%E6%99%B6%E7%89%87%E6%8E%A1%E8%B3%BC-%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4-%E5%AD%97%E7%AF%80%E8%B7%B3%E5%8B%95%E8%A2%AB%E8%A6%81%E6%B1%82%E7%94%B3%E5%A0%B1%E9%9C%80%E6%B1%82-011304839.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美股真正主角不是輝達！費半走強暗藏玄機 專家：台股2族群點火",
+      "original_title": null,
+      "summary": "重點：中秋4天連假即將結束，台股將於明（29）日恢復正常開市交易，資深分析師周代運在臉書發文指出，上周美股盤勢透露出重要訊號，AI龍頭輝達走勢平平，反…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E7%9C%9F%E6%AD%A3%E4%B8%BB%E8%A7%92%E4%B8%8D%E6%98%AF%E8%BC%9D%E9%81%94-%E8%B2%BB%E5%8D%8A%E8%B5%B0%E5%BC%B7%E6%9A%97%E8%97%8F%E7%8E%84%E6%A9%9F-%E5%B0%88%E5%AE%B6-%E5%8F%B0%E8%82%A12%E6%97%8F%E7%BE%A4%E9%BB%9E%E7%81%AB-010358949.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "台股中秋連假完「起漲有戲」？美股續強、ADR多數收紅　法人加碼股一次看",
       "original_title": null,
       "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導美股週五（25日）主要指數收紅、持續在歷史高點附近震盪，主要科技權值股也紛紛起漲，台股ADR幾乎收紅，為台…。",
@@ -370,6 +408,36 @@
       "original_title": null,
       "summary": "重點：美國期中選舉倒數，市場聚焦國會版圖重組與油價波動對經濟的影響。專家分析，儘管選情與聯準會政策增添不確定性，但歷史數據顯示，美股在選舉前一個月布局…。",
       "link": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E6%8A%95%E9%A1%A7%E9%82%84%E6%9C%89%E6%95%88-%E6%9C%9F%E4%B8%AD%E9%81%B8%E8%88%89%E5%80%92%E6%95%B8%E8%A8%88%E6%99%82-%E7%BE%8E%E8%82%A1%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97-000500485.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "新ETF開募 鴻海法說、美PCE和非農數據登場",
+      "original_title": null,
+      "summary": "重點：本周【投資早知道】聚焦在台股主動ETF新浪潮！群益00415A 9月30日開募；台股Q4開局！ 鴻海法說登場 AI伺服器全年倍增成長怎麼說？以及…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E4%B8%BB%E5%8B%95etf%E6%96%B0%E6%B5%AA%E6%BD%AE%EF%BC%81%E7%BE%A4%E7%9B%8A00415a-9%E6%9C%8830%E6%97%A5%E9%96%8B%E5%8B%9F-%E9%B4%BB%E6%B5%B7%E6%B3%95%E8%AA%AA%E7%99%BB%E5%A0%B4-ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E5%85%A8%E5%B9%B4%E5%80%8D%E5%A2%9E%E6%88%90%E9%95%B7%E6%80%8E%E9%BA%BC%E8%AA%AA%EF%BC%9F%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E5%BE%8C%E5%85%A9%E5%A4%A7%E9%97%9C%E5%8D%A1%EF%BC%81pce%EF%BC%8B%E9%9D%9E%E8%BE%B2%E6%95%B8%E6%93%9A%E7%89%BD%E5%8B%9511%E6%9C%88%E6%98%AF%E5%90%A6%E5%86%8D%E5%8D%87%EF%BD%9C%E6%8A%95%E8%B3%87%E6%97%A9%E7%9F%A5%E9%81%93-170602526.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "AI通膨！謝金河看台股　5公司「單點突破」",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]借錢變難，利率升高，資金愈來愈緊俏的現實！財信傳媒董事長謝金河以「錢緊！AI通膨來了！」為題發文，今（2026）年科技…。",
+      "link": "https://tw.news.yahoo.com/ai%E9%80%9A%E8%86%A8-%E8%AC%9D%E9%87%91%E6%B2%B3%E7%9C%8B%E5%8F%B0%E8%82%A1-5%E5%85%AC%E5%8F%B8-%E5%96%AE%E9%BB%9E%E7%AA%81%E7%A0%B4-012103037.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "風評：台股全球第四，為什麼台灣人沒有世界第四的感覺？",
+      "original_title": null,
+      "summary": "重點：中秋連假前最後一個交易日，台股24日高檔震盪，終場下跌132點，收在4萬8024點，成交值7366億元，仍守住4.8萬點。前一天，台股才以4萬8…。",
+      "link": "https://tw.news.yahoo.com/%E9%A2%A8%E8%A9%95-%E5%8F%B0%E8%82%A1%E5%85%A8%E7%90%83%E7%AC%AC%E5%9B%9B-%E7%82%BA%E4%BB%80%E9%BA%BC%E5%8F%B0%E7%81%A3%E4%BA%BA%E6%B2%92%E6%9C%89%E4%B8%96%E7%95%8C%E7%AC%AC%E5%9B%9B%E7%9A%84%E6%84%9F%E8%A6%BA-011000851.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -390,16 +458,6 @@
       "original_title": null,
       "summary": "重點：[NOWNEWS今日新聞]美股近期維持高檔，然而隨著全球債務膨脹、債券殖利率走高，加上企業面臨龐大的再融資壓力，市場對股災的擔憂也再度升溫。《M…。",
       "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E5%B4%A9%E7%9B%A4-%E5%B0%88%E5%AE%B6-%E6%A2%9D%E4%BB%B6%E5%B9%BE%E4%B9%8E%E5%88%B0%E4%BD%8D-%E5%8F%AA%E5%B7%AE%E5%B0%8E%E7%81%AB%E7%B7%9A-224234735.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "新ETF開募 鴻海法說、美PCE和非農數據登場",
-      "original_title": null,
-      "summary": "重點：本周【投資早知道】聚焦在台股主動ETF新浪潮！群益00415A 9月30日開募；台股Q4開局！ 鴻海法說登場 AI伺服器全年倍增成長怎麼說？以及…。",
-      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E4%B8%BB%E5%8B%95etf%E6%96%B0%E6%B5%AA%E6%BD%AE%EF%BC%81%E7%BE%A4%E7%9B%8A00415a-9%E6%9C%8830%E6%97%A5%E9%96%8B%E5%8B%9F-%E9%B4%BB%E6%B5%B7%E6%B3%95%E8%AA%AA%E7%99%BB%E5%A0%B4-ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E5%85%A8%E5%B9%B4%E5%80%8D%E5%A2%9E%E6%88%90%E9%95%B7%E6%80%8E%E9%BA%BC%E8%AA%AA%EF%BC%9F%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E5%BE%8C%E5%85%A9%E5%A4%A7%E9%97%9C%E5%8D%A1%EF%BC%81pce%EF%BC%8B%E9%9D%9E%E8%BE%B2%E6%95%B8%E6%93%9A%E7%89%BD%E5%8B%9511%E6%9C%88%E6%98%AF%E5%90%A6%E5%86%8D%E5%8D%87%EF%BD%9C%E6%8A%95%E8%B3%87%E6%97%A9%E7%9F%A5%E9%81%93-170602526.html",
       "published_at": null,
       "source": "yahoo_news"
     },

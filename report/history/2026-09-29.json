@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-09-29",
-  "generated_at": "2026-09-29T10:12:11+08:00",
+  "generated_at": "2026-09-29T10:33:15+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -97,7 +97,7 @@
       "change": -4.899999999999636,
       "change_percent": -0.11755109874291422,
       "currency": "USD",
-      "market_time": 1790647326,
+      "market_time": 1790648594,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 93.66,
-      "change": 1.0600000000000023,
-      "change_percent": 1.1447084233261364,
+      "price": 93.42,
+      "change": 0.8200000000000074,
+      "change_percent": 0.8855291576673946,
       "currency": "USD",
-      "market_time": 1790647328,
+      "market_time": 1790648594,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 99.29,
-      "change": 1.460000000000008,
-      "change_percent": 1.4923847490544904,
+      "price": 99.1,
+      "change": 1.269999999999996,
+      "change_percent": 1.2981702954104017,
       "currency": "USD",
-      "market_time": 1790647324,
+      "market_time": 1790648569,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.806,
-      "change": 0.0259999999999998,
-      "change_percent": 0.08181246066708558,
+      "price": 31.814,
+      "change": 0.03399999999999892,
+      "change_percent": 0.10698552548772473,
       "currency": "TWD",
-      "market_time": 1790647931,
+      "market_time": 1790649193,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9475,
-      "change": 0.0045000000000001705,
-      "change_percent": 0.09103783127655615,
+      "price": 4.937,
+      "change": -0.005999999999999339,
+      "change_percent": -0.12138377503539025,
       "currency": "JPY",
-      "market_time": 1790647739,
+      "market_time": 1790648939,
       "source": "yahoo"
     },
     {
@@ -266,19 +266,19 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "Oil extends gains as Middle East supply concerns persist",
-      "link": "https://www.cnbc.com/2026/09/29/oil-prices-today-brent-wti-hormuz.html",
-      "published_at": "2026-09-29T01:53:31+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "title": "OpenAI scraps rollout of new model over safety concerns",
+      "link": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-29T02:29:25+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "OpenAI scraps rollout of new model over safety concerns",
-      "link": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-09-29T01:51:25+00:00",
-      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "title": "Oil extends gains as Middle East supply concerns persist",
+      "link": "https://www.cnbc.com/2026/09/29/oil-prices-today-brent-wti-hormuz.html",
+      "published_at": "2026-09-29T01:53:31+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
     {
@@ -428,10 +428,30 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "AI自主行動風險升高　輝達出手設防",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]AI代理（AIagent）程式現在不只會聊天，還能自己搜尋資料、操作工具、執行程式，甚至完成一連串工作，但AI越能「自…。",
+      "link": "https://tw.news.yahoo.com/ai%E8%87%AA%E4%B8%BB%E8%A1%8C%E5%8B%95%E9%A2%A8%E9%9A%AA%E5%8D%87%E9%AB%98-%E8%BC%9D%E9%81%94%E5%87%BA%E6%89%8B%E8%A8%AD%E9%98%B2-021102880.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "好市多喜收川普關稅大禮包　58億回饋給消費者：商品降價",
       "original_title": null,
       "summary": "重點：美式賣場好市多（Costco）獲法院裁定，將拿到關稅退款，在2026年第四季、一筆1.84億美元（約新台幣58億元）退款將會入帳，官方如今表示，…。",
       "link": "https://tw.news.yahoo.com/%E5%A5%BD%E5%B8%82%E5%A4%9A%E5%96%9C%E6%94%B6%E5%B7%9D%E6%99%AE%E9%97%9C%E7%A8%85%E5%A4%A7%E7%A6%AE%E5%8C%85-58%E5%84%84%E5%9B%9E%E9%A5%8B%E7%B5%A6%E6%B6%88%E8%B2%BB%E8%80%85-%E5%95%86%E5%93%81%E9%99%8D%E5%83%B9-014927370.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "〈台股開盤〉美債利率及國際油價雙升 跌逾190點展開4萬8大關保衛戰",
+      "original_title": null,
+      "summary": "重點：美債殖利率走升、美伊停火與重開荷姆茲海峽的談判尚無突破性進展，國際油價上漲，美股四大指數周一收黑。台股今（29）日開盤震盪，跌近 200 點，失…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4-%E7%BE%8E%E5%82%B5%E5%88%A9%E7%8E%87%E5%8F%8A%E5%9C%8B%E9%9A%9B%E6%B2%B9%E5%83%B9%E9%9B%99%E5%8D%87-%E8%B7%8C%E9%80%BE190%E9%BB%9E%E5%B1%95%E9%96%8B4%E8%90%AC8%E5%A4%A7%E9%97%9C%E4%BF%9D%E8%A1%9B%E6%88%B0-014416065.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -447,31 +467,21 @@
     },
     {
       "kind": "news",
-      "category": "international",
-      "title": "輝達推安全工具雙重防護　數毫秒內隔離越界AI代理",
+      "category": "domestic",
+      "title": "新ETF開募 鴻海法說、美PCE和非農數據登場",
       "original_title": null,
-      "summary": "重點：（中央社舊金山2026年9月28日綜合外電報導）近期一連串事件引發外界對人工智慧（AI）風險疑慮，美國AI晶片巨擘輝達今天推出一套目的防止自主A…。",
-      "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E6%8E%A8%E5%AE%89%E5%85%A8%E5%B7%A5%E5%85%B7%E9%9B%99%E9%87%8D%E9%98%B2%E8%AD%B7-%E6%95%B8%E6%AF%AB%E7%A7%92%E5%85%A7%E9%9A%94%E9%9B%A2%E8%B6%8A%E7%95%8Cai%E4%BB%A3%E7%90%86-011624386.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "輝達推安全工具雙重防護　數毫秒內隔離越界AI代理",
-      "original_title": null,
-      "summary": "重點：（中央社舊金山28日綜合外電報導）近期一連串事件引發外界對人工智慧（AI）風險疑慮，美國AI晶片巨擘輝達今天推出一套目的防止自主AI程式偏離既定…。",
-      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E6%8E%A8%E5%AE%89%E5%85%A8%E5%B7%A5%E5%85%B7%E9%9B%99%E9%87%8D%E9%98%B2%E8%AD%B7-%E6%95%B8%E6%AF%AB%E7%A7%92%E5%85%A7%E9%9A%94%E9%9B%A2%E8%B6%8A%E7%95%8Cai%E4%BB%A3%E7%90%86-011523576.html",
+      "summary": "重點：本周【投資早知道】聚焦在台股主動ETF新浪潮！群益00415A 9月30日開募；台股Q4開局！ 鴻海法說登場 AI伺服器全年倍增成長怎麼說？以及…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E4%B8%BB%E5%8B%95etf%E6%96%B0%E6%B5%AA%E6%BD%AE%EF%BC%81%E7%BE%A4%E7%9B%8A00415a-9%E6%9C%8830%E6%97%A5%E9%96%8B%E5%8B%9F-%E9%B4%BB%E6%B5%B7%E6%B3%95%E8%AA%AA%E7%99%BB%E5%A0%B4-ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E5%85%A8%E5%B9%B4%E5%80%8D%E5%A2%9E%E6%88%90%E9%95%B7%E6%80%8E%E9%BA%BC%E8%AA%AA%EF%BC%9F%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E5%BE%8C%E5%85%A9%E5%A4%A7%E9%97%9C%E5%8D%A1%EF%BC%81pce%EF%BC%8B%E9%9D%9E%E8%BE%B2%E6%95%B8%E6%93%9A%E7%89%BD%E5%8B%9511%E6%9C%88%E6%98%AF%E5%90%A6%E5%86%8D%E5%8D%87%EF%BD%9C%E6%8A%95%E8%B3%87%E6%97%A9%E7%9F%A5%E9%81%93-170602526.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "新ETF開募 鴻海法說、美PCE和非農數據登場",
+      "title": "中秋連假後首開盤！台股早盤失守48K一路震盪 台積電平盤開出",
       "original_title": null,
-      "summary": "重點：本周【投資早知道】聚焦在台股主動ETF新浪潮！群益00415A 9月30日開募；台股Q4開局！ 鴻海法說登場 AI伺服器全年倍增成長怎麼說？以及…。",
-      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E4%B8%BB%E5%8B%95etf%E6%96%B0%E6%B5%AA%E6%BD%AE%EF%BC%81%E7%BE%A4%E7%9B%8A00415a-9%E6%9C%8830%E6%97%A5%E9%96%8B%E5%8B%9F-%E9%B4%BB%E6%B5%B7%E6%B3%95%E8%AA%AA%E7%99%BB%E5%A0%B4-ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E5%85%A8%E5%B9%B4%E5%80%8D%E5%A2%9E%E6%88%90%E9%95%B7%E6%80%8E%E9%BA%BC%E8%AA%AA%EF%BC%9F%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E5%BE%8C%E5%85%A9%E5%A4%A7%E9%97%9C%E5%8D%A1%EF%BC%81pce%EF%BC%8B%E9%9D%9E%E8%BE%B2%E6%95%B8%E6%93%9A%E7%89%BD%E5%8B%9511%E6%9C%88%E6%98%AF%E5%90%A6%E5%86%8D%E5%8D%87%EF%BD%9C%E6%8A%95%E8%B3%87%E6%97%A9%E7%9F%A5%E9%81%93-170602526.html",
+      "summary": "重點：中秋教師節連假結束！週一美股因日前美國總統川普（Donald Trump）拒絕伊朗提出為期7天的停火方案後，美國公債殖利率持續走高，連同國際油價…。",
+      "link": "https://tw.news.yahoo.com/%E4%B8%AD%E7%A7%8B%E9%80%A3%E5%81%87%E5%BE%8C%E9%A6%96%E9%96%8B%E7%9B%A4-%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E5%A4%B1%E5%AE%8848k-%E8%B7%AF%E9%9C%87%E7%9B%AA-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%B9%B3%E7%9B%A4%E9%96%8B%E5%87%BA-021322808.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -492,6 +502,26 @@
       "original_title": null,
       "summary": "重點：[FTNN新聞網]財經中心／綜合報導日前蘋果秋季發表會祭出品牌首款摺疊機，不僅吸引市場目光，也揭開消費電子旺季的序幕，過往經驗來看，第四季至隔年…。",
       "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1q4%E6%97%BA%E5%AD%A3%E8%A6%81%E4%BE%86%E4%BA%86-20%E5%B9%B4%E6%AD%B7%E5%8F%B2%E5%A0%B1%E9%85%AC%E7%8E%87%E6%9B%9D%E5%85%89-%E4%B8%BB%E5%8B%95etf%E6%96%B0%E5%85%B5-%E7%A9%8D%E6%A5%B5%E5%8D%A1%E4%BD%8D%E5%8D%83%E9%87%91-%E9%BE%8D%E9%A0%AD%E8%82%A1-014500874.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達推安全工具雙重防護　數毫秒內隔離越界AI代理",
+      "original_title": null,
+      "summary": "重點：（中央社舊金山2026年9月28日綜合外電報導）近期一連串事件引發外界對人工智慧（AI）風險疑慮，美國AI晶片巨擘輝達今天推出一套目的防止自主A…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E6%8E%A8%E5%AE%89%E5%85%A8%E5%B7%A5%E5%85%B7%E9%9B%99%E9%87%8D%E9%98%B2%E8%AD%B7-%E6%95%B8%E6%AF%AB%E7%A7%92%E5%85%A7%E9%9A%94%E9%9B%A2%E8%B6%8A%E7%95%8Cai%E4%BB%A3%E7%90%86-011624386.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達推安全工具雙重防護　數毫秒內隔離越界AI代理",
+      "original_title": null,
+      "summary": "重點：（中央社舊金山28日綜合外電報導）近期一連串事件引發外界對人工智慧（AI）風險疑慮，美國AI晶片巨擘輝達今天推出一套目的防止自主AI程式偏離既定…。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E6%8E%A8%E5%AE%89%E5%85%A8%E5%B7%A5%E5%85%B7%E9%9B%99%E9%87%8D%E9%98%B2%E8%AD%B7-%E6%95%B8%E6%AF%AB%E7%A7%92%E5%85%A7%E9%9A%94%E9%9B%A2%E8%B6%8A%E7%95%8Cai%E4%BB%A3%E7%90%86-011523576.html",
       "published_at": null,
       "source": "yahoo_news"
     },

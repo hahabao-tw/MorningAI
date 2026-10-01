@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-01",
-  "generated_at": "2026-10-01T09:26:16+08:00",
+  "generated_at": "2026-10-01T10:03:23+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4191.2,
-      "change": 4.5,
-      "change_percent": 0.10748322067499463,
+      "price": 4190.7,
+      "change": 4.0,
+      "change_percent": 0.09554064059999523,
       "currency": "USD",
-      "market_time": 1790817373,
+      "market_time": 1790819600,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 90.09,
-      "change": -0.3299999999999983,
-      "change_percent": -0.36496350364963315,
+      "price": 90.18,
+      "change": -0.23999999999999488,
+      "change_percent": -0.26542800265427435,
       "currency": "USD",
-      "market_time": 1790817367,
+      "market_time": 1790819597,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 97.79,
-      "change": -0.23999999999999488,
-      "change_percent": -0.2448230133632509,
+      "price": 97.99,
+      "change": -0.04000000000000625,
+      "change_percent": -0.04080383556054907,
       "currency": "USD",
-      "market_time": 1790817301,
+      "market_time": 1790819499,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.871,
-      "change": -0.0030000000000001137,
-      "change_percent": -0.009412059986196002,
+      "price": 31.925,
+      "change": 0.05100000000000193,
+      "change_percent": 0.16000501976533205,
       "currency": "TWD",
-      "market_time": 1790817975,
+      "market_time": 1790820203,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9443,
-      "change": 0.017999999999999794,
-      "change_percent": 0.3653857864929012,
+      "price": 4.9444,
+      "change": 0.01809999999999956,
+      "change_percent": 0.3674157075289682,
       "currency": "JPY",
-      "market_time": 1790817836,
+      "market_time": 1790819936,
       "source": "yahoo"
     },
     {
@@ -410,10 +410,80 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "東京匯市早盤美元指數連四彈，日圓續貶逼近158、歐元脫離波段低點",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】東京匯市週四(10月1日)早盤，美元指數續漲0.05%至101.506，連續第四個交易日走高，逼近9月29日觸及的101.6…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%9D%B1%E4%BA%AC%E5%8C%AF%E5%B8%82%E6%97%A9%E7%9B%A4%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B8%E9%80%A3%E5%9B%9B%E5%BD%88-%E6%97%A5%E5%9C%93%E7%BA%8C%E8%B2%B6%E9%80%BC%E8%BF%91158-%E6%AD%90%E5%85%83%E8%84%AB%E9%9B%A2%E6%B3%A2%E6%AE%B5%E4%BD%8E%E9%BB%9E-013429485.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "AI晶片下一站！ 輝達暗中吹起「玻璃風」  9台廠佈局曝光",
+      "original_title": null,
+      "summary": "重點：AI晶片持續升級使先進封裝需求大增，輝達、超微與英特爾等國際巨頭正積極評估在下一代AI晶片封裝採用玻璃基板，帶動台灣從玻璃加工、TGV成孔到金屬…。",
+      "link": "https://tw.stock.yahoo.com/news/ai%E6%99%B6%E7%89%87%E4%B8%8B-%E7%AB%99-%E8%BC%9D%E9%81%94%E6%9A%97%E4%B8%AD%E5%90%B9%E8%B5%B7-%E7%8E%BB%E7%92%83%E9%A2%A8-9%E5%8F%B0%E5%BB%A0%E4%BD%88%E5%B1%80%E6%9B%9D%E5%85%89-013400093.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "瑞士隆奧估美國期中選舉後，美債或領漲全球債券",
       "original_title": null,
       "summary": "重點：【財訊快報／劉敏夫】外電報導指出，瑞士隆奧(Lombard Odier)方面表示，11月美國期中選舉過後，隨著政治不確定性消退，以及分裂政府降低…。",
       "link": "https://tw.stock.yahoo.com/news/%E7%91%9E%E5%A3%AB%E9%9A%86%E5%A5%A7%E4%BC%B0%E7%BE%8E%E5%9C%8B%E6%9C%9F%E4%B8%AD%E9%81%B8%E8%88%89%E5%BE%8C-%E7%BE%8E%E5%82%B5%E6%88%96%E9%A0%98%E6%BC%B2%E5%85%A8%E7%90%83%E5%82%B5%E5%88%B8-011232022.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "AI支出續強勁 美銀點名美光、輝達、英特爾等「贏家」",
+      "original_title": null,
+      "summary": "重點：美銀半導體分析師Arya上調2026至2030年AI資料中心系統TAM至2.2兆美元，年增40%。 他稱AI資本支出與推理需求將維持強勁，費半估…。",
+      "link": "https://tw.stock.yahoo.com/news/ai%E6%94%AF%E5%87%BA%E7%BA%8C%E5%BC%B7%E5%8B%81-%E7%BE%8E%E9%8A%80%E9%BB%9E%E5%90%8D%E7%BE%8E%E5%85%89-%E8%BC%9D%E9%81%94-%E8%8B%B1%E7%89%B9%E7%88%BE%E7%AD%89-%E8%B4%8F%E5%AE%B6-010011177.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【Yahoo早盤】迎光輝10月！台股漲逾200點守住4萬8 分析師黃紫東：內資開始布局第四季",
+      "original_title": null,
+      "summary": "重點：迎來「光輝10月」，台股今（1）日早盤開高走揚，加權指數以47,961點開出，盤中最高觸及48,181點，上漲逾240點，守住4萬8千點大關。顧…。",
+      "link": "https://tw.stock.yahoo.com/news/%E3%80%90yahoo%E6%97%A9%E7%9B%A4%E3%80%91%E8%BF%8E%E5%85%89%E8%BC%9D10%E6%9C%88%EF%BC%81%E5%8F%B0%E8%82%A1%E6%BC%B2%E9%80%BE200%E9%BB%9E%E5%AE%88%E4%BD%8F4%E8%90%AC8-%E5%88%86%E6%9E%90%E5%B8%AB%E9%BB%83%E7%B4%AB%E6%9D%B1%EF%BC%9A%E5%85%A7%E8%B3%87%E9%96%8B%E5%A7%8B%E5%B8%83%E5%B1%80%E7%AC%AC%E5%9B%9B%E5%AD%A3-014502551.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股漲逾200點重返48K　台積電衝上2500元",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]美國通膨數據低於預期，但潛在升息機率猶存，美股漲跌互見，其中道瓊工業指數收挫443點。台股今（1）日早盤以47961.…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%BC%B2%E9%80%BE200%E9%BB%9E%E9%87%8D%E8%BF%9448k-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%A1%9D%E4%B8%8A2500%E5%85%83-012602146.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台積電10月開門紅！盤中漲20元至2500元 分析師看多",
+      "original_title": null,
+      "summary": "重點：台積電（2330）今（1）日盤中最高觸及2,495元，上漲15元。分析師指出，影響台積電走勢的核心關鍵仍為「外資態度」；由於外資需考量美股變化，…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB10%E6%9C%88%E9%96%8B%E9%96%80%E7%B4%85%EF%BC%81%E7%9B%A4%E4%B8%AD%E6%BC%B220%E5%85%83%E8%87%B32500%E5%85%83-%E5%88%86%E6%9E%90%E5%B8%AB%E7%9C%8B%E5%A4%9A-011830055.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股早盤漲逾200點重返48K　台積電開盤漲10元",
+      "original_title": null,
+      "summary": "重點：美國通膨數據低於市場預期，緩和市場對聯準會10月升息的疑慮，美股9月30日收盤指數漲跌互見。台股今（1）日開盤上漲21.85點，以47961.9…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E6%BC%B2%E9%80%BE200%E9%BB%9E%E9%87%8D%E8%BF%9448k-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%96%8B%E7%9B%A4%E6%BC%B210%E5%85%83-011726818.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -444,26 +514,6 @@
       "original_title": null,
       "summary": "重點：AI晶片戰火持續升溫，下一個引爆市場想像的，可能不只是晶片本身，而是「玻璃基板」，市場傳出輝達正評估將玻璃基板導入下一世代AI晶片先進封裝，相關…。",
       "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E7%8E%BB%E7%92%83%E5%9F%BA%E6%9D%BF%E9%A1%8C%E6%9D%90%E7%99%BC%E7%87%92-%E4%B8%8D%E5%8F%AA%E5%8F%8B%E9%81%94-%E7%BE%A4%E5%89%B5%E6%9A%B4%E8%A1%9D-%E5%B0%88%E5%AE%B6%E6%8F%AD6%E6%AA%94%E6%BD%9B%E5%8A%9B%E8%82%A1-004735145.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "台積電10月開門紅！盤中漲20元至2500元 分析師看多",
-      "original_title": null,
-      "summary": "重點：台積電（2330）今（1）日盤中最高觸及2,495元，上漲15元。分析師指出，影響台積電走勢的核心關鍵仍為「外資態度」；由於外資需考量美股變化，…。",
-      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB10%E6%9C%88%E9%96%8B%E9%96%80%E7%B4%85%EF%BC%81%E7%9B%A4%E4%B8%AD%E6%BC%B220%E5%85%83%E8%87%B32500%E5%85%83-%E5%88%86%E6%9E%90%E5%B8%AB%E7%9C%8B%E5%A4%9A-011830055.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "台股早盤漲逾200點重返48K　台積電開盤漲10元",
-      "original_title": null,
-      "summary": "重點：美國通膨數據低於市場預期，緩和市場對聯準會10月升息的疑慮，美股9月30日收盤指數漲跌互見。台股今（1）日開盤上漲21.85點，以47961.9…。",
-      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E6%BC%B2%E9%80%BE200%E9%BB%9E%E9%87%8D%E8%BF%9448k-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%96%8B%E7%9B%A4%E6%BC%B210%E5%85%83-011726818.html",
       "published_at": null,
       "source": "yahoo_news"
     },

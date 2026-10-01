@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-01",
-  "generated_at": "2026-10-01T07:05:14+08:00",
+  "generated_at": "2026-10-01T09:26:16+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4184.1,
-      "change": -2.5999999999994543,
-      "change_percent": -0.06210141638998386,
+      "price": 4191.2,
+      "change": 4.5,
+      "change_percent": 0.10748322067499463,
       "currency": "USD",
-      "market_time": 1790808891,
+      "market_time": 1790817373,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 90.06,
-      "change": -0.35999999999999943,
-      "change_percent": -0.3981420039814194,
+      "price": 90.09,
+      "change": -0.3299999999999983,
+      "change_percent": -0.36496350364963315,
       "currency": "USD",
-      "market_time": 1790808838,
+      "market_time": 1790817367,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 97.61,
-      "change": -0.4200000000000017,
-      "change_percent": -0.4284402733857,
+      "price": 97.79,
+      "change": -0.23999999999999488,
+      "change_percent": -0.2448230133632509,
       "currency": "USD",
-      "market_time": 1790808658,
+      "market_time": 1790817301,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.875,
-      "change": 0.0259999999999998,
-      "change_percent": 0.08163521617633145,
+      "price": 31.871,
+      "change": -0.0030000000000001137,
+      "change_percent": -0.009412059986196002,
       "currency": "TWD",
-      "market_time": 1790809514,
+      "market_time": 1790817975,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9286,
-      "change": -0.00019999999999953388,
-      "change_percent": -0.004057782827453617,
+      "price": 4.9443,
+      "change": 0.017999999999999794,
+      "change_percent": 0.3653857864929012,
       "currency": "JPY",
-      "market_time": 1790809438,
+      "market_time": 1790817836,
       "source": "yahoo"
     },
     {
@@ -266,6 +266,60 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "CNBC Daily Open: Potential diesel ban, Pentagon's warfare initiative and Google's latest AI model",
+      "link": "https://www.cnbc.com/2026/10/01/cnbc-daily-open-potential-diesel-ban-pentagons-warfare-initiative-and-googles-latest-ai-model-.html",
+      "published_at": "2026-10-01T01:16:32+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Passengers and crew foil co-pilot's apparent attempt to crash FlyDubai flight to Israel",
+      "link": "https://www.cnbc.com/2026/10/01/dubai-israel-flight-pilot-crash-indian.html",
+      "published_at": "2026-10-01T01:09:18+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "OpenAI flags Chinese-linked effort to extract AI model reasoning",
+      "link": "https://www.cnbc.com/2026/10/01/openai-chinas-moonshot-ai-kimi.html",
+      "published_at": "2026-10-01T01:06:02+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Vape prices to rise as new tax takes effect",
+      "link": "https://www.bbc.co.uk/news/articles/c6j4jrjgv2j7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-30T23:02:11+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Energy bills are going up - here's what you can do about it",
+      "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-30T23:01:32+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Trump 'thinking about' diesel export ban, but says it could have 'negative impact' on gasoline",
+      "link": "https://www.cnbc.com/2026/09/30/trump-diesel-export-ban-gas.html",
+      "published_at": "2026-09-30T22:43:53+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Google rolls out Gemini 4 Argon, its most advanced AI model",
       "link": "https://www.cnbc.com/2026/09/30/google-gemini-4-argon-ai.html",
       "published_at": "2026-09-30T22:27:09+00:00",
@@ -352,6 +406,86 @@
       "published_at": "2026-09-30T04:01:52+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "瑞士隆奧估美國期中選舉後，美債或領漲全球債券",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】外電報導指出，瑞士隆奧(Lombard Odier)方面表示，11月美國期中選舉過後，隨著政治不確定性消退，以及分裂政府降低…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%91%9E%E5%A3%AB%E9%9A%86%E5%A5%A7%E4%BC%B0%E7%BE%8E%E5%9C%8B%E6%9C%9F%E4%B8%AD%E9%81%B8%E8%88%89%E5%BE%8C-%E7%BE%8E%E5%82%B5%E6%88%96%E9%A0%98%E6%BC%B2%E5%85%A8%E7%90%83%E5%82%B5%E5%88%B8-011232022.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "馬斯克旗下雙雄週三齊漲，SpaceX站上150美元、特斯拉止跌小升0.56%",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】馬斯克(Elon Musk)旗下兩家上市公司週三(9月30日)齊收紅，太空探索公司SpaceX(美股代碼SPCX)延續Sta…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%A6%AC%E6%96%AF%E5%85%8B%E6%97%97%E4%B8%8B%E9%9B%99%E9%9B%84%E9%80%B1%E4%B8%89%E9%BD%8A%E6%BC%B2-spacex%E7%AB%99%E4%B8%8A150%E7%BE%8E%E5%85%83-%E7%89%B9%E6%96%AF%E6%8B%89%E6%AD%A2%E8%B7%8C%E5%B0%8F%E5%8D%870-56-005923287.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "爭取進口關稅豁免 南韓對美國能源投資3500億美元",
+      "original_title": null,
+      "summary": "重點：南韓政府公布3項重大的對美國能源實施計畫，推進規模達3500億美元的投資方案，爭取免除懲罰性的美國進口關稅，其投資項目涵蓋供應AI資料中心的發電…。",
+      "link": "https://tw.news.yahoo.com/%E7%88%AD%E5%8F%96%E9%80%B2%E5%8F%A3%E9%97%9C%E7%A8%85%E8%B1%81%E5%85%8D-%E5%8D%97%E9%9F%93%E5%B0%8D%E7%BE%8E%E5%9C%8B%E8%83%BD%E6%BA%90%E6%8A%95%E8%B3%873500%E5%84%84%E7%BE%8E%E5%85%83-005210046.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達玻璃基板題材發燒！不只友達、群創暴衝 專家揭6檔潛力股",
+      "original_title": null,
+      "summary": "重點：AI晶片戰火持續升溫，下一個引爆市場想像的，可能不只是晶片本身，而是「玻璃基板」，市場傳出輝達正評估將玻璃基板導入下一世代AI晶片先進封裝，相關…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E7%8E%BB%E7%92%83%E5%9F%BA%E6%9D%BF%E9%A1%8C%E6%9D%90%E7%99%BC%E7%87%92-%E4%B8%8D%E5%8F%AA%E5%8F%8B%E9%81%94-%E7%BE%A4%E5%89%B5%E6%9A%B4%E8%A1%9D-%E5%B0%88%E5%AE%B6%E6%8F%AD6%E6%AA%94%E6%BD%9B%E5%8A%9B%E8%82%A1-004735145.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台積電10月開門紅！盤中漲20元至2500元 分析師看多",
+      "original_title": null,
+      "summary": "重點：台積電（2330）今（1）日盤中最高觸及2,495元，上漲15元。分析師指出，影響台積電走勢的核心關鍵仍為「外資態度」；由於外資需考量美股變化，…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB10%E6%9C%88%E9%96%8B%E9%96%80%E7%B4%85%EF%BC%81%E7%9B%A4%E4%B8%AD%E6%BC%B220%E5%85%83%E8%87%B32500%E5%85%83-%E5%88%86%E6%9E%90%E5%B8%AB%E7%9C%8B%E5%A4%9A-011830055.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股早盤漲逾200點重返48K　台積電開盤漲10元",
+      "original_title": null,
+      "summary": "重點：美國通膨數據低於市場預期，緩和市場對聯準會10月升息的疑慮，美股9月30日收盤指數漲跌互見。台股今（1）日開盤上漲21.85點，以47961.9…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E6%BC%B2%E9%80%BE200%E9%BB%9E%E9%87%8D%E8%BF%9448k-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%96%8B%E7%9B%A4%E6%BC%B210%E5%85%83-011726818.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股開盤／台積電漲10元領軍！台股開盤漲逾百點　生醫、AI題材搶鏡",
+      "original_title": null,
+      "summary": "重點：美股漲跌互見，但科技股仍有撐，台股今（1）日10月首個交易日開高，加權指數上漲196.81點、櫃買指數漲0.39%，台積電上漲10元，電子權值股…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B210%E5%85%83%E9%A0%98%E8%BB%8D-%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4%E6%BC%B2%E9%80%BE%E7%99%BE%E9%BB%9E-%E7%94%9F%E9%86%AB-ai%E9%A1%8C%E6%9D%90%E6%90%B6%E9%8F%A1-011400575.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股早盤漲逾200點 台積電漲15元",
+      "original_title": null,
+      "summary": "重點：美國通膨數據低於預期，緩和市場對聯準會10月升息的疑慮，美股9月30日主要指數收盤漲跌互見，台北股市今天（1日）開盤3分鐘後，漲241.36點，…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E6%BC%B2%E9%80%BE200%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B215%E5%85%83-010421115.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

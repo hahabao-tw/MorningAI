@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-05",
-  "generated_at": "2026-10-05T09:08:13+08:00",
+  "generated_at": "2026-10-05T09:53:12+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4183.3,
-      "change": 21.0,
-      "change_percent": 0.5045287461259399,
+      "price": 4182.2,
+      "change": 19.899999999999636,
+      "change_percent": 0.47810104990028673,
       "currency": "USD",
-      "market_time": 1791161887,
+      "market_time": 1791164583,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 90.36,
-      "change": -0.75,
-      "change_percent": -0.8231807704972012,
+      "price": 90.23,
+      "change": -0.8799999999999955,
+      "change_percent": -0.9658654373833777,
       "currency": "USD",
-      "market_time": 1791161892,
+      "market_time": 1791164585,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 101.81,
-      "change": -0.4399999999999977,
-      "change_percent": -0.4303178484107557,
+      "price": 101.68,
+      "change": -0.5699999999999932,
+      "change_percent": -0.5574572127139297,
       "currency": "USD",
-      "market_time": 1791161886,
+      "market_time": 1791164455,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.8,
-      "change": 0.004000000000001336,
-      "change_percent": 0.012580198767144722,
+      "price": 31.769,
+      "change": -0.027000000000001023,
+      "change_percent": -0.08491634167820174,
       "currency": "TWD",
-      "market_time": 1791162491,
+      "market_time": 1791165191,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9487,
-      "change": -0.00649999999999995,
-      "change_percent": -0.13117533096544945,
+      "price": 4.9499,
+      "change": -0.005299999999999194,
+      "change_percent": -0.10695834678719719,
       "currency": "JPY",
-      "market_time": 1791162289,
+      "market_time": 1791164989,
       "source": "yahoo"
     },
     {
@@ -266,6 +266,42 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "How India became dangerously addicted to Chinese imports",
+      "link": "https://www.bbc.co.uk/news/articles/c5pve834grpno?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-05T01:42:11+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Trump announces 'Super Intelligence Force' to oversee AI policy",
+      "link": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-05T01:33:08+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Daily Open: Who's steering oil now?",
+      "link": "https://www.cnbc.com/2026/10/05/opec-oil-iran-war-hormuz-brazil-bombers-terror-attack-.html",
+      "published_at": "2026-10-05T01:16:29+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "They survived World War II and lost decades, but not 2026. Japan's century-old businesses are disappearing at a record pace",
+      "link": "https://www.cnbc.com/2026/10/05/japan-old-business-kadoya-subeshoten-.html",
+      "published_at": "2026-10-05T01:08:10+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Trump tells South Korea to sign on to Alaska LNG deal or 'I'll just charge them more'",
       "link": "https://www.cnbc.com/2026/10/05/trump-alaska-lng-south-korea-pay.html",
       "published_at": "2026-10-05T00:47:47+00:00",
@@ -374,6 +410,26 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "魏哲家說中了！傳馬斯克找台積電幫忙 股價飆2580元天價 分析師：快卡位",
+      "original_title": null,
+      "summary": "重點：市場近期傳出，特斯拉執行長馬斯克正評估與台積電合作，協助其於德州推動的「TeraFab」晶圓廠建置計畫，間接應證台積電董事長魏哲家日前所說「晶圓…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%82%B3%E9%A6%AC%E6%96%AF%E5%85%8B%E6%89%BE%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%B9%AB%E5%BF%99%EF%BC%81%E7%A5%9E%E5%B1%B1%E8%82%A1%E5%83%B9%E9%A3%862580%E5%85%83%E5%A4%A9%E5%83%B9-%E5%88%86%E6%9E%90%E5%B8%AB%EF%BC%9A%E5%BF%AB%E5%8D%A1%E4%BD%8D-013825522.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "道明證券延後聯準會升息時間點預估至今年12月和明年3月",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】外電報導指出，道明證券調整了對聯準會升息時間點的預期，目前預計將在12月和明年3月升息，此前預計的時間分別為10月和明年1月…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%81%93%E6%98%8E%E8%AD%89%E5%88%B8%E5%BB%B6%E5%BE%8C%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E6%99%82%E9%96%93%E9%BB%9E%E9%A0%90%E4%BC%B0%E8%87%B3%E4%BB%8A%E5%B9%B412%E6%9C%88%E5%92%8C%E6%98%8E%E5%B9%B43%E6%9C%88-010809257.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "美股12月邁入23小時交易時代，夜盤爆量但機構仍在觀望",
       "original_title": null,
       "summary": "重點：【財訊快報／陳孟朔】美股交易制度將迎來重大變革。那斯達克交易所(Nasdaq)預定自12月6日起新增美東時間晚間9時至翌日凌晨4時的夜盤交易，加…。",
@@ -388,6 +444,36 @@
       "original_title": null,
       "summary": "重點：【財訊快報／陳孟朔】美股第四季可能出現另一股與基本面無關的上漲力量。華爾街策略師指出，趨勢追蹤量化基金CTA在9月完成罕見的大幅降倉，整體部位由…。",
       "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E7%AC%AC%E5%9B%9B%E5%AD%A3%E9%80%BC%E7%A9%BA%E6%A2%9D%E4%BB%B6%E6%88%90%E5%BD%A2-cta%E5%A4%A7%E6%92%A4%E9%80%80-%E7%BE%8E%E4%BC%811-3%E5%85%86%E7%BE%8E%E5%85%83%E5%9B%9E%E8%B3%BC%E8%93%84%E5%8B%A2%E5%BE%85%E7%99%BC-005423067.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股55檔千金股同框！台光電金像電飆漲停 奇鋐欣興5檔刷新天價",
+      "original_title": null,
+      "summary": "重點：美國科技股反彈帶動台股今（5）日盤中大漲逾1170點，最高衝上49,646.72點，改寫歷史新高。高價股同步吹起反攻號角，包括權王台積電（233…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A155%E6%AA%94%E5%8D%83%E9%87%91%E8%82%A1%E5%90%8C%E6%A1%86%EF%BC%81%E5%8F%B0%E5%85%89%E9%9B%BB%E9%87%91%E5%83%8F%E9%9B%BB%E9%A3%86%E6%BC%B2%E5%81%9C-%E5%A5%87%E9%8B%90%E6%AC%A3%E8%88%885%E6%AA%94%E5%88%B7%E6%96%B0%E5%A4%A9%E5%83%B9-015002924.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【Yahoo早盤】台股距5萬點一步之遙！盤中漲逾千點再創新高 分析師張家豪：偏多操作",
+      "original_title": null,
+      "summary": "重點：台股今（5）日早盤火力全開，加權指數盤中最高觸及49,715點，大漲逾1,100點，再創歷史新高，距離5萬點大關僅差約300點。顧德投顧分析師張…。",
+      "link": "https://tw.stock.yahoo.com/news/%E3%80%90yahoo%E6%97%A9%E7%9B%A4%E3%80%91%E5%8F%B0%E8%82%A1%E8%B7%9D5%E8%90%AC%E9%BB%9E%E4%B8%80%E6%AD%A5%E4%B9%8B%E9%81%99%EF%BC%81%E7%9B%A4%E4%B8%AD%E6%BC%B2%E9%80%BE%E5%8D%83%E9%BB%9E%E5%86%8D%E5%89%B5%E6%96%B0%E9%AB%98-%E5%88%86%E6%9E%90%E5%B8%AB%E5%BC%B5%E5%AE%B6%E8%B1%AA%EF%BC%9A%E5%81%8F%E5%A4%9A%E6%93%8D%E4%BD%9C-014500554.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台積電衝歷史新高2580元　市值66.9兆元創新猷",
+      "original_title": null,
+      "summary": "重點：（中央社記者鍾榮峰台北2026年10月5日電）台股今天早盤不斷改寫盤中歷史新高，最高攻上49646.72點，大漲逾1100點，晶圓代工龍頭台積電…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%A1%9D%E6%AD%B7%E5%8F%B2%E6%96%B0%E9%AB%982580%E5%85%83-%E5%B8%82%E5%80%BC66-9%E5%85%86%E5%85%83%E5%89%B5%E6%96%B0%E7%8C%B7-013715985.html",
       "published_at": null,
       "source": "yahoo_news"
     },

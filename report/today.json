@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-06",
-  "generated_at": "2026-10-06T06:59:52+08:00",
+  "generated_at": "2026-10-06T10:26:08+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4168.9,
-      "change": 12.099999999999454,
-      "change_percent": 0.2910892994611108,
+      "price": 4157.9,
+      "change": 1.0999999999994543,
+      "change_percent": 0.026462663587361778,
       "currency": "USD",
-      "market_time": 1791240581,
+      "market_time": 1791252964,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 89.25,
-      "change": -0.18000000000000682,
-      "change_percent": -0.2012747400201351,
+      "price": 89.65,
+      "change": 0.21999999999999886,
+      "change_percent": 0.24600246002459894,
       "currency": "USD",
-      "market_time": 1791240540,
+      "market_time": 1791252964,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 100.24,
-      "change": -0.0799999999999983,
-      "change_percent": -0.07974481658692016,
+      "price": 100.67,
+      "change": 0.3500000000000085,
+      "change_percent": 0.3488835725677916,
       "currency": "USD",
-      "market_time": 1791240263,
+      "market_time": 1791252874,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.714,
-      "change": -0.08200000000000074,
-      "change_percent": -0.257894074726383,
+      "price": 31.718,
+      "change": 0.004000000000001336,
+      "change_percent": 0.012612726240781157,
       "currency": "TWD",
-      "market_time": 1791240864,
+      "market_time": 1791253567,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9688,
-      "change": 0.013600000000000279,
-      "change_percent": 0.274459154020025,
+      "price": 4.9703,
+      "change": 0.0019999999999997797,
+      "change_percent": 0.04025521808263953,
       "currency": "JPY",
-      "market_time": 1791241191,
+      "market_time": 1791253490,
       "source": "yahoo"
     },
     {
@@ -266,10 +266,55 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "Trump says he'll pay for TV ads that praised him and which government funded",
-      "link": "https://www.cnbc.com/2026/10/05/trump-ads-election.html",
-      "published_at": "2026-10-05T22:54:44+00:00",
+      "title": "Pentagon says Trump approves Army firing squad execution of Fort Hood killer Nidal Hasan",
+      "link": "https://www.cnbc.com/2026/10/06/trump-execution-nidal-hasan-firing-squad-fort-hood.html",
+      "published_at": "2026-10-06T02:23:18+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Trump says MAGA Inc. PAC will pay for controversial TV ads that government funded",
+      "link": "https://www.cnbc.com/2026/10/05/trump-ads-election.html",
+      "published_at": "2026-10-06T01:55:50+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Trump offers U.S. help to Russia after plague death; WHO assesses the situation as low risk",
+      "link": "https://www.cnbc.com/2026/10/06/russia-plague-death-trump-offers-us-help.html",
+      "published_at": "2026-10-06T01:47:32+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Russian gold floods Hong Kong as Western sanctions redraw bullion trade",
+      "link": "https://www.cnbc.com/2026/10/06/russia-gold-hong-kong-china-western-sanctions.html",
+      "published_at": "2026-10-05T23:14:39+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Five reasons India's stock market is sinking even when its economy is growing",
+      "link": "https://www.bbc.co.uk/news/articles/cwp9g5p1gy7yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-05T23:13:11+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "We're saving £100 a month into pensions for our toddler and baby - here's why",
+      "link": "https://www.bbc.co.uk/news/articles/cme3r9eq2w0lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-05T23:00:41+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
     {
@@ -352,6 +397,86 @@
       "published_at": "2026-10-04T23:22:07+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "歐元兌美元跌至17個月低點　法債拋售潮加劇市場疑慮",
+      "original_title": null,
+      "summary": "重點：（中央社倫敦2026年10月5日綜合外電報導）受到法國公債拋售潮影響，加上油價上漲已讓歐元區市場承受壓力，歐元兌美元匯率今天跌至17個月低點。英…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%AD%90%E5%85%83%E5%85%8C%E7%BE%8E%E5%85%83%E8%B7%8C%E8%87%B317%E5%80%8B%E6%9C%88%E4%BD%8E%E9%BB%9E-%E6%B3%95%E5%82%B5%E6%8B%8B%E5%94%AE%E6%BD%AE%E5%8A%A0%E5%8A%87%E5%B8%82%E5%A0%B4%E7%96%91%E6%85%AE-020417091.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美元走強＋美債殖利率上升，亞洲黃金現貨盤中跌0.13%",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】亞洲金價週二盤中下跌，因投資人權衡美元走強和國債殖利率上升對聯準會利率路徑的影響。亞洲黃金現貨價格盤中下跌5.25美元或0.…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%85%83%E8%B5%B0%E5%BC%B7-%E7%BE%8E%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87%E4%B8%8A%E5%8D%87-%E4%BA%9E%E6%B4%B2%E9%BB%83%E9%87%91%E7%8F%BE%E8%B2%A8%E7%9B%A4%E4%B8%AD%E8%B7%8C0-13-015742109.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "歐元兌美元跌至17個月低點　法債拋售潮加劇市場疑慮",
+      "original_title": null,
+      "summary": "重點：（中央社倫敦5日綜合外電報導）受到法國公債拋售潮影響，加上油價上漲已讓歐元區市場承受壓力，歐元兌美元匯率今天跌至17個月低點。",
+      "link": "https://tw.news.yahoo.com/%E6%AD%90%E5%85%83%E5%85%8C%E7%BE%8E%E5%85%83%E8%B7%8C%E8%87%B317%E5%80%8B%E6%9C%88%E4%BD%8E%E9%BB%9E-%E6%B3%95%E5%82%B5%E6%8B%8B%E5%94%AE%E6%BD%AE%E5%8A%A0%E5%8A%87%E5%B8%82%E5%A0%B4%E7%96%91%E6%85%AE-015324010.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美元指數東京盤小吐，暫離18個月高，歐元微彈，仍徘徊17個月低位",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】美元指數繼週一改寫18個月新高後，在東京匯市週二(6日)早盤轉弱，小跌0.07%至102.096。該指數週一最高觸及102.…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B8%E6%9D%B1%E4%BA%AC%E7%9B%A4%E5%B0%8F%E5%90%90-%E6%9A%AB%E9%9B%A218%E5%80%8B%E6%9C%88%E9%AB%98-%E6%AD%90%E5%85%83%E5%BE%AE%E5%BD%88-%E4%BB%8D%E5%BE%98%E5%BE%8A17%E5%80%8B%E6%9C%88%E4%BD%8E%E4%BD%8D-013909119.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股紅翻黑　5萬點只差臨門一腳！記憶體雙雄倒地　「它」獨自揮旗撐盤",
+      "original_title": null,
+      "summary": "重點：台股今（6）日開高走低，盤中紅翻黑。記憶體族群表現分化，南亞科因9月營收亮眼逆勢上揚，力成、群聯與商丞也走高撐盤；不過華邦電、旺宏及力積電等多数…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E7%B4%85%E7%BF%BB%E9%BB%91-5%E8%90%AC%E9%BB%9E%E5%8F%AA%E5%B7%AE%E8%87%A8%E9%96%80-%E8%85%B3-%E8%A8%98%E6%86%B6%E9%AB%94%E9%9B%99%E9%9B%84%E5%80%92%E5%9C%B0-%E5%AE%83-020900948.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股開盤》指數開高走低「五萬點驚魂」 專家：高檔鈍化股先落袋",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 台股今天(6日)開高走低，約9點46分，跌逾百點，來到49560點，上櫃與電子走跌，金融揚升！台積電跌5元、來到2570…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4-%E6%8C%87%E6%95%B8%E9%96%8B%E9%AB%98%E8%B5%B0%E4%BD%8E-%E4%BA%94%E8%90%AC%E9%BB%9E%E9%A9%9A%E9%AD%82-%E5%B0%88%E5%AE%B6-%E9%AB%98%E6%AA%94%E9%88%8D%E5%8C%96%E8%82%A1%E5%85%88%E8%90%BD%E8%A2%8B-020118452.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【Yahoo早盤】台股剩32點衝關5萬點卻翻黑？分析師陳石輝：今站穩機會不大",
+      "original_title": null,
+      "summary": "重點：台股今（5）日早盤火力全開，加權指數盤中最高觸及49,968點，一度上漲逾200點，再創歷史新高，距離5萬點大關僅差約32點，卻隨後翻黑震盪。運…。",
+      "link": "https://tw.stock.yahoo.com/news/%E3%80%90yahoo%E6%97%A9%E7%9B%A4%E3%80%91%E5%8F%B0%E8%82%A1%E5%89%A932%E9%BB%9E%E8%A1%9D%E9%97%9C5%E8%90%AC%E9%BB%9E%E5%8D%BB%E7%BF%BB%E9%BB%91%EF%BC%9F%E5%88%86%E6%9E%90%E5%B8%AB%E9%99%B3%E7%9F%B3%E8%BC%9D%EF%BC%9A%E4%BB%8A%E7%AB%99%E7%A9%A9%E6%A9%9F%E6%9C%83%E4%B8%8D%E5%A4%A7-014637951.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "美債殖利率高檔壓陣　台股5萬點前近關情怯、韓股開高走低",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 美股科技股漲勢延續，那斯達克指數再創歷史收盤新高，但美國長天期公債殖利率同步走揚，10 年期殖利率升至 5.311%、3…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87%E9%AB%98%E6%AA%94%E5%A3%93%E9%99%A3-%E5%8F%B0%E8%82%A15%E8%90%AC%E9%BB%9E%E5%89%8D%E8%BF%91%E9%97%9C%E6%83%85%E6%80%AF-%E9%9F%93%E8%82%A1%E9%96%8B%E9%AB%98%E8%B5%B0%E4%BD%8E-013908259.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-06",
-  "generated_at": "2026-10-06T10:26:08+08:00",
+  "generated_at": "2026-10-06T10:54:44+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4157.9,
-      "change": 1.0999999999994543,
-      "change_percent": 0.026462663587361778,
+      "price": 4149.1,
+      "change": -7.699999999999818,
+      "change_percent": -0.18523864511161994,
       "currency": "USD",
-      "market_time": 1791252964,
+      "market_time": 1791254677,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 89.65,
-      "change": 0.21999999999999886,
-      "change_percent": 0.24600246002459894,
+      "price": 89.67,
+      "change": 0.23999999999999488,
+      "change_percent": 0.2683663200268309,
       "currency": "USD",
-      "market_time": 1791252964,
+      "market_time": 1791254679,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 100.67,
-      "change": 0.3500000000000085,
-      "change_percent": 0.3488835725677916,
+      "price": 100.69,
+      "change": 0.37000000000000455,
+      "change_percent": 0.3688197767145181,
       "currency": "USD",
-      "market_time": 1791252874,
+      "market_time": 1791254679,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.718,
-      "change": 0.004000000000001336,
-      "change_percent": 0.012612726240781157,
+      "price": 31.741,
+      "change": 0.027000000000001023,
+      "change_percent": 0.0851359021252476,
       "currency": "TWD",
-      "market_time": 1791253567,
+      "market_time": 1791255284,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9703,
-      "change": 0.0019999999999997797,
-      "change_percent": 0.04025521808263953,
+      "price": 4.9666,
+      "change": -0.001700000000000479,
+      "change_percent": -0.03421693537025701,
       "currency": "JPY",
-      "market_time": 1791253490,
+      "market_time": 1791254990,
       "source": "yahoo"
     },
     {
@@ -263,6 +263,15 @@
     }
   ],
   "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Little room for ‘giving and taking’: India’s finance minister confirms trade impasse with the U.S.",
+      "link": "https://www.cnbc.com/2026/10/06/india-us-trade-deal-deal-sitharaman.html",
+      "published_at": "2026-10-06T02:39:19+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
     {
       "kind": "news",
       "category": "international",
@@ -401,6 +410,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "SpaceX暴漲8%　馬斯克又成「兆美元富豪」",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]美國太空公司SpaceX股價週一（5日）大漲近8%，創6月中旬以來新高，也讓創辦人馬斯克（ElonMusk）身家再次突…。",
+      "link": "https://tw.news.yahoo.com/spacex%E6%9A%B4%E6%BC%B28-%E9%A6%AC%E6%96%AF%E5%85%8B%E5%8F%88%E6%88%90-%E5%85%86%E7%BE%8E%E5%85%83%E5%AF%8C%E8%B1%AA-022607560.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "歐元兌美元跌至17個月低點　法債拋售潮加劇市場疑慮",
       "original_title": null,
       "summary": "重點：（中央社倫敦2026年10月5日綜合外電報導）受到法國公債拋售潮影響，加上油價上漲已讓歐元區市場承受壓力，歐元兌美元匯率今天跌至17個月低點。英…。",
@@ -425,6 +444,46 @@
       "original_title": null,
       "summary": "重點：（中央社倫敦5日綜合外電報導）受到法國公債拋售潮影響，加上油價上漲已讓歐元區市場承受壓力，歐元兌美元匯率今天跌至17個月低點。",
       "link": "https://tw.news.yahoo.com/%E6%AD%90%E5%85%83%E5%85%8C%E7%BE%8E%E5%85%83%E8%B7%8C%E8%87%B317%E5%80%8B%E6%9C%88%E4%BD%8E%E9%BB%9E-%E6%B3%95%E5%82%B5%E6%8B%8B%E5%94%AE%E6%BD%AE%E5%8A%A0%E5%8A%87%E5%B8%82%E5%A0%B4%E7%96%91%E6%85%AE-015324010.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股強攻5萬點危機重重？瑤池金母高點出貨6檔熱門股　聯電、日月光、富世達都重槍",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]財經中心／綜合報導台股昨日大漲千點來到4萬9千點，頗有直衝5萬點的氣勢，今（6）日盤中卻開始出現震盪狀況。而觀察昨日籌碼動向，…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E5%BC%B7%E6%94%BB5%E8%90%AC%E9%BB%9E%E5%8D%B1%E6%A9%9F%E9%87%8D%E9%87%8D-%E7%91%A4%E6%B1%A0%E9%87%91%E6%AF%8D%E9%AB%98%E9%BB%9E%E5%87%BA%E8%B2%A86%E6%AA%94%E7%86%B1%E9%96%80%E8%82%A1-%E8%81%AF%E9%9B%BB-%E6%97%A5%E6%9C%88%E5%85%89-%E5%AF%8C%E4%B8%96%E9%81%94%E9%83%BD%E9%87%8D%E6%A7%8D-024000049.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "大盤漲近7成還輸它  6檔中小型台股基金報酬翻倍 「這檔」前三季飆160%",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 台股今年一路狂飆，5 萬點近在咫尺，台股基金績效也跟著水漲船高。據理柏（Lipper）統計，今年前三季台股上漲 68.1…。",
+      "link": "https://tw.news.yahoo.com/%E5%A4%A7%E7%9B%A4%E6%BC%B2%E8%BF%917%E6%88%90%E9%82%84%E8%BC%B8%E5%AE%83-6%E6%AA%94%E4%B8%AD%E5%B0%8F%E5%9E%8B%E5%8F%B0%E8%82%A1%E5%9F%BA%E9%87%91%E5%A0%B1%E9%85%AC%E7%BF%BB%E5%80%8D-%E9%80%99%E6%AA%94-%E5%89%8D%E4%B8%89%E5%AD%A3%E9%A3%86160-023803086.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "鴻海首飆「兆元營收」！早盤一度大漲半根 隨後收斂回平盤震盪",
+      "original_title": null,
+      "summary": "重點：國際電子代工龍頭廠鴻海（2317）昨日公布「單月兆元」的營收成績單，寫下台股歷史新紀錄。而鴻海今日股價也在開盤後直衝近5%，股價來到266.5元…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%B4%BB%E6%B5%B7%E9%A6%96%E9%A3%86%E3%80%8C%E5%85%86%E5%85%83%E7%87%9F%E6%94%B6%E3%80%8D%EF%BC%81%E6%97%A9%E7%9B%A4%E4%B8%80%E5%BA%A6%E5%A4%A7%E6%BC%B2%E5%8D%8A%E6%A0%B9-%E9%9A%A8%E5%BE%8C%E6%94%B6%E6%96%82%E5%9B%9E%E5%B9%B3%E7%9B%A4%E9%9C%87%E7%9B%AA-023608845.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "OTC漲幅勝大盤　店頭市場基金漲幅最高近11%",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]今（2026）年來表現一直不如台股大盤的OTC指數近期走勢亮麗，5日再度收紅，交出連4紅的佳績。統計這4個交易日OTC…。",
+      "link": "https://tw.news.yahoo.com/otc%E6%BC%B2%E5%B9%85%E5%8B%9D%E5%A4%A7%E7%9B%A4-%E5%BA%97%E9%A0%AD%E5%B8%82%E5%A0%B4%E5%9F%BA%E9%87%91%E6%BC%B2%E5%B9%85%E6%9C%80%E9%AB%98%E8%BF%9111-023448875.html",
       "published_at": null,
       "source": "yahoo_news"
     },

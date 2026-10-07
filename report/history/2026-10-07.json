@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-07",
-  "generated_at": "2026-10-07T09:44:12+08:00",
+  "generated_at": "2026-10-07T10:17:28+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4180.9,
-      "change": -6.200000000000728,
-      "change_percent": -0.1480738458599204,
+      "price": 4167.3,
+      "change": -19.800000000000182,
+      "change_percent": -0.47288099161711405,
       "currency": "USD",
-      "market_time": 1791336852,
+      "market_time": 1791338844,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 90.35,
-      "change": 0.9099999999999966,
-      "change_percent": 1.0174418604651125,
+      "price": 90.23,
+      "change": 0.7900000000000063,
+      "change_percent": 0.8832737030411519,
       "currency": "USD",
-      "market_time": 1791336797,
+      "market_time": 1791338843,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 101.57,
-      "change": 0.9899999999999949,
-      "change_percent": 0.9842911115529875,
+      "price": 101.36,
+      "change": 0.7800000000000011,
+      "change_percent": 0.7755020878902378,
       "currency": "USD",
-      "market_time": 1791336800,
+      "market_time": 1791338823,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.83,
-      "change": 0.04999999999999716,
-      "change_percent": 0.15733165512900302,
+      "price": 31.859,
+      "change": 0.07900000000000063,
+      "change_percent": 0.24858401510384084,
       "currency": "TWD",
-      "market_time": 1791337452,
+      "market_time": 1791339446,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9685,
-      "change": 0.0030000000000001137,
-      "change_percent": 0.060416876447489956,
+      "price": 4.9788,
+      "change": 0.01330000000000009,
+      "change_percent": 0.26784815225053044,
       "currency": "JPY",
-      "market_time": 1791337188,
+      "market_time": 1791339289,
       "source": "yahoo"
     },
     {
@@ -266,9 +266,18 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Trump isn't ‘completely wrong’: Hormuz disruption is Asia’s problem, says Singapore's foreign minister",
+      "link": "https://www.cnbc.com/2026/10/07/hormuz-iran-war-singapore-vivian-balakrishnan.html",
+      "published_at": "2026-10-07T02:10:52+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "From 'woke' ridicule to real car - new electric Jaguar unveiled",
       "link": "https://www.bbc.co.uk/news/articles/c6je50ydld31o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-07T01:39:54+00:00",
+      "published_at": "2026-10-07T01:59:24+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
@@ -392,10 +401,80 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "加大押注AI布局　SpaceX擬籌400億美元買輝達晶片",
+      "original_title": null,
+      "summary": "重點：（中央社紐約2026年10月6日綜合外電報導）英國「金融時報」（Financial Times）報導，馬斯克旗下的SpaceX正尋求在阿波羅全球…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8A%A0%E5%A4%A7%E6%8A%BC%E6%B3%A8ai%E5%B8%83%E5%B1%80-spacex%E6%93%AC%E7%B1%8C400%E5%84%84%E7%BE%8E%E5%85%83%E8%B2%B7%E8%BC%9D%E9%81%94%E6%99%B6%E7%89%87-015756050.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "加大押注AI布局　SpaceX擬籌400億美元買輝達晶片",
+      "original_title": null,
+      "summary": "重點：（中央社紐約6日綜合外電報導）英國「金融時報」（Financial Times）報導，馬斯克旗下的SpaceX正尋求在阿波羅全球管理公司領銜下融…。",
+      "link": "https://tw.news.yahoo.com/%E5%8A%A0%E5%A4%A7%E6%8A%BC%E6%B3%A8ai%E5%B8%83%E5%B1%80-spacex%E6%93%AC%E7%B1%8C400%E5%84%84%E7%BE%8E%E5%85%83%E8%B2%B7%E8%BC%9D%E9%81%94%E6%99%B6%E7%89%87-015439883.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "亞洲黃金現貨盤中下跌0.24%，市場權衡油價、殖利率對聯準會升息影響",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】亞洲金價週三盤中下跌，因在投資人權衡國際油價、債券殖利率對聯準會本月升息決議可能帶來的影響之際，美元走強削弱了黃金的投資吸引…。",
+      "link": "https://tw.stock.yahoo.com/news/%E4%BA%9E%E6%B4%B2%E9%BB%83%E9%87%91%E7%8F%BE%E8%B2%A8%E7%9B%A4%E4%B8%AD%E4%B8%8B%E8%B7%8C0-24-%E5%B8%82%E5%A0%B4%E6%AC%8A%E8%A1%A1%E6%B2%B9%E5%83%B9-%E6%AE%96%E5%88%A9%E7%8E%87%E5%B0%8D%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E5%BD%B1%E9%9F%BF-015359034.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "美股創高卻難變現稅收，IRS出手堵ETF避稅，富豪351條款交易成箭靶",
       "original_title": null,
       "summary": "重點：【財訊快報／陳孟朔】美股持續刷新歷史高點，美國家庭累積龐大帳面財富，卻未同步轉化為聯邦政府稅收，美國財政部與國稅局(IRS)開始出手堵塞富豪利用…。",
       "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E5%89%B5%E9%AB%98%E5%8D%BB%E9%9B%A3%E8%AE%8A%E7%8F%BE%E7%A8%85%E6%94%B6-irs%E5%87%BA%E6%89%8B%E5%A0%B5etf%E9%81%BF%E7%A8%85-%E5%AF%8C%E8%B1%AA351%E6%A2%9D%E6%AC%BE%E4%BA%A4%E6%98%93%E6%88%90%E7%AE%AD%E9%9D%B6-013730161.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "10月15日雙重關鍵日 台積電法說登場、00988B最後買進日同天到 收益布局別錯過",
+      "original_title": null,
+      "summary": "重點：10月15日雙重關鍵日 台積電法說登場、00988B最後買進日同天到 收益布局別錯過 圖/PEXELS 商傳媒｜記者陳宜靖／台北報導台股昨日（1…。",
+      "link": "https://tw.stock.yahoo.com/news/10%E6%9C%8815%E6%97%A5%E9%9B%99%E9%87%8D%E9%97%9C%E9%8D%B5%E6%97%A5-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%B3%95%E8%AA%AA%E7%99%BB%E5%A0%B4-00988b%E6%9C%80%E5%BE%8C%E8%B2%B7%E9%80%B2%E6%97%A5%E5%90%8C%E5%A4%A9%E5%88%B0-%E6%94%B6%E7%9B%8A%E5%B8%83%E5%B1%80%E5%88%A5%E9%8C%AF%E9%81%8E-020256072.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "搶在台積電法說前 高盛先報喜：目標價3300元",
+      "original_title": null,
+      "summary": "重點：隨著AI市場需求不斷擴大，台積電正迎來新一波大規模的資本支出週期。高盛在最新研究報告中，大幅上調台積電2027年及2028年的資本支出預估，分別…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%90%B6%E5%9C%A8%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%B3%95%E8%AA%AA%E5%89%8D-%E9%AB%98%E7%9B%9B%E5%85%88%E5%A0%B1%E5%96%9C-%E7%9B%AE%E6%A8%99%E5%83%B93300%E5%85%83-015800287.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台積電法說前夕再創天價 00409A從台積電客戶端看AI需求",
+      "original_title": null,
+      "summary": "重點：台積電法說會將釋出AI成長動能、先進製程擴產計畫等重點，市場關注其與美國客戶間的需求強度。主動復華全球50 (00409A) 可同步布局產業鏈。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%B3%95%E8%AA%AA%E5%89%8D%E5%A4%95%E5%86%8D%E5%89%B5%E5%A4%A9%E5%83%B9-00409a%E5%BE%9E%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%AE%A2%E6%88%B6%E7%AB%AF%E7%9C%8Bai%E9%9C%80%E6%B1%82-015100530.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【Yahoo早盤】台股再衝五萬點卻消風？分析師白易弘仍看好：衝破機會不小",
+      "original_title": null,
+      "summary": "重點：五萬點來了？台股今日雖然開低，不過隨後翻紅上攻，最高來到49966點，距離五萬點再度只剩一步之遙，卻再度翻黑。啟發投顧分析師白易弘認為，今日來攻…。",
+      "link": "https://tw.stock.yahoo.com/news/%E3%80%90yahoo%E6%97%A9%E7%9B%A4%E3%80%91%E5%8F%B0%E8%82%A1%E5%86%8D%E8%A1%9D%E4%BA%94%E8%90%AC%E9%BB%9E%E5%8D%BB%E6%B6%88%E9%A2%A8%EF%BC%9F%E5%88%86%E6%9E%90%E5%B8%AB%E7%99%BD%E6%98%93%E5%BC%98%E4%BB%8D%E7%9C%8B%E5%A5%BD%EF%BC%9A%E8%A1%9D%E7%A0%B4%E6%A9%9F%E6%9C%83%E4%B8%8D%E5%B0%8F-015039084.html",
       "published_at": null,
       "source": "yahoo_news"
     },

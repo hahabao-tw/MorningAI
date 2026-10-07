@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-07",
-  "generated_at": "2026-10-07T07:36:18+08:00",
+  "generated_at": "2026-10-07T09:44:12+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4195.7,
-      "change": 8.599999999999454,
-      "change_percent": 0.20539275393469114,
+      "price": 4180.9,
+      "change": -6.200000000000728,
+      "change_percent": -0.1480738458599204,
       "currency": "USD",
-      "market_time": 1791329164,
+      "market_time": 1791336852,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 89.92,
-      "change": 0.480000000000004,
-      "change_percent": 0.53667262969589,
+      "price": 90.35,
+      "change": 0.9099999999999966,
+      "change_percent": 1.0174418604651125,
       "currency": "USD",
-      "market_time": 1791329168,
+      "market_time": 1791336797,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 101.1,
-      "change": 0.519999999999996,
-      "change_percent": 0.5170013919268204,
+      "price": 101.57,
+      "change": 0.9899999999999949,
+      "change_percent": 0.9842911115529875,
       "currency": "USD",
-      "market_time": 1791329014,
+      "market_time": 1791336800,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.776,
-      "change": -0.004000000000001336,
-      "change_percent": -0.01258653241032516,
+      "price": 31.83,
+      "change": 0.04999999999999716,
+      "change_percent": 0.15733165512900302,
       "currency": "TWD",
-      "market_time": 1791329765,
+      "market_time": 1791337452,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9695,
-      "change": 0.004000000000000448,
-      "change_percent": 0.08055583526332591,
+      "price": 4.9685,
+      "change": 0.0030000000000001137,
+      "change_percent": 0.060416876447489956,
       "currency": "JPY",
-      "market_time": 1791329691,
+      "market_time": 1791337188,
       "source": "yahoo"
     },
     {
@@ -266,6 +266,33 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "From 'woke' ridicule to real car - new electric Jaguar unveiled",
+      "link": "https://www.bbc.co.uk/news/articles/c6je50ydld31o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-07T01:39:54+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "CNBC Daily Open: Fragile rebound in oil exports threatened by Iran attacks in Hormuz",
+      "link": "https://www.cnbc.com/2026/10/07/trump-hormuz-oil-diesel-iran-anthropic-ai.html",
+      "published_at": "2026-10-07T01:11:37+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Trillions are being ‘wasted’ on the AI boom, Arthur Hayes says. He’s betting on what comes next",
+      "link": "https://www.cnbc.com/2026/10/07/flop-ai-boom-arthur-hayes-bitcoin-bitmex-coinferencex-.html",
+      "published_at": "2026-10-07T00:49:34+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Froyo's made a comeback. But at £12 a tub will it last?",
       "link": "https://www.bbc.co.uk/news/articles/cxly57v78yv7o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-06T23:01:31+00:00",
@@ -352,6 +379,95 @@
       "published_at": "2026-10-06T15:52:22+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "DeepSeek considers doubling latest funding round to up to $15 billion, sources say",
+      "link": "https://www.cnbc.com/2026/10/06/deepseek-funding-round.html",
+      "published_at": "2026-10-06T12:59:10+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美股創高卻難變現稅收，IRS出手堵ETF避稅，富豪351條款交易成箭靶",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】美股持續刷新歷史高點，美國家庭累積龐大帳面財富，卻未同步轉化為聯邦政府稅收，美國財政部與國稅局(IRS)開始出手堵塞富豪利用…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E5%89%B5%E9%AB%98%E5%8D%BB%E9%9B%A3%E8%AE%8A%E7%8F%BE%E7%A8%85%E6%94%B6-irs%E5%87%BA%E6%89%8B%E5%A0%B5etf%E9%81%BF%E7%A8%85-%E5%AF%8C%E8%B1%AA351%E6%A2%9D%E6%AC%BE%E4%BA%A4%E6%98%93%E6%88%90%E7%AE%AD%E9%9D%B6-013730161.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "無視美10月升息機率降至兩成，美元指數東京盤小漲，日圓、歐元齊貶",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】東京匯市週三(7日)早盤，美元在前一交易日下跌後小幅回穩，市場等待聯準會(Fed)9月會議紀錄及多位官員談話，研判下一次升息…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%84%A1%E8%A6%96%E7%BE%8E10%E6%9C%88%E5%8D%87%E6%81%AF%E6%A9%9F%E7%8E%87%E9%99%8D%E8%87%B3%E5%85%A9%E6%88%90-%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B8%E6%9D%B1%E4%BA%AC%E7%9B%A4%E5%B0%8F%E6%BC%B2-%E6%97%A5%E5%9C%93-%E6%AD%90%E5%85%83%E9%BD%8A%E8%B2%B6-013610969.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "焦點股》景碩：輝達CPU訂單大進補 外資喊1580元",
+      "original_title": null,
+      "summary": "重點：IC載板廠景碩（3189）今年營收與獲利同步成長，日系外資出具最新報告指出，隨著NVIDIA（輝達）CPU 業務貢獻提升，產品組合持續改善，將成…。",
+      "link": "https://tw.news.yahoo.com/%E7%84%A6%E9%BB%9E%E8%82%A1-%E6%99%AF%E7%A2%A9-%E8%BC%9D%E9%81%94cpu%E8%A8%82%E5%96%AE%E5%A4%A7%E9%80%B2%E8%A3%9C-%E5%A4%96%E8%B3%87%E5%96%8A1580%E5%85%83-011740276.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "馬斯克準備向債市搶錢！傳SpaceX要籌400億美元　全力掃貨輝達AI晶片",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] AI 軍備競賽愈燒愈旺，全球首富馬斯克（Elon Musk）旗下 SpaceX 傳出準備大舉舉債搶晶片。外媒報導，Spa…。",
+      "link": "https://tw.news.yahoo.com/%E9%A6%AC%E6%96%AF%E5%85%8B%E6%BA%96%E5%82%99%E5%90%91%E5%82%B5%E5%B8%82%E6%90%B6%E9%8C%A2-%E5%82%B3spacex%E8%A6%81%E7%B1%8C400%E5%84%84%E7%BE%8E%E5%85%83-%E5%85%A8%E5%8A%9B%E6%8E%83%E8%B2%A8%E8%BC%9D%E9%81%94ai%E6%99%B6%E7%89%87-011423017.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "美元反彈、台股近關情怯　台幣回貶破31.8元",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]美元指數止跌反彈逼近102，加上台股5萬點近關情怯，新台幣兌美元今（7）日早盤終止連5升，並貶破31.8元，一度來到3…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E5%85%83%E5%8F%8D%E5%BD%88-%E5%8F%B0%E8%82%A1%E8%BF%91%E9%97%9C%E6%83%85%E6%80%AF-%E5%8F%B0%E5%B9%A3%E5%9B%9E%E8%B2%B6%E7%A0%B431-8%E5%85%83-013311980.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台積電連衝2天煞車！盤中跌25元 「2590梯次」會套多久分析師解答",
+      "original_title": null,
+      "summary": "重點：台積電（2330）9月營收公布在即，市場觀望氣氛濃厚。今（7）日盤中股價拉回，最低下探至2,560元，下跌25元，打破連兩日創高的強勢紀錄，也讓…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%80%A3%E8%A1%9D2%E5%A4%A9%E7%85%9E%E8%BB%8A%EF%BC%81%E7%9B%A4%E4%B8%AD%E8%B7%8C25%E5%85%83-%E3%80%8C2590%E6%A2%AF%E6%AC%A1%E3%80%8D%E6%9C%83%E5%A5%97%E5%A4%9A%E4%B9%85%E5%88%86%E6%9E%90%E5%B8%AB%E8%A7%A3%E7%AD%94-012544073.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股小漲38點！矽光子、被動大爆發 華新科亮燈鎖漲停",
+      "original_title": null,
+      "summary": "重點：台股今（7）日早盤開低，隨後翻紅小漲38點，來到49872點，漲幅0.18%，預估成交量9800億；櫃買指數則來到431.95點，上漲1.07點…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E5%B0%8F%E6%BC%B238%E9%BB%9E-%E7%9F%BD%E5%85%89%E5%AD%90-%E8%A2%AB%E5%8B%95%E5%A4%A7%E7%88%86%E7%99%BC-%E8%8F%AF%E6%96%B0%E7%A7%91%E4%BA%AE%E7%87%88%E9%8E%96%E6%BC%B2%E5%81%9C-011800638.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "看懂台積電法說要看它的客戶 00409A同步布局晶片設計與雲端巨頭",
+      "original_title": null,
+      "summary": "重點：台積電將於10月15日召開法說會，股價在法說前夕持續走強。受美股那斯達克指數創新高、台積電美國存託憑證上漲2. […]。",
+      "link": "https://tw.news.yahoo.com/%E7%9C%8B%E6%87%82%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%B3%95%E8%AA%AA%E8%A6%81%E7%9C%8B%E5%AE%83%E7%9A%84%E5%AE%A2%E6%88%B6-00409a%E5%90%8C%E6%AD%A5%E5%B8%83%E5%B1%80%E6%99%B6%E7%89%87%E8%A8%AD%E8%A8%88%E8%88%87%E9%9B%B2%E7%AB%AF%E5%B7%A8%E9%A0%AD-011518137.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

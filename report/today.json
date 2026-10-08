@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-08",
-  "generated_at": "2026-10-08T07:06:36+08:00",
+  "generated_at": "2026-10-08T10:12:01+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4129.9,
-      "change": -10.800000000000182,
-      "change_percent": -0.26082546429348136,
+      "price": 4158.0,
+      "change": 17.300000000000182,
+      "change_percent": 0.41780375298862954,
       "currency": "USD",
-      "market_time": 1791413791,
+      "market_time": 1791424919,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 88.93,
-      "change": 0.6500000000000057,
-      "change_percent": 0.7362936112369797,
+      "price": 89.63,
+      "change": 1.3499999999999943,
+      "change_percent": 1.529225192569092,
       "currency": "USD",
-      "market_time": 1791413743,
+      "market_time": 1791424919,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 101.02,
-      "change": 0.8199999999999932,
-      "change_percent": 0.818363273453087,
+      "price": 101.91,
+      "change": 1.7099999999999937,
+      "change_percent": 1.7065868263472992,
       "currency": "USD",
-      "market_time": 1791413399,
+      "market_time": 1791424919,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.838,
-      "change": 0.05799999999999983,
-      "change_percent": 0.1825047199496533,
+      "price": 31.834,
+      "change": -0.007999999999999119,
+      "change_percent": -0.025124049996856728,
       "currency": "TWD",
-      "market_time": 1791414208,
+      "market_time": 1791425521,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9522,
-      "change": -0.013299999999999201,
-      "change_percent": -0.2678481522505126,
+      "price": 4.943,
+      "change": -0.010600000000000165,
+      "change_percent": -0.21398578811369842,
       "currency": "JPY",
-      "market_time": 1791414290,
+      "market_time": 1791425389,
       "source": "yahoo"
     },
     {
@@ -266,10 +266,64 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "Samsung forecasts record third-quarter profit of $80 billion on the back of AI boom",
-      "link": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
-      "published_at": "2026-10-07T22:58:05+00:00",
+      "title": "AI chip boom pushes Samsung profits to record $80bn",
+      "link": "https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-08T01:59:54+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Oil gains as Middle East hostilities stoke supply worries",
+      "link": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html",
+      "published_at": "2026-10-08T01:46:56+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "CNBC Daily Open: Another Fed hike is on the horizon — but when?",
+      "link": "https://www.cnbc.com/2026/10/08/fed-hike-inflation-samsung-lululemon-iea-oil.html",
+      "published_at": "2026-10-08T01:11:32+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
+      "link": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
+      "published_at": "2026-10-08T00:51:23+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "We spent thousands on a Tui river cruise but ended up on coach trips",
+      "link": "https://www.bbc.co.uk/news/articles/cq62j2lzlnm8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-07T23:05:17+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Hedgehog among four chosen animals to feature on new banknotes",
+      "link": "https://www.bbc.co.uk/news/articles/cwe8ld517ry3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-07T23:01:30+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "'Stop throwing shade' - the woman trying to stop firms leaving the UK",
+      "link": "https://www.bbc.co.uk/news/articles/cmgqwydpd4xwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-07T23:00:55+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
     {
@@ -352,6 +406,86 @@
       "published_at": "2026-10-07T12:25:46+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "總經風向轉好 美股科技股領漲  00409A主動調整因應利率與油價變化",
+      "original_title": null,
+      "summary": "重點：國際總體經濟環境出現降溫跡象。七大工業國同意釋出緊急燃料儲備，緩解市場對中東局勢可能衝擊原油供應的憂慮，國際油 […]。",
+      "link": "https://tw.news.yahoo.com/%E7%B8%BD%E7%B6%93%E9%A2%A8%E5%90%91%E8%BD%89%E5%A5%BD-%E7%BE%8E%E8%82%A1%E7%A7%91%E6%8A%80%E8%82%A1%E9%A0%98%E6%BC%B2-00409a%E4%B8%BB%E5%8B%95%E8%AA%BF%E6%95%B4%E5%9B%A0%E6%87%89%E5%88%A9%E7%8E%87%E8%88%87%E6%B2%B9%E5%83%B9%E8%AE%8A%E5%8C%96-013800443.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美股全收黑！台股早盤走低下滑438點　台積電開2550元",
+      "original_title": null,
+      "summary": "重點：即時中心／綜合報導長天期美債殖利率重新攀升，引發市場再度對通膨與債務持續增加的擔憂，美股主要指數週三（7日）全面下跌；台指期夜盤也下跌375點、…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E5%85%A8%E6%94%B6%E9%BB%91-%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E8%B5%B0%E4%BD%8E%E4%B8%8B%E6%BB%91438%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%96%8B2550%E5%85%83-011335065.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "安踏斥15.06億歐元完成收購Puma 29.06%股權，躍居最大股東",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】外電報導，中國運動用品大廠--安踏體育(02020.HK)宣布，已完成向法國皮諾(Pinault)家族投資公司Artemis…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%AE%89%E8%B8%8F%E6%96%A515-06%E5%84%84%E6%AD%90%E5%85%83%E5%AE%8C%E6%88%90%E6%94%B6%E8%B3%BCpuma-29-06-%E8%82%A1%E6%AC%8A-005832151.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "歐盟擬對中國混動車實施保障措施，設關稅配額試點平衡雙邊貿易",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】外電報導指出，歐盟方面正在籌備所謂的「保障措施」，限制中國混合動力汽車進入歐盟市場，以期重新平衡對中貿易。中國製造的混合動力…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%AD%90%E7%9B%9F%E6%93%AC%E5%B0%8D%E4%B8%AD%E5%9C%8B%E6%B7%B7%E5%90%88%E5%8B%95%E5%8A%9B%E6%B1%BD%E8%BB%8A%E5%AF%A6%E6%96%BD%E4%BF%9D%E9%9A%9C%E6%8E%AA%E6%96%BD-%E8%A8%AD%E9%97%9C%E7%A8%85%E9%85%8D%E9%A1%8D%E8%A9%A6%E9%BB%9E%E5%B9%B3%E8%A1%A1%E9%9B%99%E9%82%8A%E8%B2%BF%E6%98%93-005051174.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【Yahoo早盤】5萬點漸行漸遠？台股一度跌逾600點 分析師張家豪曝一關鍵：衝關仍有望",
+      "original_title": null,
+      "summary": "重點：五萬點來不來？台股今日開低走低，最低觸及49189點，下跌超過600點。顧德投顧分析師張家豪表示，雖然今天量縮下跌，大盤指數今天回測5日線，預估…。",
+      "link": "https://tw.stock.yahoo.com/news/%E3%80%90yahoo%E6%97%A9%E7%9B%A4%E3%80%915%E8%90%AC%E9%BB%9E%E6%BC%B8%E8%A1%8C%E6%BC%B8%E9%81%A0%EF%BC%9F%E5%8F%B0%E8%82%A1%E4%B8%80%E5%BA%A6%E8%B7%8C%E9%80%BE600%E9%BB%9E-%E5%88%86%E6%9E%90%E5%B8%AB%E5%BC%B5%E5%AE%B6%E8%B1%AA%E6%9B%9D%E4%B8%80%E9%97%9C%E9%8D%B5%EF%BC%9A%E8%A1%9D%E9%97%9C%E4%BB%8D%E6%9C%89%E6%9C%9B-015519425.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "從新竹玻璃工藝到偏鄉科普　台積電志工20年陪伴松林國小開啟共學新視野",
+      "original_title": null,
+      "summary": "重點：台積電慈善基金會與台積志工團隊長期投入偏鄉教育，陪伴台南市西港區松林國小至今已逾20年。多年來，透過導讀志工持 […]。",
+      "link": "https://tw.news.yahoo.com/%E5%BE%9E%E6%96%B0%E7%AB%B9%E7%8E%BB%E7%92%83%E5%B7%A5%E8%97%9D%E5%88%B0%E5%81%8F%E9%84%89%E7%A7%91%E6%99%AE-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%BF%97%E5%B7%A520%E5%B9%B4%E9%99%AA%E4%BC%B4%E6%9D%BE%E6%9E%97%E5%9C%8B%E5%B0%8F%E9%96%8B%E5%95%9F%E5%85%B1%E5%AD%B8%E6%96%B0%E8%A6%96%E9%87%8E-015259006.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "專家看盤》台股漲多拉回警報響 「這些族群」慎防獲利了結",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 「今日(8)台股面臨漲多拉回壓力，美債殖利率再創波段新高，加上台指期夜盤下跌375點，電子權值股普遍面臨賣壓。」分析師林…。",
+      "link": "https://tw.news.yahoo.com/%E5%B0%88%E5%AE%B6%E7%9C%8B%E7%9B%A4-%E5%8F%B0%E8%82%A1%E6%BC%B2%E5%A4%9A%E6%8B%89%E5%9B%9E%E8%AD%A6%E5%A0%B1%E9%9F%BF-%E9%80%99%E4%BA%9B%E6%97%8F%E7%BE%A4-%E6%85%8E%E9%98%B2%E7%8D%B2%E5%88%A9%E4%BA%86%E7%B5%90-014230705.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股開盤狂殺逾600點！台積電跌25元失守2600元　聯發科、廣達一片慘綠",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者蕭廷芬／綜合報導台股今（8）日開盤遭遇沉重賣壓，加權指數以49,783.06點開出，隨即震盪走低，早盤最低下探49,189…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4%E7%8B%82%E6%AE%BA%E9%80%BE600%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%8C25%E5%85%83%E5%A4%B1%E5%AE%882600%E5%85%83-%E8%81%AF%E7%99%BC%E7%A7%91-%E5%BB%A3%E9%81%94-%E7%89%87%E6%85%98%E7%B6%A0-013700564.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

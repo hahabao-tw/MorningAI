@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-08",
-  "generated_at": "2026-10-08T10:12:01+08:00",
+  "generated_at": "2026-10-08T10:39:43+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4158.0,
-      "change": 17.300000000000182,
-      "change_percent": 0.41780375298862954,
+      "price": 4161.1,
+      "change": 20.400000000000546,
+      "change_percent": 0.49267032144324746,
       "currency": "USD",
-      "market_time": 1791424919,
+      "market_time": 1791426580,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 89.63,
-      "change": 1.3499999999999943,
-      "change_percent": 1.529225192569092,
+      "price": 89.64,
+      "change": 1.3599999999999994,
+      "change_percent": 1.540552786588128,
       "currency": "USD",
-      "market_time": 1791424919,
+      "market_time": 1791426579,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 101.91,
-      "change": 1.7099999999999937,
-      "change_percent": 1.7065868263472992,
+      "price": 102.0,
+      "change": 1.7999999999999972,
+      "change_percent": 1.7964071856287396,
       "currency": "USD",
-      "market_time": 1791424919,
+      "market_time": 1791426536,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.834,
-      "change": -0.007999999999999119,
-      "change_percent": -0.025124049996856728,
+      "price": 31.86,
+      "change": 0.018000000000000682,
+      "change_percent": 0.056529112492936004,
       "currency": "TWD",
-      "market_time": 1791425521,
+      "market_time": 1791427182,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.943,
-      "change": -0.010600000000000165,
-      "change_percent": -0.21398578811369842,
+      "price": 4.9472,
+      "change": -0.006400000000000183,
+      "change_percent": -0.12919896640827244,
       "currency": "JPY",
-      "market_time": 1791425389,
+      "market_time": 1791426890,
       "source": "yahoo"
     },
     {
@@ -410,6 +410,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "輝達Vera Rubin開始出貨　廣達創歷年同期新高　今年EPS上看26.5元",
+      "original_title": null,
+      "summary": "重點：輝達最新Vera Rubin陸續出貨，廣達公布9月合併營收約3253億元，年增。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94vera-rubin%E9%96%8B%E5%A7%8B%E5%87%BA%E8%B2%A8-%E5%BB%A3%E9%81%94%E5%89%B5%E6%AD%B7%E5%B9%B4%E5%90%8C%E6%9C%9F%E6%96%B0%E9%AB%98-%E4%BB%8A%E5%B9%B4eps%E4%B8%8A%E7%9C%8B26-5%E5%85%83-021528584.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "總經風向轉好 美股科技股領漲  00409A主動調整因應利率與油價變化",
       "original_title": null,
       "summary": "重點：國際總體經濟環境出現降溫跡象。七大工業國同意釋出緊急燃料儲備，緩解市場對中東局勢可能衝擊原油供應的憂慮，國際油 […]。",
@@ -439,11 +449,31 @@
     },
     {
       "kind": "news",
-      "category": "international",
-      "title": "歐盟擬對中國混動車實施保障措施，設關稅配額試點平衡雙邊貿易",
+      "category": "domestic",
+      "title": "台積電股利入帳！最大股東 不到1個月「帳上增值破3500億元」",
       "original_title": null,
-      "summary": "重點：【財訊快報／劉敏夫】外電報導指出，歐盟方面正在籌備所謂的「保障措施」，限制中國混合動力汽車進入歐盟市場，以期重新平衡對中貿易。中國製造的混合動力…。",
-      "link": "https://tw.stock.yahoo.com/news/%E6%AD%90%E7%9B%9F%E6%93%AC%E5%B0%8D%E4%B8%AD%E5%9C%8B%E6%B7%B7%E5%90%88%E5%8B%95%E5%8A%9B%E6%B1%BD%E8%BB%8A%E5%AF%A6%E6%96%BD%E4%BF%9D%E9%9A%9C%E6%8E%AA%E6%96%BD-%E8%A8%AD%E9%97%9C%E7%A8%85%E9%85%8D%E9%A1%8D%E8%A9%A6%E9%BB%9E%E5%B9%B3%E8%A1%A1%E9%9B%99%E9%82%8A%E8%B2%BF%E6%98%93-005051174.html",
+      "summary": "重點：台積電（2330）今（8）日發放股利，自 9 月除息以來，台積電上漲205元（算到昨日收盤價），相當於持有一張帳上就增值 20.5 萬元。最大股…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%82%A1%E5%88%A9%E5%85%A5%E5%B8%B3%EF%BC%81%E6%9C%80%E5%A4%A7%E8%82%A1%E6%9D%B1-%E4%B8%8D%E5%88%B01%E5%80%8B%E6%9C%88%E3%80%8C%E5%B8%B3%E4%B8%8A%E5%A2%9E%E5%80%BC%E7%A0%B43500%E5%84%84%E5%85%83%E3%80%8D-023906209.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "高盛調升台積電目標價至 3300 元　凸顯全球半導體龍頭價值",
+      "original_title": null,
+      "summary": "重點：圖／示意圖商傳媒｜責任編輯／綜合外電報導全球半導體設備巨頭應用材料（Applied Materials）與晶片製造商英特爾（Intel）於週二宣…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%AB%98%E7%9B%9B%E8%AA%BF%E5%8D%87%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%9B%AE%E6%A8%99%E5%83%B9%E8%87%B3-3300-%E5%85%83-%E5%87%B8%E9%A1%AF%E5%85%A8%E7%90%83%E5%8D%8A%E5%B0%8E%E9%AB%94%E9%BE%8D%E9%A0%AD%E5%83%B9%E5%80%BC-021737602.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股五萬點前原地踏步 美股標普首破7800點 00409A跨市場不錯過任一邊行情",
+      "original_title": null,
+      "summary": "重點：台股五萬點前原地踏步 美股標普首破7800點 00409A跨市場不錯過任一邊行情 圖/PEXELS 商傳媒｜記者陳宜靖／台北報導台股連兩日叩關五…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E4%BA%94%E8%90%AC%E9%BB%9E%E5%89%8D%E5%8E%9F%E5%9C%B0%E8%B8%8F%E6%AD%A5-%E7%BE%8E%E8%82%A1%E6%A8%99%E6%99%AE%E9%A6%96%E7%A0%B47800%E9%BB%9E-00409a%E8%B7%A8%E5%B8%82%E5%A0%B4%E4%B8%8D%E9%8C%AF%E9%81%8E%E4%BB%BB-%E9%82%8A%E8%A1%8C%E6%83%85-020145565.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -454,6 +484,16 @@
       "original_title": null,
       "summary": "重點：五萬點來不來？台股今日開低走低，最低觸及49189點，下跌超過600點。顧德投顧分析師張家豪表示，雖然今天量縮下跌，大盤指數今天回測5日線，預估…。",
       "link": "https://tw.stock.yahoo.com/news/%E3%80%90yahoo%E6%97%A9%E7%9B%A4%E3%80%915%E8%90%AC%E9%BB%9E%E6%BC%B8%E8%A1%8C%E6%BC%B8%E9%81%A0%EF%BC%9F%E5%8F%B0%E8%82%A1%E4%B8%80%E5%BA%A6%E8%B7%8C%E9%80%BE600%E9%BB%9E-%E5%88%86%E6%9E%90%E5%B8%AB%E5%BC%B5%E5%AE%B6%E8%B1%AA%E6%9B%9D%E4%B8%80%E9%97%9C%E9%8D%B5%EF%BC%9A%E8%A1%9D%E9%97%9C%E4%BB%8D%E6%9C%89%E6%9C%9B-015519425.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "歐盟擬對中國混動車實施保障措施，設關稅配額試點平衡雙邊貿易",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】外電報導指出，歐盟方面正在籌備所謂的「保障措施」，限制中國混合動力汽車進入歐盟市場，以期重新平衡對中貿易。中國製造的混合動力…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%AD%90%E7%9B%9F%E6%93%AC%E5%B0%8D%E4%B8%AD%E5%9C%8B%E6%B7%B7%E5%90%88%E5%8B%95%E5%8A%9B%E6%B1%BD%E8%BB%8A%E5%AF%A6%E6%96%BD%E4%BF%9D%E9%9A%9C%E6%8E%AA%E6%96%BD-%E8%A8%AD%E9%97%9C%E7%A8%85%E9%85%8D%E9%A1%8D%E8%A9%A6%E9%BB%9E%E5%B9%B3%E8%A1%A1%E9%9B%99%E9%82%8A%E8%B2%BF%E6%98%93-005051174.html",
       "published_at": null,
       "source": "yahoo_news"
     },

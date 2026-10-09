@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-09",
-  "generated_at": "2026-10-09T10:26:13+08:00",
+  "generated_at": "2026-10-09T10:54:44+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4195.4,
-      "change": 38.399999999999636,
-      "change_percent": 0.9237430839547663,
+      "price": 4200.5,
+      "change": 43.5,
+      "change_percent": 1.0464277122925187,
       "currency": "USD",
-      "market_time": 1791512170,
+      "market_time": 1791513878,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 90.97,
-      "change": -0.519999999999996,
-      "change_percent": -0.5683681276642213,
+      "price": 90.8,
+      "change": -0.6899999999999977,
+      "change_percent": -0.75418078478522,
       "currency": "USD",
-      "market_time": 1791512162,
+      "market_time": 1791513883,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 103.54,
-      "change": -0.7399999999999949,
-      "change_percent": -0.7096279248177934,
+      "price": 103.37,
+      "change": -0.9099999999999966,
+      "change_percent": -0.8726505561948567,
       "currency": "USD",
-      "market_time": 1791512162,
+      "market_time": 1791513873,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9412,
-      "change": 0.006400000000000183,
-      "change_percent": 0.12969117289454857,
+      "price": 4.9415,
+      "change": 0.006699999999999484,
+      "change_percent": 0.1357704466239662,
       "currency": "JPY",
-      "market_time": 1791512689,
+      "market_time": 1791512989,
       "source": "yahoo"
     },
     {
@@ -266,18 +266,18 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "CNBC Daily Open: Is cheap gas America's Godot?",
-      "link": "https://www.cnbc.com/2026/10/09/trump-iran-war-gas-openai-nvidia-microsoft-.html",
-      "published_at": "2026-10-09T01:42:01+00:00",
+      "title": "U.S. East Asian envoy says investors are overpricing Taiwan conflict risk",
+      "link": "https://www.cnbc.com/2026/10/09/taiwan-trump-china-militia-boat-tsmc-.html",
+      "published_at": "2026-10-09T02:52:15+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "U.S. East Asian envoy says investors are overpricing Taiwan risk",
-      "link": "https://www.cnbc.com/2026/10/09/taiwan-trump-china-militia-boat-tsmc-.html",
-      "published_at": "2026-10-09T01:37:01+00:00",
+      "title": "CNBC Daily Open: Is cheap gas America's Godot?",
+      "link": "https://www.cnbc.com/2026/10/09/trump-iran-war-gas-openai-nvidia-microsoft-.html",
+      "published_at": "2026-10-09T01:42:01+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
@@ -366,6 +366,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "川普推「創世紀任務」擴大AI科研 11家企業提供24億美元資源 輝達一掏就10億美元",
+      "original_title": null,
+      "summary": "重點：川普政府「創世紀任務」獲11家企業承諾提供總值24億美元AI資源, 輝達承諾10億美元, AMD提供5億美元。 OpenAI承諾2億美元, An…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E6%8E%A8-%E5%89%B5%E4%B8%96%E7%B4%80%E4%BB%BB%E5%8B%99-%E6%93%B4%E5%A4%A7ai%E7%A7%91%E7%A0%94-11%E5%AE%B6%E4%BC%81%E6%A5%AD%E6%8F%90%E4%BE%9B24%E5%84%84%E7%BE%8E%E5%85%83%E8%B3%87%E6%BA%90-%E8%BC%9D%E9%81%94-020010172.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "〈熱門股〉微星輝達RTX Spark及伺服器題材發酵 外資力挺連6買",
       "original_title": null,
       "summary": "重點：PC品牌微星(2377-TW)積極從電競品牌跨向AI領域，且下半年迎來輝達RTX Spark新品上市及伺服器出貨放量等多重利多題材，近期獲法人力…。",
@@ -380,16 +390,6 @@
       "original_title": null,
       "summary": "重點：美股主要指數表現，道瓊工業指數上漲0.10%，收在51231.64點；那斯達克指數下跌1.25%，收報27193.34點；標普500指數下跌.4…。",
       "link": "https://tw.news.yahoo.com/ai%E6%B3%A1%E6%B2%AB%E7%96%91%E6%85%AE%E5%A2%9E-%E7%BE%8E%E8%82%A1%E6%8C%87%E6%95%B8%E8%B5%B0%E8%B7%8C-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E9%87%8D%E6%8C%AB%E9%80%BE3-010007061.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "鴻海單月營收超過1兆創下台灣公司紀錄　有出貨輝達伺服器和iPhone18的EMS廠營收都創新高",
-      "original_title": null,
-      "summary": "重點：台股EMS廠9月營收表現分為2大組，鴻海、和碩與技嘉9月營收紛紛創歷史新高，另。",
-      "link": "https://tw.news.yahoo.com/%E9%B4%BB%E6%B5%B7%E5%96%AE%E6%9C%88%E7%87%9F%E6%94%B6%E8%B6%85%E9%81%8E1%E5%85%86%E5%89%B5%E4%B8%8B%E5%8F%B0%E7%81%A3%E5%85%AC%E5%8F%B8%E7%B4%80%E9%8C%84-%E6%9C%89%E5%87%BA%E8%B2%A8%E8%BC%9D%E9%81%94%E4%BC%BA%E6%9C%8D%E5%99%A8%E5%92%8Ciphone18%E7%9A%84ems%E5%BB%A0%E7%87%9F%E6%94%B6%E9%83%BD%E5%89%B5%E6%96%B0%E9%AB%98-010006116.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -430,6 +430,16 @@
       "original_title": null,
       "summary": "重點：外傳台電考慮讓台積電等用電大戶「自包」（下電廠）或自建電廠，台電指此構想「屬概念性討論階段」；不過，從國外作法與整體趨勢、現實條件等因素來看，台…。",
       "link": "https://tw.news.yahoo.com/%E9%A2%A8%E8%A9%95-%E8%87%AA%E5%8C%85%E8%87%AA%E5%BB%BA%E5%85%A9%E7%9B%B8%E5%AE%9C-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%98%AF%E8%A9%B2-%E8%87%AA%E8%B2%A0%E4%BE%9B%E9%9B%BB-012000599.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "鴻海單月營收超過1兆創下台灣公司紀錄　有出貨輝達伺服器和iPhone18的EMS廠營收都創新高",
+      "original_title": null,
+      "summary": "重點：台股EMS廠9月營收表現分為2大組，鴻海、和碩與技嘉9月營收紛紛創歷史新高，另。",
+      "link": "https://tw.news.yahoo.com/%E9%B4%BB%E6%B5%B7%E5%96%AE%E6%9C%88%E7%87%9F%E6%94%B6%E8%B6%85%E9%81%8E1%E5%85%86%E5%89%B5%E4%B8%8B%E5%8F%B0%E7%81%A3%E5%85%AC%E5%8F%B8%E7%B4%80%E9%8C%84-%E6%9C%89%E5%87%BA%E8%B2%A8%E8%BC%9D%E9%81%94%E4%BC%BA%E6%9C%8D%E5%99%A8%E5%92%8Ciphone18%E7%9A%84ems%E5%BB%A0%E7%87%9F%E6%94%B6%E9%83%BD%E5%89%B5%E6%96%B0%E9%AB%98-010006116.html",
       "published_at": null,
       "source": "yahoo_news"
     }

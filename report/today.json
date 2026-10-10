@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-10",
-  "generated_at": "2026-10-10T09:52:05+08:00",
+  "generated_at": "2026-10-10T10:16:08+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -266,19 +266,19 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
-      "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T00:45:51+00:00",
-      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "title": "Trump's diesel agreement with Putin accused of contradicting Russia sanctions law",
+      "link": "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html",
+      "published_at": "2026-10-10T02:09:00+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "Trump's diesel agreement with Putin accused of contradicting Russia sanctions law",
-      "link": "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html",
-      "published_at": "2026-10-09T23:16:50+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+      "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T00:45:51+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
     {

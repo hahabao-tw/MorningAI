@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-12",
-  "generated_at": "2026-10-12T09:35:37+08:00",
+  "generated_at": "2026-10-12T10:18:00+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4233.7,
-      "change": 17.399999999999636,
-      "change_percent": 0.4126841069183795,
+      "price": 4232.7,
+      "change": 16.399999999999636,
+      "change_percent": 0.38896662950927674,
       "currency": "USD",
-      "market_time": 1791768336,
+      "market_time": 1791770878,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 90.2,
-      "change": -1.6499999999999915,
-      "change_percent": -1.7964071856287334,
+      "price": 90.18,
+      "change": -1.6699999999999875,
+      "change_percent": -1.8181818181818046,
       "currency": "USD",
-      "market_time": 1791768333,
+      "market_time": 1791770880,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 103.01,
-      "change": -1.7099999999999937,
-      "change_percent": -1.6329258976317742,
+      "price": 103.03,
+      "change": -1.6899999999999977,
+      "change_percent": -1.6138273491214647,
       "currency": "USD",
-      "market_time": 1791768328,
+      "market_time": 1791770833,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 31.922,
-      "change": 0.012000000000000455,
-      "change_percent": 0.03760576621748811,
+      "price": 31.934,
+      "change": 0.02400000000000091,
+      "change_percent": 0.07521153243497622,
       "currency": "TWD",
-      "market_time": 1791768935,
+      "market_time": 1791771480,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9459,
-      "change": -0.010900000000000354,
-      "change_percent": -0.21989993544222788,
+      "price": 4.9407,
+      "change": -0.01610000000000067,
+      "change_percent": -0.3248063266623763,
       "currency": "JPY",
-      "market_time": 1791768865,
+      "market_time": 1791771266,
       "source": "yahoo"
     },
     {
@@ -433,6 +433,76 @@
       "published_at": "2026-10-09T22:30:22+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "焦點股》景碩：輝達CPU大單來了！  外資喊天價",
+      "original_title": null,
+      "summary": "重點：IC載板廠景碩（3189）因接下輝達CPU大單，未來營運成長備受看好，美系外資出具最新報告上修景碩獲利與目標價，美系外資指出，景碩透過高階ABF…。",
+      "link": "https://tw.news.yahoo.com/%E7%84%A6%E9%BB%9E%E8%82%A1-%E6%99%AF%E7%A2%A9-%E8%BC%9D%E9%81%94cpu%E5%A4%A7%E5%96%AE%E4%BE%86%E4%BA%86-%E5%A4%96%E8%B3%87%E5%96%8A%E5%A4%A9%E5%83%B9-020420516.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "高利率下誰最穩？輝達本益比低於大盤 AI源頭企業現金流強 00409A聚焦美國獲利巨頭",
+      "original_title": null,
+      "summary": "重點：高利率環境下，AI產業的體質差異正在拉大。近期美股AI族群出現震盪，仰賴大量舉債擴建資料中心的算力業者Core […]。",
+      "link": "https://tw.news.yahoo.com/%E9%AB%98%E5%88%A9%E7%8E%87%E4%B8%8B%E8%AA%B0%E6%9C%80%E7%A9%A9-%E8%BC%9D%E9%81%94%E6%9C%AC%E7%9B%8A%E6%AF%94%E4%BD%8E%E6%96%BC%E5%A4%A7%E7%9B%A4-ai%E6%BA%90%E9%A0%AD%E4%BC%81%E6%A5%AD%E7%8F%BE%E9%87%91%E6%B5%81%E5%BC%B7-00409a%E8%81%9A%E7%84%A6%E7%BE%8E%E5%9C%8B%E7%8D%B2%E5%88%A9%E5%B7%A8%E9%A0%AD-015144774.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達市值逼近6兆美元 AI獲利源頭在美國 台股之外再配置00409A抓住源頭企業",
+      "original_title": null,
+      "summary": "重點：AI晶片龍頭輝達股價近日連續改寫歷史新高，市值約5.8兆美元，可望成為全球首家市值突破6兆美元的企業，今年以來 […]。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E5%B8%82%E5%80%BC%E9%80%BC%E8%BF%916%E5%85%86%E7%BE%8E%E5%85%83-ai%E7%8D%B2%E5%88%A9%E6%BA%90%E9%A0%AD%E5%9C%A8%E7%BE%8E%E5%9C%8B-%E5%8F%B0%E8%82%A1%E4%B9%8B%E5%A4%96%E5%86%8D%E9%85%8D%E7%BD%AE00409a%E6%8A%93%E4%BD%8F%E6%BA%90%E9%A0%AD%E4%BC%81%E6%A5%AD-014840001.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美股下殺、資金觀望台積電法說會　台股下跌400點失守4萬9",
+      "original_title": null,
+      "summary": "重點：受到美股在台灣國慶連假期間震盪甚至大跌影響，台股今早下跌約400點，失守4萬9大關，離5萬點愈來愈遠，資金觀望本週四舉辦的台積電法說會。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E4%B8%8B%E6%AE%BA-%E8%B3%87%E9%87%91%E8%A7%80%E6%9C%9B%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%B3%95%E8%AA%AA%E6%9C%83-%E5%8F%B0%E8%82%A1%E4%B8%8B%E8%B7%8C400%E9%BB%9E%E5%A4%B1%E5%AE%884%E8%90%AC9-011600974.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "愈跌愈買！聯發科已跌16% 卻有8.6萬散戶撿便宜 分析師看下檔支撐",
+      "original_title": null,
+      "summary": "重點：「二哥」聯發科（2454）最新公布9月營收呈現月減13%，今早再跌1.8%，進行4600點整數心理關卡保衛戰。事實上聯發科自9月下旬史上高點54…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%84%88%E8%B7%8C%E6%84%88%E8%B2%B7%EF%BC%81%E8%81%AF%E7%99%BC%E7%A7%91%E5%B7%B2%E8%B7%8C16-%E5%8D%BB%E6%9C%8986%E8%90%AC%E6%95%A3%E6%88%B6%E6%92%BF%E4%BE%BF%E5%AE%9C-%E5%88%86%E6%9E%90%E5%B8%AB%E7%9C%8B%E4%B8%8B%E6%AA%94%E6%94%AF%E6%92%90-015409484.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "帕蘭提爾獲調升評等 AI軟體正在收錢！ 00409A持股直取台股沒有的AI變現企業",
+      "original_title": null,
+      "summary": "重點：AI軟體企業正成為華爾街的新焦點。美國數據分析與AI平台企業帕蘭提爾10月初獲高盛等機構調升評等，看好主權AI […]。",
+      "link": "https://tw.news.yahoo.com/%E5%B8%95%E8%98%AD%E6%8F%90%E7%88%BE%E7%8D%B2%E8%AA%BF%E5%8D%87%E8%A9%95%E7%AD%89-ai%E8%BB%9F%E9%AB%94%E6%AD%A3%E5%9C%A8%E6%94%B6%E9%8C%A2-00409a%E6%8C%81%E8%82%A1%E7%9B%B4%E5%8F%96%E5%8F%B0%E8%82%A1%E6%B2%92%E6%9C%89%E7%9A%84ai%E8%AE%8A%E7%8F%BE%E4%BC%81%E6%A5%AD-015330960.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "今年全球股市表現曝光！台股「狂飆近7成」排名第1　狠甩日韓",
+      "original_title": null,
+      "summary": "重點：金融數據平台公布全球主要股市今年漲跌幅，台股以69.8％的驚人漲幅榮登全球之冠，南韓與日本則分別以58.6％及41.7％緊追在後，前三名全由東亞…。",
+      "link": "https://tw.news.yahoo.com/%E4%BB%8A%E5%B9%B4%E5%85%A8%E7%90%83%E8%82%A1%E5%B8%82%E8%A1%A8%E7%8F%BE%E6%9B%9D%E5%85%89-%E5%8F%B0%E8%82%A1-%E7%8B%82%E9%A3%86%E8%BF%917%E6%88%90-%E6%8E%92%E5%90%8D%E7%AC%AC1-%E7%8B%A0%E7%94%A9%E6%97%A5%E9%9F%93-015200024.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

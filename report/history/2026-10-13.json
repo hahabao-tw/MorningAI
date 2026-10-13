@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-13",
-  "generated_at": "2026-10-13T11:07:17+08:00",
+  "generated_at": "2026-10-13T11:30:05+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4202.7,
-      "change": 12.099999999999454,
-      "change_percent": 0.2887414690020392,
+      "price": 4200.4,
+      "change": 9.799999999999272,
+      "change_percent": 0.23385672696032245,
       "currency": "USD",
-      "market_time": 1791860234,
+      "market_time": 1791861603,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 92.42,
-      "change": -1.3199999999999932,
-      "change_percent": -1.4081502026882795,
+      "price": 92.48,
+      "change": -1.259999999999991,
+      "change_percent": -1.344143375293355,
       "currency": "USD",
-      "market_time": 1791860237,
+      "market_time": 1791861601,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 105.37,
-      "change": -1.2800000000000011,
-      "change_percent": -1.2001875293014543,
+      "price": 105.28,
+      "change": -1.3700000000000045,
+      "change_percent": -1.284575714955466,
       "currency": "USD",
-      "market_time": 1791860113,
+      "market_time": 1791861337,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.059,
-      "change": 0.12899999999999778,
-      "change_percent": 0.40400876918257994,
+      "price": 32.093,
+      "change": 0.1630000000000038,
+      "change_percent": 0.5104917005950637,
       "currency": "TWD",
-      "market_time": 1791860837,
+      "market_time": 1791862205,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9265,
-      "change": -0.030400000000000205,
-      "change_percent": -0.6132865298876354,
+      "price": 4.9215,
+      "change": -0.0354000000000001,
+      "change_percent": -0.7141560249349411,
       "currency": "JPY",
-      "market_time": 1791860666,
+      "market_time": 1791862167,
       "source": "yahoo"
     },
     {
@@ -266,6 +266,33 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "IMF sees milder global slowdown as AI boom offsets war hit — warns resilience is nearing limits",
+      "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
+      "published_at": "2026-10-13T03:25:20+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
+      "link": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html",
+      "published_at": "2026-10-13T03:19:43+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "UK growth upgraded but energy prices and rates to bite in 2027",
+      "link": "https://www.bbc.co.uk/news/articles/cmglw0r21zexo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T03:14:13+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
       "link": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
       "published_at": "2026-10-13T02:49:17+00:00",
@@ -288,24 +315,6 @@
       "link": "https://www.cnbc.com/2026/10/13/six-flags-shares-plunge-after-hours-deadly-roller-coaster-incident-goliath-georgia.html",
       "published_at": "2026-10-13T02:29:14+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "Global economy to slow less than expected in 2026 as AI boom offsets war hit: IMF",
-      "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
-      "published_at": "2026-10-13T02:09:34+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "UK growth upgraded but energy prices and rates to bite in 2027",
-      "link": "https://www.bbc.co.uk/news/articles/cmglw0r21zexo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T02:00:35+00:00",
-      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
     {
@@ -356,6 +365,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "全球最大資管吹起債市號角！貝萊德六年來首次看多短天期美債　下調美股評等",
+      "original_title": null,
+      "summary": "重點：貝萊德調整美國資產配置，短債升至超配、長債與美股降至中性，MBS也降至中性。 研報稱美債殖利率已具吸引力，市場對Fed進一步緊縮預期可能過度，未…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%85%A8%E7%90%83%E6%9C%80%E5%A4%A7%E8%B3%87%E7%AE%A1%E5%90%B9%E8%B5%B7%E5%82%B5%E5%B8%82%E8%99%9F%E8%A7%92-%E8%B2%9D%E8%90%8A%E5%BE%B7%E5%85%AD%E5%B9%B4%E4%BE%86%E9%A6%96%E6%AC%A1%E7%9C%8B%E5%A4%9A%E7%9F%AD%E5%A4%A9%E6%9C%9F%E7%BE%8E%E5%82%B5-%E4%B8%8B%E8%AA%BF%E7%BE%8E%E8%82%A1%E8%A9%95%E7%AD%89-023005379.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "自家晶片無緣機皇？傳三星Galaxy S27 Ultra維持全高通　Exynos 2700有望導入3款機型",
       "original_title": null,
       "summary": "重點：三星下一代旗艦手機Samsung Galaxy S27系列的處理器配置持續受到關注，雖然三星自家Exynos 2700採用第二代2奈米製程，傳出…。",
@@ -385,21 +404,51 @@
     },
     {
       "kind": "news",
-      "category": "international",
-      "title": "《人幣匯率》中間價13日報6.7298元 升值15基點",
+      "category": "domestic",
+      "title": "楊光磊揭「矽盾」兩面刃：台積電不想當盾牌",
       "original_title": null,
-      "summary": "重點：MoneyDJ新聞 2026-10-13 09:41:50 新聞中心 發佈中國大陸外匯交易中心網站公佈，2026年10月13日銀行間外匯市場美元…。",
-      "link": "https://tw.stock.yahoo.com/news/%E4%BA%BA%E5%B9%A3%E5%8C%AF%E7%8E%87-%E4%B8%AD%E9%96%93%E5%83%B913%E6%97%A5%E5%A0%B16-7298%E5%85%83-%E5%8D%87%E5%80%BC15%E5%9F%BA%E9%BB%9E-014100477.html",
+      "summary": "重點：[NOWNEWS今日新聞]台灣半導體產業長期被視為牽動國際局勢的重要戰略籌碼，「矽盾」論述也因此受到關注。不過，曾任台積電研發處長、負責先進技術…。",
+      "link": "https://tw.news.yahoo.com/%E6%A5%8A%E5%85%89%E7%A3%8A%E6%8F%AD-%E7%9F%BD%E7%9B%BE-%E5%85%A9%E9%9D%A2%E5%88%83-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%B8%8D%E6%83%B3%E7%95%B6%E7%9B%BE%E7%89%8C-024741387.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "楊光磊揭「矽盾」兩面刃：台積電不想當盾牌",
+      "title": "【台股盤中】科技股回檔　跌逾千點回測48000關",
       "original_title": null,
-      "summary": "重點：[NOWNEWS今日新聞]台灣半導體產業長期被視為牽動國際局勢的重要戰略籌碼，「矽盾」論述也因此受到關注。不過，曾任台積電研發處長、負責先進技術…。",
-      "link": "https://tw.news.yahoo.com/%E6%A5%8A%E5%85%89%E7%A3%8A%E6%8F%AD-%E7%9F%BD%E7%9B%BE-%E5%85%A9%E9%9D%A2%E5%88%83-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%B8%8D%E6%83%B3%E7%95%B6%E7%9B%BE%E7%89%8C-024741387.html",
+      "summary": "重點：（中央社記者曾仁凱台北2026年10月13日電）美國費城半導體指數週一續挫335.63點或2.67%，日、韓股今天早盤也走弱，拖累台股今天盤中重…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%9B%A4%E4%B8%AD-%E7%A7%91%E6%8A%80%E8%82%A1%E5%9B%9E%E6%AA%94-%E8%B7%8C%E9%80%BE%E5%8D%83%E9%BB%9E%E5%9B%9E%E6%B8%AC48000%E9%97%9C-025700721.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "科技股回檔　台股盤中跌逾千點回測48000關",
+      "original_title": null,
+      "summary": "重點：（中央社記者曾仁凱台北13日電）美國費城半導體指數週一續挫335.63點或2.67%，日、韓股今天早盤也走弱，拖累台股今天盤中重跌逾1200點，…。",
+      "link": "https://tw.news.yahoo.com/%E7%A7%91%E6%8A%80%E8%82%A1%E5%9B%9E%E6%AA%94-%E5%8F%B0%E8%82%A1%E7%9B%A4%E4%B8%AD%E8%B7%8C%E9%80%BE%E5%8D%83%E9%BB%9E%E5%9B%9E%E6%B8%AC48000%E9%97%9C-025632879.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "別只死守大盤權值股！中小型股迎「獲利＋評價」00418A 主動挖寶下一顆台股明星",
+      "original_title": null,
+      "summary": "重點：台股下一波行情，機會可能不只在大型權值股！根據最新市場預測，2026年、2027年台股EPS成長率分別上看67 […]。",
+      "link": "https://tw.news.yahoo.com/%E5%88%A5%E5%8F%AA%E6%AD%BB%E5%AE%88%E5%A4%A7%E7%9B%A4%E6%AC%8A%E5%80%BC%E8%82%A1-%E4%B8%AD%E5%B0%8F%E5%9E%8B%E8%82%A1%E8%BF%8E-%E7%8D%B2%E5%88%A9-%E8%A9%95%E5%83%B9-00418a-025535055.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "《人幣匯率》中間價13日報6.7298元 升值15基點",
+      "original_title": null,
+      "summary": "重點：MoneyDJ新聞 2026-10-13 09:41:50 新聞中心 發佈中國大陸外匯交易中心網站公佈，2026年10月13日銀行間外匯市場美元…。",
+      "link": "https://tw.stock.yahoo.com/news/%E4%BA%BA%E5%B9%A3%E5%8C%AF%E7%8E%87-%E4%B8%AD%E9%96%93%E5%83%B913%E6%97%A5%E5%A0%B16-7298%E5%85%83-%E5%8D%87%E5%80%BC15%E5%9F%BA%E9%BB%9E-014100477.html",
       "published_at": null,
       "source": "yahoo_news"
     },

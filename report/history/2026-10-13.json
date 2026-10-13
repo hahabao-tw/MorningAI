@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-13",
+  "generated_at": "2026-10-13T11:07:17+08:00",
+  "timezone": "Asia/Taipei",
+  "markets": [
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^IXIC",
+      "label": "NASDAQ",
+      "price": 27245.902,
+      "change": -120.26800000000003,
+      "change_percent": -0.43947691620712737,
+      "currency": "USD",
+      "market_time": 1791839759,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^SOX",
+      "label": "費城半導體",
+      "price": 12236.788,
+      "change": -335.6319999999996,
+      "change_percent": -2.669589466467073,
+      "currency": "USD",
+      "market_time": 1791839759,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^GSPC",
+      "label": "S&P 500",
+      "price": 7807.24,
+      "change": -4.300000000000182,
+      "change_percent": -0.055046764146380635,
+      "currency": "USD",
+      "market_time": 1791837301,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^DJI",
+      "label": "道瓊指數",
+      "price": 51850.55,
+      "change": 195.60000000000582,
+      "change_percent": 0.37866651695530795,
+      "currency": "USD",
+      "market_time": 1791837831,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "TSM",
+      "label": "台積電 ADR",
+      "price": 444.35,
+      "change": -8.95999999999998,
+      "change_percent": -1.9765723235754737,
+      "currency": "USD",
+      "market_time": 1791835202,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "UMC",
+      "label": "聯電 ADR",
+      "price": 22.55,
+      "change": -0.41000000000000014,
+      "change_percent": -1.7857142857142863,
+      "currency": "USD",
+      "market_time": 1791835202,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "ASX",
+      "label": "日月光 ADR",
+      "price": 47.53,
+      "change": 1.1000000000000014,
+      "change_percent": 2.369157872065478,
+      "currency": "USD",
+      "market_time": 1791835202,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "GC=F",
+      "label": "黃金",
+      "price": 4202.7,
+      "change": 12.099999999999454,
+      "change_percent": 0.2887414690020392,
+      "currency": "USD",
+      "market_time": 1791860234,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "CL=F",
+      "label": "WTI 原油",
+      "price": 92.42,
+      "change": -1.3199999999999932,
+      "change_percent": -1.4081502026882795,
+      "currency": "USD",
+      "market_time": 1791860237,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "BZ=F",
+      "label": "布蘭特原油",
+      "price": 105.37,
+      "change": -1.2800000000000011,
+      "change_percent": -1.2001875293014543,
+      "currency": "USD",
+      "market_time": 1791860113,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWD=X",
+      "label": "USD/TWD",
+      "price": 32.059,
+      "change": 0.12899999999999778,
+      "change_percent": 0.40400876918257994,
+      "currency": "TWD",
+      "market_time": 1791860837,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWDJPY=X",
+      "label": "TWD/JPY",
+      "price": 4.9265,
+      "change": -0.030400000000000205,
+      "change_percent": -0.6132865298876354,
+      "currency": "JPY",
+      "market_time": 1791860666,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWII",
+      "label": "加權",
+      "price": 49301.96,
+      "change": -11.480000000003201,
+      "change_percent": -0.023279657634923057,
+      "currency": "TWD",
+      "market_time": 1791734400,
+      "date": "10/12",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWOII",
+      "label": "櫃買",
+      "price": 427.9,
+      "change": 1.1899999999999977,
+      "change_percent": 0.27887792646059334,
+      "currency": "TWD",
+      "market_time": 1791734400,
+      "date": "10/12",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WTX&",
+      "label": "台指期夜盤",
+      "price": 48946.0,
+      "change": -399.0,
+      "change_percent": -0.8085925625696625,
+      "market_time": 1791838800,
+      "date": "10/13",
+      "source": "yahoo_future"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WCDF&",
+      "label": "台積電期貨夜盤",
+      "price": 2520.0,
+      "change": -30.0,
+      "change_percent": -1.1764705882352942,
+      "market_time": 1791838800,
+      "date": "10/13",
+      "source": "yahoo_future"
+    }
+  ],
+  "taiwan_market": [
+    {
+      "kind": "twse_summary",
+      "date": "115/10/12",
+      "volume": 10868236326,
+      "turnover": 894521928358,
+      "transactions": 4759498,
+      "index": 49301.96,
+      "change": -11.48,
+      "source": "twse",
+      "institutional": [
+        {
+          "name": "自營商(自行買賣)",
+          "buy": 7427842603,
+          "sell": 8227215631,
+          "net": -799373028
+        },
+        {
+          "name": "自營商(避險)",
+          "buy": 30566874658,
+          "sell": 44061605271,
+          "net": -13494730613
+        },
+        {
+          "name": "投信",
+          "buy": 26036212786,
+          "sell": 18895287719,
+          "net": 7140925067
+        },
+        {
+          "name": "外資及陸資(不含外資自營商)",
+          "buy": 312724764934,
+          "sell": 364922911390,
+          "net": -52198146456
+        },
+        {
+          "name": "外資自營商",
+          "buy": 0,
+          "sell": 0,
+          "net": 0
+        },
+        {
+          "name": "合計",
+          "buy": 376755694981,
+          "sell": 436107020011,
+          "net": -59351325030
+        }
+      ]
+    }
+  ],
+  "chips": [
+    {
+      "kind": "chips",
+      "date": "2026-10-12",
+      "foreign_tx_net": -82806,
+      "trust_tx_net": 76848,
+      "mtx_retail_ratio": 20.45,
+      "tmf_retail_ratio": 19.6,
+      "options_pc_ratio": 84.78,
+      "tsmc_impact": 7.982,
+      "source": "market_dashboard"
+    }
+  ],
+  "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
+      "link": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+      "published_at": "2026-10-13T02:49:17+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "How Red Bull's F1 team is using AI to make split-second decisions for Max Verstappen",
+      "link": "https://www.cnbc.com/2026/10/13/red-bull-f1-ai-max-verstappen.html",
+      "published_at": "2026-10-13T02:37:08+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Six Flags shares plunge after-hours following report of deadly roller coaster incident",
+      "link": "https://www.cnbc.com/2026/10/13/six-flags-shares-plunge-after-hours-deadly-roller-coaster-incident-goliath-georgia.html",
+      "published_at": "2026-10-13T02:29:14+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Global economy to slow less than expected in 2026 as AI boom offsets war hit: IMF",
+      "link": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
+      "published_at": "2026-10-13T02:09:34+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "UK growth upgraded but energy prices and rates to bite in 2027",
+      "link": "https://www.bbc.co.uk/news/articles/cmglw0r21zexo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T02:00:35+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Bumble shares soar after report dating firm in $1bn takeover talks",
+      "link": "https://www.bbc.co.uk/news/articles/cm9qzwjgnjxlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T01:50:47+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Publicly owned rail is popular. But is it making the trains run on time?",
+      "link": "https://www.bbc.co.uk/news/articles/ck5yn0n14r8do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-12T23:37:00+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Heating oil customers face tough winter despite shake-up promise",
+      "link": "https://www.bbc.co.uk/news/articles/cxnv0z09r882o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-12T23:02:24+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "I earn £120,000 a year making social media videos go viral",
+      "link": "https://www.bbc.co.uk/news/articles/c84g12v3lk20o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-12T23:01:45+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Trump defends Russia diesel deal after bipartisan pushback: 'I made the right choice'",
+      "link": "https://www.cnbc.com/2026/10/12/trump-russia-diesel-putin.html",
+      "published_at": "2026-10-12T18:32:03+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "自家晶片無緣機皇？傳三星Galaxy S27 Ultra維持全高通　Exynos 2700有望導入3款機型",
+      "original_title": null,
+      "summary": "重點：三星下一代旗艦手機Samsung Galaxy S27系列的處理器配置持續受到關注，雖然三星自家Exynos 2700採用第二代2奈米製程，傳出…。",
+      "link": "https://tw.news.yahoo.com/%E8%87%AA%E5%AE%B6%E6%99%B6%E7%89%87%E7%84%A1%E7%B7%A3%E6%A9%9F%E7%9A%87-%E5%82%B3%E4%B8%89%E6%98%9Fgalaxy-s27-ultra%E7%B6%AD%E6%8C%81%E5%85%A8%E9%AB%98%E9%80%9A-exynos-022421064.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "微星攜手輝達登場2026 OCP全球高峰會 秀出MGX機架級AI基礎架構",
+      "original_title": null,
+      "summary": "重點：PC品牌微星(2377-TW)將於2026 OCP全球高峰會展示最新AI基礎架構，涵蓋NVIDIA MGX機架級系統、液冷GPU伺服器，以及基於…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%BE%AE%E6%98%9F%E6%94%9C%E6%89%8B%E8%BC%9D%E9%81%94%E7%99%BB%E5%A0%B42026-ocp%E5%85%A8%E7%90%83%E9%AB%98%E5%B3%B0%E6%9C%83-%E7%A7%80%E5%87%BAmgx%E6%A9%9F%E6%9E%B6%E7%B4%9Aai%E5%9F%BA%E7%A4%8E%E6%9E%B6%E6%A7%8B-021314933.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "昔缺席兆元宴！仁寶打進輝達Vera MGX供應鏈　利多失靈股價逆跌2%、爆量2萬張",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者蕭廷芬／綜合報導AI伺服器市場再傳台廠捷報！輝達（NVIDIA）在美國時間12日登場的2026年開放運算計畫全球峰會（OC…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%98%94%E7%BC%BA%E5%B8%AD%E5%85%86%E5%85%83%E5%AE%B4-%E4%BB%81%E5%AF%B6%E6%89%93%E9%80%B2%E8%BC%9D%E9%81%94vera-mgx%E4%BE%9B%E6%87%89%E9%8F%88-%E5%88%A9%E5%A4%9A%E5%A4%B1%E9%9D%88%E8%82%A1%E5%83%B9%E9%80%86%E8%B7%8C2-%E7%88%86%E9%87%8F2%E8%90%AC%E5%BC%B5-020500896.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "《人幣匯率》中間價13日報6.7298元 升值15基點",
+      "original_title": null,
+      "summary": "重點：MoneyDJ新聞 2026-10-13 09:41:50 新聞中心 發佈中國大陸外匯交易中心網站公佈，2026年10月13日銀行間外匯市場美元…。",
+      "link": "https://tw.stock.yahoo.com/news/%E4%BA%BA%E5%B9%A3%E5%8C%AF%E7%8E%87-%E4%B8%AD%E9%96%93%E5%83%B913%E6%97%A5%E5%A0%B16-7298%E5%85%83-%E5%8D%87%E5%80%BC15%E5%9F%BA%E9%BB%9E-014100477.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "楊光磊揭「矽盾」兩面刃：台積電不想當盾牌",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]台灣半導體產業長期被視為牽動國際局勢的重要戰略籌碼，「矽盾」論述也因此受到關注。不過，曾任台積電研發處長、負責先進技術…。",
+      "link": "https://tw.news.yahoo.com/%E6%A5%8A%E5%85%89%E7%A3%8A%E6%8F%AD-%E7%9F%BD%E7%9B%BE-%E5%85%A9%E9%9D%A2%E5%88%83-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%B8%8D%E6%83%B3%E7%95%B6%E7%9B%BE%E7%89%8C-024741387.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股ETF比一比　這4檔年化配息率逾20%",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]今（2026）年來台股漲勢凌厲，以逾70%的漲幅傲視全球股市，人氣滾滾的台股ETF績效也跟著水漲船高，而資本利得的挹注…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1etf%E6%AF%94-%E6%AF%94-%E9%80%994%E6%AA%94%E5%B9%B4%E5%8C%96%E9%85%8D%E6%81%AF%E7%8E%87%E9%80%BE20-024248035.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "險破48K！台股早盤挫逾千點　台積電跌快2%",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]沙烏地阿拉伯境內機場遇襲推升國際油價，加上科技股受壓，美股除了道瓊工業指數以外，主要指數皆收黑。台股今（13）日早盤以…。",
+      "link": "https://tw.news.yahoo.com/%E5%A4%B1%E5%AE%8849k-%E5%8F%B0%E8%82%A1-%E5%BA%A6%E9%87%8D%E6%8C%AB900%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%8C%E9%80%BE1-012600634.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "亞股全面血洗！台積電失守2500元 散戶必看3大觀察指標",
+      "original_title": null,
+      "summary": "重點：沙烏地阿拉伯首都機場遭攻擊，國際油價每桶上漲近2美元衝擊，市場通膨疑慮再起，美國科技股重挫，台股13日早盤大跌逾千點，最低來到4萬8260點，台…。",
+      "link": "https://tw.stock.yahoo.com/news/%E4%BA%9E%E8%82%A1%E5%85%A8%E9%9D%A2%E8%A1%80%E6%B4%97-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%A4%B1%E5%AE%882500%E5%85%83-%E6%95%A3%E6%88%B6%E5%BF%85%E7%9C%8B3%E5%A4%A7%E8%A7%80%E5%AF%9F%E6%8C%87%E6%A8%99-021529217.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    }
+  ]
+}

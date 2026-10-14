@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-14",
-  "generated_at": "2026-10-14T07:01:06+08:00",
+  "generated_at": "2026-10-14T09:20:10+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -34,8 +34,8 @@
       "symbol": "^GSPC",
       "label": "S&P 500",
       "price": 7805.45,
-      "change": -1.7899999999999636,
-      "change_percent": -0.02292743658450315,
+      "change": -6.0900000000001455,
+      "change_percent": -0.07796157991894231,
       "currency": "USD",
       "market_time": 1791923582,
       "source": "yahoo"
@@ -46,8 +46,8 @@
       "symbol": "^DJI",
       "label": "道瓊指數",
       "price": 51670.1,
-      "change": -180.45000000000437,
-      "change_percent": -0.3480194520598226,
+      "change": 15.19999999999709,
+      "change_percent": 0.02942605638573899,
       "currency": "USD",
       "market_time": 1791924115,
       "source": "yahoo"
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4185.2,
-      "change": 7.899999999999636,
-      "change_percent": 0.1891173724654594,
+      "price": 4175.9,
+      "change": -1.4000000000005457,
+      "change_percent": -0.03351447106984286,
       "currency": "USD",
-      "market_time": 1791931864,
+      "market_time": 1791940209,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 94.69,
-      "change": 0.5499999999999972,
-      "change_percent": 0.5842362438920726,
+      "price": 95.24,
+      "change": 1.0999999999999943,
+      "change_percent": 1.1684724877841453,
       "currency": "USD",
-      "market_time": 1791931864,
+      "market_time": 1791940208,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 106.26,
-      "change": 0.5700000000000074,
-      "change_percent": 0.5393130854385536,
+      "price": 106.94,
+      "change": 1.25,
+      "change_percent": 1.182704134733655,
       "currency": "USD",
-      "market_time": 1791931397,
+      "market_time": 1791940202,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.119,
-      "change": 0.18900000000000006,
-      "change_percent": 0.5919198246163484,
+      "price": 32.153,
+      "change": 0.028999999999996362,
+      "change_percent": 0.09027518366329336,
       "currency": "TWD",
-      "market_time": 1791932465,
+      "market_time": 1791940810,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9192,
-      "change": -0.03770000000000007,
-      "change_percent": -0.760555992656702,
+      "price": 4.9177,
+      "change": 0.000600000000000378,
+      "change_percent": 0.0122023143723003,
       "currency": "JPY",
-      "market_time": 1791932365,
+      "market_time": 1791940768,
       "source": "yahoo"
     },
     {
@@ -266,6 +266,60 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "China's exports likely grew by double-digits in September",
+      "link": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html",
+      "published_at": "2026-10-14T01:16:02+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "CNBC Daily Open: Diesel deal may not be enough to curb high energy prices",
+      "link": "https://www.cnbc.com/2026/10/14/cnbc-daily-open-diesel-energy-apple-anthropic-imf.html",
+      "published_at": "2026-10-14T01:09:16+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Singapore third-quarter GDP growth softens from four-year high but beats estimates",
+      "link": "https://www.cnbc.com/2026/10/14/singapore-gdp-q3.html",
+      "published_at": "2026-10-14T00:28:34+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Goldman says investors are looking for 'profitable' Chinese business growth overseas",
+      "link": "https://www.cnbc.com/2026/10/14/goldman-says-investors-seek-profitable-chinese-business-growth-abroad.html",
+      "published_at": "2026-10-13T23:05:12+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Is it OK for jobseekers or employers to use AI?",
+      "link": "https://www.bbc.co.uk/news/articles/c623dnkn8pkyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T23:04:39+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Royal Mail losing 400 postal workers a week, says union",
+      "link": "https://www.bbc.co.uk/news/articles/cm5ynp0vz3p7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T23:03:59+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
       "link": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-13T21:42:49+00:00",
@@ -352,6 +406,86 @@
       "published_at": "2026-10-13T11:48:07+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Rosenberg稱美股越來越像泡沫，多項指標極端程度從業40年來未見",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】外電報導指出，總部位於多倫多的Rosenberg Research & Associates創始人David Rosenbe…。",
+      "link": "https://tw.stock.yahoo.com/news/rosenberg%E7%A8%B1%E7%BE%8E%E8%82%A1%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%83%8F%E6%B3%A1%E6%B2%AB-%E5%A4%9A%E9%A0%85%E6%8C%87%E6%A8%99%E6%A5%B5%E7%AB%AF%E7%A8%8B%E5%BA%A6%E5%BE%9E%E6%A5%AD40%E5%B9%B4%E4%BE%86%E6%9C%AA%E8%A6%8B-010023653.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "花旗撤回美股「加碼」評等，POLLS指標亮警訊、結束標普等權重多單",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】路透報導，花旗集團週二(13日)發表最新研究報告撤回美國股票「加碼」評等，並結束標普500等權重指數的多頭部位，表示市場過度…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%8A%B1%E6%97%97%E6%92%A4%E5%9B%9E%E7%BE%8E%E8%82%A1-%E5%8A%A0%E7%A2%BC-%E8%A9%95%E7%AD%89-polls%E6%8C%87%E6%A8%99%E4%BA%AE%E8%AD%A6%E8%A8%8A-%E7%B5%90%E6%9D%9F%E6%A8%99%E6%99%AE%E7%AD%89%E6%AC%8A%E9%87%8D%E5%A4%9A%E5%96%AE-005230045.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "台積電ADR連五黑後小彈0.17%，週四財報登場，市場估Q3獲利再創高",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】全球晶圓代工龍頭台積電ADR(美股代碼TSM)週二(13日)在連續五個交易日下跌後，股價呈現低檔震盪格局，盤中一度跌破440…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E9%80%A3%E4%BA%94%E9%BB%91%E5%BE%8C%E5%B0%8F%E5%BD%880-17-%E9%80%B1%E5%9B%9B%E8%B2%A1%E5%A0%B1%E7%99%BB%E5%A0%B4-%E5%B8%82%E5%A0%B4%E4%BC%B0q3%E7%8D%B2%E5%88%A9%E5%86%8D%E5%89%B5%E9%AB%98-005140182.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "PIMCO示警美債殖利率尚未見頂，Fed本輪緊縮週期恐再升息1-2次",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】太平洋投資管理公司(PIMCO)投資長伊瓦辛(Dan Ivascyn)週二(13日)表示，美國公債殖利率可能尚未觸及本輪高峰…。",
+      "link": "https://tw.stock.yahoo.com/news/pimco%E7%A4%BA%E8%AD%A6%E7%BE%8E%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87%E5%B0%9A%E6%9C%AA%E8%A6%8B%E9%A0%82-fed%E6%9C%AC%E8%BC%AA%E7%B7%8A%E7%B8%AE%E9%80%B1%E6%9C%9F%E6%81%90%E5%86%8D%E5%8D%87%E6%81%AF1-2%E6%AC%A1-005106726.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股開盤／台積電漲20元！大盤漲近300點　這些族群發起反攻號角",
+      "original_title": null,
+      "summary": "重點：美股四大指數全面收黑，台股今（14）日開盤逆勢反攻，加權指數上漲283點，櫃買指數漲1.13%，台積電大漲20元，帶動市場買氣回溫。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B220%E5%85%83-%E5%A4%A7%E7%9B%A4%E6%BC%B2%E8%BF%91300%E9%BB%9E-%E9%80%99%E4%BA%9B%E6%97%8F%E7%BE%A4%E7%99%BC%E8%B5%B7%E5%8F%8D%E6%94%BB%E8%99%9F%E8%A7%92-011400508.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股早盤反彈！台積電漲20元至2510",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]美股週二（13日）漲跌互見，晶片股延續近期跌勢，費城半導體指數連續5個交易日收黑，不過台股今（14）日開盤上漲41.3…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E5%8F%8D%E5%BD%88-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B220%E5%85%83%E8%87%B32510-010659227.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股早盤漲逾300點 台積電漲20元",
+      "original_title": null,
+      "summary": "重點：美股主要指數全面收低，台指期夜盤上漲363點。台北股市今天（14日）開盤3分鐘後，漲357.55點，早盤加權指數為48698.86點。台積電漲2…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E6%BC%B2%E9%80%BE300%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B220%E5%85%83-010445520.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【台股開盤】漲41.33點",
+      "original_title": null,
+      "summary": "重點：（中央社台北2026年10月14日電）台北股市今天開盤漲41.33點，加權股價指數為48382.64點，成交金額新台幣95.02億元。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4-%E6%BC%B241-33%E9%BB%9E-010312527.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-15",
-  "generated_at": "2026-10-15T06:53:31+08:00",
+  "generated_at": "2026-10-15T08:44:46+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4130.9,
-      "change": 23.0,
-      "change_percent": 0.5598967842449915,
+      "price": 4162.9,
+      "change": 55.0,
+      "change_percent": 1.3388836144988925,
       "currency": "USD",
-      "market_time": 1792017808,
+      "market_time": 1792024482,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 95.04,
-      "change": -0.04999999999999716,
-      "change_percent": -0.05258176464401846,
+      "price": 94.51,
+      "change": -0.5799999999999983,
+      "change_percent": -0.6099484698706471,
       "currency": "USD",
-      "market_time": 1792017797,
+      "market_time": 1792024484,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 105.87,
-      "change": -0.18999999999999773,
-      "change_percent": -0.17914388082217397,
+      "price": 105.37,
+      "change": -0.6899999999999977,
+      "change_percent": -0.65057514614369,
       "currency": "USD",
-      "market_time": 1792017734,
+      "market_time": 1792024428,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.164,
-      "change": 0.03999999999999915,
-      "change_percent": 0.1245174947080038,
+      "price": 32.18,
+      "change": 0.027000000000001023,
+      "change_percent": 0.08397350169502388,
       "currency": "TWD",
-      "market_time": 1792018407,
+      "market_time": 1792024722,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.9058,
-      "change": -0.011299999999999422,
-      "change_percent": -0.22981025401149913,
+      "price": 4.894,
+      "change": -0.019700000000000273,
+      "change_percent": -0.4009198770783783,
       "currency": "JPY",
-      "market_time": 1792018169,
+      "market_time": 1792025067,
       "source": "yahoo"
     },
     {
@@ -266,6 +266,33 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "SK Hynix plunges 8% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
+      "link": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+      "published_at": "2026-10-15T00:42:30+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Inside India newsletter: Billionaire Ambani’s mega-IPO faces a valuation reality check amid Musk spat",
+      "link": "https://www.cnbc.com/2026/10/15/india-starlink-musk-jio-ambani-ipo.html",
+      "published_at": "2026-10-15T00:30:13+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "How backlash against data centres could shape the US midterm elections",
+      "link": "https://www.bbc.co.uk/news/articles/c0rezqpnekro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T23:02:57+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "OpenAI bugging suspect booked one-way ticket to Saudi Arabia with family before arrest",
       "link": "https://www.cnbc.com/2026/10/14/openai-alfozan-recording-raed-ventures.html",
       "published_at": "2026-10-14T21:18:13+00:00",
@@ -352,6 +379,76 @@
       "published_at": "2026-10-14T11:04:12+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "台股不穩了？韓股下跌4%、日經暴跌千點　科技指標股齊殺超過5%",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導美股週三（14日）因美國9月通膨數據高於預期、市場擔憂聯準會（Fed）升息情緒升溫，主要指數均收黑，其中那…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E4%B8%8D%E7%A9%A9%E4%BA%86-%E9%9F%93%E8%82%A1%E4%B8%8B%E8%B7%8C4-%E6%97%A5%E7%B6%93%E6%9A%B4%E8%B7%8C%E5%8D%83%E9%BB%9E-%E7%A7%91%E6%8A%80%E6%8C%87%E6%A8%99%E8%82%A1%E9%BD%8A%E6%AE%BA%E8%B6%85%E9%81%8E5-003500746.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "黃仁勳稱AI基建短缺將延續數年，輝達週三仍跌3.16%，居道瓊跌幅之冠",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】AI晶片一哥輝達(Nvidia，美股代碼NVDA)執行長黃仁勳在倫敦接受外電專訪時表示，AI基礎設施供不應求的情況將持續數年…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E7%A8%B1ai%E5%9F%BA%E5%BB%BA%E7%9F%AD%E7%BC%BA%E5%B0%87%E5%BB%B6%E7%BA%8C%E6%95%B8%E5%B9%B4-%E8%BC%9D%E9%81%94%E9%80%B1%E4%B8%89%E4%BB%8D%E8%B7%8C3-16-%E5%B1%85%E9%81%93%E7%93%8A%E8%B7%8C%E5%B9%85%E4%B9%8B%E5%86%A0-003245551.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "ASML財報支撐，道瓊歐洲600週三收漲0.43%，五大股市僅義大利收黑",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】歐洲股市週三(14日)在艾司摩爾(ASML)財報與全年展望支撐下，無懼美國9月通膨高於預期及華爾街科技股重挫壓力，多數主要股…。",
+      "link": "https://tw.stock.yahoo.com/news/asml%E8%B2%A1%E5%A0%B1%E6%94%AF%E6%92%90-%E9%81%93%E7%93%8A%E6%AD%90%E6%B4%B2600%E9%80%B1%E4%B8%89%E6%94%B6%E6%BC%B20-43-%E4%BA%94%E5%A4%A7%E8%82%A1%E5%B8%82%E5%83%85%E7%BE%A9%E5%A4%A7%E5%88%A9%E6%94%B6%E9%BB%91-003008872.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美公債殖利率攀高　費半等四大指數收黑　台積電ADR下跌3.4％",
+      "original_title": null,
+      "summary": "重點：半導體與晶片股領跌，美光（Micron）、AMD、英特爾（Intel）等大型晶。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E5%85%AC%E5%82%B5%E6%AE%96%E5%88%A9%E7%8E%87%E6%94%80%E9%AB%98-%E8%B2%BB%E5%8D%8A%E7%AD%89%E5%9B%9B%E5%A4%A7%E6%8C%87%E6%95%B8%E6%94%B6%E9%BB%91-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E4%B8%8B%E8%B7%8C3-4-001014199.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "川普亞利桑那造勢活動提台積電 稱美將占全球50%晶片產能",
+      "original_title": null,
+      "summary": "重點：繼13日稱台灣同意採購阿拉斯加天然氣並投資相關計畫後，美國總統川普（Donald Trump）14日在亞利桑那州一場造勢集會上提及台積電在當地擴…。",
+      "link": "https://tw.news.yahoo.com/%E5%9C%8B%E5%A4%96%E5%B7%9D%E6%99%AE%E4%BA%9E%E5%88%A9%E6%A1%91%E9%82%A3%E9%80%A0%E5%8B%A2%E6%B4%BB%E5%8B%95%E6%8F%90%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E7%A8%B1%E7%BE%8E%E5%B0%87%E5%8D%A0%E5%85%A8%E7%90%8350%E6%99%B6%E7%89%87%E7%94%A2%E8%83%BD-003639299.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "法說前夕，台積電ADR週三重挫3.40%，創一個月新低",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】全球晶圓代工龍頭台積電(2330)美國存託憑證(ADR，美股代碼TSM)週三(14日)再遭賣壓，終場下跌15.12美元或3.…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%B3%95%E8%AA%AA%E5%89%8D%E5%A4%95-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E9%80%B1%E4%B8%89%E9%87%8D%E6%8C%AB3-40-%E5%89%B5-%E5%80%8B%E6%9C%88%E6%96%B0%E4%BD%8E-003439771.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "川普亞利桑那造勢集會再提台積電! 宣稱美將掌握全球50%晶片產能",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 美國總統川普（Donald Trump）不斷指控「台灣偷走美國晶片生意」，並透過關稅施壓台積電等晶片業者到美國設廠。他今…。",
+      "link": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E4%BA%9E%E5%88%A9%E6%A1%91%E9%82%A3%E9%80%A0%E5%8B%A2%E9%9B%86%E6%9C%83%E5%86%8D%E6%8F%90%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E5%AE%A3%E7%A8%B1%E7%BE%8E%E5%B0%87%E6%8E%8C%E6%8F%A1%E5%85%A8%E7%90%8350-%E6%99%B6%E7%89%87%E7%94%A2%E8%83%BD-002858443.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-16",
-  "generated_at": "2026-10-16T07:04:16+08:00",
+  "generated_at": "2026-10-16T08:36:50+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4186.6,
-      "change": 16.5,
-      "change_percent": 0.3956739646531258,
+      "price": 4176.3,
+      "change": 6.199999999999818,
+      "change_percent": 0.1486774897484429,
       "currency": "USD",
-      "market_time": 1792104633,
+      "market_time": 1792110407,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 96.15,
-      "change": -0.3499999999999943,
-      "change_percent": -0.36269430051812884,
+      "price": 95.9,
+      "change": -0.5999999999999943,
+      "change_percent": -0.6217616580310822,
       "currency": "USD",
-      "market_time": 1792104635,
+      "market_time": 1792110407,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 105.64,
-      "change": -0.28000000000000114,
-      "change_percent": -0.2643504531722065,
+      "price": 105.41,
+      "change": -0.5100000000000051,
+      "change_percent": -0.4814954682779505,
       "currency": "USD",
-      "market_time": 1792104501,
+      "market_time": 1792110406,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.352,
-      "change": 0.19899999999999807,
-      "change_percent": 0.6189158087892205,
+      "price": 32.342,
+      "change": -0.014000000000002899,
+      "change_percent": -0.04326863641983836,
       "currency": "TWD",
-      "market_time": 1792105452,
+      "market_time": 1792111009,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.8763,
-      "change": -0.037400000000000766,
-      "change_percent": -0.761137228565048,
+      "price": 4.8808,
+      "change": 0.007600000000000051,
+      "change_percent": 0.1559550192891745,
       "currency": "JPY",
-      "market_time": 1792105169,
+      "market_time": 1792110866,
       "source": "yahoo"
     },
     {
@@ -266,9 +266,36 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Gasping for clean air: Singapore battles relentless haze as Prime Minister Wong warns of action",
+      "link": "https://www.cnbc.com/2026/10/16/singapore-haze-wong-warning-indonesia.html",
+      "published_at": "2026-10-16T00:06:48+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "I find it quite demoralising in store - why I do all my shopping online",
+      "link": "https://www.bbc.co.uk/news/articles/c36lk280kd1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-15T23:16:12+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Netflix Chief Content Officer Bela Bajaria is leaving, will be replaced by Peter Rice",
       "link": "https://www.cnbc.com/2026/10/15/netflix-bela-bajaria-peter-rice.html",
-      "published_at": "2026-10-15T22:59:10+00:00",
+      "published_at": "2026-10-15T23:08:05+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "People in China are spending nearly as much of their income as Americans on healthcare",
+      "link": "https://www.cnbc.com/2026/10/15/chinese-spending-nearly-as-much-of-income-as-americans-on-healthcare.html",
+      "published_at": "2026-10-15T23:00:01+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
@@ -352,6 +379,76 @@
       "published_at": "2026-10-14T23:02:57+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "避險買盤推升，美債價格週四上揚，10年期殖利率急跌逾12基點",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】美國公債價格週四上揚，引領殖利率走低，凸顯避險買盤延續的情形。根據債券交易報價，2年期公債價格上揚，殖利率下跌5.92個基點…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%81%BF%E9%9A%AA%E8%B2%B7%E7%9B%A4%E6%8E%A8%E5%8D%87-%E7%BE%8E%E5%82%B5%E5%83%B9%E6%A0%BC%E9%80%B1%E5%9B%9B%E4%B8%8A%E6%8F%9A-10%E5%B9%B4%E6%9C%9F%E6%AE%96%E5%88%A9%E7%8E%87%E6%80%A5%E8%B7%8C%E9%80%BE12%E5%9F%BA%E9%BB%9E-002721286.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美國9月PPI年增6.3%、增幅「創4年新高」 美股費半連7黑",
+      "original_title": null,
+      "summary": "重點：美國公布9月份生產者物價指數（PPI）月增1.3%、年增6.3%，皆創下自2022年以來最大增幅，也進一步凸顯通膨壓力；此外，市場擔憂企業在AI…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E5%9C%8B9%E6%9C%88ppi%E5%B9%B4%E5%A2%9E6-3-%E5%A2%9E%E5%B9%85-%E5%89%B54%E5%B9%B4%E6%96%B0%E9%AB%98-%E7%BE%8E%E8%82%A1%E8%B2%BB%E5%8D%8A%E9%80%A37%E9%BB%91-002002231.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "逢低買盤力抗通膨！美三大指數收漲、道瓊飆556點，AI疑慮未散費半連七黑",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】美國股市週四低開高走、三大指數翻升收漲，標普500指數在劇烈震盪後反彈收高，逢低買盤推動該指數結束三連跌。此前，對AI交易和…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%80%A2%E4%BD%8E%E8%B2%B7%E7%9B%A4%E5%8A%9B%E6%8A%97%E9%80%9A%E8%86%A8-%E7%BE%8E%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B8%E6%94%B6%E6%BC%B2-%E9%81%93%E7%93%8A%E9%A3%86556%E9%BB%9E-ai%E7%96%91%E6%85%AE%E6%9C%AA%E6%95%A3%E8%B2%BB%E5%8D%8A%E9%80%A3%E4%B8%83%E9%BB%91-001955919.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "投資人轉向AI以外標的！美股道瓊漲556點、費半連7跌 台積電ADR跌1.8%",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 市場擔心科技公司過度投入人工智慧（AI）領域，促使投資人尋求其他標的。交易員同時也在消化顯示美國通膨壓力持續存在的數據。…。",
+      "link": "https://tw.news.yahoo.com/%E6%8A%95%E8%B3%87%E4%BA%BA%E8%BD%89%E5%90%91ai%E4%BB%A5%E5%A4%96%E6%A8%99%E7%9A%84-%E7%BE%8E%E8%82%A1%E9%81%93%E7%93%8A%E6%BC%B2556%E9%BB%9E-%E8%B2%BB%E5%8D%8A%E9%80%A37%E8%B7%8C-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C1-8-235744642.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "玉山投信：台股本益比合理 下跌空間有限",
+      "original_title": null,
+      "summary": "重點：【記者柯安聰台北報導】美國公布9月CPI高於市場預期，引發市場對聯準會維持高利率甚至進一步升息的疑慮，造成美國科技股回檔，加上全球AI產業風向球…。",
+      "link": "https://tw.news.yahoo.com/%E7%8E%89%E5%B1%B1%E6%8A%95%E4%BF%A1-%E5%8F%B0%E8%82%A1%E6%9C%AC%E7%9B%8A%E6%AF%94%E5%90%88%E7%90%86-%E4%B8%8B%E8%B7%8C%E7%A9%BA%E9%96%93%E6%9C%89%E9%99%90-000421431.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台積電宣布3奈米破例再擴1廠！為何不是2奈米？魏哲家背後算盤曝光",
+      "original_title": null,
+      "summary": "重點：AI需求持續火熱，台積電（2330）全球擴產腳步愈踩愈快！為因應客戶對3奈米製程的強勁需求，台積電今年已經打破過去在製程達到目標產能後不再追加新…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%AE%A3%E5%B8%833%E5%A5%88%E7%B1%B3%E7%A0%B4%E4%BE%8B%E5%86%8D%E6%93%B41%E5%BB%A0-%E7%82%BA%E4%BD%95%E4%B8%8D%E6%98%AF2%E5%A5%88%E7%B1%B3-%E9%AD%8F%E5%93%B2%E5%AE%B6%E8%83%8C%E5%BE%8C%E7%AE%97%E7%9B%A4%E6%9B%9D%E5%85%89-000000117.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "錢進你家1／台股大跳水台積電攻3,000元再等等　資深分析師曝關鍵時間點",
+      "original_title": null,
+      "summary": "重點：美股科技股重挫，拖累台股昨（15）日狂跌逾3%，市場賣壓湧現。台股多頭行情面臨考驗，資深分析師謝明哲在《錢鏡你家》節目中指出，台積電後市有3大觀…。",
+      "link": "https://tw.news.yahoo.com/%E9%8C%A2%E9%80%B2%E4%BD%A0%E5%AE%B61-%E5%8F%B0%E8%82%A1%E5%A4%A7%E8%B7%B3%E6%B0%B4%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%94%BB3-000%E5%85%83%E5%86%8D%E7%AD%89%E7%AD%89-%E8%B3%87%E6%B7%B1%E5%88%86%E6%9E%90%E5%B8%AB%E6%9B%9D%E9%97%9C%E9%8D%B5%E6%99%82%E9%96%93%E9%BB%9E-233001606.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

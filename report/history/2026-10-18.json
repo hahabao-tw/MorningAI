@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-18",
-  "generated_at": "2026-10-18T08:11:04+08:00",
+  "generated_at": "2026-10-18T08:56:00+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -390,6 +390,36 @@
       "original_title": null,
       "summary": "重點：美國總統川普宣布日本將資助最高210億美元，在紐約州興建兩座格羅方德晶圓廠，此為川普透過關稅施壓盟國的投資成果。該計畫預計創造大量就業機會，第一…。",
       "link": "https://tw.news.yahoo.com/%E9%97%9C%E7%A8%85%E9%80%BC%E6%97%A5%E6%9C%AC%E5%87%BA%E9%8C%A2210%E5%84%84%E7%BE%8E%E5%85%83%E8%93%8B%E6%99%B6%E5%9C%93%E5%BB%A0-%E5%B7%9D%E6%99%AE%E5%96%9C%E5%AD%9C%E5%AD%9C%E8%87%AA%E5%B0%81-%E5%81%89%E5%A4%A7%E7%9A%84%E5%95%86%E4%BA%BA%E7%B8%BD%E7%B5%B1-211500470.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股一周狂殺2202點！宜鼎、萬潤等10檔逆勢吸金　法人喊基本面「完全沒問題」",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者莊蕙如／綜合報導台股第四季行情遭遇亂流，加權指數單周重挫2,202點、失守月線，市場信心面臨考驗。不過，法人認為企業獲利與…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1-%E5%91%A8%E7%8B%82%E6%AE%BA2202%E9%BB%9E-%E5%AE%9C%E9%BC%8E-%E8%90%AC%E6%BD%A4%E7%AD%8910%E6%AA%94%E9%80%86%E5%8B%A2%E5%90%B8%E9%87%91-%E6%B3%95%E4%BA%BA%E5%96%8A%E5%9F%BA%E6%9C%AC%E9%9D%A2-004400453.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股頻創高人人都賺錢？他看一排「獲利文」滿頭問號　釣出苦主：已虧90萬",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導台股今年走勢波動劇烈，加權指數上週（10/12~10/16）一度跌破4萬8、4萬7點關卡，但若從長線來看大…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%A0%BB%E5%89%B5%E9%AB%98%E4%BA%BA%E4%BA%BA%E9%83%BD%E8%B3%BA%E9%8C%A2-%E4%BB%96%E7%9C%8B-%E6%8E%92-%E7%8D%B2%E5%88%A9%E6%96%87-%E6%BB%BF%E9%A0%AD%E5%95%8F%E8%99%9F-003000213.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "下一個6年三條線繼續分流　2027房市、租金、台股進入新階段",
+      "original_title": null,
+      "summary": "重點：時間進入2027年，市場環境開始改變。房市經歷兩年量縮與價格修正，租屋市場持續面對居住成本上升，台股則站在AI產業高速成長後的新高位置。 下一個…。",
+      "link": "https://tw.stock.yahoo.com/news/%E4%B8%8B%E4%B8%80%E5%80%8B6%E5%B9%B4%E4%B8%89%E6%A2%9D%E7%B7%9A%E7%B9%BC%E7%BA%8C%E5%88%86%E6%B5%81-2027%E6%88%BF%E5%B8%82%E3%80%81%E7%A7%9F%E9%87%91%E3%80%81%E5%8F%B0%E8%82%A1%E9%80%B2%E5%85%A5%E6%96%B0%E9%9A%8E%E6%AE%B5-001200068.html",
       "published_at": null,
       "source": "yahoo_news"
     },

@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-20",
+  "generated_at": "2026-10-20T07:10:01+08:00",
+  "timezone": "Asia/Taipei",
+  "markets": [
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^IXIC",
+      "label": "NASDAQ",
+      "price": 26430.887,
+      "change": 290.85399999999936,
+      "change_percent": 1.1126764836142302,
+      "currency": "USD",
+      "market_time": 1792444559,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^SOX",
+      "label": "費城半導體",
+      "price": 11316.343,
+      "change": 179.0560000000005,
+      "change_percent": 1.6077164932537025,
+      "currency": "USD",
+      "market_time": 1792444559,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^GSPC",
+      "label": "S&P 500",
+      "price": 7690.73,
+      "change": 31.289999999999964,
+      "change_percent": 0.40851550504997713,
+      "currency": "USD",
+      "market_time": 1792442654,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^DJI",
+      "label": "道瓊指數",
+      "price": 51966.03,
+      "change": -36.38000000000466,
+      "change_percent": -0.0699582961635906,
+      "currency": "USD",
+      "market_time": 1792442665,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "TSM",
+      "label": "台積電 ADR",
+      "price": 420.22,
+      "change": 7.610000000000014,
+      "change_percent": 1.8443566564067797,
+      "currency": "USD",
+      "market_time": 1792440002,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "UMC",
+      "label": "聯電 ADR",
+      "price": 20.08,
+      "change": 0.259999999999998,
+      "change_percent": 1.3118062563067507,
+      "currency": "USD",
+      "market_time": 1792440002,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "ASX",
+      "label": "日月光 ADR",
+      "price": 40.8,
+      "change": 1.269999999999996,
+      "change_percent": 3.21274981027067,
+      "currency": "USD",
+      "market_time": 1792440002,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "GC=F",
+      "label": "黃金",
+      "price": 4155.6,
+      "change": -4.5,
+      "change_percent": -0.10817047667123385,
+      "currency": "USD",
+      "market_time": 1792450780,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "CL=F",
+      "label": "WTI 原油",
+      "price": 98.26,
+      "change": -0.28000000000000114,
+      "change_percent": -0.2841485691089924,
+      "currency": "USD",
+      "market_time": 1792450789,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "BZ=F",
+      "label": "布蘭特原油",
+      "price": 109.28,
+      "change": -0.269999999999996,
+      "change_percent": -0.2464628023733419,
+      "currency": "USD",
+      "market_time": 1792450279,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWD=X",
+      "label": "USD/TWD",
+      "price": 32.488,
+      "change": 0.012999999999998124,
+      "change_percent": 0.04003079291762317,
+      "currency": "TWD",
+      "market_time": 1792451393,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWDJPY=X",
+      "label": "TWD/JPY",
+      "price": 4.8702,
+      "change": -0.00010000000000065512,
+      "change_percent": -0.0020532616060746794,
+      "currency": "JPY",
+      "market_time": 1792451391,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWII",
+      "label": "加權",
+      "price": 46822.08,
+      "change": -289.1800000000003,
+      "change_percent": -0.6138235317841219,
+      "currency": "TWD",
+      "market_time": 1792339200,
+      "date": "10/19",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWOII",
+      "label": "櫃買",
+      "price": 394.05,
+      "change": -6.2099999999999795,
+      "change_percent": -1.5514915305051664,
+      "currency": "TWD",
+      "market_time": 1792339200,
+      "date": "10/19",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WTX&",
+      "label": "台指期夜盤",
+      "price": 46691.0,
+      "change": -78.0,
+      "change_percent": -0.16677713870298702,
+      "market_time": 1792443600,
+      "date": "10/20",
+      "source": "yahoo_future"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WCDF&",
+      "label": "台積電期貨夜盤",
+      "price": 2425.0,
+      "change": 2.0,
+      "change_percent": 0.08254230293025176,
+      "market_time": 1792443600,
+      "date": "10/20",
+      "source": "yahoo_future"
+    }
+  ],
+  "taiwan_market": [
+    {
+      "kind": "twse_summary",
+      "date": "115/10/19",
+      "volume": 12253221834,
+      "turnover": 866711859964,
+      "transactions": 5507146,
+      "index": 46822.08,
+      "change": -289.18,
+      "source": "twse",
+      "institutional": [
+        {
+          "name": "自營商(自行買賣)",
+          "buy": 9393790718,
+          "sell": 15416680321,
+          "net": -6022889603
+        },
+        {
+          "name": "自營商(避險)",
+          "buy": 32258177704,
+          "sell": 62498371857,
+          "net": -30240194153
+        },
+        {
+          "name": "投信",
+          "buy": 50699118560,
+          "sell": 26557490609,
+          "net": 24141627951
+        },
+        {
+          "name": "外資及陸資(不含外資自營商)",
+          "buy": 276460340925,
+          "sell": 353203076694,
+          "net": -76742735769
+        },
+        {
+          "name": "外資自營商",
+          "buy": 0,
+          "sell": 0,
+          "net": 0
+        },
+        {
+          "name": "合計",
+          "buy": 368811427907,
+          "sell": 457675619481,
+          "net": -88864191574
+        }
+      ]
+    }
+  ],
+  "chips": [
+    {
+      "kind": "chips",
+      "date": "2026-10-19",
+      "foreign_tx_net": -91145,
+      "trust_tx_net": 84100,
+      "mtx_retail_ratio": 24.43,
+      "tmf_retail_ratio": 51.17,
+      "options_pc_ratio": 61.6,
+      "tsmc_impact": null,
+      "source": "market_dashboard"
+    }
+  ],
+  "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "'I'm fed up of swiping': Why singles now want to meet IRL",
+      "link": "https://www.bbc.co.uk/news/articles/cj62y9dnd6pwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T23:00:21+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Burnham vows end to 'rip-off parking charges' under new rules",
+      "link": "https://www.bbc.co.uk/news/articles/ck87ze7wl4qno?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T21:30:06+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
+      "link": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T21:12:30+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "OpenAI bugging suspect Alfozan held without bail after Saudi government offers to pay",
+      "link": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html",
+      "published_at": "2026-10-19T20:54:40+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Apple announces product launch event for Oct. 28. Analysts expect touchscreen laptop",
+      "link": "https://www.cnbc.com/2026/10/19/apple-product-launch-event-oct-28-analysts-expect-touchscreen-laptop.html",
+      "published_at": "2026-10-19T19:46:07+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
+      "link": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+      "published_at": "2026-10-19T19:37:51+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "US bans DeepSeek AI from government use as tech tension with China continues",
+      "link": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T18:21:54+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Elon Musk says he'll give a SpaceX share to every child in America next year",
+      "link": "https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html",
+      "published_at": "2026-10-19T16:58:20+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Vinted blocks French looters listing stolen goods for sale",
+      "link": "https://www.bbc.co.uk/news/articles/cm8xzrljv72ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-19T16:46:35+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Anthropic is AI trade's last big hope for a major IPO this year",
+      "link": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html",
+      "published_at": "2026-10-19T16:42:14+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美股延長交易會否吸台股資金？金管會密切關注",
+      "original_title": null,
+      "summary": "重點：美股那斯達克交易所將延長交易時間到廿三小時，是否可能吸走台股資金？金管會主委彭金隆表示，金管會已成立專案小組，研究包括是否調整交易時間、「T+2…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E5%BB%B6%E9%95%B7%E4%BA%A4%E6%98%93%E6%9C%83%E5%90%A6%E5%90%B8%E5%8F%B0%E8%82%A1%E8%B3%87%E9%87%91-%E9%87%91%E7%AE%A1%E6%9C%83%E5%AF%86%E5%88%87%E9%97%9C%E6%B3%A8-223451790.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "【美股盤後】多收漲",
+      "original_title": null,
+      "summary": "重點：（中央社台北2026年10月20日電）投資人押注人工智慧（AI）投資熱潮會繼續支撐企業盈利，逢低買進湧現使晶片類股反彈回升，美國股市主要指數今天…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E7%9B%A4%E5%BE%8C-%E5%A4%9A%E6%94%B6%E6%BC%B2-220941196.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "狂酸蔣萬安! 卓揆:輝達.大巨蛋.鮮奶像循環經濟",
+      "original_title": null,
+      "summary": "重點：政治中心／綜合報導台北市長蔣萬安拚連任，但一套講稿用到底，把\"輝達、大巨蛋、鮮奶\"重複無數遍，連網友都不耐煩嗆\"連我都會背了\"、\"他會重複跳針到…。",
+      "link": "https://tw.news.yahoo.com/%E7%8B%82%E9%85%B8%E8%94%A3%E8%90%AC%E5%AE%89-%E5%8D%93%E6%8F%86-%E8%BC%9D%E9%81%94-%E5%A4%A7%E5%B7%A8%E8%9B%8B-%E9%AE%AE%E5%A5%B6%E5%83%8F%E5%BE%AA%E7%92%B0%E7%B6%93%E6%BF%9F-144657717.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "〈美股盤後〉AI買盤回流！那指費半走高逾1% 晶片股領漲 道瓊小幅收黑",
+      "original_title": null,
+      "summary": "重點：美股週一那指漲1.11%、標普漲0.41%，費半漲1.61%；SanDisk為標普最佳成分股。 記憶體與半導體族群走揚，AMD、博通、輝達齊漲；…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E7%9B%A4%E5%BE%8C-ai%E8%B2%B7%E7%9B%A4%E5%9B%9E%E6%B5%81-%E9%82%A3%E6%8C%87%E8%B2%BB%E5%8D%8A%E8%B5%B0%E9%AB%98%E9%80%BE1-%E6%99%B6%E7%89%87%E8%82%A1%E9%A0%98%E6%BC%B2-%E9%81%93%E7%93%8A%E5%B0%8F%E5%B9%85%E6%94%B6%E9%BB%91-215044507.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "斥資6.36億！外資連21日狂掃00900破3.2萬張　「這檔」主動式擁台積電、大立光、創意登買超王",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者薛明峻／台北報導台股昨（19）日開低震盪，終場加權指數收在46822.08點，下跌289.18點，跌幅0.61%，成交金額…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%96%A5%E8%B3%876-36%E5%84%84-%E5%A4%96%E8%B3%87%E9%80%A321%E6%97%A5%E7%8B%82%E6%8E%8300900%E7%A0%B43-2%E8%90%AC%E5%BC%B5-%E9%80%99%E6%AA%94-230000555.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "千億級台股ETF 重返15檔",
+      "original_title": null,
+      "summary": "重點：台股昨（19）日一度殺至季線附近，然資金持續湧入台股ETF，推升主動中信台灣收益（00406A）規模突破千億元，台股ETF千億元俱樂部再現15檔…。",
+      "link": "https://tw.news.yahoo.com/%E5%8D%83%E5%84%84%E7%B4%9A%E5%8F%B0%E8%82%A1etf-%E9%87%8D%E8%BF%9415%E6%AA%94-224623243.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "鴻海強攻日資料中心 展現決心",
+      "original_title": null,
+      "summary": "重點：鴻海與三菱電機的合作結盟，市場人士分析，不僅聚焦電動車組裝與車用零組件市場，更包含商機更大的人工智慧（AI）伺服器與基礎設施。雙方去年底已簽署合…。",
+      "link": "https://tw.news.yahoo.com/%E9%B4%BB%E6%B5%B7%E5%BC%B7%E6%94%BB%E6%97%A5%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-%E5%B1%95%E7%8F%BE%E6%B1%BA%E5%BF%83-223834239.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "鴻海攜手三菱電機在日孵小金雞衝刺IPO 營收目標2,000億元",
+      "original_title": null,
+      "summary": "重點：鴻海集團又要再孵育小金雞進軍資本市場，鴻海電動車策略長關潤昨（19）日表示，積極推動與日商三菱電機共同經營的車用零組件子公司三菱電機移動獨立上市…。",
+      "link": "https://tw.news.yahoo.com/%E9%B4%BB%E6%B5%B7%E6%94%9C%E6%89%8B%E4%B8%89%E8%8F%B1%E9%9B%BB%E6%A9%9F%E5%9C%A8%E6%97%A5%E5%AD%B5%E5%B0%8F%E9%87%91%E9%9B%9E%E8%A1%9D%E5%88%BAipo-%E7%87%9F%E6%94%B6%E7%9B%AE%E6%A8%992-000%E5%84%84%E5%85%83-223834464.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    }
+  ]
+}

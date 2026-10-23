@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-23",
-  "generated_at": "2026-10-23T08:50:33+08:00",
+  "generated_at": "2026-10-23T09:25:56+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4032.0,
-      "change": -28.40000000000009,
-      "change_percent": -0.6994384789675916,
+      "price": 4028.0,
+      "change": -32.40000000000009,
+      "change_percent": -0.7979509407940127,
       "currency": "USD",
-      "market_time": 1792716032,
+      "market_time": 1792718156,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 99.19,
-      "change": -0.28000000000000114,
-      "change_percent": -0.2814919071076718,
+      "price": 100.09,
+      "change": 0.6200000000000045,
+      "change_percent": 0.623303508595561,
       "currency": "USD",
-      "market_time": 1792716008,
+      "market_time": 1792718151,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 112.85,
-      "change": -0.3200000000000074,
-      "change_percent": -0.28276044888221913,
+      "price": 113.96,
+      "change": 0.789999999999992,
+      "change_percent": 0.6980648581779553,
       "currency": "USD",
-      "market_time": 1792715901,
+      "market_time": 1792718120,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.596,
-      "change": -0.0010000000000047748,
-      "change_percent": -0.0030677669724354225,
+      "price": 32.536,
+      "change": -0.06099999999999994,
+      "change_percent": -0.18713378531766708,
       "currency": "TWD",
-      "market_time": 1792715462,
+      "market_time": 1792718754,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.7864,
-      "change": -0.013699999999999157,
-      "change_percent": -0.28541072060996975,
+      "price": 4.7957,
+      "change": -0.004399999999999515,
+      "change_percent": -0.09166475698421941,
       "currency": "JPY",
-      "market_time": 1792716566,
+      "market_time": 1792718666,
       "source": "yahoo"
     },
     {
@@ -266,9 +266,27 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Wealthy Chinese move offshore money to U.S. banks as Beijing’s tax net widens",
+      "link": "https://www.cnbc.com/2026/10/23/wealthy-chinese-tax-offshore-trusts-capital-control-.html",
+      "published_at": "2026-10-23T01:23:12+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Japan core inflation in September surges to its highest this year at 2.1%",
       "link": "https://www.cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html",
-      "published_at": "2026-10-23T00:50:01+00:00",
+      "published_at": "2026-10-23T00:55:11+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "SK Hynix shares slide after chipmaker scraps Solidigm IPO plans",
+      "link": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
+      "published_at": "2026-10-23T00:53:36+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
@@ -356,6 +374,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "費半暴跌台積電ADR挫！　台指期摜破四萬六、台股下周四萬五岌岌可危",
+      "original_title": null,
+      "summary": "重點：AI資本支出疑慮再起，費半暴跌6.72%、台積電ADR續跌4.5%。台指期重摔580點，四萬五大關岌岌可危。台股遭逢強颱薔琵來襲，光復連假前震盪…。",
+      "link": "https://tw.news.yahoo.com/%E8%B2%BB%E5%8D%8A%E6%9A%B4%E8%B7%8C%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E6%8C%AB-%E5%8F%B0%E6%8C%87%E6%9C%9F%E6%91%9C%E7%A0%B4%E5%9B%9B%E8%90%AC%E5%85%AD-%E5%8F%B0%E8%82%A1%E4%B8%8B%E5%91%A8%E5%9B%9B%E8%90%AC%E4%BA%94%E5%B2%8C%E5%B2%8C%E5%8F%AF%E5%8D%B1-005836362.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "AI支出疑慮與油價引賣壓　美股多收黑、那指挫逾2%",
       "original_title": null,
       "summary": "重點：（中央社紐約2026年10月22日綜合外電報導）美股主要指數今天多收黑，以科技股為主的那指終場下挫2.6%，創6月以來最慘單日表現，主因市場對人…。",
@@ -385,21 +413,51 @@
     },
     {
       "kind": "news",
-      "category": "international",
-      "title": "Google大買輝達VR伺服器",
+      "category": "domestic",
+      "title": "台達電聯發雙法說 美AI三巨頭財報周",
       "original_title": null,
-      "summary": "重點：谷歌美國時間21日宣布，宣布Google雲端將大力部署輝達Vera Rubin AI伺服器，最高補充至96萬顆Rubin GPU，並整合輝達乙太…。",
-      "link": "https://tw.news.yahoo.com/google%E5%A4%A7%E8%B2%B7%E8%BC%9D%E9%81%94vr%E4%BC%BA%E6%9C%8D%E5%99%A8-225017814.html",
+      "summary": "重點：本周【投資早知道】聚焦在AI電源AI晶片雙法說！台達電聯發展望連發；AI三巨頭財報周！微軟、Alphabet和亞馬遜同期出爐；以及聯準會升息機率…。",
+      "link": "https://tw.stock.yahoo.com/news/ai%E9%9B%BB%E6%BA%90ai%E6%99%B6%E7%89%87%E9%9B%99%E6%B3%95%E8%AA%AA%EF%BC%81%E5%8F%B0%E9%81%94%E9%9B%BB%E8%81%AF%E7%99%BC%E5%B1%95%E6%9C%9B%E9%80%A3%E7%99%BC-ai%E4%B8%89%E5%B7%A8%E9%A0%AD%E8%B2%A1%E5%A0%B1%E5%91%A8%EF%BC%81%E5%BE%AE%E8%BB%9F%E3%80%81alphabet%E5%92%8C%E4%BA%9E%E9%A6%AC%E9%81%9C%E5%90%8C%E6%9C%9F%E5%87%BA%E7%88%90-%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E6%A9%9F%E7%8E%87%E4%B8%8D%E5%88%B0%E5%85%A9%E6%88%90%EF%BC%81-%E5%8F%B0%E7%81%A3%E6%8A%95%E8%B3%87%E4%BA%BA%E8%A6%81%E6%B3%A8%E6%84%8F%E4%BB%80%E9%BA%BC%EF%BC%9F%EF%BD%9C%E6%8A%95%E8%B3%87%E6%97%A9%E7%9F%A5%E9%81%93-141107347.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "台達電聯發雙法說 美AI三巨頭財報周",
+      "title": "Meta自由現金流轉負！ 費半慘崩逾6% 台積電ADR也跌4.5%",
       "original_title": null,
-      "summary": "重點：本周【投資早知道】聚焦在AI電源AI晶片雙法說！台達電聯發展望連發；AI三巨頭財報周！微軟、Alphabet和亞馬遜同期出爐；以及聯準會升息機率…。",
-      "link": "https://tw.stock.yahoo.com/news/ai%E9%9B%BB%E6%BA%90ai%E6%99%B6%E7%89%87%E9%9B%99%E6%B3%95%E8%AA%AA%EF%BC%81%E5%8F%B0%E9%81%94%E9%9B%BB%E8%81%AF%E7%99%BC%E5%B1%95%E6%9C%9B%E9%80%A3%E7%99%BC-ai%E4%B8%89%E5%B7%A8%E9%A0%AD%E8%B2%A1%E5%A0%B1%E5%91%A8%EF%BC%81%E5%BE%AE%E8%BB%9F%E3%80%81alphabet%E5%92%8C%E4%BA%9E%E9%A6%AC%E9%81%9C%E5%90%8C%E6%9C%9F%E5%87%BA%E7%88%90-%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E6%A9%9F%E7%8E%87%E4%B8%8D%E5%88%B0%E5%85%A9%E6%88%90%EF%BC%81-%E5%8F%B0%E7%81%A3%E6%8A%95%E8%B3%87%E4%BA%BA%E8%A6%81%E6%B3%A8%E6%84%8F%E4%BB%80%E9%BA%BC%EF%BC%9F%EF%BD%9C%E6%8A%95%E8%B3%87%E6%97%A9%E7%9F%A5%E9%81%93-141107347.html",
+      "summary": "重點：在市場對AI成本支出上升的不安情緒加深，以及中東局勢緊張、油價走揚的背景下，美股週四表現分歧，道瓊指數小漲0.02%；那斯達克指數則大跌2.6%…。",
+      "link": "https://tw.stock.yahoo.com/news/meta%E8%87%AA%E7%94%B1%E7%8F%BE%E9%87%91%E6%B5%81%E8%BD%89%E8%B2%A0-%E8%B2%BB%E5%8D%8A%E6%85%98%E5%B4%A9%E9%80%BE6-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E4%B9%9F%E8%B7%8C4-5-011900524.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股靠颱風假躲過一劫…下周補跌？散戶操盤有2種解法",
+      "original_title": null,
+      "summary": "重點：台股今（23日）颱風假休市，要等到光復節連假過後，下周二才會恢復交易，因此台股算是躲過周四美股暴跌，台積電ADR慘摔4.52%的衝擊。資深外匯專…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%9D%A0%E9%A2%B1%E9%A2%A8%E5%81%87%E8%BA%B2%E9%81%8E-%E5%8A%AB-%E4%B8%8B%E5%91%A8%E8%A3%9C%E8%B7%8C-%E6%95%A3%E6%88%B6%E6%93%8D%E7%9B%A4%E6%9C%892%E7%A8%AE%E8%A7%A3%E6%B3%95-010301149.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "費半崩近7％台股剉咧等！黃仁勳戳中AI痛點 說出市場最怕的事",
+      "original_title": null,
+      "summary": "重點：美股科技股再掀拋售潮，輝達執行長黃仁勳一席話，戳中AI熱潮痛點，費城半導體指數重挫近7％，台積電ADR及輝達下跌逾4%，拖累台指期夜盤昨（22）…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%B2%BB%E5%8D%8A%E5%B4%A9%E8%BF%917-%E5%8F%B0%E8%82%A1%E5%89%89%E5%92%A7%E7%AD%89-%E9%BB%83%E4%BB%81%E5%8B%B3%E6%88%B3%E4%B8%ADai%E7%97%9B%E9%BB%9E-%E8%AA%AA%E5%87%BA%E5%B8%82%E5%A0%B4%E6%9C%80%E6%80%95%E7%9A%84%E4%BA%8B-010038315.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Google大買輝達VR伺服器",
+      "original_title": null,
+      "summary": "重點：谷歌美國時間21日宣布，宣布Google雲端將大力部署輝達Vera Rubin AI伺服器，最高補充至96萬顆Rubin GPU，並整合輝達乙太…。",
+      "link": "https://tw.news.yahoo.com/google%E5%A4%A7%E8%B2%B7%E8%BC%9D%E9%81%94vr%E4%BC%BA%E6%9C%8D%E5%99%A8-225017814.html",
       "published_at": null,
       "source": "yahoo_news"
     },

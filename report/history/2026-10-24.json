@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-24",
-  "generated_at": "2026-10-24T08:57:16+08:00",
+  "generated_at": "2026-10-24T09:30:59+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -356,6 +356,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "美股賣壓籠罩　費半、台積電ADR逆勢收紅",
+      "original_title": null,
+      "summary": "重點：美股主要指數表現，道瓊工業指數下跌652.82點、或1.23%，收至52215.16點；那斯達克指數下跌53.52點、或0.21%，收報2595…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E8%B3%A3%E5%A3%93%E7%B1%A0%E7%BD%A9-%E8%B2%BB%E5%8D%8A-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E9%80%86%E5%8B%A2%E6%94%B6%E7%B4%85-010211435.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "川普讓步了？為拉抬共和黨選情　取消部分加拿大商品關稅",
       "original_title": null,
       "summary": "重點：美國與加拿大今年8月底的貿易談判破局後，美國總統川普宣布對加拿大進口商品課徵50%天價關稅。不過這項措施嚴重影響與加拿大接鄰的地方州共和黨人選情…。",
@@ -385,16 +395,6 @@
     },
     {
       "kind": "news",
-      "category": "international",
-      "title": "油價飆至半年新高　美股3大指數下跌",
-      "original_title": null,
-      "summary": "重點：中東情勢緊張再度引發油價上揚，布倫特原油期貨漲至每同116美元以上。美國股市3大指數週五（10/23）收盤紛紛走跌。",
-      "link": "https://tw.news.yahoo.com/%E6%B2%B9%E5%83%B9%E9%A3%86%E8%87%B3%E5%8D%8A%E5%B9%B4%E6%96%B0%E9%AB%98-%E7%BE%8E%E8%82%A13%E5%A4%A7%E6%8C%87%E6%95%B8%E4%B8%8B%E8%B7%8C-232735625.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
       "category": "domestic",
       "title": "台達電聯發雙法說 美AI三巨頭財報周",
       "original_title": null,
@@ -406,10 +406,30 @@
     {
       "kind": "news",
       "category": "domestic",
+      "title": "台股10月震盪　8檔台股ETF規模與績效逆勢成長",
+      "original_title": null,
+      "summary": "重點：【記者羅元駿／台北報導】10月來外資連續賣超台股、大盤跌得七暈八素，不過仍有不少台股ETF績效搶眼；據統計，截至10/22為止，近1年大盤上漲約…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A110%E6%9C%88%E9%9C%87%E7%9B%AA-8%E6%AA%94%E5%8F%B0%E8%82%A1etf%E8%A6%8F%E6%A8%A1%E8%88%87%E7%B8%BE%E6%95%88%E9%80%86%E5%8B%A2%E6%88%90%E9%95%B7-010000965.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
       "title": "薔琵攪局　台積電運動會喊卡！魏哲家加碼發錢　員工「小禮物」金額曝光",
       "original_title": null,
       "summary": "重點：中颱薔琵來襲打亂台積電原定今日舉辦的運動會，公司基於安全考量宣佈取消活動。然而，備受員工期待的年度「小禮物」特別獎金不僅沒有缺席，金額更再度加碼…。",
       "link": "https://tw.news.yahoo.com/%E8%96%94%E7%90%B5%E6%94%AA%E5%B1%80-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%81%8B%E5%8B%95%E6%9C%83%E5%96%8A%E5%8D%A1-%E9%AD%8F%E5%93%B2%E5%AE%B6%E5%8A%A0%E7%A2%BC%E7%99%BC%E9%8C%A2-%E5%93%A1%E5%B7%A5-%E5%B0%8F%E7%A6%AE%E7%89%A9-004700154.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "油價飆至半年新高　美股3大指數下跌",
+      "original_title": null,
+      "summary": "重點：中東情勢緊張再度引發油價上揚，布倫特原油期貨漲至每同116美元以上。美國股市3大指數週五（10/23）收盤紛紛走跌。",
+      "link": "https://tw.news.yahoo.com/%E6%B2%B9%E5%83%B9%E9%A3%86%E8%87%B3%E5%8D%8A%E5%B9%B4%E6%96%B0%E9%AB%98-%E7%BE%8E%E8%82%A13%E5%A4%A7%E6%8C%87%E6%95%B8%E4%B8%8B%E8%B7%8C-232735625.html",
       "published_at": null,
       "source": "yahoo_news"
     },

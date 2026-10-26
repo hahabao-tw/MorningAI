@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-27",
+  "generated_at": "2026-10-27T07:45:35+08:00",
+  "timezone": "Asia/Taipei",
+  "markets": [
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^IXIC",
+      "label": "NASDAQ",
+      "price": 26169.38,
+      "change": 214.03800000000047,
+      "change_percent": 0.8246394903985486,
+      "currency": "USD",
+      "market_time": 1793049359,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^SOX",
+      "label": "費城半導體",
+      "price": 11083.47,
+      "change": 304.0059999999994,
+      "change_percent": 2.82023299117655,
+      "currency": "USD",
+      "market_time": 1793049359,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^GSPC",
+      "label": "S&P 500",
+      "price": 7676.77,
+      "change": 53.090000000000146,
+      "change_percent": 0.6963828492276715,
+      "currency": "USD",
+      "market_time": 1793047423,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^DJI",
+      "label": "道瓊指數",
+      "price": 52361.58,
+      "change": 146.41999999999825,
+      "change_percent": 0.28041664528079246,
+      "currency": "USD",
+      "market_time": 1793047421,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "TSM",
+      "label": "台積電 ADR",
+      "price": 424.37,
+      "change": 5.860000000000014,
+      "change_percent": 1.4002054909082253,
+      "currency": "USD",
+      "market_time": 1793044803,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "UMC",
+      "label": "聯電 ADR",
+      "price": 19.18,
+      "change": 0.28999999999999915,
+      "change_percent": 1.5352038115404931,
+      "currency": "USD",
+      "market_time": 1793044802,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "ASX",
+      "label": "日月光 ADR",
+      "price": 39.91,
+      "change": 1.2199999999999989,
+      "change_percent": 3.153269578702504,
+      "currency": "USD",
+      "market_time": 1793044802,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "GC=F",
+      "label": "黃金",
+      "price": 4023.9,
+      "change": -14.5,
+      "change_percent": -0.3590530903328051,
+      "currency": "USD",
+      "market_time": 1793057732,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "CL=F",
+      "label": "WTI 原油",
+      "price": 101.47,
+      "change": -0.29000000000000625,
+      "change_percent": -0.2849842767295659,
+      "currency": "USD",
+      "market_time": 1793057727,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "BZ=F",
+      "label": "布蘭特原油",
+      "price": 110.36,
+      "change": -0.37999999999999545,
+      "change_percent": -0.3431461080007183,
+      "currency": "USD",
+      "market_time": 1793057394,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWD=X",
+      "label": "USD/TWD",
+      "price": 32.535,
+      "change": -0.035000000000003695,
+      "change_percent": -0.10746085354621951,
+      "currency": "TWD",
+      "market_time": 1793058286,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWDJPY=X",
+      "label": "TWD/JPY",
+      "price": 4.8334,
+      "change": 0.027099999999999902,
+      "change_percent": 0.563843289016497,
+      "currency": "JPY",
+      "market_time": 1793058104,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWII",
+      "label": "加權",
+      "price": 46041.43,
+      "change": -846.3399999999965,
+      "change_percent": -1.8050335940480782,
+      "currency": "TWD",
+      "market_time": 1792598400,
+      "date": "10/22",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWOII",
+      "label": "櫃買",
+      "price": 381.69,
+      "change": -13.730000000000018,
+      "change_percent": -3.472257346618789,
+      "currency": "TWD",
+      "market_time": 1792598400,
+      "date": "10/22",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WTX&",
+      "label": "台指期夜盤",
+      "price": 45654.0,
+      "change": -580.0,
+      "change_percent": -1.2544880391054203,
+      "market_time": 1792702800,
+      "date": "10/23",
+      "source": "yahoo_future"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WCDF&",
+      "label": "台積電期貨夜盤",
+      "price": 2365.0,
+      "change": -25.0,
+      "change_percent": -1.0460251046025104,
+      "market_time": 1792702800,
+      "date": "10/23",
+      "source": "yahoo_future"
+    }
+  ],
+  "taiwan_market": [
+    {
+      "kind": "twse_summary",
+      "date": "115/10/22",
+      "volume": 11999249506,
+      "turnover": 933437473560,
+      "transactions": 5720639,
+      "index": 46041.43,
+      "change": -846.34,
+      "source": "twse",
+      "institutional": [
+        {
+          "name": "自營商(自行買賣)",
+          "buy": 7229694959,
+          "sell": 10945959717,
+          "net": -3716264758
+        },
+        {
+          "name": "自營商(避險)",
+          "buy": 34944625822,
+          "sell": 58605725671,
+          "net": -23661099849
+        },
+        {
+          "name": "投信",
+          "buy": 25263632690,
+          "sell": 15771432172,
+          "net": 9492200518
+        },
+        {
+          "name": "外資及陸資(不含外資自營商)",
+          "buy": 304133658440,
+          "sell": 385715759892,
+          "net": -81582101452
+        },
+        {
+          "name": "外資自營商",
+          "buy": 0,
+          "sell": 0,
+          "net": 0
+        },
+        {
+          "name": "合計",
+          "buy": 371571611911,
+          "sell": 471038877452,
+          "net": -99467265541
+        }
+      ]
+    }
+  ],
+  "chips": [
+    {
+      "kind": "chips",
+      "date": "2026-10-22",
+      "foreign_tx_net": -87297,
+      "trust_tx_net": 83601,
+      "mtx_retail_ratio": 33.81,
+      "tmf_retail_ratio": 47.79,
+      "options_pc_ratio": 66.18,
+      "tsmc_impact": 7.938,
+      "source": "market_dashboard"
+    }
+  ],
+  "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "CNBC's The China Connection newsletter: The 'cliff' beneath China's cities",
+      "link": "https://www.cnbc.com/2026/10/27/china-fiscal-debt-gdp-imf-real-estate-.html",
+      "published_at": "2026-10-26T23:10:16+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Israeli election draws tens of thousands of citizens flying back to vote",
+      "link": "https://www.cnbc.com/2026/10/27/israeli-election-citizens-flying-back-vote.html",
+      "published_at": "2026-10-26T22:46:35+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Healey vows cheaper marmalade and gherkins in pre-Budget package of 'everyday fixes'",
+      "link": "https://www.bbc.co.uk/news/articles/c6d93gq1xdgno?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-26T22:30:02+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+      "link": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+      "published_at": "2026-10-26T20:44:50+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Anthropic's blockbuster share listing - 5 surprising things we now know",
+      "link": "https://www.bbc.co.uk/news/articles/cwn8d7g29vd9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-26T19:57:23+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Apple responds to user reports of broken iPhone Duo screens on new foldable phone",
+      "link": "https://www.cnbc.com/2026/10/26/apple-responds-to-user-reports-of-broken-iphone-duo-screens.html",
+      "published_at": "2026-10-26T18:43:25+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
+      "link": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-26T16:27:17+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Investors are doing just as well this year by shunning AI. How to invest if the tech trade keeps fizzling",
+      "link": "https://www.cnbc.com/2026/10/26/sp-500-ex-ai-index-tech-selloff.html",
+      "published_at": "2026-10-26T15:39:55+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Healey to shield low-income pensioners from income tax in the Budget",
+      "link": "https://www.bbc.co.uk/news/articles/ck98zp7zeq65o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-26T10:28:12+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Healey's Budget needs to sustain the stronger economy through gathering clouds",
+      "link": "https://www.bbc.co.uk/news/articles/ck87z4ng2l03o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-26T00:26:49+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美銀示警三大風險未消，維持避險立場至11月中，美股、美元恐續承壓",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】美國銀行(Bank of America)策略團隊最新報告指出，儘管全球股票基金持續吸引資金流入，但美國期中選舉、法國公債市…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E9%8A%80%E7%A4%BA%E8%AD%A6%E4%B8%89%E5%A4%A7%E9%A2%A8%E9%9A%AA%E6%9C%AA%E6%B6%88-%E7%B6%AD%E6%8C%81%E9%81%BF%E9%9A%AA%E7%AB%8B%E5%A0%B4%E8%87%B311%E6%9C%88%E4%B8%AD-%E7%BE%8E%E8%82%A1-%E7%BE%8E%E5%85%83%E6%81%90%E7%BA%8C%E6%89%BF%E5%A3%93-233917389.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "SpaceX傳完成400億美元融資買GPU，馬斯克示警AI雲端業者恐掀整併潮",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】全球人工智慧(AI)基礎設施投資持續擴張，但融資市場日益緊縮。特斯拉(Tesla，美股代碼TSLA)執行長馬斯克(Elon…。",
+      "link": "https://tw.stock.yahoo.com/news/spacex%E5%82%B3%E5%AE%8C%E6%88%90400%E5%84%84%E7%BE%8E%E5%85%83%E8%9E%8D%E8%B3%87%E8%B2%B7gpu-%E9%A6%AC%E6%96%AF%E5%85%8B%E7%A4%BA%E8%AD%A6ai%E9%9B%B2%E7%AB%AF%E6%A5%AD%E8%80%85%E6%81%90%E6%8E%80%E6%95%B4%E4%BD%B5%E6%BD%AE-233622904.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "SK海力士傳擬發16兆韓元特別股息，鎧俠投資收益回饋股東八成",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】韓國記憶體大廠SK海力士(SK Hynix，韓股代碼000660.KS)傳出計劃利用出售日本鎧俠(Kioxia)持股所獲收益…。",
+      "link": "https://tw.stock.yahoo.com/news/sk%E6%B5%B7%E5%8A%9B%E5%A3%AB%E5%82%B3%E6%93%AC%E7%99%BC16%E5%85%86%E9%9F%93%E5%85%83%E7%89%B9%E5%88%A5%E8%82%A1%E6%81%AF-%E9%8E%A7%E4%BF%A0%E6%8A%95%E8%B3%87%E6%94%B6%E7%9B%8A%E5%9B%9E%E9%A5%8B%E8%82%A1%E6%9D%B1%E5%85%AB%E6%88%90-233339147.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "韓股急殺催抄底潮，散戶10月砸3,154億韓元買進三星與海力士槓桿ETF",
+      "original_title": null,
+      "summary": "重點：【財訊快報／陳孟朔】韓國股市近期大幅回檔，卻吸引散戶逆勢加碼押注半導體權值股反彈。根據韓國交易所(KRX)與金融資訊機構Koscom統計，10月…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%9F%93%E8%82%A1%E6%80%A5%E6%AE%BA%E5%82%AC%E6%8A%84%E5%BA%95%E6%BD%AE-%E6%95%A3%E6%88%B610%E6%9C%88%E7%A0%B83-154%E5%84%84%E9%9F%93%E5%85%83%E8%B2%B7%E9%80%B2%E4%B8%89%E6%98%9F%E8%88%87%E6%B5%B7%E5%8A%9B%E5%A3%AB%E6%A7%93%E6%A1%BFetf-233235844.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "韓股與日股弱勢、費半反彈，台股止穩與否看權值股",
+      "original_title": null,
+      "summary": "重點：【財訊快報／方亞申】美國股市最弱勢的費半上週五小反彈，尚未創7月底低點。亞股日韓週一持續下跌，韓國股市創4月7日以來新低點；日本股市則接近7月時…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%9F%93%E8%82%A1%E8%88%87%E6%97%A5%E8%82%A1%E5%BC%B1%E5%8B%A2-%E8%B2%BB%E5%8D%8A%E5%8F%8D%E5%BD%88-%E5%8F%B0%E8%82%A1%E6%AD%A2%E7%A9%A9%E8%88%87%E5%90%A6%E7%9C%8B%E6%AC%8A%E5%80%BC%E8%82%A1-232450349.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "Anthropic IPO提振AI股！美股收紅、費半強漲304點　台積電ADR上揚1.4%",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導美股週一（26日）收高，標普500指數與那斯達克指數終止連續兩週下跌走勢。AI新創公司Anthropic提…。",
+      "link": "https://tw.stock.yahoo.com/news/anthropic-ipo%E6%8F%90%E6%8C%AFai%E8%82%A1-%E7%BE%8E%E8%82%A1%E6%94%B6%E7%B4%85-%E8%B2%BB%E5%8D%8A%E5%BC%B7%E6%BC%B2304%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E4%B8%8A%E6%8F%9A1-231500662.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "逆勢台股震盪瘋買氣！「這檔黑馬股」搭避險題材＋股東紀念品吸金…週量增比飆327.07%　預估EPS曝光",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者何亞軒／綜合報導上周台股跌點1069.83點，跌幅2.27%，觀察上周量價排行個股，儘管台股近期表現震盪，但康全電訊受惠於…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%80%86%E5%8B%A2%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA%E7%98%8B%E8%B2%B7%E6%B0%A3-%E9%80%99%E6%AA%94%E9%BB%91%E9%A6%AC%E8%82%A1-%E6%90%AD%E9%81%BF%E9%9A%AA%E9%A1%8C%E6%9D%90-%E8%82%A1%E6%9D%B1%E7%B4%80%E5%BF%B5%E5%93%81%E5%90%B8%E9%87%91-%E9%80%B1%E9%87%8F%E5%A2%9E%E6%AF%94%E9%A3%86327-230000089.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "AI交易回暖！美股全線收高　台積電ADR勁揚1.4%",
+      "original_title": null,
+      "summary": "重點：人工智慧（AI）公司Anthropic提交首次公開募股（IPO）的申請文件，帶動AI交易回暖，華爾街股市主要指數週一（26日）收盤走高，台積電A…。",
+      "link": "https://tw.news.yahoo.com/ai%E4%BA%A4%E6%98%93%E5%9B%9E%E6%9A%96-%E7%BE%8E%E8%82%A1%E5%85%A8%E7%B7%9A%E6%94%B6%E9%AB%98-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E5%8B%81%E6%8F%9A1-4-225410336.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    }
+  ]
+}

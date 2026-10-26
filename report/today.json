@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "report_date": "2026-10-25",
-  "generated_at": "2026-10-25T09:03:21+08:00",
+  "report_date": "2026-10-26",
+  "generated_at": "2026-10-26T08:35:23+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -46,8 +46,8 @@
       "symbol": "^DJI",
       "label": "道瓊指數",
       "price": 52215.16,
-      "change": -652.8199999999997,
-      "change_percent": -1.234811695094081,
+      "change": -652.8399999999965,
+      "change_percent": -1.2348490580313167,
       "currency": "USD",
       "market_time": 1792788175,
       "source": "yahoo"
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4007.9,
-      "change": -52.5,
-      "change_percent": -1.292976061471776,
+      "price": 3998.8,
+      "change": -9.099999999999909,
+      "change_percent": -0.22705157314304023,
       "currency": "USD",
-      "market_time": 1792789198,
+      "market_time": 1792974321,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 103.27,
-      "change": 3.799999999999997,
-      "change_percent": 3.8202473107469563,
+      "price": 101.75,
+      "change": -1.519999999999996,
+      "change_percent": -1.471869855718017,
       "currency": "USD",
-      "market_time": 1792789198,
+      "market_time": 1792974319,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 111.7,
-      "change": 3.0400000000000063,
-      "change_percent": 2.7977176513896618,
+      "price": 110.33,
+      "change": -1.3700000000000045,
+      "change_percent": -1.2264995523724302,
       "currency": "USD",
-      "market_time": 1792789159,
+      "market_time": 1792974271,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.57,
-      "change": -0.027000000000001023,
-      "change_percent": -0.08282970825536405,
+      "price": 32.571,
+      "change": 0.0009999999999976694,
+      "change_percent": 0.0030703101013130774,
       "currency": "TWD",
-      "market_time": 1792790945,
+      "market_time": 1792974637,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.8063,
-      "change": 0.0062000000000006494,
-      "change_percent": 0.12916397575051872,
+      "price": 4.8147,
+      "change": 0.008399999999999963,
+      "change_percent": 0.174770613569689,
       "currency": "JPY",
-      "market_time": 1792790804,
+      "market_time": 1792974704,
       "source": "yahoo"
     },
     {
@@ -266,130 +266,130 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "Brazil's Lula wins presidential election in runoff vote",
+      "link": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+      "published_at": "2026-10-26T00:28:10+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "‘Ticking time bomb’: The world's pension funds face an ageing crisis",
+      "link": "https://www.cnbc.com/2026/10/26/pension-funds-ageing-crisis-risk-investment.html",
+      "published_at": "2026-10-26T00:03:20+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "In pictures: Protests over inequality, rising living costs turn violent across France",
+      "link": "https://www.cnbc.com/2026/10/25/france-protests-paris-cost-of-living-inequality.html",
+      "published_at": "2026-10-25T23:55:22+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Ukraine disputes Elon Musk’s claim that its military violated Starlink terms during drone operations",
+      "link": "https://www.cnbc.com/2026/10/25/ukraine-musk-starlink-terms-dispute.html",
+      "published_at": "2026-10-25T18:18:49+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs",
+      "link": "https://www.cnbc.com/2026/10/25/audi-georgia-us-plant-tariffs-volkswagen.html",
+      "published_at": "2026-10-25T16:42:42+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Budget to include £1bn for social and affordable housing",
+      "link": "https://www.bbc.co.uk/news/articles/cqm24j9y9zn7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-25T10:03:17+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Rosebank: Life on the oil field at the centre of a political storm",
       "link": "https://www.bbc.co.uk/news/articles/cqy8ljkle97ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-24T23:15:18+00:00",
+      "published_at": "2026-10-25T07:15:38+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "After SpaceX restores high-speed service, Musk claims Ukraine violated Starlink agreement",
-      "link": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html",
-      "published_at": "2026-10-24T20:38:30+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "Why popular airplanes are getting scrapped years early",
-      "link": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
-      "published_at": "2026-10-24T15:18:30+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
-      "link": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
-      "published_at": "2026-10-24T06:23:02+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
-      "link": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-24T00:36:47+00:00",
+      "title": "Will a new code end 'rip-off parking charges'?",
+      "link": "https://www.bbc.co.uk/news/articles/ckjwe90z56ewo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-25T07:05:30+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "How does the UK state pension compare with other countries?",
-      "link": "https://www.bbc.co.uk/news/articles/c3gr84w85glyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-24T00:09:12+00:00",
+      "title": "Four ways Labour could raise money in the Budget without hiking income tax",
+      "link": "https://www.bbc.co.uk/news/articles/c65yn9p55np2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-25T06:00:15+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
-      "link": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-24T00:05:45+00:00",
+      "title": "Are California voters about to impose 'world's first' tax on billionaires?",
+      "link": "https://www.bbc.co.uk/news/articles/ck4g1jg4n9dno?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T23:11:31+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
-      "link": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
-      "published_at": "2026-10-23T22:49:42+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "Civil servant who juggled five jobs says he was 'surprised' to be charged with fraud",
-      "link": "https://www.bbc.co.uk/news/articles/c6lykzwjkj1eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-23T15:15:13+00:00",
-      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "France is flashing euro crisis signals. This time, the fault lines are different",
-      "link": "https://www.cnbc.com/2026/10/23/france-debt-euro-zone-contagion.html",
-      "published_at": "2026-10-23T11:12:38+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "美股夜盤上路2／白天也能複委託買美股？券商揭準備進度　2大交易規則曝光",
+      "title": "馬斯克豪砸1.2兆 SpaceX籌資搶購輝達AI晶片",
       "original_title": null,
-      "summary": "重點：美股23小時交易即將上路，國內券商複委託服務能否跟進，成投資人關注重點。富邦證券表示，已提前規劃延長時段交易服務，未來若開放，會比照現行盤前、盤…。",
-      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E5%A4%9C%E7%9B%A4%E4%B8%8A%E8%B7%AF2-%E7%99%BD%E5%A4%A9%E4%B9%9F%E8%83%BD%E8%A4%87%E5%A7%94%E8%A8%97%E8%B2%B7%E7%BE%8E%E8%82%A1-%E5%88%B8%E5%95%86%E6%8F%AD%E6%BA%96%E5%82%99%E9%80%B2%E5%BA%A6-2%E5%A4%A7%E4%BA%A4%E6%98%93%E8%A6%8F%E5%89%87%E6%9B%9D%E5%85%89-233000714.html",
+      "summary": "重點：[Newtalk新聞] 全球AI晶片搶購戰持續升溫！科技大亨馬斯克（Elon Musk）宣布，旗下太空探索公司SpaceX已完成高達400億美元…。",
+      "link": "https://tw.news.yahoo.com/%E9%A6%AC%E6%96%AF%E5%85%8B%E8%B1%AA%E7%A0%B81-2%E5%85%86-spacex%E7%B1%8C%E8%B3%87%E6%90%B6%E8%B3%BC%E8%BC%9D%E9%81%94ai%E6%99%B6%E7%89%87-001834892.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "美股夜盤上路1／美股23小時交易12月上路！台灣白天也能買　專家示警3風險",
+      "title": "投顧示警：台美股市短線波動大 降低槓桿操作",
       "original_title": null,
-      "summary": "重點：美股交易時間將大幅延長！那斯達克（Nasdaq）、紐約證券交易所旗下Arca等四大核心交易所 預計12月6日起推出23小時交易，台灣投資人白天也…。",
-      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E5%A4%9C%E7%9B%A4%E4%B8%8A%E8%B7%AF1-%E7%BE%8E%E8%82%A123%E5%B0%8F%E6%99%82%E4%BA%A4%E6%98%9312%E6%9C%88%E4%B8%8A%E8%B7%AF-%E5%8F%B0%E7%81%A3%E7%99%BD%E5%A4%A9%E4%B9%9F%E8%83%BD%E8%B2%B7-%E5%B0%88%E5%AE%B6%E7%A4%BA%E8%AD%A63%E9%A2%A8%E9%9A%AA-233000796.html",
+      "summary": "重點：美國期中選舉於11/3投票，由於選前油價、通膨等影響民生的議題糾纏，選舉結果變數多。投顧出具報告表示，在美股、台股大幅波動、但是產業發展路徑沒有…。",
+      "link": "https://tw.news.yahoo.com/%E6%8A%95%E9%A1%A7%E7%A4%BA%E8%AD%A6-%E5%8F%B0%E7%BE%8E%E8%82%A1%E5%B8%82%E7%9F%AD%E7%B7%9A%E6%B3%A2%E5%8B%95%E5%A4%A7-%E9%99%8D%E4%BD%8E%E6%A7%93%E6%A1%BF%E6%93%8D%E4%BD%9C-000750718.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "胡連義大利子公司收購LA PUNTA S.R.L. 80%股權，計688萬歐元",
+      "title": "輝達點火光學擴產！手握雷射封裝優勢　蔡慶龍指名「他」交期看俏",
       "original_title": null,
-      "summary": "重點：公開資訊觀測站重大訊息公告(6279)胡連-本公司公告通過義大利子公司Hu Lane Associate Europe S.r.l.,取得LA…。",
-      "link": "https://tw.stock.yahoo.com/news/%E8%83%A1%E9%80%A3%E7%BE%A9%E5%A4%A7%E5%88%A9%E5%AD%90%E5%85%AC%E5%8F%B8%E6%94%B6%E8%B3%BCla-punta-r-l-80-224700328.html",
+      "summary": "重點：摩爾投顧分析師蔡慶龍指出，輝達GTC大會點火光學引擎與CPO擴產商機，聯鈞受惠雷射封裝與光通訊出貨增溫，9月營收達12.89億元、年增近倍。聯鈞…。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E9%BB%9E%E7%81%AB%E5%85%89%E5%AD%B8%E6%93%B4%E7%94%A2-%E6%89%8B%E6%8F%A1%E9%9B%B7%E5%B0%84%E5%B0%81%E8%A3%9D%E5%84%AA%E5%8B%A2-%E8%94%A1%E6%85%B6%E9%BE%8D%E6%8C%87%E5%90%8D-%E4%BB%96-%E4%BA%A4%E6%9C%9F%E7%9C%8B%E4%BF%8F-233500805.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "美股科技股跌勢是買點？科技巨頭財報揭答案",
+      "title": "AI跌倒、美債吃飽？全球資金爭奪戰 市場用錢投票",
       "original_title": null,
-      "summary": "重點：[NOWNEWS今日新聞]美股近期科技股漲勢出現疲態，市場開始重新評估人工智慧（AI）投資熱潮能否持續。隨著Google母公司Alphabet、…。",
-      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E7%A7%91%E6%8A%80%E8%82%A1%E8%B7%8C%E5%8B%A2%E6%98%AF%E8%B2%B7%E9%BB%9E-%E7%A7%91%E6%8A%80%E5%B7%A8%E9%A0%AD%E8%B2%A1%E5%A0%B1%E6%8F%AD%E7%AD%94%E6%A1%88-224146711.html",
+      "summary": "重點：AI支出膨脹引發回報疑慮，Meta本週跌逾9%，AI相關股票單週重挫4.9%，信用風險指標升高。 資金轉向美債避險，10年期殖利率收4.97%跌…。",
+      "link": "https://tw.stock.yahoo.com/news/ai%E8%B7%8C%E5%80%92-%E7%BE%8E%E5%82%B5%E5%90%83%E9%A3%BD-%E5%85%A8%E7%90%83%E8%B3%87%E9%87%91%E7%88%AD%E5%A5%AA%E6%88%B0-%E5%B8%82%E5%A0%B4%E7%94%A8%E9%8C%A2%E6%8A%95%E7%A5%A8-225003803.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -406,30 +406,30 @@
     {
       "kind": "news",
       "category": "domestic",
-      "title": "聯發科殺到4字頭！苦主「買在這價位」求救：怕跟國巨一樣悲劇　股民：暫時鬼故事而已",
+      "title": "台股樂觀指數創新高！42%國人靠「股票基金獲利」翻轉家庭財務",
       "original_title": null,
-      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導IC設計大廠聯發科（2454）股價一路從5字頭跌到4000元關卡，現階段跌破所有短、中期均線，上週四（22…。",
-      "link": "https://tw.stock.yahoo.com/news/%E8%81%AF%E7%99%BC%E7%A7%91%E6%AE%BA%E5%88%B04%E5%AD%97%E9%A0%AD-%E8%8B%A6%E4%B8%BB-%E8%B2%B7%E5%9C%A8%E9%80%99%E5%83%B9%E4%BD%8D-%E6%B1%82%E6%95%91-%E6%80%95%E8%B7%9F%E5%9C%8B%E5%B7%A8-233000384.html",
+      "summary": "重點：國泰金控近日公布10月國民經濟信心調查結果。受惠於國發會8月景氣對策信號續呈紅燈，加上AI應用發展強勁，民眾對景氣展望與台股表現的信心大幅提升。…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%A8%82%E8%A7%80%E6%8C%87%E6%95%B8%E5%89%B5%E6%96%B0%E9%AB%98-42-%E5%9C%8B%E4%BA%BA%E9%9D%A0-%E8%82%A1%E7%A5%A8%E5%9F%BA%E9%87%91%E7%8D%B2%E5%88%A9-%E7%BF%BB%E8%BD%89%E5%AE%B6%E5%BA%AD%E8%B2%A1%E5%8B%99-002724404.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "台股再強也別全押！0050、全球ETF怎麼配？專家揭資產配置關鍵",
+      "title": "台股震盪守4萬6000點 投信：AI長線行情仍可期",
       "original_title": null,
-      "summary": "重點：雜誌官方line＠財經資訊不漏接 資產少，不代表只能買台股。提早分散全球市場，能避開單一市場長期低迷的風險。即使看好台股市場，台股的持有比例最多…。",
-      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%86%8D%E5%BC%B7%E4%B9%9F%E5%88%A5%E5%85%A8%E6%8A%BC-0050-%E5%85%A8%E7%90%83etf%E6%80%8E%E9%BA%BC%E9%85%8D-%E5%B0%88%E5%AE%B6%E6%8F%AD%E8%B3%87%E7%94%A2%E9%85%8D%E7%BD%AE%E9%97%9C%E9%8D%B5-231000016.html",
+      "summary": "重點：上週五（23日）台股因颱風來襲，股市休市一天，本週一（26日）又遇到台灣光復節連假，週二才會恢復交易；展望台股後市，投信表示，大盤正面臨4萬60…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA%E5%AE%884%E8%90%AC6000%E9%BB%9E-%E6%8A%95%E4%BF%A1-ai%E9%95%B7%E7%B7%9A%E8%A1%8C%E6%83%85%E4%BB%8D%E5%8F%AF%E6%9C%9F-001703616.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "台股半個月跌近4千點！施昇輝態度大變不敢買　揭台股「最可怕訊號」",
+      "title": "台股教戰1／大盤跌破季線該逃命？　莊文宗：短線超賣先看這3道反彈關卡",
       "original_title": null,
-      "summary": "重點：台股10月6日盤中最高來到49,968.92點，終場上漲110.51點，收在49,822.55點，創下歷史收盤新高。然而，到了10月22日，台股…。",
-      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%8D%8A%E5%80%8B%E6%9C%88%E8%B7%8C%E8%BF%914%E5%8D%83%E9%BB%9E-%E6%96%BD%E6%98%87%E8%BC%9D%E6%85%8B%E5%BA%A6%E5%A4%A7%E8%AE%8A%E4%B8%8D%E6%95%A2%E8%B2%B7-%E6%8F%AD%E5%8F%B0%E8%82%A1-%E6%9C%80%E5%8F%AF%E6%80%95%E8%A8%8A%E8%99%9F-224808651.html",
+      "summary": "重點：台股從逼近5萬點高點急殺，短短數週跌掉近4,000點，外資大舉賣超，散戶嚇壞不敢進場，投資達人莊文宗卻認為，跌深就是利多。他分析，大盤在布林線下…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%95%99%E6%88%B01-%E5%A4%A7%E7%9B%A4%E8%B7%8C%E7%A0%B4%E5%AD%A3%E7%B7%9A%E8%A9%B2%E9%80%83%E5%91%BD-%E8%8E%8A%E6%96%87%E5%AE%97-%E7%9F%AD%E7%B7%9A%E8%B6%85%E8%B3%A3%E5%85%88%E7%9C%8B%E9%80%993%E9%81%93%E5%8F%8D%E5%BD%88%E9%97%9C%E5%8D%A1-233000270.html",
       "published_at": null,
       "source": "yahoo_news"
     }

@@ -17,7 +17,7 @@ mops_enabled = false
 stockq_enabled = false
 yahoo_tw_indices_enabled = true
 yahoo_future_enabled = true
-market_dashboard_enabled = true
+official_chips_enabled = true
 
 [symbols]
 "^IXIC" = "NASDAQ"

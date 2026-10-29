@@ -9,8 +9,8 @@ from pathlib import Path
 from unittest.mock import patch
 
 from crawler.base import CollectorResult
-from crawler.dashboard import MarketDashboardCollector
 from crawler.http import HttpClient
+from crawler.official_chips import OfficialChipsCollector
 from crawler.stockq import StockQCollector
 from crawler.taifex import TaifexCollector
 from crawler.twse import TwseCollector
@@ -344,23 +344,85 @@ class PipelineTests(unittest.TestCase):
             merge_same_day_report(report, root / "today.json")
         self.assertEqual(report.markets, [])
 
-    def test_dashboard_collector_maps_requested_chip_fields(self) -> None:
+    def test_official_chips_collector_maps_requested_fields(self) -> None:
         class Client:
-            def get_json(self, url: str) -> dict:
-                if url.endswith("futures.json"):
-                    return {"history": {
-                        "TX": [{"date": "2026-08-13", "inst": {"外資": {"net": -86249}, "投信": {"net": 82327}}}],
-                        "MTX": [{"retail": {"ratio": 22.9}}],
-                        "TMF": [{"retail": {"ratio": 15.58}}],
-                    }}
-                if url.endswith("options.json"):
-                    return {"pc_ratio": {"value": 112.03}}
-                return {"impact": 8.463}
+            def post_form_bytes(self, url: str, fields: dict[str, str], referer: str) -> bytes:
+                if url.endswith("futContractsDateDown"):
+                    rows = ["日期,商品名稱,身份別,多方未平倉口數,空方未平倉口數"]
+                    for product in ("臺股期貨", "小型臺指期貨", "微型臺指期貨"):
+                        rows.extend([
+                            f"2026/08/12,{product},自營商,100,50",
+                            f"2026/08/12,{product},投信,20,40",
+                            f"2026/08/12,{product},外資及陸資,200,150",
+                        ])
+                    return "\n".join(rows).encode("utf-8")
+                if url.endswith("futDataDown"):
+                    return (
+                        "交易日期,到期月份(週別),未沖銷契約數,交易時段\n"
+                        "2026/08/12,202608,600,一般\n"
+                        "2026/08/12,202609,400,一般\n"
+                        "2026/08/12,202608/202609,50,一般\n"
+                        "2026/08/12,202608,1000,盤後\n"
+                    ).encode("utf-8")
+                if url.endswith("pcRatioDown"):
+                    return (
+                        "日期,買賣權未平倉量比率%\n"
+                        "2026/08/11,110.00\n"
+                        "2026/08/12,112.03\n"
+                    ).encode("utf-8")
+                raise AssertionError(url)
 
-        result = MarketDashboardCollector(Client()).collect()
+            def get_json(self, url: str) -> dict:
+                if "FMTQIK" in url:
+                    return {"data": [["115/08/12", "0", "0", "0", "46,000.00"]]}
+                if "STOCK_DAY" in url:
+                    return {"data": [["115/08/12", "0", "0", "0", "0", "0", "2,000.00"]]}
+                raise AssertionError(url)
+
+            def get_text(self, url: str) -> str:
+                return "<tr><td>2330</td><td>台積電</td><td>36.7957%</td></tr>"
+
+        result = OfficialChipsCollector(Client(), date(2026, 8, 13)).collect()
         self.assertTrue(result.ok)
-        self.assertEqual(result.records[0]["foreign_tx_net"], -86249)
+        self.assertEqual(result.records[0]["foreign_tx_net"], 50)
+        self.assertEqual(result.records[0]["trust_tx_net"], -20)
+        self.assertEqual(result.records[0]["mtx_retail_ratio"], -8)
+        self.assertEqual(result.records[0]["tmf_retail_ratio"], -8)
+        self.assertEqual(result.records[0]["options_pc_ratio"], 112.03)
         self.assertEqual(result.records[0]["tsmc_impact"], 8.463)
+
+    def test_official_chips_rejects_provisional_all_zero_positions(self) -> None:
+        day = {
+            code: {
+                role: {"long": 0, "short": 0, "net": 0}
+                for role in OfficialChipsCollector.roles
+            }
+            for code in OfficialChipsCollector.products
+        }
+        self.assertFalse(OfficialChipsCollector._has_positions(day))
+
+    def test_http_client_posts_taifex_form_with_required_headers(self) -> None:
+        class Response:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *args: object) -> None:
+                return None
+
+            def read(self) -> bytes:
+                return b"ok"
+
+        with patch("crawler.http.urllib.request.urlopen", return_value=Response()) as opener:
+            body = HttpClient(1, "test-agent").post_form_bytes(
+                "https://www.taifex.com.tw/example",
+                {"queryStartDate": "2026/08/12"},
+                "https://www.taifex.com.tw/referer",
+            )
+        request = opener.call_args.args[0]
+        self.assertEqual(body, b"ok")
+        self.assertEqual(request.get_header("Referer"), "https://www.taifex.com.tw/referer")
+        self.assertEqual(request.get_header("Origin"), "https://www.taifex.com.tw")
+        self.assertEqual(request.data, b"queryStartDate=2026%2F08%2F12")
 
     def test_international_filter_rejects_entertainment(self) -> None:
         self.assertTrue(YahooHeadlineCollector._financial_headline("輝達財報帶動晶片股上漲"))

@@ -3,7 +3,9 @@ from __future__ import annotations
 import json
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
+from collections.abc import Mapping
 from typing import Any
 
 
@@ -17,6 +19,23 @@ class HttpClient:
             url,
             headers={"User-Agent": self.user_agent, "Accept": "application/json,text/xml,application/rss+xml,*/*"},
         )
+        return self._request_bytes(request)
+
+    def post_form_bytes(self, url: str, fields: Mapping[str, str], referer: str) -> bytes:
+        request = urllib.request.Request(
+            url,
+            data=urllib.parse.urlencode(fields).encode("utf-8"),
+            headers={
+                "User-Agent": self.user_agent,
+                "Accept": "text/csv,application/csv,text/html,*/*",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Referer": referer,
+                "Origin": "https://www.taifex.com.tw",
+            },
+        )
+        return self._request_bytes(request)
+
+    def _request_bytes(self, request: urllib.request.Request) -> bytes:
         last_error: OSError | None = None
         for attempt in range(3):
             try:

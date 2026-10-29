@@ -10,8 +10,8 @@ from zoneinfo import ZoneInfo
 from crawler.base import Collector
 from crawler.http import HttpClient
 from crawler.mops import MopsCollector
-from crawler.dashboard import MarketDashboardCollector
 from crawler.news import RssCollector
+from crawler.official_chips import OfficialChipsCollector
 from crawler.stockq import StockQCollector
 from crawler.taifex import TaifexCollector
 from crawler.twse import TwseCollector
@@ -84,8 +84,9 @@ def collectors(config: dict, now: datetime) -> list[Collector]:
     if enabled.get("yahoo_future_enabled", False):
         local_date = now.astimezone(ZoneInfo(config["report"]["timezone"])).date()
         items.append(YahooFutureCollector(client, local_date))
-    if enabled.get("market_dashboard_enabled", False):
-        items.append(MarketDashboardCollector(client))
+    if enabled.get("official_chips_enabled", False):
+        local_date = now.astimezone(ZoneInfo(config["report"]["timezone"])).date()
+        items.append(OfficialChipsCollector(client, local_date))
     return items
 
 

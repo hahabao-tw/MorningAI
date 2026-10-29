@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-29",
+  "generated_at": "2026-10-29T09:27:44+08:00",
+  "timezone": "Asia/Taipei",
+  "markets": [
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^IXIC",
+      "label": "NASDAQ",
+      "price": 26549.852,
+      "change": 72.04199999999764,
+      "change_percent": 0.2720844359861999,
+      "currency": "USD",
+      "market_time": 1793222159,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^SOX",
+      "label": "費城半導體",
+      "price": 11684.0,
+      "change": 201.4950000000008,
+      "change_percent": 1.7548000196821234,
+      "currency": "USD",
+      "market_time": 1793222159,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^GSPC",
+      "label": "S&P 500",
+      "price": 7743.98,
+      "change": 21.3799999999992,
+      "change_percent": 0.27684976562296637,
+      "currency": "USD",
+      "market_time": 1793222322,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^DJI",
+      "label": "道瓊指數",
+      "price": 52475.1,
+      "change": 97.52999999999884,
+      "change_percent": 0.186205660170945,
+      "currency": "USD",
+      "market_time": 1793222332,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "TSM",
+      "label": "台積電 ADR",
+      "price": 439.51,
+      "change": 2.6399999999999864,
+      "change_percent": 0.6042987616453376,
+      "currency": "USD",
+      "market_time": 1793217602,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "UMC",
+      "label": "聯電 ADR",
+      "price": 18.82,
+      "change": -0.629999999999999,
+      "change_percent": -3.23907455012853,
+      "currency": "USD",
+      "market_time": 1793217602,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "ASX",
+      "label": "日月光 ADR",
+      "price": 43.92,
+      "change": 1.8599999999999994,
+      "change_percent": 4.4222539229671884,
+      "currency": "USD",
+      "market_time": 1793217602,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "GC=F",
+      "label": "黃金",
+      "price": 4067.3,
+      "change": 15.700000000000273,
+      "change_percent": 0.38750123408037007,
+      "currency": "USD",
+      "market_time": 1793236660,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "CL=F",
+      "label": "WTI 原油",
+      "price": 101.86,
+      "change": -0.9200000000000017,
+      "change_percent": -0.8951157812804064,
+      "currency": "USD",
+      "market_time": 1793236661,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "BZ=F",
+      "label": "布蘭特原油",
+      "price": 110.62,
+      "change": -1.019999999999996,
+      "change_percent": -0.9136510211393729,
+      "currency": "USD",
+      "market_time": 1793236662,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWD=X",
+      "label": "USD/TWD",
+      "price": 32.404,
+      "change": -0.003999999999997783,
+      "change_percent": -0.01234263144901809,
+      "currency": "TWD",
+      "market_time": 1793237264,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWDJPY=X",
+      "label": "TWD/JPY",
+      "price": 4.8611,
+      "change": 0.001700000000000479,
+      "change_percent": 0.034983742848921244,
+      "currency": "JPY",
+      "market_time": 1793237205,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWII",
+      "label": "加權",
+      "price": 47035.58,
+      "change": 939.3499999999985,
+      "change_percent": 2.037802223739335,
+      "currency": "TWD",
+      "market_time": 1793116800,
+      "date": "10/28",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWOII",
+      "label": "櫃買",
+      "price": 394.61,
+      "change": 15.410000000000025,
+      "change_percent": 4.063818565400851,
+      "currency": "TWD",
+      "market_time": 1793116800,
+      "date": "10/28",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WTX&",
+      "label": "台指期夜盤",
+      "price": 47121.0,
+      "change": -128.0,
+      "change_percent": -0.27090520434294907,
+      "market_time": 1793221200,
+      "date": "10/29",
+      "source": "yahoo_future"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WCDF&",
+      "label": "台積電期貨夜盤",
+      "price": 2432.0,
+      "change": -1.0,
+      "change_percent": -0.04110152075626798,
+      "market_time": 1793221200,
+      "date": "10/29",
+      "source": "yahoo_future"
+    }
+  ],
+  "taiwan_market": [
+    {
+      "kind": "twse_summary",
+      "date": "115/10/28",
+      "volume": 9000687119,
+      "turnover": 750340536882,
+      "transactions": 3261452,
+      "index": 47035.58,
+      "change": 939.35,
+      "source": "twse",
+      "institutional": [
+        {
+          "name": "自營商(自行買賣)",
+          "buy": 9441773851,
+          "sell": 6993400085,
+          "net": 2448373766
+        },
+        {
+          "name": "自營商(避險)",
+          "buy": 21806262947,
+          "sell": 22089351730,
+          "net": -283088783
+        },
+        {
+          "name": "投信",
+          "buy": 23828954087,
+          "sell": 9509301784,
+          "net": 14319652303
+        },
+        {
+          "name": "外資及陸資(不含外資自營商)",
+          "buy": 326204972366,
+          "sell": 310248352578,
+          "net": 15956619788
+        },
+        {
+          "name": "外資自營商",
+          "buy": 0,
+          "sell": 0,
+          "net": 0
+        },
+        {
+          "name": "合計",
+          "buy": 381281963251,
+          "sell": 348840406177,
+          "net": 32441557074
+        }
+      ]
+    }
+  ],
+  "chips": [
+    {
+      "kind": "chips",
+      "date": "2026-10-28",
+      "foreign_tx_net": -84917,
+      "trust_tx_net": 87179,
+      "mtx_retail_ratio": 21.66,
+      "tmf_retail_ratio": 26.17,
+      "options_pc_ratio": 69.38,
+      "tsmc_impact": 7.976,
+      "source": "official_chips"
+    }
+  ],
+  "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Samsung Electronics third-quarter profit in line with estimates amid rising demand for AI memory chips",
+      "link": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
+      "published_at": "2026-10-29T01:13:47+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Inside India newsletter: New Delhi approves $22 billion in military spending amid China border tensions",
+      "link": "https://www.cnbc.com/2026/10/29/india-china-us-israel-military-spending.html",
+      "published_at": "2026-10-29T00:11:14+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
+      "link": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-29T00:00:25+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "One passport isn’t enough for some wealthy Chinese. Here’s where they’re looking next",
+      "link": "https://www.cnbc.com/2026/10/29/where-chinas-wealthy-are-turning-for-second-passports.html",
+      "published_at": "2026-10-28T23:38:00+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Alphabet sinks 10% as it holds 2026 capex unchanged, expects significant increase in 2027",
+      "link": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+      "published_at": "2026-10-28T22:07:17+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
+      "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
+      "published_at": "2026-10-28T21:31:46+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "What we now know about the UK economy in four charts",
+      "link": "https://www.bbc.co.uk/news/articles/c9x28350ly07o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-28T20:08:45+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "What the Budget offers for under 25s - and what it leaves out",
+      "link": "https://www.bbc.co.uk/news/articles/c60e05yn3w9zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-28T20:02:38+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Healey unveils £100 for energy bills and bank tax in first Budget",
+      "link": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-28T18:45:09+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Your pay, energy bills and savings: How the Budget affects you",
+      "link": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-28T16:43:35+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "川普認定「進口機器人」威脅國安！暫緩加徵關稅　180天內與各國談判",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]財經中心／綜合報導美國進口機器人、工業機械暫時不用面臨新一波關稅！美國總統川普28日簽署公告，認定進口機器人、工業機械及相關零…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E8%AA%8D%E5%AE%9A-%E9%80%B2%E5%8F%A3%E6%A9%9F%E5%99%A8%E4%BA%BA-%E5%A8%81%E8%84%85%E5%9C%8B%E5%AE%89-%E6%9A%AB%E7%B7%A9%E5%8A%A0%E5%BE%B5%E9%97%9C%E7%A8%85-180%E5%A4%A9%E5%85%A7%E8%88%87%E5%90%84%E5%9C%8B%E8%AB%87%E5%88%A4-010600718.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "聯準會決策5大重點！2件事震撼市場 12月升息機率破80％",
+      "original_title": null,
+      "summary": "重點：美國聯準會周三投票決定維持基準利率不變，聯準會主席華許（Kevin Warsh）公開目前對通膨、經濟現狀及貨幣政策的看法。此外，市場也認為，關注…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%81%AF%E6%BA%96%E6%9C%83%E6%B1%BA%E7%AD%965%E5%A4%A7%E9%87%8D%E9%BB%9E-2%E4%BB%B6%E4%BA%8B%E9%9C%87%E6%92%BC%E5%B8%82%E5%A0%B4-12%E6%9C%88%E5%8D%87%E6%81%AF%E6%A9%9F%E7%8E%87%E7%A0%B480-005118593.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "聯準會維持利率在3.75%至4%不變　12月升息機率達8成",
+      "original_title": null,
+      "summary": "重點：（中央社華盛頓2026年10月28日綜合外電報導）美國聯邦準備理事會（Fed）今天一如市場預期，決定維持利率不變。在等待更多通膨數據之際，聯準會…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%81%AF%E6%BA%96%E6%9C%83%E7%B6%AD%E6%8C%81%E5%88%A9%E7%8E%87%E5%9C%A83-75-%E8%87%B34-%E4%B8%8D%E8%AE%8A-12%E6%9C%88%E5%8D%87%E6%81%AF%E6%A9%9F%E7%8E%87%E9%81%948%E6%88%90-005023102.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美國期中選舉將至！聯準會宣布利率按兵不動 市場預期「這時」升息",
+      "original_title": null,
+      "summary": "重點：美國期中選舉在即，聯準會（Fed）主席華許（Kevin Warsh）宣布利率維持不變；華許坦言通膨居高不下，重申將採取必要行動，讓通膨回到2%的…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E5%9C%8B%E6%9C%9F%E4%B8%AD%E9%81%B8%E8%88%89%E5%B0%87%E8%87%B3-%E8%81%AF%E6%BA%96%E6%9C%83%E5%AE%A3%E5%B8%83%E5%88%A9%E7%8E%87%E6%8C%89%E5%85%B5%E4%B8%8D%E5%8B%95-%E5%B8%82%E5%A0%B4%E9%A0%90%E6%9C%9F-%E9%80%99%E6%99%82-%E5%8D%87%E6%81%AF-003957376.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股開低跌逾200點失守47000點　台積電跌10元",
+      "original_title": null,
+      "summary": "重點：（中央社記者吳家豪台北29日電）美國聯邦準備理事會（Fed）維持基準利率不變，台股今天開低失守47000點，早盤最低至46826.68點，下跌逾…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%96%8B%E4%BD%8E%E8%B7%8C%E9%80%BE200%E9%BB%9E%E5%A4%B1%E5%AE%8847000%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%8C10%E5%85%83-011558307.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股開盤／台積電跌5元！台股跌近百點　記憶體逆勢強攻",
+      "original_title": null,
+      "summary": "重點：美股四大指數連3漲，台股今（29）日開盤卻不同調！加權指數下跌80.05點，來到46,955.53點，跌幅0.17%；櫃買指數逆勢上漲0.63%…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%8C5%E5%85%83-%E5%8F%B0%E8%82%A1%E8%B7%8C%E8%BF%91%E7%99%BE%E9%BB%9E-%E8%A8%98%E6%86%B6%E9%AB%94%E9%80%86%E5%8B%A2%E5%BC%B7%E6%94%BB-011300814.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股開盤跌逾80點失守4萬7！台積電跌5元、台達電挫3.55%　智原逆勢攻漲停",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者蕭廷芬／綜合報導台股昨（28）日狂飆939.35點、重返47,000點大關，今（29）日開盤卻遭遇賣壓！加權指數以47,0…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4%E8%B7%8C%E9%80%BE80%E9%BB%9E%E5%A4%B1%E5%AE%884%E8%90%AC7-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%8C5%E5%85%83-%E5%8F%B0%E9%81%94%E9%9B%BB%E6%8C%AB3-55-%E6%99%BA%E5%8E%9F%E9%80%86%E5%8B%A2%E6%94%BB%E6%BC%B2%E5%81%9C-011300002.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "美國利率不變　台股開盤跌至47014點",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]美國聯準會（Fed）如預期，在下週期中選舉前，維持利率不變，美股四大指數同步收紅，其中美光（Micron）大漲5.86…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E5%9C%8B%E5%88%A9%E7%8E%87%E4%B8%8D%E8%AE%8A-%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4%E8%B7%8C%E8%87%B347014%E9%BB%9E-010543502.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-10-30",
-  "generated_at": "2026-10-30T10:05:33+08:00",
+  "generated_at": "2026-10-30T10:32:43+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4015.2,
-      "change": -16.200000000000273,
-      "change_percent": -0.4018455127251147,
+      "price": 4018.8,
+      "change": -12.599999999999909,
+      "change_percent": -0.3125465098973039,
       "currency": "USD",
-      "market_time": 1793325332,
+      "market_time": 1793326959,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 104.74,
-      "change": 2.739999999999995,
-      "change_percent": 2.6862745098039165,
+      "price": 103.97,
+      "change": 1.9699999999999989,
+      "change_percent": 1.9313725490196068,
       "currency": "USD",
-      "market_time": 1793325332,
+      "market_time": 1793326963,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 113.81,
-      "change": 3.010000000000005,
-      "change_percent": 2.7166064981949503,
+      "price": 112.9,
+      "change": 2.1000000000000085,
+      "change_percent": 1.895306859205784,
       "currency": "USD",
-      "market_time": 1793325332,
+      "market_time": 1793326949,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.657,
-      "change": 0.15099999999999625,
-      "change_percent": 0.4645296252999331,
+      "price": 32.65,
+      "change": 0.14399999999999835,
+      "change_percent": 0.4429951393588825,
       "currency": "TWD",
-      "market_time": 1793325932,
+      "market_time": 1793327564,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.8135,
-      "change": -0.02689999999999948,
-      "change_percent": -0.5557391951078317,
+      "price": 4.8147,
+      "change": -0.025699999999999612,
+      "change_percent": -0.5309478555491202,
       "currency": "JPY",
-      "market_time": 1793325702,
+      "market_time": 1793327503,
       "source": "yahoo"
     },
     {
@@ -268,7 +268,7 @@
       "category": "international",
       "title": "Crypto worth billions frozen after suspected Binance hack",
       "link": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-30T01:53:32+00:00",
+      "published_at": "2026-10-30T02:18:00+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
@@ -366,6 +366,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "美科技巨頭財報週登場+輝達力挺鴻海轉型 00952重倉32%成AI伺服器部隊",
+      "original_title": null,
+      "summary": "重點：全球AI投資焦點正從晶片採購延伸至算力運用與實際營運效益! 隨著微軟、Alphabet等大型雲端業者即將公布財 […]。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E7%A7%91%E6%8A%80%E5%B7%A8%E9%A0%AD%E8%B2%A1%E5%A0%B1%E9%80%B1%E7%99%BB%E5%A0%B4-%E8%BC%9D%E9%81%94%E5%8A%9B%E6%8C%BA%E9%B4%BB%E6%B5%B7%E8%BD%89%E5%9E%8B-00952%E9%87%8D%E5%80%8932-%E6%88%90ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E9%83%A8%E9%9A%8A-014156261.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "輝達10億美元入股Naver預定11/6繳款，將躍居第三大股東",
       "original_title": null,
       "summary": "重點：【財訊快報／陳孟朔】輝達(Nvidia，美股代碼NVDA)投資韓國網路巨擘Naver(韓股代碼035420)的計畫進入執行階段。Naver週五(…。",
@@ -380,6 +390,46 @@
       "original_title": null,
       "summary": "重點：【財訊快報／劉敏夫】外電報導指出，花旗集團方面將未來三個月歐元兌美元預期從1.135下調至1.105，原因包括對歐洲市場尾部風險的擔憂、利差可能…。",
       "link": "https://tw.stock.yahoo.com/news/%E5%88%A9%E5%B7%AE%E8%88%87%E5%9C%B0%E7%B7%A3%E6%94%BF%E6%B2%BB%E9%A2%A8%E9%9A%AA%E9%9B%A3%E6%B6%88-%E8%8A%B1%E6%97%97%E7%9C%8B%E6%B7%A1%E6%AD%90%E5%85%83-%E4%B8%8B%E8%AA%BF3%E5%80%8B%E6%9C%88%E5%8C%AF%E7%8E%87%E9%A0%90%E6%9C%9F%E8%87%B31-105-013140349.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "鴻海科技日今登場，劉揚偉稱2025年每天能為客戶推出2.5個新產品",
+      "original_title": null,
+      "summary": "重點：【財訊快報／記者劉居全報導】鴻海(2317)今(30)日起一連2天舉行鴻海科技日，鴻海董事長劉揚偉表示，每年都會邀請我們全球的重要客戶、夥伴，一…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%B4%BB%E6%B5%B7%E7%A7%91%E6%8A%80%E6%97%A5%E4%BB%8A%E7%99%BB%E5%A0%B4-%E5%8A%89%E6%8F%9A%E5%81%89%E7%A8%B12025%E5%B9%B4%E6%AF%8F%E5%A4%A9%E8%83%BD%E7%82%BA%E5%AE%A2%E6%88%B6%E6%8E%A8%E5%87%BA2-5%E5%80%8B%E6%96%B0%E7%94%A2%E5%93%81-022729706.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股暴跌1642點台達電摜至跌停！半年跌掉1200點　散戶激增７成數據曝",
+      "original_title": null,
+      "summary": "重點：台股今大盤重挫，電源供應器龍頭台達電盤中跌停至1335元，自波段高點已狂瀉1250元。儘管第三季受缺料與提列39億元庫存損失衝擊，單季EPS降至…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%9A%B4%E8%B7%8C1642%E9%BB%9E%E5%8F%B0%E9%81%94%E9%9B%BB%E6%91%9C%E8%87%B3%E8%B7%8C%E5%81%9C-%E5%8D%8A%E5%B9%B4%E8%B7%8C%E6%8E%891200%E9%BB%9E-%E6%95%A3%E6%88%B6%E6%BF%80%E5%A2%9E-%E6%88%90%E6%95%B8%E6%93%9A%E6%9B%9D-022300353.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股摜破半年線！巴逆逆喊「1句話」 股民轉悲為喜：穩了",
+      "original_title": null,
+      "summary": "重點：受英特爾與亞馬遜財報暴雷衝擊，美股科技股賣壓擴大，台股今（30）日開盤急殺逾1600點摜破季線。財經網紅巴逆逆發文直呼行情恐怖並呼籲停損，沒想到…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%91%9C%E7%A0%B4%E5%8D%8A%E5%B9%B4%E7%B7%9A-%E5%B7%B4%E9%80%86%E9%80%86%E5%96%8A-1%E5%8F%A5%E8%A9%B1-%E8%82%A1%E6%B0%91%E8%BD%89%E6%82%B2%E7%82%BA%E5%96%9C-%E7%A9%A9%E4%BA%86-022300810.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股高檔回檔 股債配置受關注！00981T把台股成長與債息一次打包打造股債雙核防護網",
+      "original_title": null,
+      "summary": "重點：近期台股在高檔震盪加劇，雖然指數歷經回檔修正，但市場主流機構對於中長線基本面與總體經濟發展依然抱持樂觀態度。面 […]。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%AB%98%E6%AA%94%E5%9B%9E%E6%AA%94-%E8%82%A1%E5%82%B5%E9%85%8D%E7%BD%AE%E5%8F%97%E9%97%9C%E6%B3%A8-00981t%E6%8A%8A%E5%8F%B0%E8%82%A1%E6%88%90%E9%95%B7%E8%88%87%E5%82%B5%E6%81%AF-%E6%AC%A1%E6%89%93%E5%8C%85%E6%89%93%E9%80%A0%E8%82%A1%E5%82%B5%E9%9B%99%E6%A0%B8%E9%98%B2%E8%AD%B7%E7%B6%B2-020326205.html",
       "published_at": null,
       "source": "yahoo_news"
     },

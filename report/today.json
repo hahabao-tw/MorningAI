@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-11-01",
-  "generated_at": "2026-11-01T09:22:47+08:00",
+  "generated_at": "2026-11-01T10:08:04+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -356,6 +356,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "高通膨與高殖利率拉鋸！PIMCO解析Fed：12月升息1碼機率高 長期維持高利率",
+      "original_title": null,
+      "summary": "重點：聯準會10月按兵不動，利率維持3.75%至4.0%，PIMCO稱是政策重新校準，非長期升息循環開端。 PIMCO預估12月再升息1碼，2027年…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%AB%98%E9%80%9A%E8%86%A8%E8%88%87%E9%AB%98%E6%AE%96%E5%88%A9%E7%8E%87%E6%8B%89%E9%8B%B8-pimco%E8%A7%A3%E6%9E%90fed-12%E6%9C%88%E5%8D%87%E6%81%AF1%E7%A2%BC%E6%A9%9F%E7%8E%87%E9%AB%98-%E9%95%B7%E6%9C%9F%E7%B6%AD%E6%8C%81%E9%AB%98%E5%88%A9%E7%8E%87-004003354.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "美股AI股賣壓擴大　下週3大考驗接連登場",
       "original_title": null,
       "summary": "重點：[NOWNEWS今日新聞]美股人工智慧（AI）概念股近期接連遭遇賣壓，Google母公司Alphabet、亞馬遜財報表現不如預期，加上晶片大廠英…。",
@@ -385,11 +395,11 @@
     },
     {
       "kind": "news",
-      "category": "international",
-      "title": "沈伯洋給勇氣！鄭麗君：會守住關稅談判成果",
+      "category": "domestic",
+      "title": "台股10月蒸發近9兆！週五狂瀉1156點　「股民人均賠60萬」真相曝光",
       "original_title": null,
-      "summary": "重點：[NOWNEWS今日新聞]民進黨台北市長候選人沈伯洋今（31）日在龍山寺進行市政開講，「神秘嘉賓」行政院副院長鄭麗君晚間登上舞台，並獻上航行用的…。",
-      "link": "https://tw.news.yahoo.com/%E6%B2%88%E4%BC%AF%E6%B4%8B%E7%B5%A6%E5%8B%87%E6%B0%A3-%E9%84%AD%E9%BA%97%E5%90%9B-%E6%9C%83%E5%AE%88%E4%BD%8F%E9%97%9C%E7%A8%85%E8%AB%87%E5%88%A4%E6%88%90%E6%9E%9C-134815989.html",
+      "summary": "重點：[FTNN新聞網]財經中心／綜合報導台股10月遭遇猛烈賣壓，投資人資產也跟著大縮水，加權指數週五（30日）收在45211.83點，重挫1156.…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A110%E6%9C%88%E8%92%B8%E7%99%BC%E8%BF%919%E5%85%86-%E9%80%B1%E4%BA%94%E7%8B%82%E7%80%891156%E9%BB%9E-%E8%82%A1%E6%B0%91%E4%BA%BA%E5%9D%87%E8%B3%A060%E8%90%AC-%E7%9C%9F%E7%9B%B8%E6%9B%9D%E5%85%89-013000823.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -420,6 +430,16 @@
       "original_title": null,
       "summary": "重點：聯發科第三季營收創歷史新高，股價卻從5480元高點一路下殺，10月30日跌至3915元，波段跌幅逼近3成，讓不少投資人心驚膽跳。究竟是AI成長故…。",
       "link": "https://tw.news.yahoo.com/%E8%81%AF%E7%99%BC%E7%A7%91%E9%87%8D%E6%8C%AB1-5480%E5%85%83%E6%AE%BA%E5%88%B03915%E5%85%83-%E8%81%AF%E7%99%BC%E7%A7%91%E7%87%9F%E6%94%B6%E5%89%B5%E9%AB%98%E5%8D%BB%E8%B7%8C%E8%BF%913%E6%88%90-%E6%B3%95%E4%BA%BA%E6%8F%AD4%E5%A4%A7%E5%88%A9%E7%A9%BA-233001315.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "沈伯洋給勇氣！鄭麗君：會守住關稅談判成果",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]民進黨台北市長候選人沈伯洋今（31）日在龍山寺進行市政開講，「神秘嘉賓」行政院副院長鄭麗君晚間登上舞台，並獻上航行用的…。",
+      "link": "https://tw.news.yahoo.com/%E6%B2%88%E4%BC%AF%E6%B4%8B%E7%B5%A6%E5%8B%87%E6%B0%A3-%E9%84%AD%E9%BA%97%E5%90%9B-%E6%9C%83%E5%AE%88%E4%BD%8F%E9%97%9C%E7%A8%85%E8%AB%87%E5%88%A4%E6%88%90%E6%9E%9C-134815989.html",
       "published_at": null,
       "source": "yahoo_news"
     },

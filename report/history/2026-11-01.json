@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-01",
+  "generated_at": "2026-11-01T09:22:47+08:00",
+  "timezone": "Asia/Taipei",
+  "markets": [
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^IXIC",
+      "label": "NASDAQ",
+      "price": 25436.998,
+      "change": -747.726999999999,
+      "change_percent": -2.8555846968031897,
+      "currency": "USD",
+      "market_time": 1793394959,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^SOX",
+      "label": "費城半導體",
+      "price": 10688.8,
+      "change": -829.3990000000013,
+      "change_percent": -7.200769842576962,
+      "currency": "USD",
+      "market_time": 1793394959,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^GSPC",
+      "label": "S&P 500",
+      "price": 7580.07,
+      "change": -140.32000000000062,
+      "change_percent": -1.8175247623500965,
+      "currency": "USD",
+      "market_time": 1793393263,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^DJI",
+      "label": "道瓊指數",
+      "price": 51770.31,
+      "change": -572.25,
+      "change_percent": -1.0932785862976515,
+      "currency": "USD",
+      "market_time": 1793393273,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "TSM",
+      "label": "台積電 ADR",
+      "price": 406.13,
+      "change": -25.680000000000007,
+      "change_percent": -5.947060049558836,
+      "currency": "USD",
+      "market_time": 1793390402,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "UMC",
+      "label": "聯電 ADR",
+      "price": 16.68,
+      "change": -1.3599999999999994,
+      "change_percent": -7.538802660753878,
+      "currency": "USD",
+      "market_time": 1793390403,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "ASX",
+      "label": "日月光 ADR",
+      "price": 39.5,
+      "change": -5.049999999999997,
+      "change_percent": -11.335578002244663,
+      "currency": "USD",
+      "market_time": 1793390403,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "GC=F",
+      "label": "黃金",
+      "price": 3898.9,
+      "change": -132.5,
+      "change_percent": -3.28669940963437,
+      "currency": "USD",
+      "market_time": 1793393999,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "CL=F",
+      "label": "WTI 原油",
+      "price": 104.12,
+      "change": 2.1200000000000045,
+      "change_percent": 2.0784313725490238,
+      "currency": "USD",
+      "market_time": 1793393999,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "BZ=F",
+      "label": "布蘭特原油",
+      "price": 113.43,
+      "change": 2.6300000000000097,
+      "change_percent": 2.3736462093862905,
+      "currency": "USD",
+      "market_time": 1793393997,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWD=X",
+      "label": "USD/TWD",
+      "price": 32.605,
+      "change": 0.09899999999999665,
+      "change_percent": 0.30455915830922486,
+      "currency": "TWD",
+      "market_time": 1793398090,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWDJPY=X",
+      "label": "TWD/JPY",
+      "price": 4.8224,
+      "change": -0.017999999999999794,
+      "change_percent": -0.3718700933807081,
+      "currency": "JPY",
+      "market_time": 1793395769,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWII",
+      "label": "加權",
+      "price": 45211.83,
+      "change": -1156.5,
+      "change_percent": -2.4941592677588345,
+      "currency": "TWD",
+      "market_time": 1793289600,
+      "date": "10/30",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWOII",
+      "label": "櫃買",
+      "price": 370.26,
+      "change": -17.110000000000014,
+      "change_percent": -4.416965691715935,
+      "currency": "TWD",
+      "market_time": 1793289600,
+      "date": "10/30",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WTX&",
+      "label": "台指期夜盤",
+      "price": 45926.0,
+      "change": -643.0,
+      "change_percent": -1.380746848762052,
+      "market_time": 1793307600,
+      "date": "10/30",
+      "source": "yahoo_future"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WCDF&",
+      "label": "台積電期貨夜盤",
+      "price": 2390.0,
+      "change": -30.0,
+      "change_percent": -1.2396694214876034,
+      "market_time": 1793307600,
+      "date": "10/30",
+      "source": "yahoo_future"
+    }
+  ],
+  "taiwan_market": [
+    {
+      "kind": "twse_summary",
+      "date": "115/10/30",
+      "volume": 13112939113,
+      "turnover": 939605267660,
+      "transactions": 6365634,
+      "index": 45211.83,
+      "change": -1156.5,
+      "source": "twse",
+      "institutional": [
+        {
+          "name": "自營商(自行買賣)",
+          "buy": 9031429661,
+          "sell": 12871788307,
+          "net": -3840358646
+        },
+        {
+          "name": "自營商(避險)",
+          "buy": 32728302266,
+          "sell": 80257041536,
+          "net": -47528739270
+        },
+        {
+          "name": "投信",
+          "buy": 36336431234,
+          "sell": 12717634927,
+          "net": 23618796307
+        },
+        {
+          "name": "外資及陸資(不含外資自營商)",
+          "buy": 340478117346,
+          "sell": 452945367240,
+          "net": -112467249894
+        },
+        {
+          "name": "外資自營商",
+          "buy": 0,
+          "sell": 0,
+          "net": 0
+        },
+        {
+          "name": "合計",
+          "buy": 418574280507,
+          "sell": 558791832010,
+          "net": -140217551503
+        }
+      ]
+    }
+  ],
+  "chips": [
+    {
+      "kind": "chips",
+      "date": "2026-10-30",
+      "foreign_tx_net": -92241,
+      "trust_tx_net": 89211,
+      "mtx_retail_ratio": 26.3,
+      "tmf_retail_ratio": 49.99,
+      "options_pc_ratio": 62.59,
+      "tsmc_impact": 7.943,
+      "source": "official_chips"
+    }
+  ],
+  "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Trump defamation suit against Murdoch, WSJ over Epstein letter dismissed with prejudice",
+      "link": "https://www.cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html",
+      "published_at": "2026-10-31T23:56:40+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Binance says 90% of $6.3 billion hack losses are now covered, plans to resume withdrawals Sunday",
+      "link": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
+      "published_at": "2026-10-31T22:27:56+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Qatari mediators held talks in Tehran aimed at restarting direct U.S.-Iran negotiations, source says",
+      "link": "https://www.cnbc.com/2026/10/31/qatar-iran-us-talks-mediation.html",
+      "published_at": "2026-10-31T13:47:03+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Trump promised to slash energy costs  — but gasoline, diesel and jet fuel all soared instead",
+      "link": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html",
+      "published_at": "2026-10-31T12:49:58+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+      "link": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
+      "published_at": "2026-10-31T06:00:02+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+      "link": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-30T21:13:14+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+      "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-30T20:34:46+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "City of London chief tops UK Black Powerlist",
+      "link": "https://www.bbc.co.uk/news/articles/c98rz4pxm4ymo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-30T18:00:24+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "What we know about Binance's $6.3bn hack",
+      "link": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-30T12:27:28+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "How Poundland grew from a market stall to a high street giant",
+      "link": "https://www.bbc.co.uk/news/articles/cw07304l5je7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-30T06:08:22+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美股AI股賣壓擴大　下週3大考驗接連登場",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]美股人工智慧（AI）概念股近期接連遭遇賣壓，Google母公司Alphabet、亞馬遜財報表現不如預期，加上晶片大廠英…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1ai%E8%82%A1%E8%B3%A3%E5%A3%93%E6%93%B4%E5%A4%A7-%E4%B8%8B%E9%80%B13%E5%A4%A7%E8%80%83%E9%A9%97%E6%8E%A5%E9%80%A3%E7%99%BB%E5%A0%B4-224248927.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "陸女涉輝達情報疑雲 美媒指台星國安曾跟監",
+      "original_title": null,
+      "summary": "重點：輝達（Nvidia）執行長黃仁勳的商業往來圈近日捲入大陸情報活動疑雲。據《華爾街日報》引述知情人士報導，新加坡資料中心業者「超速情報」（Mega…。",
+      "link": "https://tw.news.yahoo.com/%E9%99%B8%E5%A5%B3%E6%B6%89%E8%BC%9D%E9%81%94%E6%83%85%E5%A0%B1%E7%96%91%E9%9B%B2-%E7%BE%8E%E5%AA%92%E6%8C%87%E5%8F%B0%E6%98%9F%E5%9C%8B%E5%AE%89%E6%9B%BE%E8%B7%9F%E7%9B%A3-201000748.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美股崩跌是AI泡沫破裂警訊嗎？專家這麼說",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]美股主要指數週五全收黑，那斯達克指數慘跌近748點，創6月以來最大的單日跌幅，費城半導體指數下殺幅度亦超過7％。這場科…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E5%B4%A9%E8%B7%8C%E6%98%AFai%E6%B3%A1%E6%B2%AB%E7%A0%B4%E8%A3%82%E8%AD%A6%E8%A8%8A%E5%97%8E-%E5%B0%88%E5%AE%B6%E9%80%99%E9%BA%BC%E8%AA%AA-150603967.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "沈伯洋給勇氣！鄭麗君：會守住關稅談判成果",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]民進黨台北市長候選人沈伯洋今（31）日在龍山寺進行市政開講，「神秘嘉賓」行政院副院長鄭麗君晚間登上舞台，並獻上航行用的…。",
+      "link": "https://tw.news.yahoo.com/%E6%B2%88%E4%BC%AF%E6%B4%8B%E7%B5%A6%E5%8B%87%E6%B0%A3-%E9%84%AD%E9%BA%97%E5%90%9B-%E6%9C%83%E5%AE%88%E4%BD%8F%E9%97%9C%E7%A8%85%E8%AB%87%E5%88%A4%E6%88%90%E6%9E%9C-134815989.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股摜破半年線、資金避風港換它？「系統整合廠」量增1.9萬張奪雙增王　「航運雙雄」同步進榜",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導台股10月30日摜破半年線45314點，加權指數終場收45211.83點，下跌1156.5點或2.49%，…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%91%9C%E7%A0%B4%E5%8D%8A%E5%B9%B4%E7%B7%9A-%E8%B3%87%E9%87%91%E9%81%BF%E9%A2%A8%E6%B8%AF%E6%8F%9B%E5%AE%83-%E7%B3%BB%E7%B5%B1%E6%95%B4%E5%90%88%E5%BB%A0-%E9%87%8F%E5%A2%9E1-9%E8%90%AC%E5%BC%B5%E5%A5%AA%E9%9B%99%E5%A2%9E%E7%8E%8B-010000207.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "HHTD26》鴻海電動車三箭齊發！Model A Plus無B柱大空間、K-Truck搶攻最後一哩路物流",
+      "original_title": null,
+      "summary": "重點：三菱電機移動亦在主舞台發表演講，並宣布雙方已於日前達成最終戰略協議，將於 20。",
+      "link": "https://tw.news.yahoo.com/hhtd26-%E9%B4%BB%E6%B5%B7%E9%9B%BB%E5%8B%95%E8%BB%8A%E4%B8%89%E7%AE%AD%E9%BD%8A%E7%99%BC-model-plus%E7%84%A1b%E6%9F%B1%E5%A4%A7%E7%A9%BA%E9%96%93-k-001033173.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "聯發科重挫1／5480元殺到3915元！聯發科營收創高卻跌近3成　法人揭4大利空",
+      "original_title": null,
+      "summary": "重點：聯發科第三季營收創歷史新高，股價卻從5480元高點一路下殺，10月30日跌至3915元，波段跌幅逼近3成，讓不少投資人心驚膽跳。究竟是AI成長故…。",
+      "link": "https://tw.news.yahoo.com/%E8%81%AF%E7%99%BC%E7%A7%91%E9%87%8D%E6%8C%AB1-5480%E5%85%83%E6%AE%BA%E5%88%B03915%E5%85%83-%E8%81%AF%E7%99%BC%E7%A7%91%E7%87%9F%E6%94%B6%E5%89%B5%E9%AB%98%E5%8D%BB%E8%B7%8C%E8%BF%913%E6%88%90-%E6%B3%95%E4%BA%BA%E6%8F%AD4%E5%A4%A7%E5%88%A9%E7%A9%BA-233001315.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "聯發科重挫2／跌近3成能撿便宜？温建勳喊美選後AI反彈　揭發哥止跌關鍵",
+      "original_title": null,
+      "summary": "重點：聯發科股價從5480元高點一路下殺，跌幅逼近3成，讓投資人心驚膽跳。但黑石財經執行長温建勳認為，聯發科最新法說釋出AI ASIC營收上修、新客戶…。",
+      "link": "https://tw.news.yahoo.com/%E8%81%AF%E7%99%BC%E7%A7%91%E9%87%8D%E6%8C%AB2-%E8%B7%8C%E8%BF%913%E6%88%90%E8%83%BD%E6%92%BF%E4%BE%BF%E5%AE%9C-%E6%B8%A9%E5%BB%BA%E5%8B%B3%E5%96%8A%E7%BE%8E%E9%81%B8%E5%BE%8Cai%E5%8F%8D%E5%BD%88-%E6%8F%AD%E7%99%BC%E5%93%A5%E6%AD%A2%E8%B7%8C%E9%97%9C%E9%8D%B5-233000657.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    }
+  ]
+}

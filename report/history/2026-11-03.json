@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-03",
+  "generated_at": "2026-11-03T11:38:25+08:00",
+  "timezone": "Asia/Taipei",
+  "markets": [
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^IXIC",
+      "label": "NASDAQ",
+      "price": 25164.363,
+      "change": -272.6349999999984,
+      "change_percent": -1.071804935472332,
+      "currency": "USD",
+      "market_time": 1793661495,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^SOX",
+      "label": "費城半導體",
+      "price": 10328.329,
+      "change": -360.47099999999955,
+      "change_percent": -3.372417857944761,
+      "currency": "USD",
+      "market_time": 1793657759,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^GSPC",
+      "label": "S&P 500",
+      "price": 7541.4,
+      "change": -38.67000000000007,
+      "change_percent": -0.5101536001646433,
+      "currency": "USD",
+      "market_time": 1793656259,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^DJI",
+      "label": "道瓊指數",
+      "price": 51983.98,
+      "change": 213.67000000000553,
+      "change_percent": 0.41272690853117455,
+      "currency": "USD",
+      "market_time": 1793656257,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "TSM",
+      "label": "台積電 ADR",
+      "price": 398.63,
+      "change": -7.5,
+      "change_percent": -1.8466993327259744,
+      "currency": "USD",
+      "market_time": 1793653202,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "UMC",
+      "label": "聯電 ADR",
+      "price": 16.39,
+      "change": -0.28999999999999915,
+      "change_percent": -1.7386091127098273,
+      "currency": "USD",
+      "market_time": 1793653202,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "ASX",
+      "label": "日月光 ADR",
+      "price": 39.17,
+      "change": -0.3299999999999983,
+      "change_percent": -0.8354430379746792,
+      "currency": "USD",
+      "market_time": 1793653203,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "GC=F",
+      "label": "黃金",
+      "price": 3946.1,
+      "change": -23.5,
+      "change_percent": -0.5919991938734381,
+      "currency": "USD",
+      "market_time": 1793676499,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "CL=F",
+      "label": "WTI 原油",
+      "price": 96.64,
+      "change": 0.18000000000000682,
+      "change_percent": 0.18660584698321256,
+      "currency": "USD",
+      "market_time": 1793676502,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "BZ=F",
+      "label": "布蘭特原油",
+      "price": 104.78,
+      "change": 0.010000000000005116,
+      "change_percent": 0.009544716999145858,
+      "currency": "USD",
+      "market_time": 1793676433,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWD=X",
+      "label": "USD/TWD",
+      "price": 32.716,
+      "change": 0.125,
+      "change_percent": 0.3835414685035746,
+      "currency": "TWD",
+      "market_time": 1793677104,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWDJPY=X",
+      "label": "TWD/JPY",
+      "price": 4.8187,
+      "change": -0.016000000000000014,
+      "change_percent": -0.33094090636440765,
+      "currency": "JPY",
+      "market_time": 1793676865,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWII",
+      "label": "加權",
+      "price": 44920.14,
+      "change": -291.6900000000023,
+      "change_percent": -0.6451630026919997,
+      "currency": "TWD",
+      "market_time": 1793548800,
+      "date": "11/02",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWOII",
+      "label": "櫃買",
+      "price": 369.24,
+      "change": -1.0199999999999818,
+      "change_percent": -0.27548209366390697,
+      "currency": "TWD",
+      "market_time": 1793548800,
+      "date": "11/02",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WTX&",
+      "label": "台指期夜盤",
+      "price": 44310.0,
+      "change": -917.0,
+      "change_percent": -2.0275499148738585,
+      "market_time": 1793653200,
+      "date": "11/03",
+      "source": "yahoo_future"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WCDF&",
+      "label": "台積電期貨夜盤",
+      "price": 2291.0,
+      "change": -51.0,
+      "change_percent": -2.1776259607173354,
+      "market_time": 1793653200,
+      "date": "11/03",
+      "source": "yahoo_future"
+    }
+  ],
+  "taiwan_market": [
+    {
+      "kind": "twse_summary",
+      "date": "115/11/02",
+      "volume": 10422514115,
+      "turnover": 799687507911,
+      "transactions": 4104242,
+      "index": 44920.14,
+      "change": -291.69,
+      "source": "twse",
+      "institutional": [
+        {
+          "name": "自營商(自行買賣)",
+          "buy": 10246992093,
+          "sell": 9780569355,
+          "net": 466422738
+        },
+        {
+          "name": "自營商(避險)",
+          "buy": 30563264343,
+          "sell": 46317829598,
+          "net": -15754565255
+        },
+        {
+          "name": "投信",
+          "buy": 43264914918,
+          "sell": 9449083285,
+          "net": 33815831633
+        },
+        {
+          "name": "外資及陸資(不含外資自營商)",
+          "buy": 340663542437,
+          "sell": 414184347569,
+          "net": -73520805132
+        },
+        {
+          "name": "外資自營商",
+          "buy": 0,
+          "sell": 0,
+          "net": 0
+        },
+        {
+          "name": "合計",
+          "buy": 424738713791,
+          "sell": 479731829807,
+          "net": -54993116016
+        }
+      ]
+    }
+  ],
+  "chips": [
+    {
+      "kind": "chips",
+      "date": "2026-11-02",
+      "foreign_tx_net": -89379,
+      "trust_tx_net": 89139,
+      "mtx_retail_ratio": 16.97,
+      "tmf_retail_ratio": 44.5,
+      "options_pc_ratio": 61.58,
+      "tsmc_impact": 8.027,
+      "source": "official_chips"
+    }
+  ],
+  "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Australia hikes rates to 18-year high to fight inflation",
+      "link": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
+      "published_at": "2026-11-03T03:32:56+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "North Korea denies links to Binance hack as researchers trace stolen billions",
+      "link": "https://www.cnbc.com/2026/11/03/north-korea-binance-elliptic-chainalysis.html",
+      "published_at": "2026-11-03T03:27:18+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "U.S. reportedly strikes Iran's Qeshm Island as Vance hopes for ‘negotiated settlement’ with Tehran",
+      "link": "https://www.cnbc.com/2026/11/03/iran-us-vance-trump-strikes.html",
+      "published_at": "2026-11-03T02:51:33+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "OpenAI hires former U.S. Army Secretary Dan Driscoll for national security role",
+      "link": "https://www.cnbc.com/2026/11/03/openai-hires-dan-driscoll-national-security.html",
+      "published_at": "2026-11-03T02:47:57+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
+      "link": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T02:11:13+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "North Korea denies being behind record $6.3bn Binance hack",
+      "link": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T01:23:03+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Apple unsure when more foldable iPhones will be available after selling out",
+      "link": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T00:29:00+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Trump focuses on Reflecting Pool in final public speech before midterms",
+      "link": "https://www.cnbc.com/2026/11/02/trump-midterm-election-speech-reflecting-pool.html",
+      "published_at": "2026-11-02T21:15:13+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Shop freezers in seven European countries hit by cyber-attack",
+      "link": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T17:38:11+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Ryanair says it may freeze workers' pay and raise airfares",
+      "link": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T12:22:10+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達都說讚！聯發科25連翻33倍　蔡力行：快來買我們家股票",
+      "original_title": null,
+      "summary": "重點：聯發科執行長蔡力行於台灣週演講宣布，今年營收將突破210億美元創歷史新高，市值達2,000億美元並穩居全球第二大行動半導體供應商。受惠AI浪潮與…。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E9%83%BD%E8%AA%AA%E8%AE%9A-%E8%81%AF%E7%99%BC%E7%A7%9125%E9%80%A3%E7%BF%BB33%E5%80%8D-%E8%94%A1%E5%8A%9B%E8%A1%8C-%E5%BF%AB%E4%BE%86%E8%B2%B7%E6%88%91%E5%80%91%E5%AE%B6%E8%82%A1%E7%A5%A8-033000392.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "蔣萬安昔擋預算今輝達變政績　沈伯洋這樣看",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]針對輝達落腳台北一事，經濟部在2021已核定輝達的AI創新研發中心計畫，總經費243.37億，政府補助67億，經費由「…。",
+      "link": "https://tw.news.yahoo.com/%E8%94%A3%E8%90%AC%E5%AE%89%E6%98%94%E6%93%8B%E9%A0%90%E7%AE%97%E4%BB%8A%E8%BC%9D%E9%81%94%E8%AE%8A%E6%94%BF%E7%B8%BE-%E6%B2%88%E4%BC%AF%E6%B4%8B%E9%80%99%E6%A8%A3%E7%9C%8B-031848011.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美股光通訊巨頭合併台鏈卻全挫跌？穩懋炸逾百億賣壓吞跌停 分析師這樣看",
+      "original_title": null,
+      "summary": "重點：美股光通訊巨頭正式宣布合併案，然而台股光通訊族群今日卻一片哀鴻遍野，跌幅相較大盤更為沉重，尤其飆股穩懋更是重挫跌停，股價觸及530元，其餘如聯亞…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E5%85%89%E9%80%9A%E8%A8%8A%E5%B7%A8%E9%A0%AD%E5%90%88%E4%BD%B5%E5%8F%B0%E9%8F%88%E5%8D%BB%E5%85%A8%E6%8C%AB%E8%B7%8C%EF%BC%9F%E7%A9%A9%E6%87%8B%E7%82%B8%E9%80%BE%E7%99%BE%E5%84%84%E8%B3%A3%E5%A3%93%E5%90%9E%E8%B7%8C%E5%81%9C-%E5%88%86%E6%9E%90%E5%B8%AB%E9%80%99%E6%A8%A3%E7%9C%8B-031227833.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "擋預算又搶收割？蔣萬安狂打「輝達牌」 網怒轟：臉皮有多厚",
+      "original_title": null,
+      "summary": "重點：台北市長蔣萬安近期將輝達海外總部落腳北士科視為重大政績，卻遭網友翻出歷史紀錄打臉。經濟部指出，輝達來台設立研發中心的67億元補助，全數來自當年遭…。",
+      "link": "https://tw.news.yahoo.com/%E6%93%8B%E9%A0%90%E7%AE%97%E5%8F%88%E6%90%B6%E6%94%B6%E5%89%B2-%E8%94%A3%E8%90%AC%E5%AE%89%E7%8B%82%E6%89%93-%E8%BC%9D%E9%81%94%E7%89%8C-%E7%B6%B2%E6%80%92%E8%BD%9F-%E8%87%89%E7%9A%AE%E6%9C%89%E5%A4%9A%E5%8E%9A-031200238.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台積電今年6起工殤！勞團籲政府基金監督",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]台積電創造台灣龐大經濟利益，但其中過程也發生許多遺憾。積電高雄楠梓廠10月20日發生重大工安意外，造成4人死亡，今年累…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%BB%8A%E5%B9%B46%E8%B5%B7%E5%B7%A5%E6%AE%A4-%E5%8B%9E%E5%9C%98%E7%B1%B2%E6%94%BF%E5%BA%9C%E5%9F%BA%E9%87%91%E7%9B%A3%E7%9D%A3-032339595.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台灣週登場，彭金隆：台股市值年增6成，盼台灣從科技島邁向資本島",
+      "original_title": null,
+      "summary": "重點：【財訊快報／記者劉居全報導】「2026台灣週」今(3)日正式登場，金管會主委彭金隆開幕致詞時表示，台灣具備完整半導體與AI產業鏈，在全球科技發展…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%81%A3%E9%80%B1%E7%99%BB%E5%A0%B4-%E5%BD%AD%E9%87%91%E9%9A%86-%E5%8F%B0%E8%82%A1%E5%B8%82%E5%80%BC%E5%B9%B4%E5%A2%9E6%E6%88%90-%E7%9B%BC%E5%8F%B0%E7%81%A3%E5%BE%9E%E7%A7%91%E6%8A%80%E5%B3%B6%E9%82%81%E5%90%91%E8%B3%87%E6%9C%AC%E5%B3%B6-032113003.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "韓股承壓　台股4天跌掉2800點！矽光子、載板走弱　抗震布局買點曝",
+      "original_title": null,
+      "summary": "重點：受到國際科技股與韓股重挫波及，台股早盤大跌失守4萬5千點大關，四天累計狂瀉逾2800點。法人指出，台灣AI剛性需求與經濟動能強勁，長線多頭格局未…。",
+      "link": "https://tw.news.yahoo.com/%E9%9F%93%E8%82%A1%E6%89%BF%E5%A3%93-%E5%8F%B0%E8%82%A14%E5%A4%A9%E8%B7%8C%E6%8E%892800%E9%BB%9E-%E7%9F%BD%E5%85%89%E5%AD%90-%E8%BC%89%E6%9D%BF%E8%B5%B0%E5%BC%B1-%E6%8A%97%E9%9C%87%E5%B8%83%E5%B1%80%E8%B2%B7%E9%BB%9E%E6%9B%9D-031900845.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    }
+  ]
+}

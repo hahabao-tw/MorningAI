@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-11-03",
-  "generated_at": "2026-11-03T11:38:25+08:00",
+  "generated_at": "2026-11-03T11:54:09+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 3946.1,
-      "change": -23.5,
-      "change_percent": -0.5919991938734381,
+      "price": 3937.6,
+      "change": -32.0,
+      "change_percent": -0.8061265618702136,
       "currency": "USD",
-      "market_time": 1793676499,
+      "market_time": 1793677440,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 96.64,
-      "change": 0.18000000000000682,
-      "change_percent": 0.18660584698321256,
+      "price": 96.59,
+      "change": 0.13000000000000966,
+      "change_percent": 0.13477088948788066,
       "currency": "USD",
-      "market_time": 1793676502,
+      "market_time": 1793677449,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 104.78,
-      "change": 0.010000000000005116,
-      "change_percent": 0.009544716999145858,
+      "price": 104.73,
+      "change": -0.03999999999999204,
+      "change_percent": -0.03817886799655631,
       "currency": "USD",
-      "market_time": 1793676433,
+      "market_time": 1793677445,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.716,
-      "change": 0.125,
-      "change_percent": 0.3835414685035746,
+      "price": 32.707,
+      "change": 0.11599999999999966,
+      "change_percent": 0.35592648277131617,
       "currency": "TWD",
-      "market_time": 1793677104,
+      "market_time": 1793678045,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.8187,
-      "change": -0.016000000000000014,
-      "change_percent": -0.33094090636440765,
+      "price": 4.817,
+      "change": -0.017699999999999605,
+      "change_percent": -0.36610337766561746,
       "currency": "JPY",
-      "market_time": 1793676865,
+      "market_time": 1793677765,
       "source": "yahoo"
     },
     {
@@ -268,7 +268,7 @@
       "category": "international",
       "title": "Australia hikes rates to 18-year high to fight inflation",
       "link": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
-      "published_at": "2026-11-03T03:32:56+00:00",
+      "published_at": "2026-11-03T03:46:20+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
@@ -356,10 +356,70 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "輝達設總部蔣萬安攬功　卓榮泰喊話：希望市府回憶跟中央合作美好時光",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者呂炯昌／台北報導台北市長蔣萬安將輝達落腳台北市作為政績，但近期卻有媒體報導揭露，輝達與新光人壽早在去年即達成共識留在台北，…。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E8%A8%AD%E7%B8%BD%E9%83%A8%E8%94%A3%E8%90%AC%E5%AE%89%E6%94%AC%E5%8A%9F-%E5%8D%93%E6%A6%AE%E6%B3%B0%E5%96%8A%E8%A9%B1-%E5%B8%8C%E6%9C%9B%E5%B8%82%E5%BA%9C%E5%9B%9E%E6%86%B6%E8%B7%9F%E4%B8%AD%E5%A4%AE%E5%90%88%E4%BD%9C%E7%BE%8E%E5%A5%BD%E6%99%82%E5%85%89-034000235.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達北士科案遭質疑卡關！李四川曝「不能直接移轉」原因",
+      "original_title": null,
+      "summary": "重點：針對媒體報導輝達進駐台北市因市府干預延至今年2月定案，國民黨新北市長候選人李四川今（3）日受訪表示，輝達進駐涉及台北市與新光人壽既有契約，依規定…。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E5%8C%97%E5%A3%AB%E7%A7%91%E6%A1%88%E9%81%AD%E8%B3%AA%E7%96%91%E5%8D%A1%E9%97%9C-%E6%9D%8E%E5%9B%9B%E5%B7%9D%E6%9B%9D-%E4%B8%8D%E8%83%BD%E7%9B%B4%E6%8E%A5%E7%A7%BB%E8%BD%89-%E5%8E%9F%E5%9B%A0-033053587.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "輝達都說讚！聯發科25連翻33倍　蔡力行：快來買我們家股票",
       "original_title": null,
       "summary": "重點：聯發科執行長蔡力行於台灣週演講宣布，今年營收將突破210億美元創歷史新高，市值達2,000億美元並穩居全球第二大行動半導體供應商。受惠AI浪潮與…。",
       "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E9%83%BD%E8%AA%AA%E8%AE%9A-%E8%81%AF%E7%99%BC%E7%A7%9125%E9%80%A3%E7%BF%BB33%E5%80%8D-%E8%94%A1%E5%8A%9B%E8%A1%8C-%E5%BF%AB%E4%BE%86%E8%B2%B7%E6%88%91%E5%80%91%E5%AE%B6%E8%82%A1%E7%A5%A8-033000392.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達落腳台北掀政治角力？卓榮泰強調中央「沒分黨派」",
+      "original_title": null,
+      "summary": "重點：台北市長蔣萬安將輝達落腳台北作為政績，卻有媒體報導稱台北市政府基於政治考量，干涉輝達進駐北士科導致投資案延宕。行政院長卓榮泰強調，中央始終全面且…。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E8%90%BD%E8%85%B3%E5%8F%B0%E5%8C%97%E6%8E%80%E6%94%BF%E6%B2%BB%E8%A7%92%E5%8A%9B-%E5%8D%93%E6%A6%AE%E6%B3%B0%E5%BC%B7%E8%AA%BF%E4%B8%AD%E5%A4%AE-%E6%B2%92%E5%88%86%E9%BB%A8%E6%B4%BE-032354169.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股重挫新台幣貶勢再起　早盤貶逾1.5角至32.7元價位",
+      "original_title": null,
+      "summary": "重點：（中央社記者潘姿羽台北2026年11月3日電）金融市場烏雲密布，美股續跌拖累台股今天持續下挫，新台幣匯率也延續貶勢。儘管昨天市場傳出央行出招放寬…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%87%8D%E6%8C%AB%E6%96%B0%E5%8F%B0%E5%B9%A3%E8%B2%B6%E5%8B%A2%E5%86%8D%E8%B5%B7-%E6%97%A9%E7%9B%A4%E8%B2%B6%E9%80%BE1-5%E8%A7%92%E8%87%B332-7%E5%85%83%E5%83%B9%E4%BD%8D-033759190.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "4萬5千點守不住！外資狂倒11萬張00406A　專家點名「這3大變數」牽動台股",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳雅婷／綜合報導台股今（3）日賣壓再起，截至上午10時25分報44,409.50點，下跌510.64點，跌幅1.14%，成…。",
+      "link": "https://tw.stock.yahoo.com/news/4%E8%90%AC5%E5%8D%83%E9%BB%9E%E5%AE%88%E4%B8%8D%E4%BD%8F-%E5%A4%96%E8%B3%87%E7%8B%82%E5%80%9211%E8%90%AC%E5%BC%B500406a-%E5%B0%88%E5%AE%B6%E9%BB%9E%E5%90%8D-%E9%80%993%E5%A4%A7%E8%AE%8A%E6%95%B8-%E7%89%BD%E5%8B%95%E5%8F%B0%E8%82%A1-033000725.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【台股盤中】跌逾900點44000點保衛戰　資服股走強",
+      "original_title": null,
+      "summary": "重點：（中央社記者何秀玲台北2026年11月3日電）台股今天開低震盪，盤中一度下跌908.04點，最低來到44012.10點，失守44500點，陷入4…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%9B%A4%E4%B8%AD-%E8%B7%8C%E9%80%BE900%E9%BB%9E44000%E9%BB%9E%E4%BF%9D%E8%A1%9B%E6%88%B0-%E8%B3%87%E6%9C%8D%E8%82%A1%E8%B5%B0%E5%BC%B7-032355353.html",
       "published_at": null,
       "source": "yahoo_news"
     },

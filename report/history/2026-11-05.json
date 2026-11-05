@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-11-05",
-  "generated_at": "2026-11-05T10:41:00+08:00",
+  "generated_at": "2026-11-05T11:26:28+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4136.2,
-      "change": 63.19999999999982,
-      "change_percent": 1.5516818070218468,
+      "price": 4143.3,
+      "change": 70.30000000000018,
+      "change_percent": 1.726000491038551,
       "currency": "USD",
-      "market_time": 1793845859,
+      "market_time": 1793848586,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 87.5,
-      "change": -0.6200000000000045,
-      "change_percent": -0.7035860190649166,
+      "price": 87.25,
+      "change": -0.8700000000000045,
+      "change_percent": -0.9872900590104453,
       "currency": "USD",
-      "market_time": 1793845857,
+      "market_time": 1793848589,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 94.24,
-      "change": -0.38000000000000966,
-      "change_percent": -0.40160642570282146,
+      "price": 94.0,
+      "change": -0.6200000000000045,
+      "change_percent": -0.6552525893045915,
       "currency": "USD",
-      "market_time": 1793845858,
+      "market_time": 1793848524,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.907,
-      "change": 0.08899999999999864,
-      "change_percent": 0.271192638186357,
+      "price": 32.913,
+      "change": 0.09499999999999886,
+      "change_percent": 0.2894752879517304,
       "currency": "TWD",
-      "market_time": 1793846458,
+      "market_time": 1793849184,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.7907,
-      "change": -0.025399999999999423,
-      "change_percent": -0.5273976869250935,
+      "price": 4.7888,
+      "change": -0.027299999999999436,
+      "change_percent": -0.5668486950021685,
       "currency": "JPY",
-      "market_time": 1793846365,
+      "market_time": 1793849066,
       "source": "yahoo"
     },
     {
@@ -266,6 +266,15 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "LIV Golf faces liquidation after BC Partners scraps rescue plan",
+      "link": "https://www.cnbc.com/2026/11/05/liv-golf-liquidation-bc-partners.html",
+      "published_at": "2026-11-05T03:11:58+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "NextDC shares surge 43% after Goodman, Digital Realty stake purchases",
       "link": "https://www.cnbc.com/2026/11/05/nextdc-goodman-group-digital-realty-data-centers-.html",
       "published_at": "2026-11-05T00:24:57+00:00",
@@ -352,6 +361,86 @@
       "published_at": "2026-11-04T19:38:53+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "ETF買很多檔股災還是一起翻船？美股夢想家：持股太雷同反觀00998A10月下旬逆勢漲0.49%",
+      "original_title": null,
+      "summary": "重點：最近科技股殺成一片，不少投資人手上的股票都在回檔。知名財經網紅「美股夢想家」施雅棠指出，許多人明明買了很多檔E […]。",
+      "link": "https://tw.news.yahoo.com/etf%E8%B2%B7%E5%BE%88%E5%A4%9A%E6%AA%94%E8%82%A1%E7%81%BD%E9%82%84%E6%98%AF-%E8%B5%B7%E7%BF%BB%E8%88%B9-%E7%BE%8E%E8%82%A1%E5%A4%A2%E6%83%B3%E5%AE%B6-%E6%8C%81%E8%82%A1%E5%A4%AA%E9%9B%B7%E5%90%8C%E5%8F%8D%E8%A7%8000998a10%E6%9C%88%E4%B8%8B%E6%97%AC%E9%80%86%E5%8B%A2%E6%BC%B20-49-030349946.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "能率集團結盟美國LiveX AI攻實體AI　搭上輝達生態系",
+      "original_title": null,
+      "summary": "重點：（中央社記者江明晏台北2026年11月5日電）輝達（NVIDIA）攜手LiveX AI推動Physical AI，能率創新(5392)表示，旗下…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%83%BD%E7%8E%87%E9%9B%86%E5%9C%98%E7%B5%90%E7%9B%9F%E7%BE%8E%E5%9C%8Blivex-ai%E6%94%BB%E5%AF%A6%E9%AB%94ai-%E6%90%AD%E4%B8%8A%E8%BC%9D%E9%81%94%E7%94%9F%E6%85%8B%E7%B3%BB-030008297.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "能率集團結盟美國LiveX AI攻實體AI　搭上輝達生態系",
+      "original_title": null,
+      "summary": "重點：（中央社記者江明晏台北5日電）輝達（NVIDIA）攜手LiveX AI推動Physical AI，能率創新表示，旗下宏羚取得LiveX AI總代…。",
+      "link": "https://tw.news.yahoo.com/%E8%83%BD%E7%8E%87%E9%9B%86%E5%9C%98%E7%B5%90%E7%9B%9F%E7%BE%8E%E5%9C%8Blivex-ai%E6%94%BB%E5%AF%A6%E9%AB%94ai-%E6%90%AD%E4%B8%8A%E8%BC%9D%E9%81%94%E7%94%9F%E6%85%8B%E7%B3%BB-025912322.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "年底行情別嗨太早！巴克萊點出AI兩大隱憂：美股未爆彈",
+      "original_title": null,
+      "summary": "重點：美國期中選舉結果出爐，市場原本期待政治不確定性消退，為美股年底行情增添動能。然而，美國財經媒體報導，巴克萊指出，當前壓抑股市的核心問題並未消失，…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%B9%B4%E5%BA%95%E8%A1%8C%E6%83%85%E5%88%A5%E5%97%A8%E5%A4%AA%E6%97%A9-%E5%B7%B4%E5%85%8B%E8%90%8A%E9%BB%9E%E5%87%BAai%E5%85%A9%E5%A4%A7%E9%9A%B1%E6%86%82-%E7%BE%8E%E8%82%A1%E6%9C%AA%E7%88%86%E5%BD%88-023556974.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "不是AI　民主黨大贏台股這5檔唱紅",
+      "original_title": null,
+      "summary": "重點：美國民主黨在期中選舉奪下參眾兩院控制權，掀起「藍色海嘯」，市場預期美國綠能政策支持力道有望回升。台廠如碩禾、聯合再生等積極布局美國市場並迎來轉機…。",
+      "link": "https://tw.news.yahoo.com/%E4%B8%8D%E6%98%AFai-%E6%B0%91%E4%B8%BB%E9%BB%A8%E5%A4%A7%E8%B4%8F%E5%8F%B0%E8%82%A1%E9%80%995%E6%AA%94%E5%94%B1%E7%B4%85-031600207.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股早盤賣壓沉重！盤中一度跌破42K關卡",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]台北股市今（5）日早盤賣壓沉重，加權指數最低下探41,866.10點，較前一交易日收盤42,948.91點下跌1,08…。",
+      "link": "https://tw.news.yahoo.com/%E9%96%8B%E7%9B%A4%E4%B8%8D%E5%88%B0%E5%8D%8A%E5%B0%8F%E6%99%82-%E5%8F%B0%E8%82%A1%E8%B7%8C%E7%A0%B44%E8%90%AC2000%E9%BB%9E%E9%97%9C%E5%8D%A1-013108984.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "【動畫說時事】台股這波回檔8113點！謝金河：挑戰5萬點恐等明年",
+      "original_title": null,
+      "summary": "重點：全球股市震盪加劇，台股後市也備受關注。謝金河表示，美國期中選舉民主黨大勝，川普政府面臨政治壓力，加上通膨、債券殖利率攀升，市場早已反映共和黨可能…。",
+      "link": "https://tw.news.yahoo.com/%E5%8B%95%E7%95%AB%E8%AA%AA%E6%99%82%E4%BA%8B-%E5%8F%B0%E8%82%A1%E9%80%99%E6%B3%A2%E5%9B%9E%E6%AA%948113%E9%BB%9E-%E8%AC%9D%E9%87%91%E6%B2%B3-%E6%8C%91%E6%88%B05%E8%90%AC%E9%BB%9E%E6%81%90%E7%AD%89%E6%98%8E%E5%B9%B4-030420617.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "外資史上第5大賣超也不怕！台積連3日獲買超、聯發科被搶買",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 台股昨天(4日)上演劇烈震盪，盤中一度跌破4萬2千點，尾盤跌幅大幅收斂，終場下跌358.63點，收在42,948.91點…。",
+      "link": "https://tw.news.yahoo.com/%E5%A4%96%E8%B3%87%E5%8F%B2%E4%B8%8A%E7%AC%AC5%E5%A4%A7%E8%B3%A3%E8%B6%85%E4%B9%9F%E4%B8%8D%E6%80%95-%E5%8F%B0%E7%A9%8D%E9%80%A33%E6%97%A5%E7%8D%B2%E8%B2%B7%E8%B6%85-%E8%81%AF%E7%99%BC%E7%A7%91%E8%A2%AB%E6%90%B6%E8%B2%B7-030345825.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-05",
+  "generated_at": "2026-11-05T10:41:00+08:00",
+  "timezone": "Asia/Taipei",
+  "markets": [
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^IXIC",
+      "label": "NASDAQ",
+      "price": 25736.514,
+      "change": 364.5040000000008,
+      "change_percent": 1.4366382482113198,
+      "currency": "USD",
+      "market_time": 1793830559,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^SOX",
+      "label": "費城半導體",
+      "price": 10268.654,
+      "change": -331.7420000000002,
+      "change_percent": -3.129524595118901,
+      "currency": "USD",
+      "market_time": 1793830559,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^GSPC",
+      "label": "S&P 500",
+      "price": 7688.62,
+      "change": 119.69999999999982,
+      "change_percent": 1.5814673691887327,
+      "currency": "USD",
+      "market_time": 1793829071,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^DJI",
+      "label": "道瓊指數",
+      "price": 53356.12,
+      "change": 1569.4000000000015,
+      "change_percent": 3.0305066627119874,
+      "currency": "USD",
+      "market_time": 1793829080,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "TSM",
+      "label": "台積電 ADR",
+      "price": 395.75,
+      "change": -9.050000000000011,
+      "change_percent": -2.235671936758896,
+      "currency": "USD",
+      "market_time": 1793826002,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "UMC",
+      "label": "聯電 ADR",
+      "price": 16.06,
+      "change": -0.33999999999999986,
+      "change_percent": -2.0731707317073167,
+      "currency": "USD",
+      "market_time": 1793826002,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "ASX",
+      "label": "日月光 ADR",
+      "price": 37.51,
+      "change": -1.5399999999999991,
+      "change_percent": -3.943661971830984,
+      "currency": "USD",
+      "market_time": 1793826002,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "GC=F",
+      "label": "黃金",
+      "price": 4136.2,
+      "change": 63.19999999999982,
+      "change_percent": 1.5516818070218468,
+      "currency": "USD",
+      "market_time": 1793845859,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "CL=F",
+      "label": "WTI 原油",
+      "price": 87.5,
+      "change": -0.6200000000000045,
+      "change_percent": -0.7035860190649166,
+      "currency": "USD",
+      "market_time": 1793845857,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "BZ=F",
+      "label": "布蘭特原油",
+      "price": 94.24,
+      "change": -0.38000000000000966,
+      "change_percent": -0.40160642570282146,
+      "currency": "USD",
+      "market_time": 1793845858,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWD=X",
+      "label": "USD/TWD",
+      "price": 32.907,
+      "change": 0.08899999999999864,
+      "change_percent": 0.271192638186357,
+      "currency": "TWD",
+      "market_time": 1793846458,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWDJPY=X",
+      "label": "TWD/JPY",
+      "price": 4.7907,
+      "change": -0.025399999999999423,
+      "change_percent": -0.5273976869250935,
+      "currency": "JPY",
+      "market_time": 1793846365,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWII",
+      "label": "加權",
+      "price": 42948.91,
+      "change": -358.6299999999974,
+      "change_percent": -0.8281006032667692,
+      "currency": "TWD",
+      "market_time": 1793721600,
+      "date": "11/04",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWOII",
+      "label": "櫃買",
+      "price": 343.5,
+      "change": -2.019999999999982,
+      "change_percent": -0.5846260708497285,
+      "currency": "TWD",
+      "market_time": 1793721600,
+      "date": "11/04",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WTX&",
+      "label": "台指期夜盤",
+      "price": 43404.0,
+      "change": 200.0,
+      "change_percent": 0.46292009999074163,
+      "market_time": 1793826000,
+      "date": "11/05",
+      "source": "yahoo_future"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WCDF&",
+      "label": "台積電期貨夜盤",
+      "price": 2283.0,
+      "change": 1.0,
+      "change_percent": 0.04382120946538125,
+      "market_time": 1793826000,
+      "date": "11/05",
+      "source": "yahoo_future"
+    }
+  ],
+  "taiwan_market": [
+    {
+      "kind": "twse_summary",
+      "date": "115/11/04",
+      "volume": 15601136570,
+      "turnover": 1176930442854,
+      "transactions": 7098597,
+      "index": 42948.91,
+      "change": -358.63,
+      "source": "twse",
+      "institutional": [
+        {
+          "name": "自營商(自行買賣)",
+          "buy": 14941922398,
+          "sell": 15695195478,
+          "net": -753273080
+        },
+        {
+          "name": "自營商(避險)",
+          "buy": 63395872517,
+          "sell": 100161569938,
+          "net": -36765697421
+        },
+        {
+          "name": "投信",
+          "buy": 37010569606,
+          "sell": 9752110763,
+          "net": 27258458843
+        },
+        {
+          "name": "外資及陸資(不含外資自營商)",
+          "buy": 455072375440,
+          "sell": 604972209516,
+          "net": -149899834076
+        },
+        {
+          "name": "外資自營商",
+          "buy": 0,
+          "sell": 0,
+          "net": 0
+        },
+        {
+          "name": "合計",
+          "buy": 570420739961,
+          "sell": 730581085695,
+          "net": -160160345734
+        }
+      ]
+    }
+  ],
+  "chips": [
+    {
+      "kind": "chips",
+      "date": "2026-11-04",
+      "foreign_tx_net": -93647,
+      "trust_tx_net": 89500,
+      "mtx_retail_ratio": 22.81,
+      "tmf_retail_ratio": 53.05,
+      "options_pc_ratio": 49.37,
+      "tsmc_impact": 7.913,
+      "source": "official_chips"
+    }
+  ],
+  "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "NextDC shares surge 43% after Goodman, Digital Realty stake purchases",
+      "link": "https://www.cnbc.com/2026/11/05/nextdc-goodman-group-digital-realty-data-centers-.html",
+      "published_at": "2026-11-05T00:24:57+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Inside India newsletter: India weighs a tax cut to win over foreign investors. Will it work?",
+      "link": "https://www.cnbc.com/2026/11/05/india-tax-foreign-investors-nifty.html",
+      "published_at": "2026-11-05T00:04:36+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Interest rates expected to rise for first time in over three years",
+      "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-05T00:00:09+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Democrats flip dozens of GOP seats. Republicans haven't flipped a single one",
+      "link": "https://www.cnbc.com/2026/11/04/democrats-2026-midterm-election-results.html",
+      "published_at": "2026-11-04T23:44:18+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Pound rises to its highest level since the Brexit referendum",
+      "link": "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-04T23:30:28+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "A 'demand decade' ahead for energy? BP, Baker Hughes CEOs weigh the investment outlook",
+      "link": "https://www.cnbc.com/2026/11/05/energy-leaders-investment-outlook.html",
+      "published_at": "2026-11-04T23:23:03+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "What Wall Street billionaires are saying about Democrats' midterm sweep",
+      "link": "https://www.cnbc.com/2026/11/04/billionaires-musk-branson-democrats-midterms-ai-wall-street.html",
+      "published_at": "2026-11-04T23:17:56+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
+      "link": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-04T21:41:15+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Poundland owner in crunch talks as retailer's collapse looms",
+      "link": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-04T19:44:46+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Kellogg's admits snap, crackle and pop is quieter after uproar over Rice Krispies recipe change",
+      "link": "https://www.bbc.co.uk/news/articles/cqvg0y44ym7vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-04T19:38:53+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "專家看盤》AI股遭血洗！美光、輝達重挫  主力買盤買什麼？",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 「台股今天(5日)有機會延續跌深反彈！但要特別注意，美股雖然多數收紅，AI半導體卻逆勢重挫，費半下跌3.13%，台積電A…。",
+      "link": "https://tw.news.yahoo.com/%E5%B0%88%E5%AE%B6%E7%9C%8B%E7%9B%A4-ai%E8%82%A1%E9%81%AD%E8%A1%80%E6%B4%97-%E7%BE%8E%E5%85%89-%E8%BC%9D%E9%81%94%E9%87%8D%E6%8C%AB-%E4%B8%BB%E5%8A%9B%E8%B2%B7%E7%9B%A4%E8%B2%B7%E4%BB%80%E9%BA%BC-015706201.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "安謀財測略優預期股價跌3.5%　高通手機晶片營收下滑挫6%",
+      "original_title": null,
+      "summary": "重點：（中央社加州聖荷西4日綜合外電報導）安謀（Arm）今天預測第3季營收略高於華爾街預期，令投資者失望，導致股價在盤後交易下跌約3.5%。此外，受需…。",
+      "link": "https://tw.news.yahoo.com/%E5%AE%89%E8%AC%80%E8%B2%A1%E6%B8%AC%E7%95%A5%E5%84%AA%E9%A0%90%E6%9C%9F%E8%82%A1%E5%83%B9%E8%B7%8C3-5-%E9%AB%98%E9%80%9A%E6%89%8B%E6%A9%9F%E6%99%B6%E7%89%87%E7%87%9F%E6%94%B6%E4%B8%8B%E6%BB%91%E6%8C%AB6-013919086.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美股收紅台股反跌！早盤重挫逾900點　上演42K保衛戰",
+      "original_title": null,
+      "summary": "重點：美股4日主要指數全面收紅，民主黨在美國期中選舉拿下國會兩院，市場認為有助降低政治不確定性，帶動美股走揚，不過市場對人工智慧（AI）監管趨嚴的疑慮…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E8%82%A1%E6%94%B6%E7%B4%85%E5%8F%B0%E8%82%A1%E5%8F%8D%E8%B7%8C-%E6%97%A9%E7%9B%A4%E9%87%8D%E6%8C%AB%E9%80%BE900%E9%BB%9E-%E4%B8%8A%E6%BC%9442k%E4%BF%9D%E8%A1%9B%E6%88%B0-012127704.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Meta首次發行歐元債獲530億歐元認購，創歐洲公司債紀錄",
+      "original_title": null,
+      "summary": "重點：【財訊快報／劉敏夫】外電報導指出，Meta Platforms Inc首次歐元債券發行已吸引530億歐元(597億美元)的投資者認購需求，創下歐…。",
+      "link": "https://tw.stock.yahoo.com/news/meta%E9%A6%96%E6%AC%A1%E7%99%BC%E8%A1%8C%E6%AD%90%E5%85%83%E5%82%B5%E7%8D%B2530%E5%84%84%E6%AD%90%E5%85%83%E8%AA%8D%E8%B3%BC-%E5%89%B5%E6%AD%90%E6%B4%B2%E5%85%AC%E5%8F%B8%E5%82%B5%E7%B4%80%E9%8C%84-011149070.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "川普期中考被活當！謝金河揭「4大變數」：台股挑戰5萬大關恐等明年",
+      "original_title": null,
+      "summary": "重點：美國期中選舉民主黨大獲全勝拿下參眾兩院，川普期中考慘遭滑鐵爐。對此，財信傳媒董事長謝金河表示川普施政受牽制，並點出全球股市面臨政局變天、AI軍備…。",
+      "link": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E6%9C%9F%E4%B8%AD%E8%80%83%E8%A2%AB%E6%B4%BB%E7%95%B6-%E8%AC%9D%E9%87%91%E6%B2%B3%E6%8F%AD-4%E5%A4%A7%E8%AE%8A%E6%95%B8-%E5%8F%B0%E8%82%A1%E6%8C%91%E6%88%B05%E8%90%AC%E5%A4%A7%E9%97%9C%E6%81%90%E7%AD%89%E6%98%8E%E5%B9%B4-021800761.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股劇震1885點！金母趁亂加碼 00981買超狂掃半導體",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 台股昨天(4日)上演驚心動魄的劇烈震盪行情！加權指數早盤一度大漲逾400點，原以為經歷前一日重挫後，市場終於迎來反彈，沒…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%8A%87%E9%9C%871885%E9%BB%9E-%E9%87%91%E6%AF%8D%E8%B6%81%E4%BA%82%E5%8A%A0%E7%A2%BC-00981%E8%B2%B7%E8%B6%85%E7%8B%82%E6%8E%83%E5%8D%8A%E5%B0%8E%E9%AB%94-021623007.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股大跌更要買？ 杜金龍看好5族群 逆勢加碼「這3檔」",
+      "original_title": null,
+      "summary": "重點：台股自近5萬點高檔回落，波段跌幅超過8000點，市場連續出現融資斷頭賣壓，緊張情緒蔓延，不過，資深分析師「股事老先覺」杜金龍則逆勢操作，趁台積電…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E5%A4%A7%E8%B7%8C%E6%9B%B4%E8%A6%81%E8%B2%B7-%E6%9D%9C%E9%87%91%E9%BE%8D%E7%9C%8B%E5%A5%BD5%E6%97%8F%E7%BE%A4-%E9%80%86%E5%8B%A2%E5%8A%A0%E7%A2%BC-%E9%80%993%E6%AA%94-015200435.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股連2天殺聲隆隆！早盤再崩1000點　達人揭「2大進場訊號」還沒到抄底時機",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳雅婷／綜合報導台股今（5）日賣壓再起，早盤再度摜破42000點大關，一度殺至41866.10點，大跌1082.81點，跌…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%80%A32%E5%A4%A9%E6%AE%BA%E8%81%B2%E9%9A%86%E9%9A%86-%E6%97%A9%E7%9B%A4%E5%86%8D%E5%B4%A91000%E9%BB%9E-%E9%81%94%E4%BA%BA%E6%8F%AD-2%E5%A4%A7%E9%80%B2%E5%A0%B4%E8%A8%8A%E8%99%9F-%E9%82%84%E6%B2%92%E5%88%B0%E6%8A%84%E5%BA%95%E6%99%82%E6%A9%9F-015000247.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    }
+  ]
+}

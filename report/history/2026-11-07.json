@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-07",
+  "generated_at": "2026-11-07T10:13:37+08:00",
+  "timezone": "Asia/Taipei",
+  "markets": [
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^IXIC",
+      "label": "NASDAQ",
+      "price": 24579.424,
+      "change": 264.4259999999995,
+      "change_percent": 1.0875016317089539,
+      "currency": "USD",
+      "market_time": 1794003359,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^SOX",
+      "label": "費城半導體",
+      "price": 9390.25,
+      "change": 379.11199999999917,
+      "change_percent": 4.207148974968524,
+      "currency": "USD",
+      "market_time": 1794003359,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^GSPC",
+      "label": "S&P 500",
+      "price": 7376.86,
+      "change": 23.13000000000011,
+      "change_percent": 0.31453425676493574,
+      "currency": "USD",
+      "market_time": 1794001029,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^DJI",
+      "label": "道瓊指數",
+      "price": 51285.73,
+      "change": -237.32999999999447,
+      "change_percent": -0.46062869713094384,
+      "currency": "USD",
+      "market_time": 1794001033,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "TSM",
+      "label": "台積電 ADR",
+      "price": 375.44,
+      "change": 22.339999999999975,
+      "change_percent": 6.326819597847627,
+      "currency": "USD",
+      "market_time": 1793998802,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "UMC",
+      "label": "聯電 ADR",
+      "price": 13.85,
+      "change": 0.46999999999999886,
+      "change_percent": 3.5127055306427417,
+      "currency": "USD",
+      "market_time": 1793998802,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "ASX",
+      "label": "日月光 ADR",
+      "price": 31.63,
+      "change": 1.9100000000000001,
+      "change_percent": 6.426648721399732,
+      "currency": "USD",
+      "market_time": 1793998803,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "GC=F",
+      "label": "黃金",
+      "price": 4079.5,
+      "change": -34.0,
+      "change_percent": -0.8265467363559013,
+      "currency": "USD",
+      "market_time": 1794002399,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "CL=F",
+      "label": "WTI 原油",
+      "price": 90.34,
+      "change": -0.1799999999999926,
+      "change_percent": -0.19885108263366394,
+      "currency": "USD",
+      "market_time": 1794002398,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "BZ=F",
+      "label": "布蘭特原油",
+      "price": 97.76,
+      "change": -0.5300000000000011,
+      "change_percent": -0.5392206735171443,
+      "currency": "USD",
+      "market_time": 1794002384,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWD=X",
+      "label": "USD/TWD",
+      "price": 32.765,
+      "change": -0.3329999999999984,
+      "change_percent": -1.0061030877998622,
+      "currency": "TWD",
+      "market_time": 1794002400,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWDJPY=X",
+      "label": "TWD/JPY",
+      "price": 4.8264,
+      "change": 0.07189999999999941,
+      "change_percent": 1.5122515511620445,
+      "currency": "JPY",
+      "market_time": 1794004168,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWII",
+      "label": "加權",
+      "price": 39701.64,
+      "change": -1873.0800000000017,
+      "change_percent": -4.505334010668025,
+      "currency": "TWD",
+      "market_time": 1793894400,
+      "date": "11/06",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWOII",
+      "label": "櫃買",
+      "price": 304.02,
+      "change": -17.450000000000045,
+      "change_percent": -5.4281892556070686,
+      "currency": "TWD",
+      "market_time": 1793894400,
+      "date": "11/06",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WTX&",
+      "label": "台指期夜盤",
+      "price": 38936.0,
+      "change": -2979.0,
+      "change_percent": -7.107240844566384,
+      "market_time": 1793912400,
+      "date": "11/06",
+      "source": "yahoo_future"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WCDF&",
+      "label": "台積電期貨夜盤",
+      "price": 2026.0,
+      "change": -221.0,
+      "change_percent": -9.835336003560302,
+      "market_time": 1793912400,
+      "date": "11/06",
+      "source": "yahoo_future"
+    }
+  ],
+  "taiwan_market": [
+    {
+      "kind": "twse_summary",
+      "date": "115/11/06",
+      "volume": 19339729647,
+      "turnover": 1321071858650,
+      "transactions": 8402054,
+      "index": 39701.64,
+      "change": -1873.08,
+      "source": "twse",
+      "institutional": [
+        {
+          "name": "自營商(自行買賣)",
+          "buy": 15674867651,
+          "sell": 19984171909,
+          "net": -4309304258
+        },
+        {
+          "name": "自營商(避險)",
+          "buy": 79408045501,
+          "sell": 124574676747,
+          "net": -45166631246
+        },
+        {
+          "name": "投信",
+          "buy": 33178707410,
+          "sell": 6487498680,
+          "net": 26691208730
+        },
+        {
+          "name": "外資及陸資(不含外資自營商)",
+          "buy": 485066137440,
+          "sell": 576254386699,
+          "net": -91188249259
+        },
+        {
+          "name": "外資自營商",
+          "buy": 0,
+          "sell": 0,
+          "net": 0
+        },
+        {
+          "name": "合計",
+          "buy": 613327758002,
+          "sell": 727300734035,
+          "net": -113972976033
+        }
+      ]
+    }
+  ],
+  "chips": [
+    {
+      "kind": "chips",
+      "date": "2026-11-06",
+      "foreign_tx_net": -99930,
+      "trust_tx_net": 90437,
+      "mtx_retail_ratio": 17.37,
+      "tmf_retail_ratio": 47.14,
+      "options_pc_ratio": 39.73,
+      "tsmc_impact": 7.742,
+      "source": "official_chips"
+    }
+  ],
+  "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+      "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-06T21:49:50+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "OpenAI bugging suspect Alfozan pleads not guilty",
+      "link": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html",
+      "published_at": "2026-11-06T21:15:47+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
+      "link": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
+      "published_at": "2026-11-06T21:07:07+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "AI stocks climb after trillions wiped from market values",
+      "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-06T21:06:25+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain",
+      "link": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+      "published_at": "2026-11-06T18:40:58+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Why the US midterms sparked an AI stock selloff",
+      "link": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-06T18:32:16+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Why smoky bacon crisps threaten to reignite rows over EU rules",
+      "link": "https://www.bbc.co.uk/news/articles/cm1dwwqrr1kvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-06T17:19:38+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "A long-term Elon Musk backer is cashing out of Tesla — and cutting its SpaceX exposure",
+      "link": "https://www.cnbc.com/2026/11/06/scottish-mortgage-tesla-spacex.html",
+      "published_at": "2026-11-06T13:51:32+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Hoax bomb threats repeatedly disrupt flights across Europe this week. Here’s what we know",
+      "link": "https://www.cnbc.com/2026/11/05/bomb-threats-flights-europe.html",
+      "published_at": "2026-11-06T12:54:13+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "How does it affect me if share prices fall?",
+      "link": "https://www.bbc.co.uk/news/articles/c33zdz2m1e2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-06T09:21:50+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "黃仁勳身邊女主管涉共諜！《紐時》揭中國國安部任務　盯上輝達AI晶片出口",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者蕭廷芬／綜合報導美中AI晶片競爭持續升溫，如今更傳出中國情報機構涉嫌鎖定輝達（Nvidia）執行長黃仁勳，試圖掌握美國先進…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%BA%AB%E9%82%8A%E5%A5%B3%E4%B8%BB%E7%AE%A1%E6%B6%89%E5%85%B1%E8%AB%9C-%E7%B4%90%E6%99%82-%E6%8F%AD%E4%B8%AD%E5%9C%8B%E5%9C%8B%E5%AE%89%E9%83%A8%E4%BB%BB%E5%8B%99-%E7%9B%AF%E4%B8%8A%E8%BC%9D%E9%81%94ai%E6%99%B6%E7%89%87%E5%87%BA%E5%8F%A3-014900329.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "科技股回魂！美股深跌反彈　台積電ADR狂飆6.33%",
+      "original_title": null,
+      "summary": "重點：美國勞工部同日公布，10月非農就業人數增加 16.5萬人，遠超市場預期的6.5萬人，較前值大幅上修；10月失業率下降0.1百分點至4.1%。市場…。",
+      "link": "https://tw.news.yahoo.com/%E7%A7%91%E6%8A%80%E8%82%A1%E5%9B%9E%E9%AD%82-%E7%BE%8E%E8%82%A1%E6%B7%B1%E8%B7%8C%E5%8F%8D%E5%BD%88-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E7%8B%82%E9%A3%866-33-014504132.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美國10月大增16萬5000名就業人口　添聯準會升息壓力",
+      "original_title": null,
+      "summary": "重點：（中央社華盛頓2026年11月6日綜合外電報導）美國勞工部今天公布，美國10月增加16萬5000名就業人口，遠高於分析師預期；10月失業率略降至…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B10%E6%9C%88%E5%A4%A7%E5%A2%9E16%E8%90%AC5000%E5%90%8D%E5%B0%B1%E6%A5%AD%E4%BA%BA%E5%8F%A3-%E6%B7%BB%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E5%A3%93%E5%8A%9B-005312095.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美股多開高那指漲逾1.2%　晶片股反彈",
+      "original_title": null,
+      "summary": "重點：（中央社紐約2026年11月6日綜合外電報導）市場擔憂美國民主黨主導的國會可能加強人工智慧（AI）監管，昨天引發晶片股賣壓。美股主要指數今天多開…。",
+      "link": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E5%A4%9A%E9%96%8B%E9%AB%98%E9%82%A3%E6%8C%87%E6%BC%B2%E9%80%BE1-2-%E6%99%B6%E7%89%87%E8%82%A1%E5%8F%8D%E5%BD%88-005310975.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股史詩級暴跌！陳志強受災「痛失一張球證」崩潰：老婆一直買衣服",
+      "original_title": null,
+      "summary": "重點：台股日前遭遇歷史性暴跌，盤中狂瀉3700點引發股災。演藝圈知名存股達人陳志強資產也遭重創，連發3篇限時動態大嘆「史詩級的來了」，更透露一週內資產…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%8F%B2%E8%A9%A9%E7%B4%9A%E6%9A%B4%E8%B7%8C-%E9%99%B3%E5%BF%97%E5%BC%B7%E5%8F%97%E7%81%BD-%E7%97%9B%E5%A4%B1-%E5%BC%B5%E7%90%83%E8%AD%89-%E5%B4%A9%E6%BD%B0-020000950.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台積電傳殺入先進DRAM！背後最大推手是他  3家記憶體廠恐皮皮剉",
+      "original_title": null,
+      "summary": "重點：台積電傳出可能跨足先進記憶體製造！外媒披露，台積電近期應最大客戶輝達（NVIDIA）要求，已開始評估新一代3D DRAM生產計畫，並研議興建新廠…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%82%B3%E6%AE%BA%E5%85%A5%E5%85%88%E9%80%B2dram-%E8%83%8C%E5%BE%8C%E6%9C%80%E5%A4%A7%E6%8E%A8%E6%89%8B%E6%98%AF%E4%BB%96-3%E5%AE%B6%E8%A8%98%E6%86%B6%E9%AB%94%E5%BB%A0%E6%81%90%E7%9A%AE%E7%9A%AE%E5%89%89-014155134.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股盤中暴跌3737點！賴清德急傳Line問「會怎樣?」 謝金河：AI主軸不變",
+      "original_title": null,
+      "summary": "重點：[Newtalk新聞] 美國期中選舉結果衝擊金融市場，台股6日遭遇史詩級賣壓，一度狂瀉3737點創下史上最大盤中跌點，終場重挫1873.08點，…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E7%9B%A4%E4%B8%AD%E6%9A%B4%E8%B7%8C3737%E9%BB%9E-%E8%B3%B4%E6%B8%85%E5%BE%B7%E6%80%A5%E5%82%B3line%E5%95%8F-%E6%9C%83%E6%80%8E%E6%A8%A3-%E8%AC%9D%E9%87%91%E6%B2%B3-ai%E4%B8%BB%E8%BB%B8%E4%B8%8D%E8%AE%8A-013118575.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    }
+  ]
+}

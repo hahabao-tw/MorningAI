@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-11-09",
-  "generated_at": "2026-11-09T09:50:52+08:00",
+  "generated_at": "2026-11-09T10:35:49+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4124.8,
-      "change": 49.90000000000009,
-      "change_percent": 1.224569928096397,
+      "price": 4138.1,
+      "change": 63.20000000000027,
+      "change_percent": 1.5509583057253005,
       "currency": "USD",
-      "market_time": 1794188449,
+      "market_time": 1794191148,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 90.52,
-      "change": -0.3100000000000023,
-      "change_percent": -0.3412969283276476,
+      "price": 90.7,
+      "change": -0.12999999999999545,
+      "change_percent": -0.14312451833094292,
       "currency": "USD",
-      "market_time": 1794188440,
+      "market_time": 1794191148,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 97.5,
-      "change": -0.8199999999999932,
-      "change_percent": -0.8340113913750948,
+      "price": 97.78,
+      "change": -0.539999999999992,
+      "change_percent": -0.549227013832376,
       "currency": "USD",
-      "market_time": 1794188434,
+      "market_time": 1794191073,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.91,
-      "change": 0.14499999999999602,
-      "change_percent": 0.44254539905385626,
+      "price": 32.74,
+      "change": -0.02499999999999858,
+      "change_percent": -0.07630093087135228,
       "currency": "TWD",
-      "market_time": 1794189053,
+      "market_time": 1794191743,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.8116,
-      "change": -0.014799999999999258,
-      "change_percent": -0.3066467760649606,
+      "price": 4.8232,
+      "change": -0.0031999999999996476,
+      "change_percent": -0.06630200563566319,
       "currency": "JPY",
-      "market_time": 1794188793,
+      "market_time": 1794191493,
       "source": "yahoo"
     },
     {
@@ -266,6 +266,15 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+      "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+      "published_at": "2026-11-09T02:28:50+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "Nvidia launches investigation into CEO's affair with suspected Chinese spy",
       "link": "https://www.bbc.co.uk/news/articles/c3dxw10rjn9no?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-09T00:50:06+00:00",
@@ -352,6 +361,86 @@
       "published_at": "2026-11-07T01:41:36+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "成本攀升＋匯率波動，雄獅前三季EPS 10.34元，Q4訂單動能顯著",
+      "original_title": null,
+      "summary": "重點：【財訊快報／記者陳浩寧報導】雄獅(2731)第三季營收81.99億元，季減1.59%，年增10.68%，歸屬於母公司業主淨利2.86億元，年減3…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%88%90%E6%9C%AC%E6%94%80%E5%8D%87-%E5%8C%AF%E7%8E%87%E6%B3%A2%E5%8B%95-%E9%9B%84%E7%8D%85%E5%89%8D%E4%B8%89%E5%AD%A3eps-10-34%E5%85%83-021949066.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達捲國安風暴／從大額買家到親密關係　黃樂如何打入黃仁勳的AI核心圈",
+      "original_title": null,
+      "summary": "重點：黃仁勳婚外情風暴背後，黃樂曾任高層的Megaspeed早已遭美方盯上，這家從中國遊戲企業分拆的公司，如何迅速成為輝達在東南亞的大買家，還將算力供…。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E6%8D%B2%E5%9C%8B%E5%AE%89%E9%A2%A8%E6%9A%B4-%E5%BE%9E%E5%A4%A7%E9%A1%8D%E8%B2%B7%E5%AE%B6%E5%88%B0%E8%A6%AA%E5%AF%86%E9%97%9C%E4%BF%82-%E9%BB%83%E6%A8%82%E5%A6%82%E4%BD%95%E6%89%93%E5%85%A5%E9%BB%83%E4%BB%81%E5%8B%B3%E7%9A%84ai%E6%A0%B8%E5%BF%83%E5%9C%88-021600449.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "黃仁勳捲共諜風波　川普力挺續掌輝達、表態願邀同行訪中國",
+      "original_title": null,
+      "summary": "重點：輝達執行長黃仁勳遭爆與涉嫌替中國從事間諜活動的女子發生婚外情，並在致員工信中坦承對妻子不忠。美國總統川普則稱讚他「品格高尚」、「為人正直」，肯定…。",
+      "link": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E6%8D%B2%E5%85%B1%E8%AB%9C%E9%A2%A8%E6%B3%A2-%E5%B7%9D%E6%99%AE%E5%8A%9B%E6%8C%BA%E7%BA%8C%E6%8E%8C%E8%BC%9D%E9%81%94-%E8%A1%A8%E6%85%8B%E9%A1%98%E9%82%80%E5%90%8C%E8%A1%8C%E8%A8%AA%E4%B8%AD%E5%9C%8B-021100210.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "黃仁勳出軌時間軸一次看！與小三多次在台同框　最慘恐丟輝達CEO",
+      "original_title": null,
+      "summary": "重點：輝達執行長黃仁勳坦承婚外情，對象為疑與大陸國安部門有關的華裔女子黃樂（Alice Huang），事件曝光引發震撼，目前輝達董事會宣布展開內部調查…。",
+      "link": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%87%BA%E8%BB%8C%E6%99%82%E9%96%93%E8%BB%B8-%E6%AC%A1%E7%9C%8B-%E8%88%87%E5%B0%8F%E4%B8%89%E5%A4%9A%E6%AC%A1%E5%9C%A8%E5%8F%B0%E5%90%8C%E6%A1%86-%E6%9C%80%E6%85%98%E6%81%90%E4%B8%9F%E8%BC%9D%E9%81%94ceo-020229974.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股暴跌後大反攻！狂飆逾2300點重返4萬2　專家點名「這2檔權值股」成關鍵",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳雅婷／綜合報導台股今（9）日強勢反彈，截至上午10點20分已攻上42072.20點，大漲2370.56點，漲幅5.97%…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%9A%B4%E8%B7%8C%E5%BE%8C%E5%A4%A7%E5%8F%8D%E6%94%BB-%E7%8B%82%E9%A3%86%E9%80%BE2300%E9%BB%9E%E9%87%8D%E8%BF%944%E8%90%AC2-%E5%B0%88%E5%AE%B6%E9%BB%9E%E5%90%8D-%E9%80%992%E6%AA%94%E6%AC%8A%E5%80%BC%E8%82%A1-%E6%88%90%E9%97%9C%E9%8D%B5-023000909.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股三好一壞　分析師看台股後續還有機會",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]台股上週重挫跌落4萬點，金管會啟動「限空令」救市，國安基金也進場護盤。台股今（9）日上攻逾2000點，重回42K關卡，…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E4%B8%89%E5%A5%BD-%E5%A3%9E-%E5%88%86%E6%9E%90%E5%B8%AB%E7%9C%8B%E5%8F%B0%E8%82%A1%E5%BE%8C%E7%BA%8C%E9%82%84%E6%9C%89%E6%A9%9F%E6%9C%83-022155151.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "廣寰科、倚強科、力新再飆漲停！台股破百檔攻頂群創、華邦電、國巨齊亮燈　尖點、金像電鎖不住",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者薛明峻／台北報導由於科技股迎來逢低買盤，美股四大指數上周五漲多跌少，AI晶片龍頭輝達（NVDA-US）強漲2.78%、台積…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%BB%A3%E5%AF%B0%E7%A7%91-%E5%80%9A%E5%BC%B7%E7%A7%91-%E5%8A%9B%E6%96%B0%E5%86%8D%E9%A3%86%E6%BC%B2%E5%81%9C-%E5%8F%B0%E8%82%A1%E7%A0%B4%E7%99%BE%E6%AA%94%E6%94%BB%E9%A0%82%E7%BE%A4%E5%89%B5-%E8%8F%AF%E9%82%A6%E9%9B%BB-022000477.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股總市值跌落全球第七 電子股重挫拖累大盤",
+      "original_title": null,
+      "summary": "重點：圖／本報資料庫商傳媒｜吳承岳／台北報導根據《台北時報》報導，台灣股市總市值（Market capitalization，所有上市公司股票價值的總…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%B8%BD%E5%B8%82%E5%80%BC%E8%B7%8C%E8%90%BD%E5%85%A8%E7%90%83%E7%AC%AC%E4%B8%83-%E9%9B%BB%E5%AD%90%E8%82%A1%E9%87%8D%E6%8C%AB%E6%8B%96%E7%B4%AF%E5%A4%A7%E7%9B%A4-021448717.html",
+      "published_at": null,
+      "source": "yahoo_news"
     },
     {
       "kind": "news",

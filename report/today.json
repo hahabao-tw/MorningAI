@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-11-10",
-  "generated_at": "2026-11-10T12:15:30+08:00",
+  "generated_at": "2026-11-10T12:35:14+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -37,7 +37,7 @@
       "change": 173.07999999999993,
       "change_percent": 2.346255723980121,
       "currency": "USD",
-      "market_time": 1794258000,
+      "market_time": 1794262370,
       "source": "yahoo"
     },
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 4119.3,
-      "change": 4.800000000000182,
-      "change_percent": 0.1166605905942443,
+      "price": 4123.3,
+      "change": 8.800000000000182,
+      "change_percent": 0.21387774942277757,
       "currency": "USD",
-      "market_time": 1794283512,
+      "market_time": 1794284708,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 85.93,
-      "change": -0.9199999999999875,
-      "change_percent": -1.059297639608506,
+      "price": 85.88,
+      "change": -0.9699999999999989,
+      "change_percent": -1.1168681635002866,
       "currency": "USD",
-      "market_time": 1794283523,
+      "market_time": 1794284701,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 91.71,
-      "change": -0.8599999999999994,
-      "change_percent": -0.9290266825105321,
+      "price": 91.7,
+      "change": -0.8699999999999903,
+      "change_percent": -0.9398293183536679,
       "currency": "USD",
-      "market_time": 1794283508,
+      "market_time": 1794284676,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.867,
-      "change": 0.07499999999999574,
-      "change_percent": 0.2287143205659787,
+      "price": 32.861,
+      "change": 0.06899999999999551,
+      "change_percent": 0.21041717492069867,
       "currency": "TWD",
-      "market_time": 1794284129,
+      "market_time": 1794285312,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.7973,
-      "change": -0.008899999999999686,
-      "change_percent": -0.18517747908950286,
+      "price": 4.7977,
+      "change": -0.00849999999999973,
+      "change_percent": -0.1768548957596382,
       "currency": "JPY",
-      "market_time": 1794283893,
+      "market_time": 1794285094,
       "source": "yahoo"
     },
     {
@@ -356,10 +356,80 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "學烹飪、開酒吧照樣當總監！黃仁勳兒女「繞路回家」　輝達二代布局曝光",
+      "original_title": null,
+      "summary": "重點：黃仁勳的婚外情風波持續延燒，意外讓「輝達二代」成為討論焦點。他的女兒黃敏珊、兒子黃勝斌，以及女婿 Nico Caprez，三人全在輝達任職，家族…。",
+      "link": "https://tw.news.yahoo.com/%E5%AD%B8%E7%83%B9%E9%A3%AA-%E9%96%8B%E9%85%92%E5%90%A7%E7%85%A7%E6%A8%A3%E7%95%B6%E7%B8%BD%E7%9B%A3-%E9%BB%83%E4%BB%81%E5%8B%B3%E5%85%92%E5%A5%B3-%E7%B9%9E%E8%B7%AF%E5%9B%9E%E5%AE%B6-%E8%BC%9D%E9%81%94%E4%BA%8C%E4%BB%A3%E5%B8%83%E5%B1%80%E6%9B%9D%E5%85%89-041914632.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "黃仁勳認出軌黃樂「輝達市值一夜蒸發6兆元」　股東收盤5分鐘後集體提告內幕曝光",
+      "original_title": null,
+      "summary": "重點：全球AI巨頭輝達（Nvidia）執行長黃仁勳捲入婚外情及中國間諜疑雲，輝達與黃仁勳9日遭股東提起訴訟，指控公司隱瞞他與涉嫌從事中國情報活動的女商…。",
+      "link": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%AA%8D%E5%87%BA%E8%BB%8C%E9%BB%83%E6%A8%82-%E8%BC%9D%E9%81%94%E5%B8%82%E5%80%BC-%E5%A4%9C%E8%92%B8%E7%99%BC6%E5%85%86%E5%85%83-%E8%82%A1%E6%9D%B1%E6%94%B6%E7%9B%A45%E5%88%86%E9%90%98%E5%BE%8C%E9%9B%86%E9%AB%94%E6%8F%90%E5%91%8A%E5%85%A7%E5%B9%95%E6%9B%9D%E5%85%89-035100329.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "川習三會將登場 學者：關稅、晶片難鬆綁 間諜疑雲添變數",
+      "original_title": null,
+      "summary": "重點：美、中領導人將於中國深圳APEC峰會期間3度會面，傳中方擬提出取消加徵關稅、放寬先進晶片出口管制等訴求。學者今天(10日)指出，美國共和黨雖輸了…。",
+      "link": "https://tw.news.yahoo.com/%E5%B7%9D%E7%BF%92%E4%B8%89%E6%9C%83%E5%B0%87%E7%99%BB%E5%A0%B4-%E5%AD%B8%E8%80%85-%E9%97%9C%E7%A8%85-%E6%99%B6%E7%89%87%E9%9B%A3%E9%AC%86%E7%B6%81-%E9%96%93%E8%AB%9C%E7%96%91%E9%9B%B2%E6%B7%BB%E8%AE%8A%E6%95%B8-035054507.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "黃仁勳捲桃色風波 分析師：美股利空未擴散 估台廠衝擊有限",
       "original_title": null,
       "summary": "重點：輝達執行長黃仁勳捲入桃色風波，外遇對象疑似為中國女間諜，並引發國安疑慮，輝達股價9日一度重挫逾8%。分析師認為，市場對利空消息的反應相對有限，未…。",
       "link": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E6%8D%B2%E6%A1%83%E8%89%B2%E9%A2%A8%E6%B3%A2-%E5%88%86%E6%9E%90%E5%B8%AB-%E7%BE%8E%E8%82%A1%E5%88%A9%E7%A9%BA%E6%9C%AA%E6%93%B4%E6%95%A3-%E4%BC%B0%E5%8F%B0%E5%BB%A0%E8%A1%9D%E6%93%8A%E6%9C%89%E9%99%90-034510889.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股反彈還要繼續買！009816、00406A達人曝加碼計畫　網卻喊換抱「這檔」放10年",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳雅婷／綜合報導台股今（10）日延續反彈行情，截至上午11時30分，加權指數報42,389.82點，上漲728.12點，漲…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E5%8F%8D%E5%BD%88%E9%82%84%E8%A6%81%E7%B9%BC%E7%BA%8C%E8%B2%B7-009816-00406a%E9%81%94%E4%BA%BA%E6%9B%9D%E5%8A%A0%E7%A2%BC%E8%A8%88%E7%95%AB-%E7%B6%B2%E5%8D%BB%E5%96%8A%E6%8F%9B%E6%8A%B1-%E9%80%99%E6%AA%94-042000938.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股一度收復4萬3關卡！「瑤池金母」漲破4%飆33萬　槓桿式ETF「雙巨頭」齊漲合炸81萬張",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者張書翰／綜合報導台股加權指數今（10）日股價再度上揚，一度狂飆逾1400點、攻上4萬3大關，截至11時55分，漲勢則有所收…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1-%E5%BA%A6%E6%94%B6%E5%BE%A94%E8%90%AC3%E9%97%9C%E5%8D%A1-%E7%91%A4%E6%B1%A0%E9%87%91%E6%AF%8D-%E6%BC%B2%E7%A0%B44-%E9%A3%8633%E8%90%AC-041500809.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "不演了？ 台股漲幅大收斂 他追旺宏、華邦電秒被套",
+      "original_title": null,
+      "summary": "重點：台股今（10）日早盤跳空開高，盤中一度大漲逾1400點，不過隨著時間推移，漲勢一度逐漸收斂近千點，所幸在台積電由黑翻紅，也日月光、南亞、台達電重…。",
+      "link": "https://tw.stock.yahoo.com/news/%E4%B8%8D%E6%BC%94%E4%BA%86-%E5%8F%B0%E8%82%A1%E6%BC%B2%E5%B9%85%E5%A4%A7%E6%94%B6%E6%96%82-%E4%BB%96%E8%BF%BD%E6%97%BA%E5%AE%8F-%E8%8F%AF%E9%82%A6%E9%9B%BB%E7%A7%92%E8%A2%AB%E5%A5%97-041400726.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股大漲逾千點　新台幣升快1角破32.8元",
+      "original_title": null,
+      "summary": "重點：[NOWNEWS今日新聞]股匯齊揚！在台股大漲逾千點之下，新台幣兌美元今（10）日早盤也止貶回升，並升破32.8元，一度來到32.794元，升值…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%A4%A7%E6%BC%B2%E9%80%BE%E5%8D%83%E9%BB%9E-%E6%96%B0%E5%8F%B0%E5%B9%A3%E5%8D%87%E5%BF%AB1%E8%A7%92%E7%A0%B432-8%E5%85%83-013425182.html",
       "published_at": null,
       "source": "yahoo_news"
     },

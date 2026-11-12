@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-12",
+  "generated_at": "2026-11-12T11:15:32+08:00",
+  "timezone": "Asia/Taipei",
+  "markets": [
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^IXIC",
+      "label": "NASDAQ",
+      "price": 25466.19,
+      "change": 400.3149999999987,
+      "change_percent": 1.5970517685897607,
+      "currency": "USD",
+      "market_time": 1794435359,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^SOX",
+      "label": "費城半導體",
+      "price": 10564.111,
+      "change": 565.7810000000009,
+      "change_percent": 5.658755012087028,
+      "currency": "USD",
+      "market_time": 1794435359,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^GSPC",
+      "label": "S&P 500",
+      "price": 7619.38,
+      "change": 98.44999999999982,
+      "change_percent": 1.3090136459187869,
+      "currency": "USD",
+      "market_time": 1794433323,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "indices",
+      "symbol": "^DJI",
+      "label": "道瓊指數",
+      "price": 52486.49,
+      "change": 254.59999999999854,
+      "change_percent": 0.48744167595696525,
+      "currency": "USD",
+      "market_time": 1794433438,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "TSM",
+      "label": "台積電 ADR",
+      "price": 413.35,
+      "change": 16.870000000000005,
+      "change_percent": 4.25494350282486,
+      "currency": "USD",
+      "market_time": 1794430803,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "UMC",
+      "label": "聯電 ADR",
+      "price": 16.08,
+      "change": 1.0399999999999991,
+      "change_percent": 6.914893617021272,
+      "currency": "USD",
+      "market_time": 1794430802,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "adr",
+      "symbol": "ASX",
+      "label": "日月光 ADR",
+      "price": 37.82,
+      "change": 2.3400000000000034,
+      "change_percent": 6.595264937993246,
+      "currency": "USD",
+      "market_time": 1794430802,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "GC=F",
+      "label": "黃金",
+      "price": 3985.6,
+      "change": -14.900000000000091,
+      "change_percent": -0.3724534433195873,
+      "currency": "USD",
+      "market_time": 1794452730,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "CL=F",
+      "label": "WTI 原油",
+      "price": 85.73,
+      "change": -0.7999999999999972,
+      "change_percent": -0.9245348434069076,
+      "currency": "USD",
+      "market_time": 1794452727,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "commodities",
+      "symbol": "BZ=F",
+      "label": "布蘭特原油",
+      "price": 91.8,
+      "change": -0.960000000000008,
+      "change_percent": -1.0349288486416646,
+      "currency": "USD",
+      "market_time": 1794452600,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWD=X",
+      "label": "USD/TWD",
+      "price": 32.911,
+      "change": 0.04899999999999949,
+      "change_percent": 0.14910839267238601,
+      "currency": "TWD",
+      "market_time": 1794453331,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "fx",
+      "symbol": "TWDJPY=X",
+      "label": "TWD/JPY",
+      "price": 4.8445,
+      "change": -0.006400000000000183,
+      "change_percent": -0.1319342802366609,
+      "currency": "JPY",
+      "market_time": 1794453090,
+      "source": "yahoo"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWII",
+      "label": "加權",
+      "price": 44257.15,
+      "change": 1545.2300000000032,
+      "change_percent": 3.6177956879484774,
+      "currency": "TWD",
+      "market_time": 1794326400,
+      "date": "11/11",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taiwan_indices",
+      "symbol": "^TWOII",
+      "label": "櫃買",
+      "price": 344.11,
+      "change": 11.139999999999986,
+      "change_percent": 3.3456467549629054,
+      "currency": "TWD",
+      "market_time": 1794326400,
+      "date": "11/11",
+      "source": "yahoo_tw_indices"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WTX&",
+      "label": "台指期夜盤",
+      "price": 44606.0,
+      "change": 470.0,
+      "change_percent": 1.0648903389523292,
+      "market_time": 1794430800,
+      "date": "11/12",
+      "source": "yahoo_future"
+    },
+    {
+      "kind": "market",
+      "group": "taifex",
+      "symbol": "WCDF&",
+      "label": "台積電期貨夜盤",
+      "price": 2393.0,
+      "change": 5.0,
+      "change_percent": 0.20938023450586263,
+      "market_time": 1794430800,
+      "date": "11/12",
+      "source": "yahoo_future"
+    }
+  ],
+  "taiwan_market": [
+    {
+      "kind": "twse_summary",
+      "date": "115/11/11",
+      "volume": 11518562054,
+      "turnover": 876295459349,
+      "transactions": 3928796,
+      "index": 44257.15,
+      "change": 1545.23,
+      "source": "twse",
+      "institutional": [
+        {
+          "name": "自營商(自行買賣)",
+          "buy": 11326267435,
+          "sell": 8525452180,
+          "net": 2800815255
+        },
+        {
+          "name": "自營商(避險)",
+          "buy": 31401162442,
+          "sell": 27945104831,
+          "net": 3456057611
+        },
+        {
+          "name": "投信",
+          "buy": 36192203547,
+          "sell": 17606740082,
+          "net": 18585463465
+        },
+        {
+          "name": "外資及陸資(不含外資自營商)",
+          "buy": 339713407087,
+          "sell": 340479850423,
+          "net": -766443336
+        },
+        {
+          "name": "外資自營商",
+          "buy": 0,
+          "sell": 0,
+          "net": 0
+        },
+        {
+          "name": "合計",
+          "buy": 418633040511,
+          "sell": 394557147516,
+          "net": 24075892995
+        }
+      ]
+    }
+  ],
+  "chips": [
+    {
+      "kind": "chips",
+      "date": "2026-11-11",
+      "foreign_tx_net": -104271,
+      "trust_tx_net": 101870,
+      "mtx_retail_ratio": 9.05,
+      "tmf_retail_ratio": -7.0,
+      "options_pc_ratio": 65.17,
+      "tsmc_impact": 7.694,
+      "source": "official_chips"
+    }
+  ],
+  "news": [
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "What we know so far about Nvidia partner Megaspeed’s Asia footprint",
+      "link": "https://www.cnbc.com/2026/11/12/nvidia-megaspeed-alice-huang-jensen-.html",
+      "published_at": "2026-11-12T03:02:03+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
+      "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-12T00:49:05+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Nvidia prepares to oust Jensen Huang, WSJ reports — stock sinks",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+      "published_at": "2026-11-12T00:21:27+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Some under-25s should get less benefits, Milburn review to say",
+      "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-11T23:22:04+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
+      "published_at": "2026-11-11T22:46:29+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
+      "link": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html",
+      "published_at": "2026-11-11T22:30:57+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "'Not the answer': Labour MPs speak out against Rosebank as decision looms",
+      "link": "https://www.bbc.co.uk/news/articles/cqp9dr79jkrzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-11T21:42:20+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "CoreWeave soars more than 24% for best day since April 2025 after strong Q3 report",
+      "link": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+      "published_at": "2026-11-11T21:11:26+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Christmas toy rush being driven by squishies and building sets",
+      "link": "https://www.bbc.co.uk/news/articles/cx5ynyg6j375o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-11T07:52:05+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+      "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-10T22:52:15+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "跟黃仁勳傳出婚外情！輝達女副總裁今臨時取消公開演講活動",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]實習記者鄭巧薰／綜合報導輝達（NVIDIA）執行長黃仁勳婚外情風波持續延燒，外媒《紐約時報》再度披露，黃仁勳與現年48歲的輝達…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%B7%9F%E9%BB%83%E4%BB%81%E5%8B%B3%E5%82%B3%E5%87%BA%E5%A9%9A%E5%A4%96%E6%83%85-%E8%BC%9D%E9%81%94%E5%A5%B3%E5%89%AF%E7%B8%BD%E8%A3%81%E4%BB%8A%E8%87%A8%E6%99%82%E5%8F%96%E6%B6%88%E5%85%AC%E9%96%8B%E6%BC%94%E8%AC%9B%E6%B4%BB%E5%8B%95-025600881.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "黃仁勳深陷桃色風暴！輝達董事會擬「撤換臨時執行長」　達人曝恐衝擊台AI供應鏈",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]實習記者陳又綺／綜合報導輝達（NVIDIA）創辦人黃仁勳近日深陷桃色風波，繼傳出與中國女商人黃樂有不當關係後，又遭爆料涉及第二…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E6%B7%B1%E9%99%B7%E6%A1%83%E8%89%B2%E9%A2%A8%E6%9A%B4-%E8%BC%9D%E9%81%94%E8%91%A3%E4%BA%8B%E6%9C%83%E6%93%AC-%E6%92%A4%E6%8F%9B%E8%87%A8%E6%99%82%E5%9F%B7%E8%A1%8C%E9%95%B7-%E9%81%94%E4%BA%BA%E6%9B%9D%E6%81%90%E8%A1%9D%E6%93%8A%E5%8F%B0ai%E4%BE%9B%E6%87%89%E9%8F%88-025600209.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "黃仁勳被爆第2段婚外情　輝達考慮換掉CEO　美國會議員要他辭職",
+      "original_title": null,
+      "summary": "重點：美國人工智慧（AI）晶片巨頭輝達（Nvidia）的執行長黃仁勳外遇的對象不只黃樂。",
+      "link": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%A2%AB%E7%88%86%E7%AC%AC2%E6%AE%B5%E5%A9%9A%E5%A4%96%E6%83%85-%E8%BC%9D%E9%81%94%E8%80%83%E6%85%AE%E6%8F%9B%E6%8E%89ceo-%E7%BE%8E%E5%9C%8B%E6%9C%83%E8%AD%B0%E5%93%A1%E8%A6%81%E4%BB%96%E8%BE%AD%E8%81%B7-025541248.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "美媒：白宮不介入輝達決策　黃仁勳去留與財務長擬代理受矚",
+      "original_title": null,
+      "summary": "重點：（中央社舊金山11日綜合外電報導）美國媒體報導，輝達董事會準備最快今天開會討論執行長黃仁勳去留，財務長克瑞斯（Colette Kress）可能代…。",
+      "link": "https://tw.news.yahoo.com/%E7%BE%8E%E5%AA%92-%E7%99%BD%E5%AE%AE%E4%B8%8D%E4%BB%8B%E5%85%A5%E8%BC%9D%E9%81%94%E6%B1%BA%E7%AD%96-%E9%BB%83%E4%BB%81%E5%8B%B3%E5%8E%BB%E7%95%99%E8%88%87%E8%B2%A1%E5%8B%99%E9%95%B7%E6%93%AC%E4%BB%A3%E7%90%86%E5%8F%97%E7%9F%9A-025458007.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股早盤震盪後翻紅，櫃買指數強漲逾2%",
+      "original_title": null,
+      "summary": "重點：【財訊快報／黃冠豪】亞股早盤呈現震盪格局，韓國KOSPI指數盤上震盪，三星電子與SK海力士則維持相對強勢。三星電子盤中上漲約3.19%，SK海力…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E9%9C%87%E7%9B%AA%E5%BE%8C%E7%BF%BB%E7%B4%85-%E6%AB%83%E8%B2%B7%E6%8C%87%E6%95%B8%E5%BC%B7%E6%BC%B2%E9%80%BE2-025441446.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股反攻，前四強ETF週三漲逾5%，台新00416A奪單日及近3日漲幅雙冠王",
+      "original_title": null,
+      "summary": "重點：【財訊快報／記者劉居全報導】台股受惠美國科技股反彈，加上國安基金宣示護盤加持下，投資人信心大振，買盤大舉回籠，加權指數連三日大幅反彈逾11%，重…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E5%8F%8D%E6%94%BB-%E5%89%8D%E5%9B%9B%E5%BC%B7etf%E9%80%B1%E4%B8%89%E6%BC%B2%E9%80%BE5-%E5%8F%B0%E6%96%B000416a%E5%A5%AA%E5%96%AE%E6%97%A5%E5%8F%8A%E8%BF%913%E6%97%A5%E6%BC%B2%E5%B9%85%E9%9B%99%E5%86%A0%E7%8E%8B-024601881.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "MSCI指數台股權重三升　11/30收盤生效",
+      "original_title": null,
+      "summary": "重點：（中央社記者吳家豪台北2026年11月12日電）指數編纂公司MSCI（明晟）今天公布半年度調整結果，台股在全球市場指數權重上調至3.28%，在全…。",
+      "link": "https://tw.stock.yahoo.com/news/msci%E6%8C%87%E6%95%B8%E5%8F%B0%E8%82%A1%E6%AC%8A%E9%87%8D%E4%B8%89%E5%8D%87-11-30%E6%94%B6%E7%9B%A4%E7%94%9F%E6%95%88-024154120.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "黃仁勳再爆「小四」 台積電訂單遭殃？專家點名致命威脅不是他",
+      "original_title": null,
+      "summary": "重點：輝達（NVIDIA）執行長黃仁勳深陷婚外情風暴，甚至傳出面臨下台危機，讓全球AI產業供應鏈繃緊神經，由於輝達是台積電的重要客戶，黃仁勳又在台灣擁…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%86%8D%E7%88%86-%E5%B0%8F%E5%9B%9B-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%A8%82%E5%96%AE%E9%81%AD%E6%AE%83-%E5%B0%88%E5%AE%B6%E9%BB%9E%E5%90%8D%E8%87%B4%E5%91%BD%E5%A8%81%E8%84%85%E4%B8%8D%E6%98%AF%E4%BB%96-023922259.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    }
+  ]
+}

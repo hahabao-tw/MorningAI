@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "report_date": "2026-11-14",
-  "generated_at": "2026-11-14T11:06:25+08:00",
+  "report_date": "2026-11-15",
+  "generated_at": "2026-11-15T10:03:19+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -10,8 +10,8 @@
       "symbol": "^IXIC",
       "label": "NASDAQ",
       "price": 25136.273,
-      "change": -229.8209999999999,
-      "change_percent": -0.906016511647398,
+      "change": -229.8269999999975,
+      "change_percent": -0.9060399509581587,
       "currency": "USD",
       "market_time": 1794608159,
       "source": "yahoo"
@@ -22,8 +22,8 @@
       "symbol": "^SOX",
       "label": "費城半導體",
       "price": 10146.323,
-      "change": -360.35100000000057,
-      "change_percent": -3.4297342812768394,
+      "change": -360.3770000000004,
+      "change_percent": -3.429973255160996,
       "currency": "USD",
       "market_time": 1794608159,
       "source": "yahoo"
@@ -46,8 +46,8 @@
       "symbol": "^DJI",
       "label": "道瓊指數",
       "price": 52347.55,
-      "change": 50.4600000000064,
-      "change_percent": 0.09648720416376208,
+      "change": 50.450000000004366,
+      "change_percent": 0.0964680641947725,
       "currency": "USD",
       "market_time": 1794606206,
       "source": "yahoo"
@@ -93,9 +93,9 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 3887.6,
-      "change": 2.299999999999727,
-      "change_percent": 0.0591974879674601,
+      "price": 3886.3,
+      "change": 1.0,
+      "change_percent": 0.025738038246724833,
       "currency": "USD",
       "market_time": 1794607199,
       "source": "yahoo"
@@ -105,9 +105,9 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 88.92,
-      "change": 0.18000000000000682,
-      "change_percent": 0.2028397565922998,
+      "price": 88.56,
+      "change": -0.1799999999999926,
+      "change_percent": -0.20283975659228376,
       "currency": "USD",
       "market_time": 1794607200,
       "source": "yahoo"
@@ -117,9 +117,9 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 96.08,
-      "change": 0.2600000000000051,
-      "change_percent": 0.2713420997704082,
+      "price": 95.84,
+      "change": 0.020000000000010232,
+      "change_percent": 0.02087246921311859,
       "currency": "USD",
       "market_time": 1794607170,
       "source": "yahoo"
@@ -145,7 +145,7 @@
       "change": 0.005300000000000082,
       "change_percent": 0.10945438024038831,
       "currency": "JPY",
-      "market_time": 1794608793,
+      "market_time": 1794608806,
       "source": "yahoo"
     },
     {
@@ -266,9 +266,45 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "FAA lifts ground stop after four hours, but flight cancellations will stretch into the weekend",
-      "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
-      "published_at": "2026-11-14T02:33:48+00:00",
+      "title": "Beauty advent calendars can cost hundreds - but are they value for money?",
+      "link": "https://www.bbc.co.uk/news/articles/cqn83l442724o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-15T00:01:07+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Nationwide ground stop followed contractor upgrade to L3Harris telecommunication system: DOT’s Duffy",
+      "link": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+      "published_at": "2026-11-14T23:21:21+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "SpaceX catches upper stage of Starship rocket in historic first",
+      "link": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
+      "published_at": "2026-11-14T23:10:14+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "'Root cause’ of nationwide ground stop is unknown, FAA says",
+      "link": "https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html",
+      "published_at": "2026-11-14T22:54:47+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+      "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+      "published_at": "2026-11-14T17:46:06+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
@@ -277,43 +313,25 @@
       "category": "international",
       "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
       "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
-      "published_at": "2026-11-14T01:34:11+00:00",
+      "published_at": "2026-11-14T15:36:47+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "SpaceX launches Starship in key test flight of massive rocket",
-      "link": "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html",
-      "published_at": "2026-11-14T01:18:51+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
-      "published_at": "2026-11-13T23:54:36+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "Nvidia closes below $4T market cap for first time since July 2025 in Huang fallout",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
-      "published_at": "2026-11-13T21:18:11+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
+      "title": "Microsoft says services fully restored after day-long global outage",
       "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-13T21:14:22+00:00",
+      "published_at": "2026-11-14T06:42:27+00:00",
+      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "How the Jensen Huang scandal created a headache for business-friendly Singapore",
+      "link": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-13T23:00:31+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
@@ -338,128 +356,80 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "How a sex scandal at Nvidia is putting pressure on the White House",
-      "link": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-13T12:22:30+00:00",
-      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "The rise of 'housefishing' - when does using AI go from enhancing to misleading?",
-      "link": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-13T00:13:35+00:00",
-      "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "輝達員工求黃仁勳回歸！連署破2.5萬人　馬斯克衝第一、超多大咖全簽了",
+      "title": "輝達光環不再股價狂跌　《大賣空》原型：AI泡沫才剛開始",
       "original_title": null,
-      "summary": "重點：輝達創辦人黃仁勳日前因緋聞與國安疑慮請辭執行長，引發全球科技圈震撼。輝達內部與業界迅速發起「Stand with Jensen」連署，要求董事會…。",
-      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E5%93%A1%E5%B7%A5%E6%B1%82%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8-%E9%80%A3%E7%BD%B2%E7%A0%B42-5%E8%90%AC%E4%BA%BA-%E9%A6%AC%E6%96%AF%E5%85%8B%E8%A1%9D%E7%AC%AC-%E8%B6%85%E5%A4%9A%E5%A4%A7%E5%92%96%E5%85%A8%E7%B0%BD%E4%BA%86-030000304.html",
+      "summary": "重點：貝瑞一直是華爾街最直言不諱質疑AI熱潮的投資人之一。他認為，目前市場對人工智慧基礎設施的需求，是建立在融資安排之上。面對市場持續走高，貝瑞維持放…。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E5%85%89%E7%92%B0%E4%B8%8D%E5%86%8D%E8%82%A1%E5%83%B9%E7%8B%82%E8%B7%8C-%E5%A4%A7%E8%B3%A3%E7%A9%BA-%E5%8E%9F%E5%9E%8B-ai%E6%B3%A1%E6%B2%AB%E6%89%8D%E5%89%9B%E9%96%8B%E5%A7%8B-015745632.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "輝達「發跡聖地」也切割？加州丹尼餐廳「黃仁勳紀念牌」突消失",
+      "title": "市場估美12月升息　專家提影響美股漲跌關鍵",
       "original_title": null,
-      "summary": "重點：輝達「發跡聖地」也切割？美媒披露，位於加州聖荷西的丹尼餐廳（Denny's），原本掛有紀念輝達創立的牌匾，記錄黃仁勳當年在店內討論創業的歷史，如…。",
-      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94-%E7%99%BC%E8%B7%A1%E8%81%96%E5%9C%B0-%E4%B9%9F%E5%88%87%E5%89%B2-%E5%8A%A0%E5%B7%9E%E4%B8%B9%E5%B0%BC%E9%A4%90%E5%BB%B3-%E9%BB%83%E4%BB%81%E5%8B%B3%E7%B4%80%E5%BF%B5%E7%89%8C-023814068.html",
+      "summary": "重點：[NOWNEWS今日新聞]這一週股債市很不平靜，2年期公債殖利率從4.51%一路衝到4.872%，單週跳升35.2個基點，是2024年9月以來最…。",
+      "link": "https://tw.news.yahoo.com/%E5%B8%82%E5%A0%B4%E4%BC%B0%E7%BE%8E12%E6%9C%88%E5%8D%87%E6%81%AF-%E5%B0%88%E5%AE%B6%E6%8F%90%E5%BD%B1%E9%9F%BF%E7%BE%8E%E8%82%A1%E6%BC%B2%E8%B7%8C%E9%97%9C%E9%8D%B5-015124118.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "黃仁勳辭職離開輝達！身價數千億富豪宣布停止加碼　曾砸427億投資：沒他就不買",
+      "title": "輝達恐爆發資深員工出走潮？分析師示警「競爭對手都在搶人」：最慘整隊被打包帶走",
       "original_title": null,
-      "summary": "重點：[FTNN新聞網]實習記者王保伶／綜合報導輝達（NVIDIA）創辦人黃仁勳因捲入婚外情及國安風暴，正式宣布辭去執行長職務，消息震撼全球科技圈，部…。",
-      "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%BE%AD%E8%81%B7%E9%9B%A2%E9%96%8B%E8%BC%9D%E9%81%94-%E8%BA%AB%E5%83%B9%E6%95%B8%E5%8D%83%E5%84%84%E5%AF%8C%E8%B1%AA%E5%AE%A3%E5%B8%83%E5%81%9C%E6%AD%A2%E5%8A%A0%E7%A2%BC-%E6%9B%BE%E7%A0%B8427%E5%84%84%E6%8A%95%E8%B3%87-%E6%B2%92%E4%BB%96%E5%B0%B1%E4%B8%8D%E8%B2%B7-023700741.html",
+      "summary": "重點：[FTNN新聞網]記者何亞軒／綜合報導輝達（NVIDIA）創辦人黃仁勳因爆出與中國女間諜黃樂有婚外情，在日前辭去了執行長、總裁及董事職務，引起市…。",
+      "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E6%81%90%E7%88%86%E7%99%BC%E8%B3%87%E6%B7%B1%E5%93%A1%E5%B7%A5%E5%87%BA%E8%B5%B0%E6%BD%AE-%E5%88%86%E6%9E%90%E5%B8%AB%E7%A4%BA%E8%AD%A6-%E7%AB%B6%E7%88%AD%E5%B0%8D%E6%89%8B%E9%83%BD%E5%9C%A8%E6%90%B6%E4%BA%BA-%E6%9C%80%E6%85%98%E6%95%B4%E9%9A%8A%E8%A2%AB%E6%89%93%E5%8C%85%E5%B8%B6%E8%B5%B0-014800138.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "黃仁勳下台前為二代接班鋪路？兒女女婿在輝達快速升遷 背景曝光引發質疑",
+      "title": "重返輝達？他點破高難度關鍵：華府正把黃仁勳事件轉化為立法問題",
       "original_title": null,
-      "summary": "重點：[Newtalk新聞] 人工智慧（AI）晶片大廠輝達（NVIDIA）前執行長黃仁勳日前坦承與被懷疑是共諜的中國女商人發生婚外情，又遭爆與下屬有染…。",
-      "link": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E4%B8%8B%E5%8F%B0%E5%89%8D%E7%82%BA%E4%BA%8C%E4%BB%A3%E6%8E%A5%E7%8F%AD%E9%8B%AA%E8%B7%AF-%E5%85%92%E5%A5%B3%E5%A5%B3%E5%A9%BF%E5%9C%A8%E8%BC%9D%E9%81%94%E5%BF%AB%E9%80%9F%E5%8D%87%E9%81%B7-%E8%83%8C%E6%99%AF%E6%9B%9D%E5%85%89%E5%BC%95%E7%99%BC%E8%B3%AA%E7%96%91-022225303.html",
+      "summary": "重點：美國國會正在推動以下四大法案，都跟晶片管制、AI、美中競爭有關，過去幾個月受到強大的阻礙,在於川普和科技公關游說公司阻擋。",
+      "link": "https://tw.news.yahoo.com/%E9%87%8D%E8%BF%94%E8%BC%9D%E9%81%94-%E4%BB%96%E9%BB%9E%E7%A0%B4%E9%AB%98%E9%9B%A3%E5%BA%A6%E9%97%9C%E9%8D%B5-%E8%8F%AF%E5%BA%9C%E6%AD%A3%E6%8A%8A%E9%BB%83%E4%BB%81%E5%8B%B3%E4%BA%8B%E4%BB%B6%E8%BD%89%E5%8C%96%E7%82%BA%E7%AB%8B%E6%B3%95%E5%95%8F%E9%A1%8C-013500583.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "黃仁勳卸任才是開始？台股反彈583點　郭哲榮突點名「這幾檔」接棒股",
+      "title": "台積電3000元提早來了？華爾街操盤手提前喊進　曝「微笑曲線」布局策略",
       "original_title": null,
-      "summary": "重點：[FTNN新聞網]記者陳雅婷／綜合報導台股昨（13）日強勢反彈，盤中最高來到44,489.48點，終場收43,675.12點，上漲583.25點…。",
-      "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%8D%B8%E4%BB%BB%E6%89%8D%E6%98%AF%E9%96%8B%E5%A7%8B-%E5%8F%B0%E8%82%A1%E5%8F%8D%E5%BD%88583%E9%BB%9E-%E9%83%AD%E5%93%B2%E6%A6%AE%E7%AA%81%E9%BB%9E%E5%90%8D-%E9%80%99%E5%B9%BE%E6%AA%94-%E6%8E%A5%E6%A3%92%E8%82%A1-021600799.html",
+      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導台股上週五（13日）止跌回升，加權指數終場收在43,675.12點，上漲583.25點或1.35%，成交金…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB3000%E5%85%83%E6%8F%90%E6%97%A9%E4%BE%86%E4%BA%86-%E8%8F%AF%E7%88%BE%E8%A1%97%E6%93%8D%E7%9B%A4%E6%89%8B%E6%8F%90%E5%89%8D%E5%96%8A%E9%80%B2-%E6%9B%9D-%E5%BE%AE%E7%AC%91%E6%9B%B2%E7%B7%9A-%E5%B8%83%E5%B1%80%E7%AD%96%E7%95%A5-013200054.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "黃仁勳桃色風暴持續衝擊！　費半慘跌、台積電ADR下跌逾1%",
+      "title": "黃仁勳辭職反成利多？他看台股、美股不跌反漲　內行曝：短期肯定會賺",
       "original_title": null,
-      "summary": "重點：美股主要指數表現，道瓊工業指數上漲50.46點、或0.10%，收報52347.55點；那斯達克指數下跌229.82點、或0.91%，收在2513…。",
-      "link": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E6%A1%83%E8%89%B2%E9%A2%A8%E6%9A%B4%E6%8C%81%E7%BA%8C%E8%A1%9D%E6%93%8A-%E8%B2%BB%E5%8D%8A%E6%85%98%E8%B7%8C-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E4%B8%8B%E8%B7%8C%E9%80%BE1-012510001.html",
+      "summary": "重點：[FTNN新聞網]實習記者鄭巧薰／綜合報導輝達（NVIDIA）創辦人黃仁勳日前宣布辭去執行長職位，並退出董事會，震撼全球。不少投資人原先擔憂此事…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%BE%AD%E8%81%B7%E5%8F%8D%E6%88%90%E5%88%A9%E5%A4%9A-%E4%BB%96%E7%9C%8B%E5%8F%B0%E8%82%A1-%E7%BE%8E%E8%82%A1%E4%B8%8D%E8%B7%8C%E5%8F%8D%E6%BC%B2-%E5%85%A7%E8%A1%8C%E6%9B%9D-%E7%9F%AD%E6%9C%9F%E8%82%AF%E5%AE%9A%E6%9C%83%E8%B3%BA-011600200.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "黃仁勳風波利空出盡？　台股強彈後仍未站回月線　公股投顧揭下周布局策略",
+      "title": "台股獲利狂噴1.96兆！116家公司EPS創高　法人逆勢狂掃16檔、喊年前挑戰5萬點",
       "original_title": null,
-      "summary": "重點：「黃天鵝」風波暫時落地，台股13日迎來強勢反彈，外資也終結連續11個交易日賣超，顯示市場在利空消息逐漸明朗後，資金開始回流。不過，台股盤中一度大…。",
-      "link": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%A2%A8%E6%B3%A2%E5%88%A9%E7%A9%BA%E5%87%BA%E7%9B%A1-%E5%8F%B0%E8%82%A1%E5%BC%B7%E5%BD%88%E5%BE%8C%E4%BB%8D%E6%9C%AA%E7%AB%99%E5%9B%9E%E6%9C%88%E7%B7%9A-%E5%85%AC%E8%82%A1%E6%8A%95%E9%A1%A7%E6%8F%AD%E4%B8%8B%E5%91%A8%E5%B8%83%E5%B1%80%E7%AD%96%E7%95%A5-001000814.html",
+      "summary": "重點：[FTNN新聞網]記者莊蕙如／綜合報導台股近期震盪劇烈，但上市櫃企業獲利卻繳出驚人成績單！截至14日，已有1,859家公司公布第三季財報，合計稅…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%8D%B2%E5%88%A9%E7%8B%82%E5%99%B41-96%E5%85%86-116%E5%AE%B6%E5%85%AC%E5%8F%B8eps%E5%89%B5%E9%AB%98-%E6%B3%95%E4%BA%BA%E9%80%86%E5%8B%A2%E7%8B%82%E6%8E%8316%E6%AA%94-%E5%96%8A%E5%B9%B4%E5%89%8D%E6%8C%91%E6%88%B05%E8%90%AC%E9%BB%9E-003900660.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "台股箱型操作兩面賺　辦證券帳戶開戶有禮",
+      "title": "【半導體拚永續】AI成耗電巨獸！看台積電、聯發科、日月光如何分進合擊減碳",
       "original_title": null,
-      "summary": "重點：滑滑手機就能快速開立證券帳戶，還能拿到證券公司的開戶好禮(圖/卡優新聞網)。",
-      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E7%AE%B1%E5%9E%8B%E6%93%8D%E4%BD%9C%E5%85%A9%E9%9D%A2%E8%B3%BA-%E8%BE%A6%E8%AD%89%E5%88%B8%E5%B8%B3%E6%88%B6%E9%96%8B%E6%88%B6%E6%9C%89%E7%A6%AE-000137395.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "「沒有黃仁勳的輝達像沒有喬丹的公牛」　傳記作者嘆：他的傲慢留下了難以填補的空缺",
-      "original_title": null,
-      "summary": "重點：Nvidia輝達創辦人黃仁勳捲桃色風波閃電去職，震驚全球。曾撰寫《黃仁勳傳》（The Thinking Machine）的作者維特（Stephe…。",
-      "link": "https://tw.news.yahoo.com/%E6%B2%92%E6%9C%89%E9%BB%83%E4%BB%81%E5%8B%B3%E7%9A%84%E8%BC%9D%E9%81%94%E5%83%8F%E6%B2%92%E6%9C%89%E5%96%AC%E4%B8%B9%E7%9A%84%E5%85%AC%E7%89%9B-%E5%82%B3%E8%A8%98%E4%BD%9C%E8%80%85%E5%98%86-%E4%BB%96%E7%9A%84%E5%82%B2%E6%85%A2%E7%95%99%E4%B8%8B%E4%BA%86%E9%9B%A3%E4%BB%A5%E5%A1%AB%E8%A3%9C%E7%9A%84%E7%A9%BA%E7%BC%BA-022100056.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "黃仁勳自己走人還是被拔官？輝達官方文件「3個英文字」洩內情",
-      "original_title": null,
-      "summary": "重點：輝達（NVIDIA）於美東時間11月12日公布創辦人黃仁勳卸下執行長職務，市場高度關注他是主動請辭或遭董事會撤換。依據輝達向美國證券交易委員會（…。",
-      "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%87%AA%E5%B7%B1%E8%B5%B0%E4%BA%BA%E9%82%84%E6%98%AF%E8%A2%AB%E6%8B%94%E5%AE%98-%E8%BC%9D%E9%81%94%E5%AE%98%E6%96%B9%E6%96%87%E4%BB%B6-3%E5%80%8B%E8%8B%B1%E6%96%87%E5%AD%97-%E6%B4%A9%E5%85%A7%E6%83%85-021852921.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "路透：黃仁勳傳與中國女商人婚外情　曾誤導輝達法務長",
-      "original_title": null,
-      "summary": "重點：（中央社舊金山13日綜合外電報導）路透社引述兩名知情人士說法和內部通訊內容報導，輝達前執行長黃仁勳曾就他與中國女商人黃樂的關係性質誤導公司多名高…。",
-      "link": "https://tw.news.yahoo.com/%E8%B7%AF%E9%80%8F-%E9%BB%83%E4%BB%81%E5%8B%B3%E5%82%B3%E8%88%87%E4%B8%AD%E5%9C%8B%E5%A5%B3%E5%95%86%E4%BA%BA%E5%A9%9A%E5%A4%96%E6%83%85-%E6%9B%BE%E8%AA%A4%E5%B0%8E%E8%BC%9D%E9%81%94%E6%B3%95%E5%8B%99%E9%95%B7-021547173.html",
+      "summary": "重點：AI飛速發展掀起資料中心建置熱潮，卻伴隨龐大電力與碳排壓力，以Google為例，2024年碳排量相較2019年，足足提升了48%，直接反映資料中…。",
+      "link": "https://tw.news.yahoo.com/%E5%8D%8A%E5%B0%8E%E9%AB%94%E6%8B%9A%E6%B0%B8%E7%BA%8C-ai%E6%88%90%E8%80%97%E9%9B%BB%E5%B7%A8%E7%8D%B8-%E7%9C%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E8%81%AF%E7%99%BC%E7%A7%91-%E6%97%A5%E6%9C%88%E5%85%89%E5%A6%82%E4%BD%95%E5%88%86%E9%80%B2%E5%90%88%E6%93%8A%E6%B8%9B%E7%A2%B3-234000160.html",
       "published_at": null,
       "source": "yahoo_news"
     }

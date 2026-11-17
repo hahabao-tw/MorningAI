@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-11-17",
-  "generated_at": "2026-11-17T12:42:41+08:00",
+  "generated_at": "2026-11-17T13:01:56+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -45,11 +45,11 @@
       "group": "indices",
       "symbol": "^DJI",
       "label": "道瓊指數",
-      "price": 51608.2,
-      "change": -739.4000000000015,
-      "change_percent": -1.4124811834735527,
+      "price": 51608.17,
+      "change": -739.4300000000003,
+      "change_percent": -1.412538492691165,
       "currency": "USD",
-      "market_time": 1794862800,
+      "market_time": 1794868090,
       "source": "yahoo"
     },
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 3867.2,
-      "change": 14.199999999999818,
-      "change_percent": 0.3685439916947785,
+      "price": 3875.8,
+      "change": 22.800000000000182,
+      "change_percent": 0.5917466908902201,
       "currency": "USD",
-      "market_time": 1794889960,
+      "market_time": 1794891115,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 85.02,
-      "change": -0.7000000000000028,
-      "change_percent": -0.8166122258516132,
+      "price": 84.99,
+      "change": -0.730000000000004,
+      "change_percent": -0.8516098926738264,
       "currency": "USD",
-      "market_time": 1794889953,
+      "market_time": 1794891114,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 91.71,
-      "change": -0.730000000000004,
-      "change_percent": -0.7897014279532714,
+      "price": 91.7,
+      "change": -0.7399999999999949,
+      "change_percent": -0.8005192557334432,
       "currency": "USD",
-      "market_time": 1794889928,
+      "market_time": 1794891051,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.983,
-      "change": 0.01999999999999602,
-      "change_percent": 0.06067408913022486,
+      "price": 33.02,
+      "change": 0.05700000000000216,
+      "change_percent": 0.1729211540211818,
       "currency": "TWD",
-      "market_time": 1794890561,
+      "market_time": 1794891715,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.8178,
-      "change": -0.010200000000000209,
-      "change_percent": -0.21126760563380714,
+      "price": 4.8152,
+      "change": -0.012800000000000367,
+      "change_percent": -0.26512013256007383,
       "currency": "JPY",
-      "market_time": 1794890505,
+      "market_time": 1794891706,
       "source": "yahoo"
     },
     {
@@ -268,7 +268,7 @@
       "category": "international",
       "title": "Third U.S. carrier arrives, stoking concerns about renewed conflicts with Iran",
       "link": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html",
-      "published_at": "2026-11-17T04:34:24+00:00",
+      "published_at": "2026-11-17T04:50:19+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
@@ -356,6 +356,16 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "輝達內部有「王室」！華爾街日報：黃仁勳父女強勢作風 員工曾遭罵翻",
+      "original_title": null,
+      "summary": "重點：輝達從電腦遊戲繪圖晶片公司轉型為人工智慧（AI）生態系統的核心，員工人數迅速增加至約4萬人。華爾街日報16日報導，輝達雖已成長為市值5兆美元的企…。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E5%85%A7%E9%83%A8%E6%9C%89-%E7%8E%8B%E5%AE%A4-wsj-%E9%BB%83%E4%BB%81%E5%8B%B3%E7%88%B6%E5%A5%B3%E5%BC%B7%E5%8B%A2%E4%BD%9C%E9%A2%A8-%E5%93%A1%E5%B7%A5%E6%9B%BE%E9%81%AD%E7%BD%B5%E7%BF%BB-044105219.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "黃仁勳突卸任衝擊台股！「10檔ETF」藏輝達曝險　這檔持股比重曾逾16%",
       "original_title": null,
       "summary": "重點：[FTNN新聞網]記者陳雅婷／綜合報導台股今（17）日截至中午12時5分報40,395.20點，下跌644.88點，跌幅1.57%。台股昨（16…。",
@@ -385,11 +395,21 @@
     },
     {
       "kind": "news",
-      "category": "international",
-      "title": "黃仁勳離開後輝達首份財報將登場　AI前景市場屏息以待",
+      "category": "domestic",
+      "title": "台股暴跌2635點又在跌什麼？台指期結算日倒數、外資空單逼近9.7萬口，國內法人示警2大變數",
       "original_title": null,
-      "summary": "重點：（中央社華盛頓2026年11月16日綜合外電報導）AI晶片巨擘輝達（Nvidia）在執行長黃仁勳離開後將首度發布財報，儘管矽谷有力人士與部分員工…。",
-      "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%9B%A2%E9%96%8B%E5%BE%8C%E8%BC%9D%E9%81%94%E9%A6%96%E4%BB%BD%E8%B2%A1%E5%A0%B1%E5%B0%87%E7%99%BB%E5%A0%B4-ai%E5%89%8D%E6%99%AF%E5%B8%82%E5%A0%B4%E5%B1%8F%E6%81%AF%E4%BB%A5%E5%BE%85-035221429.html",
+      "summary": "重點：台股近期劇烈震盪，昨（16）日再度遭遇猛烈賣壓，加權指數終場重挫2,635.04點，收在41,040.08點，創下當日最低點，成交金額8,450…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%9A%B4%E8%B7%8C2635%E9%BB%9E%E5%8F%88%E5%9C%A8%E8%B7%8C%E4%BB%80%E9%BA%BC-%E5%8F%B0%E6%8C%87%E6%9C%9F%E7%B5%90%E7%AE%97%E6%97%A5%E5%80%92%E6%95%B8-%E5%A4%96%E8%B3%87%E7%A9%BA%E5%96%AE%E9%80%BC%E8%BF%919-7%E8%90%AC%E5%8F%A3-%E5%9C%8B%E5%85%A7%E6%B3%95%E4%BA%BA%E7%A4%BA%E8%AD%A62%E5%A4%A7%E8%AE%8A%E6%95%B8-044122393.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股開盤閃現3萬9！「這檔」逆勢衝上11元飆37萬　「瑤池金母」墜4.5%噴走31萬張",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者張書翰／綜合報導台股加權指數今（17）日開盤後一度掉到3萬9領域，隨後黑翻紅上揚，不過漲勢未能維持，截至12時30分，暫報…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4%E9%96%83%E7%8F%BE3%E8%90%AC9-%E9%80%99%E6%AA%94-%E9%80%86%E5%8B%A2%E8%A1%9D%E4%B8%8A11%E5%85%83%E9%A3%8637%E8%90%AC-%E7%91%A4%E6%B1%A0%E9%87%91%E6%AF%8D-%E5%A2%9C4-044100157.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -410,6 +430,16 @@
       "original_title": null,
       "summary": "重點：台股昨（16）日狂瀉2,635.04點創史上第二大跌點，摩爾投顧投資長郭哲榮直言恐慌已過度反應，強調「可以閉著眼睛買」，更喊出11月底沒站回4萬…。",
       "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%8B%82%E7%80%892635%E9%BB%9E%E5%A4%AA%E6%89%AF-%E9%83%AD%E5%93%B2%E6%A6%AE%E9%AB%98%E5%96%8A-%E9%96%89%E7%9C%BC%E8%B2%B7-%E6%B2%9245k%E7%99%BC%E9%9B%9E%E6%8E%92-041500728.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "黃仁勳離開後輝達首份財報將登場　AI前景市場屏息以待",
+      "original_title": null,
+      "summary": "重點：（中央社華盛頓2026年11月16日綜合外電報導）AI晶片巨擘輝達（Nvidia）在執行長黃仁勳離開後將首度發布財報，儘管矽谷有力人士與部分員工…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%9B%A2%E9%96%8B%E5%BE%8C%E8%BC%9D%E9%81%94%E9%A6%96%E4%BB%BD%E8%B2%A1%E5%A0%B1%E5%B0%87%E7%99%BB%E5%A0%B4-ai%E5%89%8D%E6%99%AF%E5%B8%82%E5%A0%B4%E5%B1%8F%E6%81%AF%E4%BB%A5%E5%BE%85-035221429.html",
       "published_at": null,
       "source": "yahoo_news"
     },

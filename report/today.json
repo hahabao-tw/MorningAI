@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "report_date": "2026-11-16",
-  "generated_at": "2026-11-16T10:41:07+08:00",
+  "report_date": "2026-11-17",
+  "generated_at": "2026-11-17T12:42:41+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -9,11 +9,11 @@
       "group": "indices",
       "symbol": "^IXIC",
       "label": "NASDAQ",
-      "price": 25136.273,
-      "change": -229.8269999999975,
-      "change_percent": -0.9060399509581587,
+      "price": 24509.758,
+      "change": -626.5149999999994,
+      "change_percent": -2.492473725122254,
       "currency": "USD",
-      "market_time": 1794608159,
+      "market_time": 1794867359,
       "source": "yahoo"
     },
     {
@@ -21,11 +21,11 @@
       "group": "indices",
       "symbol": "^SOX",
       "label": "費城半導體",
-      "price": 10146.323,
-      "change": -360.3770000000004,
-      "change_percent": -3.429973255160996,
+      "price": 9610.652,
+      "change": -535.6710000000003,
+      "change_percent": -5.2794593667085135,
       "currency": "USD",
-      "market_time": 1794608159,
+      "market_time": 1794867359,
       "source": "yahoo"
     },
     {
@@ -33,11 +33,11 @@
       "group": "indices",
       "symbol": "^GSPC",
       "label": "S&P 500",
-      "price": 7561.67,
-      "change": -30.729999999999563,
-      "change_percent": -0.4047468521152674,
+      "price": 7416.59,
+      "change": -145.07999999999993,
+      "change_percent": -1.9186237960662118,
       "currency": "USD",
-      "market_time": 1794606199,
+      "market_time": 1794867730,
       "source": "yahoo"
     },
     {
@@ -45,11 +45,11 @@
       "group": "indices",
       "symbol": "^DJI",
       "label": "道瓊指數",
-      "price": 52347.55,
-      "change": 50.450000000004366,
-      "change_percent": 0.0964680641947725,
+      "price": 51608.2,
+      "change": -739.4000000000015,
+      "change_percent": -1.4124811834735527,
       "currency": "USD",
-      "market_time": 1794606206,
+      "market_time": 1794862800,
       "source": "yahoo"
     },
     {
@@ -57,11 +57,11 @@
       "group": "adr",
       "symbol": "TSM",
       "label": "台積電 ADR",
-      "price": 398.73,
-      "change": -6.759999999999991,
-      "change_percent": -1.667118794544869,
+      "price": 373.45,
+      "change": -25.28000000000003,
+      "change_percent": -6.340129912472106,
       "currency": "USD",
-      "market_time": 1794603602,
+      "market_time": 1794862802,
       "source": "yahoo"
     },
     {
@@ -69,11 +69,11 @@
       "group": "adr",
       "symbol": "UMC",
       "label": "聯電 ADR",
-      "price": 15.4,
-      "change": -0.35999999999999943,
-      "change_percent": -2.2842639593908594,
+      "price": 14.34,
+      "change": -1.0600000000000005,
+      "change_percent": -6.8831168831168865,
       "currency": "USD",
-      "market_time": 1794603602,
+      "market_time": 1794862802,
       "source": "yahoo"
     },
     {
@@ -81,11 +81,11 @@
       "group": "adr",
       "symbol": "ASX",
       "label": "日月光 ADR",
-      "price": 35.55,
-      "change": -0.740000000000002,
-      "change_percent": -2.0391292367043317,
+      "price": 32.8,
+      "change": -2.75,
+      "change_percent": -7.7355836849507735,
       "currency": "USD",
-      "market_time": 1794603603,
+      "market_time": 1794862802,
       "source": "yahoo"
     },
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 3886.7,
-      "change": 0.3999999999996362,
-      "change_percent": 0.010292566194056973,
+      "price": 3867.2,
+      "change": 14.199999999999818,
+      "change_percent": 0.3685439916947785,
       "currency": "USD",
-      "market_time": 1794796265,
+      "market_time": 1794889960,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 88.1,
-      "change": -0.46000000000000796,
-      "change_percent": -0.5194218608852845,
+      "price": 85.02,
+      "change": -0.7000000000000028,
+      "change_percent": -0.8166122258516132,
       "currency": "USD",
-      "market_time": 1794796261,
+      "market_time": 1794889953,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 95.12,
-      "change": -0.7199999999999989,
-      "change_percent": -0.751252086811351,
+      "price": 91.71,
+      "change": -0.730000000000004,
+      "change_percent": -0.7897014279532714,
       "currency": "USD",
-      "market_time": 1794796208,
+      "market_time": 1794889928,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.935,
-      "change": 0.060000000000002274,
-      "change_percent": 0.18250950570342897,
+      "price": 32.983,
+      "change": 0.01999999999999602,
+      "change_percent": 0.06067408913022486,
       "currency": "TWD",
-      "market_time": 1794796866,
+      "market_time": 1794890561,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.8391,
-      "change": -0.008399999999999963,
-      "change_percent": -0.17328519855595592,
+      "price": 4.8178,
+      "change": -0.010200000000000209,
+      "change_percent": -0.21126760563380714,
       "currency": "JPY",
-      "market_time": 1794796603,
+      "market_time": 1794890505,
       "source": "yahoo"
     },
     {
@@ -153,12 +153,12 @@
       "group": "taiwan_indices",
       "symbol": "^TWII",
       "label": "加權",
-      "price": 43675.12,
-      "change": 583.25,
-      "change_percent": 1.3535035727156886,
+      "price": 41040.08,
+      "change": -2635.040000000001,
+      "change_percent": -6.033274779783091,
       "currency": "TWD",
-      "market_time": 1794499200,
-      "date": "11/13",
+      "market_time": 1794758400,
+      "date": "11/16",
       "source": "yahoo_tw_indices"
     },
     {
@@ -166,12 +166,12 @@
       "group": "taiwan_indices",
       "symbol": "^TWOII",
       "label": "櫃買",
-      "price": 342.41,
-      "change": 6.680000000000007,
-      "change_percent": 1.9896940994251353,
+      "price": 319.12,
+      "change": -23.29000000000002,
+      "change_percent": -6.801787330977489,
       "currency": "TWD",
-      "market_time": 1794499200,
-      "date": "11/13",
+      "market_time": 1794758400,
+      "date": "11/16",
       "source": "yahoo_tw_indices"
     },
     {
@@ -179,11 +179,11 @@
       "group": "taifex",
       "symbol": "WTX&",
       "label": "台指期夜盤",
-      "price": 43706.0,
-      "change": -133.0,
-      "change_percent": -0.3033828326376058,
-      "market_time": 1794776400,
-      "date": "11/16",
+      "price": 40935.0,
+      "change": 154.0,
+      "change_percent": 0.377626836026581,
+      "market_time": 1794862800,
+      "date": "11/17",
       "source": "yahoo_future"
     },
     {
@@ -191,48 +191,48 @@
       "group": "taifex",
       "symbol": "WCDF&",
       "label": "台積電期貨夜盤",
-      "price": 2352.0,
-      "change": -7.0,
-      "change_percent": -0.2967359050445104,
-      "market_time": 1794776400,
-      "date": "11/16",
+      "price": 2211.0,
+      "change": 2.0,
+      "change_percent": 0.09053870529651425,
+      "market_time": 1794862800,
+      "date": "11/17",
       "source": "yahoo_future"
     }
   ],
   "taiwan_market": [
     {
       "kind": "twse_summary",
-      "date": "115/11/13",
-      "volume": 12361786586,
-      "turnover": 951580008082,
-      "transactions": 4257328,
-      "index": 43675.12,
-      "change": 583.25,
+      "date": "115/11/16",
+      "volume": 14120171417,
+      "turnover": 903115129889,
+      "transactions": 6662374,
+      "index": 41040.08,
+      "change": -2635.04,
       "source": "twse",
       "institutional": [
         {
           "name": "自營商(自行買賣)",
-          "buy": 10166324554,
-          "sell": 5867507194,
-          "net": 4298817360
+          "buy": 11496783828,
+          "sell": 8378155285,
+          "net": 3118628543
         },
         {
           "name": "自營商(避險)",
-          "buy": 40133026794,
-          "sell": 37539367109,
-          "net": 2593659685
+          "buy": 40814684839,
+          "sell": 69836452880,
+          "net": -29021768041
         },
         {
           "name": "投信",
-          "buy": 30313868335,
-          "sell": 20774698934,
-          "net": 9539169401
+          "buy": 14430219536,
+          "sell": 32731922072,
+          "net": -18301702536
         },
         {
           "name": "外資及陸資(不含外資自營商)",
-          "buy": 378483644345,
-          "sell": 349646958294,
-          "net": 28836686051
+          "buy": 338983315457,
+          "sell": 409172527620,
+          "net": -70189212163
         },
         {
           "name": "外資自營商",
@@ -242,9 +242,9 @@
         },
         {
           "name": "合計",
-          "buy": 459096864028,
-          "sell": 413828531531,
-          "net": 45268332497
+          "buy": 405725003660,
+          "sell": 520119057857,
+          "net": -114394054197
         }
       ]
     }
@@ -252,13 +252,13 @@
   "chips": [
     {
       "kind": "chips",
-      "date": "2026-11-13",
-      "foreign_tx_net": -100870,
-      "trust_tx_net": 99923,
-      "mtx_retail_ratio": 10.69,
-      "tmf_retail_ratio": -2.56,
-      "options_pc_ratio": 57.75,
-      "tsmc_impact": 7.738,
+      "date": "2026-11-16",
+      "foreign_tx_net": -96787,
+      "trust_tx_net": 92406,
+      "mtx_retail_ratio": 14.77,
+      "tmf_retail_ratio": 33.87,
+      "options_pc_ratio": 53.79,
+      "tsmc_impact": 7.714,
       "source": "official_chips"
     }
   ],
@@ -266,219 +266,160 @@
     {
       "kind": "news",
       "category": "international",
-      "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
-      "link": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
-      "published_at": "2026-11-16T02:14:03+00:00",
+      "title": "Third U.S. carrier arrives, stoking concerns about renewed conflicts with Iran",
+      "link": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html",
+      "published_at": "2026-11-17T04:34:24+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "Tech world's calls for Jensen Huang to return to Nvidia are growing",
-      "link": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html",
-      "published_at": "2026-11-16T01:54:56+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-      "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-16T01:47:57+00:00",
+      "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+      "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-17T02:37:53+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
-      "link": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
-      "published_at": "2026-11-16T01:02:48+00:00",
-      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      "source": "rss"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "Black Friday and tax return scams  - don't fall for these",
-      "link": "https://www.bbc.co.uk/news/articles/cm4gnlz2p61ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-16T00:50:39+00:00",
+      "title": "Aged 16-24 and looking for work? Use our look-up to find out which areas have the most jobs",
+      "link": "https://www.bbc.co.uk/news/articles/cw3djdjk5d7ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-17T00:00:03+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "Cut national insurance for under-25s to create jobs, Milburn report to say",
-      "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-15T22:30:03+00:00",
+      "title": "We couldn't afford a house alone, so we bought one with strangers",
+      "link": "https://www.bbc.co.uk/news/articles/c5742lwdyzglo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-17T00:00:02+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
-      "link": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-15T22:00:24+00:00",
+      "title": "California sues OpenAI over Hugging Face attack",
+      "link": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-16T23:12:24+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
-      "link": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
-      "published_at": "2026-11-15T18:10:18+00:00",
+      "title": "Aschenbrenner’s Situational Awareness made AI bets again before October rout",
+      "link": "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html",
+      "published_at": "2026-11-16T23:05:12+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "Trump breaks silence about FAA nationwide ground stop, blames Biden administration",
-      "link": "https://www.cnbc.com/2026/11/15/trump-breaks-silence-on-faa-nationwide-ground-stop-blames-biden-.html",
-      "published_at": "2026-11-15T16:56:40+00:00",
+      "title": "CNBC's The China Connection newsletter: As Nike and Lululemon struggle in China, Xiaohongshu is helping local brands take off",
+      "link": "https://www.cnbc.com/2026/11/16/as-nike-lululemon-struggle-in-china-xiaohongshu-helps-local-brands.html",
+      "published_at": "2026-11-16T23:00:01+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "Minister backs legal right to job support for young people",
-      "link": "https://www.bbc.co.uk/news/articles/cqr7gn1zmlj1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-15T13:06:15+00:00",
+      "title": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
+      "link": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
+      "published_at": "2026-11-16T22:37:45+00:00",
+      "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      "source": "rss"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "'Complete system reset' needed to get 440,000 young people into work, says major review",
+      "link": "https://www.bbc.co.uk/news/articles/c38xzy980924o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-16T22:32:47+00:00",
       "feed": "https://feeds.bbci.co.uk/news/business/rss.xml",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
-      "link": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
-      "published_at": "2026-11-15T12:00:01+00:00",
+      "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
+      "link": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
+      "published_at": "2026-11-16T22:14:47+00:00",
       "feed": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
       "source": "rss"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "盧特尼克替輝達「護航」？紐時：東南亞資料中心是家族金融公司客戶",
+      "title": "黃仁勳突卸任衝擊台股！「10檔ETF」藏輝達曝險　這檔持股比重曾逾16%",
       "original_title": null,
-      "summary": "重點：《紐約時報》15日披露，美國商務部長盧特尼克過去長期反對，對輝達東南亞資料中心祭出更嚴格的限制，而他先前掌舵的金融服務公司，報揭發與多家服務大陸…。",
-      "link": "https://tw.news.yahoo.com/%E7%9B%A7%E7%89%B9%E5%B0%BC%E5%85%8B%E6%9B%BF%E8%BC%9D%E9%81%94-%E8%AD%B7%E8%88%AA-%E7%B4%90%E6%99%82-%E6%9D%B1%E5%8D%97%E4%BA%9E%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E6%98%AF%E5%AE%B6%E6%97%8F%E9%87%91%E8%9E%8D%E5%85%AC%E5%8F%B8%E5%AE%A2%E6%88%B6-022930821.html",
+      "summary": "重點：[FTNN新聞網]記者陳雅婷／綜合報導台股今（17）日截至中午12時5分報40,395.20點，下跌644.88點，跌幅1.57%。台股昨（16…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E7%AA%81%E5%8D%B8%E4%BB%BB%E8%A1%9D%E6%93%8A%E5%8F%B0%E8%82%A1-10%E6%AA%94etf-%E8%97%8F%E8%BC%9D%E9%81%94%E6%9B%9D%E9%9A%AA-%E9%80%99%E6%AA%94%E6%8C%81%E8%82%A1%E6%AF%94%E9%87%8D%E6%9B%BE%E9%80%BE16-041500913.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "輝達風暴拖累AI類股，MiniMax、智譜盤中股價重挫逾10%",
+      "title": "AI若泡沫化美股恐大跌 Fed主席提警告 : 為「這3種」狀況做好準備",
       "original_title": null,
-      "summary": "重點：【財訊快報／劉敏夫】外電報導指出，輝達風波之下，中港人工智慧類股延續跌勢。港股中大模型股MiniMax一度下挫逾15%，股價創下上市以來盤中新低…。",
-      "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E9%A2%A8%E6%9A%B4%E6%8B%96%E7%B4%AFai%E9%A1%9E%E8%82%A1-minimax-%E6%99%BA%E8%AD%9C%E7%9B%A4%E4%B8%AD%E8%82%A1%E5%83%B9%E9%87%8D%E6%8C%AB%E9%80%BE10-022659849.html",
+      "summary": "重點：[Newtalk新聞] 美聯儲 ( Fed ) 主席凱文·沃什當地時間 16 日在舊金山舉行的「生產率與就業工作組」會議上表示，美聯儲已經開始研…。",
+      "link": "https://tw.news.yahoo.com/ai%E8%8B%A5%E6%B3%A1%E6%B2%AB%E5%8C%96%E7%BE%8E%E8%82%A1%E6%81%90%E5%A4%A7%E8%B7%8C-fed%E4%B8%BB%E5%B8%AD%E6%8F%90%E8%AD%A6%E5%91%8A-%E7%82%BA-%E9%80%993%E7%A8%AE-%E7%8B%80%E6%B3%81%E5%81%9A%E5%A5%BD%E6%BA%96%E5%82%99-040934708.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "黃仁勳請辭後輝達誰接班？美財長貝森特：新執行長應從外部尋找",
+      "title": "早有布局？黃仁勳夫妻105億美元輝達股票　醜聞爆發前已轉入家族信託",
       "original_title": null,
-      "summary": "重點：[FTNN新聞網]實習記者鄭巧薰／綜合報導輝達（NVIDIA）共同創辦人黃仁勳近期因婚外情風波疑似涉及中國間諜等相關爭議後，正式請辭執行長職位並…。",
-      "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%AB%8B%E8%BE%AD%E5%BE%8C%E8%BC%9D%E9%81%94%E8%AA%B0%E6%8E%A5%E7%8F%AD-%E7%BE%8E%E8%B2%A1%E9%95%B7%E8%B2%9D%E6%A3%AE%E7%89%B9-%E6%96%B0%E5%9F%B7%E8%A1%8C%E9%95%B7%E6%87%89%E5%BE%9E%E5%A4%96%E9%83%A8%E5%B0%8B%E6%89%BE-022500813.html",
+      "summary": "重點：輝達前執行長黃仁勳因多起婚外情而黯然下台，公司股價亦同步重挫。但美國媒體週一（16日）報導，黃仁勳及妻子洛莉早在今年3月，便將價值超過105億美…。",
+      "link": "https://tw.news.yahoo.com/%E6%97%A9%E6%9C%89%E5%B8%83%E5%B1%80-%E9%BB%83%E4%BB%81%E5%8B%B3%E5%A4%AB%E5%A6%BB105%E5%84%84%E7%BE%8E%E5%85%83%E8%BC%9D%E9%81%94%E8%82%A1%E7%A5%A8-%E9%86%9C%E8%81%9E%E7%88%86%E7%99%BC%E5%89%8D%E5%B7%B2%E8%BD%89%E5%85%A5%E5%AE%B6%E6%97%8F%E4%BF%A1%E8%A8%97-035444470.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "international",
-      "title": "黃仁勳傳想重返輝達　矽谷大咖組「戰情室」",
+      "title": "黃仁勳離開後輝達首份財報將登場　AI前景市場屏息以待",
       "original_title": null,
-      "summary": "重點：[NOWNEWS今日新聞]輝達（NVIDIA）創辦人黃仁勳因婚外情及中國間諜疑雲辭去執行長職務後，傳出正考慮重返公司掌舵。多名矽谷科技業高層及投…。",
-      "link": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%82%B3%E6%83%B3%E9%87%8D%E8%BF%94%E8%BC%9D%E9%81%94-%E7%9F%BD%E8%B0%B7%E5%A4%A7%E5%92%96%E7%B5%84-%E4%BD%9C%E6%88%B0%E5%AE%A4-223634749.html",
+      "summary": "重點：（中央社華盛頓2026年11月16日綜合外電報導）AI晶片巨擘輝達（Nvidia）在執行長黃仁勳離開後將首度發布財報，儘管矽谷有力人士與部分員工…。",
+      "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%9B%A2%E9%96%8B%E5%BE%8C%E8%BC%9D%E9%81%94%E9%A6%96%E4%BB%BD%E8%B2%A1%E5%A0%B1%E5%B0%87%E7%99%BB%E5%A0%B4-ai%E5%89%8D%E6%99%AF%E5%B8%82%E5%A0%B4%E5%B1%8F%E6%81%AF%E4%BB%A5%E5%BE%85-035221429.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "電子摔跤！3金控前進台股市值排名前十強 中信金破80元寫新天價",
+      "title": "台股單日暴跌2635點寫史上第2！前15大跌點「2026年占13次」　網嘆：這兩個月根本血洗",
       "original_title": null,
-      "summary": "重點：電子摔跤！金融股順勢抬頭。據最新統計，台股市值前十大排名中，金控股一舉囊括三席，富邦金（2881）、國泰金（2882）及中信金（2891）分別拿…。",
-      "link": "https://tw.stock.yahoo.com/news/%E9%9B%BB%E5%AD%90%E6%91%94%E8%B7%A4%EF%BC%813%E9%87%91%E6%8E%A7%E5%89%8D%E9%80%B2%E5%8F%B0%E8%82%A1%E5%B8%82%E5%80%BC%E6%8E%92%E5%90%8D%E5%89%8D%E5%8D%81%E5%BC%B7-%E4%B8%AD%E4%BF%A1%E9%87%91%E7%A0%B480%E5%85%83%E5%AF%AB%E6%96%B0%E5%A4%A9%E5%83%B9-022020651.html",
+      "summary": "重點：[FTNN新聞網]實習記者王保伶／綜合報導台股16日加權指數終場大跌2635.04點，寫下史上第二大單日跌點紀錄。一名網友在Threads整理台…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E5%96%AE%E6%97%A5%E6%9A%B4%E8%B7%8C2635%E9%BB%9E%E5%AF%AB%E5%8F%B2%E4%B8%8A%E7%AC%AC2-%E5%89%8D15%E5%A4%A7%E8%B7%8C%E9%BB%9E-2026%E5%B9%B4%E5%8D%A013%E6%AC%A1-%E7%B6%B2%E5%98%86-%E9%80%99%E5%85%A9%E5%80%8B%E6%9C%88%E6%A0%B9%E6%9C%AC%E8%A1%80%E6%B4%97-042500425.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "台股跌回42K、AI股血流成河！「ASIC大廠」曾登股后重摔跌停、欣興等5檔也亮綠燈　「軟體悍將」逆襲狂飆6%",
+      "title": "台股狂瀉2635點太扯！ 郭哲榮高喊「閉眼買」：沒45K發雞排",
       "original_title": null,
-      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導台股加權指數今（16）日下殺至4萬2，截至上午10時03分暫報42,300.29點，維持在下跌1,374.…。",
-      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E8%B7%8C%E5%9B%9E42k-ai%E8%82%A1%E8%A1%80%E6%B5%81%E6%88%90%E6%B2%B3-asic%E5%A4%A7%E5%BB%A0-%E6%9B%BE%E7%99%BB%E8%82%A1%E5%90%8E%E9%87%8D%E6%91%94%E8%B7%8C%E5%81%9C-%E6%AC%A3%E8%88%88%E7%AD%895%E6%AA%94%E4%B9%9F%E4%BA%AE%E7%B6%A0%E7%87%88-022000869.html",
+      "summary": "重點：台股昨（16）日狂瀉2,635.04點創史上第二大跌點，摩爾投顧投資長郭哲榮直言恐慌已過度反應，強調「可以閉著眼睛買」，更喊出11月底沒站回4萬…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%8B%82%E7%80%892635%E9%BB%9E%E5%A4%AA%E6%89%AF-%E9%83%AD%E5%93%B2%E6%A6%AE%E9%AB%98%E5%96%8A-%E9%96%89%E7%9C%BC%E8%B2%B7-%E6%B2%9245k%E7%99%BC%E9%9B%9E%E6%8E%92-041500728.html",
       "published_at": null,
       "source": "yahoo_news"
     },
     {
       "kind": "news",
       "category": "domestic",
-      "title": "台股下殺1276點！PCB「這檔」再遭千金股除名大跌9.71%　景碩、聯茂、台燿齊摜跌停",
+      "title": "台股唯一萬金股沒了！股王信驊連2日觸跌停　兩天帳面蒸發228萬",
       "original_title": null,
-      "summary": "重點：[FTNN新聞網]記者陳思穎／綜合報導美股四大指數上周五跌多漲少，AI晶片龍頭輝達（NVDA-US）更受黃仁勳辭任影響，挫跌2.01%，拖累台股…。",
-      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E4%B8%8B%E6%AE%BA1276%E9%BB%9E-pcb-%E9%80%99%E6%AA%94-%E5%86%8D%E9%81%AD%E5%8D%83%E9%87%91%E8%82%A1%E9%99%A4%E5%90%8D%E5%A4%A7%E8%B7%8C9-71-021500967.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "台股震盪！早盤失守4.3萬　股王信驊近跌停",
-      "original_title": null,
-      "summary": "重點：[NOWNEWS今日新聞]台北股市今（16）日開盤後賣壓急遽湧現，加權指數盤中一度重挫逾1400點，市場一片慘綠。截至上午9時50分，加權指數來…。",
-      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA-%E6%97%A9%E7%9B%A4%E5%A4%B1%E5%AE%884-3%E8%90%AC-%E8%82%A1%E7%8E%8B%E4%BF%A1%E9%A9%8A%E8%BF%91%E8%B7%8C%E5%81%9C-020457279.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "輝達台籍主管涉走私AI晶片遭起訴　張惇涵：科技是台灣至寶應好好守護",
-      "original_title": null,
-      "summary": "重點：[FTNN新聞網]記者呂炯昌／台北報導輝達（NVIDIA）一名張姓台灣分公司主管因涉嫌將搭載人工晶片的高階AI伺服器非法轉運中國，今年8月遭基隆…。",
-      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E5%8F%B0%E7%B1%8D%E4%B8%BB%E7%AE%A1%E6%B6%89%E8%B5%B0%E7%A7%81ai%E6%99%B6%E7%89%87%E9%81%AD%E8%B5%B7%E8%A8%B4-%E5%BC%B5%E6%83%87%E6%B6%B5-%E7%A7%91%E6%8A%80%E6%98%AF%E5%8F%B0%E7%81%A3%E8%87%B3%E5%AF%B6%E6%87%89%E5%A5%BD%E5%A5%BD%E5%AE%88%E8%AD%B7-020000687.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "阻擋黃仁勳回鍋？貝森特放話：新任輝達執行長應「外部空降」",
-      "original_title": null,
-      "summary": "重點：美國晶片巨頭輝達前執行長黃仁勳下台後，風暴持續延燒，美國財政部長貝森特15日表示，輝達在尋找新任執行長時，應該考慮從「公司外部延攬人選」，並對內…。",
-      "link": "https://tw.news.yahoo.com/%E9%98%BB%E6%93%8B%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B-%E8%B2%9D%E6%A3%AE%E7%89%B9%E6%94%BE%E8%A9%B1-%E6%96%B0%E4%BB%BB%E8%BC%9D%E9%81%94%E5%9F%B7%E8%A1%8C%E9%95%B7%E6%87%89-%E5%A4%96%E9%83%A8%E7%A9%BA%E9%99%8D-015309477.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "international",
-      "title": "台股開盤》賣壓湧現！大盤重挫1379點、權值股走弱、聚焦輝達財報",
-      "original_title": null,
-      "summary": "重點：[Newtalk新聞] 台股今（16日）開盤後賣壓明顯湧現，加權指數呈現一路走低的格局，盤中下跌幅度持續擴大。截至上午9時35分，加權指數下跌1…。",
-      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4-%E8%B3%A3%E5%A3%93%E6%B9%A7%E7%8F%BE-%E5%A4%A7%E7%9B%A4%E9%87%8D%E6%8C%AB1379%E9%BB%9E-%E6%AC%8A%E5%80%BC%E8%82%A1%E8%B5%B0%E5%BC%B1-%E8%81%9A%E7%84%A6%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1-014848029.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "台股恐打第二隻腳？ 法人點名「4黑馬」：上車好機會",
-      "original_title": null,
-      "summary": "重點：台股上週猶如八點檔戲劇化，國安基金護盤遇上黃仁勳請辭震撼彈！國泰期貨分析師林威廷指出，AI長線需求未減，拉回反則是優質潛力股的絕佳上車點。",
-      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%81%90%E6%89%93%E7%AC%AC%E4%BA%8C%E9%9A%BB%E8%85%B3-%E6%B3%95%E4%BA%BA%E9%BB%9E%E5%90%8D-4%E9%BB%91%E9%A6%AC-%E4%B8%8A%E8%BB%8A%E5%A5%BD%E6%A9%9F%E6%9C%83-013800612.html",
+      "summary": "重點：[Newtalk新聞] 台股高價股賣壓延燒，連股王也難以倖免。信驊（5274）繼昨（16）日跌停後，今（17）日早盤再遭空方狙擊，股價一度下探…。",
+      "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%94%AF-%E8%90%AC%E9%87%91%E8%82%A1%E6%B2%92%E4%BA%86-%E8%82%A1%E7%8E%8B%E4%BF%A1%E9%A9%8A%E9%80%A32%E6%97%A5%E8%A7%B8%E8%B7%8C%E5%81%9C-%E5%85%A9%E5%A4%A9%E5%B8%B3%E9%9D%A2%E8%92%B8%E7%99%BC228%E8%90%AC-041455565.html",
       "published_at": null,
       "source": "yahoo_news"
     }

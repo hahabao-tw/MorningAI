@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "report_date": "2026-11-19",
-  "generated_at": "2026-11-19T11:45:30+08:00",
+  "generated_at": "2026-11-19T12:06:01+08:00",
   "timezone": "Asia/Taipei",
   "markets": [
     {
@@ -93,11 +93,11 @@
       "group": "commodities",
       "symbol": "GC=F",
       "label": "黃金",
-      "price": 3714.6,
-      "change": -27.300000000000182,
-      "change_percent": -0.7295758839092489,
+      "price": 3719.6,
+      "change": -22.300000000000182,
+      "change_percent": -0.5959539271493141,
       "currency": "USD",
-      "market_time": 1795059330,
+      "market_time": 1795060561,
       "source": "yahoo"
     },
     {
@@ -105,11 +105,11 @@
       "group": "commodities",
       "symbol": "CL=F",
       "label": "WTI 原油",
-      "price": 81.85,
-      "change": -0.46000000000000796,
-      "change_percent": -0.5588628356214409,
+      "price": 82.05,
+      "change": -0.2600000000000051,
+      "change_percent": -0.31587899404690206,
       "currency": "USD",
-      "market_time": 1795059329,
+      "market_time": 1795060561,
       "source": "yahoo"
     },
     {
@@ -117,11 +117,11 @@
       "group": "commodities",
       "symbol": "BZ=F",
       "label": "布蘭特原油",
-      "price": 88.97,
-      "change": -0.20000000000000284,
-      "change_percent": -0.22429068072221917,
+      "price": 89.15,
+      "change": -0.01999999999999602,
+      "change_percent": -0.02242906807221714,
       "currency": "USD",
-      "market_time": 1795059138,
+      "market_time": 1795060352,
       "source": "yahoo"
     },
     {
@@ -129,11 +129,11 @@
       "group": "fx",
       "symbol": "TWD=X",
       "label": "USD/TWD",
-      "price": 32.949,
-      "change": 0.022999999999996135,
-      "change_percent": 0.06985361112797223,
+      "price": 32.954,
+      "change": 0.027999999999998693,
+      "change_percent": 0.08503917876449824,
       "currency": "TWD",
-      "market_time": 1795059926,
+      "market_time": 1795061158,
       "source": "yahoo"
     },
     {
@@ -141,11 +141,11 @@
       "group": "fx",
       "symbol": "TWDJPY=X",
       "label": "TWD/JPY",
-      "price": 4.8314,
-      "change": 0.0026999999999999247,
-      "change_percent": 0.055915670884501514,
+      "price": 4.8311,
+      "change": 0.0023999999999997357,
+      "change_percent": 0.049702818563997254,
       "currency": "JPY",
-      "market_time": 1795059705,
+      "market_time": 1795060906,
       "source": "yahoo"
     },
     {
@@ -356,10 +356,80 @@
     {
       "kind": "news",
       "category": "international",
+      "title": "黃仁勳請辭 專家：台廠輝達供應鏈短期恐受4衝擊",
+      "original_title": null,
+      "summary": "重點：輝達(NVIDIA)創辦人黃仁勳請辭執行長職務，是否回鍋，目前仍未知。不過，沒了黃仁勳的輝達，對台廠供應鏈影響也備受關注。專家指出，短期來看，過…。",
+      "link": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%AB%8B%E8%BE%AD-%E5%B0%88%E5%AE%B6-%E5%8F%B0%E5%BB%A0%E8%BC%9D%E9%81%94%E4%BE%9B%E6%87%89%E9%8F%88%E7%9F%AD%E6%9C%9F%E6%81%90%E5%8F%974%E8%A1%9D%E6%93%8A-034651917.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "輝達不要黃仁勳！馬斯克轟「像球隊踢掉喬丹」　親曝：想聘用他",
+      "original_title": null,
+      "summary": "重點：特斯拉執行長馬斯克公開批評輝達撤換創辦人黃仁勳的決定，直言此舉猶如球隊在連勝期間，踢掉傳奇球星麥可喬丹般不明智。馬斯克也曾說，自己非常樂意聘用黃…。",
+      "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E4%B8%8D%E8%A6%81%E9%BB%83%E4%BB%81%E5%8B%B3-%E9%A6%AC%E6%96%AF%E5%85%8B%E8%BD%9F-%E5%83%8F%E7%90%83%E9%9A%8A%E8%B8%A2%E6%8E%89%E5%96%AC%E4%B8%B9-%E8%A6%AA%E6%9B%9D-%E6%83%B3%E8%81%98%E7%94%A8%E4%BB%96-033800561.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
       "title": "輝達財報狂飆仍救不了台股！盤中狂殺逾千點　郭哲榮點名9檔AI供應鏈全遭血洗",
       "original_title": null,
       "summary": "重點：[FTNN新聞網]記者陳雅婷／綜合報導台股今（19）日賣壓再度擴大，早盤開高後一路走低，盤中最高來到40,315.53點，最低下探38,694.…。",
       "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E7%8B%82%E9%A3%86%E4%BB%8D%E6%95%91%E4%B8%8D%E4%BA%86%E5%8F%B0%E8%82%A1-%E7%9B%A4%E4%B8%AD%E7%8B%82%E6%AE%BA%E9%80%BE%E5%8D%83%E9%BB%9E-%E9%83%AD%E5%93%B2%E6%A6%AE%E9%BB%9E%E5%90%8D9%E6%AA%94ai%E4%BE%9B%E6%87%89%E9%8F%88%E5%85%A8%E9%81%AD%E8%A1%80%E6%B4%97-033500277.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "international",
+      "title": "法國砍最兇！全球資金逃離美債 9月持倉銳減755億美元 「這一國」卻創近半世紀最大買超紀錄",
+      "original_title": null,
+      "summary": "重點：海外9月持有美債減755億美元至9.24兆，創今年3月來最大月減幅、近一年低點。 日本減52億、英國減87億、中國減近270億；南韓逆勢淨買11…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%B3%95%E5%9C%8B%E7%A0%8D%E6%9C%80%E5%85%87-%E5%85%A8%E7%90%83%E8%B3%87%E9%87%91%E9%80%83%E9%9B%A2%E7%BE%8E%E5%82%B5-9%E6%9C%88%E6%8C%81%E5%80%89%E9%8A%B3%E6%B8%9B755%E5%84%84%E7%BE%8E%E5%85%83-%E9%80%99-%E5%9C%8B-031003615.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股狂瀉近2千點「史上盤中第9大」！市值蒸發逾6兆元 等於少掉1家聯發科",
+      "original_title": null,
+      "summary": "重點：台股今（19）日盤中接連摜破40,000點與39,000點整數關卡，最重下跌1,935點，寫下盤中史上第九大跌點，市值一夕蒸發約6.34兆元，相…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%8B%82%E7%80%89%E8%BF%912%E5%8D%83%E9%BB%9E%E3%80%8C%E5%8F%B2%E4%B8%8A%E7%9B%A4%E4%B8%AD%E7%AC%AC9%E5%A4%A7%E3%80%8D%EF%BC%81%E5%B8%82%E5%80%BC%E8%92%B8%E7%99%BC%E9%80%BE6%E5%85%86%E5%85%83-%E7%AD%89%E6%96%BC%E5%B0%91%E6%8E%891%E5%AE%B6%E8%81%AF%E7%99%BC%E7%A7%91-035814079.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "才喊主力低檔撿貨就變臉？周代運點名「3檔6G伏兵」全翻黑　難扛台股1900點殺盤",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳雅婷／綜合報導台股今（19）日賣壓再度擴大，早盤開高後一路走低，截至上午11時22分，盤中最低下探38,259.70點，…。",
+      "link": "https://tw.stock.yahoo.com/news/%E6%89%8D%E5%96%8A%E4%B8%BB%E5%8A%9B%E4%BD%8E%E6%AA%94%E6%92%BF%E8%B2%A8%E5%B0%B1%E8%AE%8A%E8%87%89-%E5%91%A8%E4%BB%A3%E9%81%8B%E9%BB%9E%E5%90%8D-3%E6%AA%946g%E4%BC%8F%E5%85%B5-%E5%85%A8%E7%BF%BB%E9%BB%91-%E9%9B%A3%E6%89%9B%E5%8F%B0%E8%82%A11900%E9%BB%9E%E6%AE%BA%E7%9B%A4-035000731.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股摔破3萬9！小資族搶買0050 零股3小時爆量衝破2500萬股",
+      "original_title": null,
+      "summary": "重點：台股今（19）日上演大怒神行情，高低震盪逾2,000點，連破4萬與3萬9兩大關卡，元大台灣50（0050）盤中最低跌至89.8元，創逾一周新低，…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%91%94%E7%A0%B43%E8%90%AC9%EF%BC%81%E5%B0%8F%E8%B3%87%E6%97%8F%E6%90%B6%E8%B2%B70050-%E9%9B%B6%E8%82%A13%E5%B0%8F%E6%99%82%E7%88%86%E9%87%8F%E8%A1%9D%E7%A0%B42500%E8%90%AC%E8%82%A1-034407000.html",
+      "published_at": null,
+      "source": "yahoo_news"
+    },
+    {
+      "kind": "news",
+      "category": "domestic",
+      "title": "台股摜破年線直奔3萬8！百檔跌停股「PCB、矽光子」難逃殺盤　富喬7千張賣單逃不掉",
+      "original_title": null,
+      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導台股今（19）日跌破年線39370.85點，加權指數盤中持續走低，截至上午11時30分暫報38,655.9…。",
+      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%91%9C%E7%A0%B4%E5%B9%B4%E7%B7%9A%E7%9B%B4%E5%A5%943%E8%90%AC8-%E7%99%BE%E6%AA%94%E8%B7%8C%E5%81%9C%E8%82%A1-pcb-%E7%9F%BD%E5%85%89%E5%AD%90-%E9%9B%A3%E9%80%83%E6%AE%BA%E7%9B%A4-034000046.html",
       "published_at": null,
       "source": "yahoo_news"
     },
@@ -390,26 +460,6 @@
       "original_title": null,
       "summary": "重點：輝達砸下逾10億美元現金投資景碩（3189），原本是台灣AI載板供應鏈的一大利多，沒想到市場反應急轉直下，景碩昨（18）日受消息激勵攻上漲停，未…。",
       "link": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E7%A0%B810%E5%84%84%E7%BE%8E%E5%85%83%E4%B9%9F%E9%9B%A3%E6%95%91-%E6%99%AF%E7%A2%A9%E9%96%8B%E7%9B%A4%E8%B7%B3%E6%B0%B4%E8%B7%8C%E5%81%9C-pcb%E6%97%8F%E7%BE%A4%E8%A1%80%E6%B5%81%E6%88%90%E6%B2%B3-025715402.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "台股摔破3萬9！小資族搶買0050 零股3小時爆量衝破2500萬股",
-      "original_title": null,
-      "summary": "重點：台股今（19）日上演大怒神行情，高低震盪逾2,000點，連破4萬與3萬9兩大關卡，元大台灣50（0050）盤中最低跌至89.8元，創逾一周新低，…。",
-      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%91%94%E7%A0%B43%E8%90%AC9%EF%BC%81%E5%B0%8F%E8%B3%87%E6%97%8F%E6%90%B6%E8%B2%B70050-%E9%9B%B6%E8%82%A13%E5%B0%8F%E6%99%82%E7%88%86%E9%87%8F%E8%A1%9D%E7%A0%B42500%E8%90%AC%E8%82%A1-034407000.html",
-      "published_at": null,
-      "source": "yahoo_news"
-    },
-    {
-      "kind": "news",
-      "category": "domestic",
-      "title": "台股摜破年線直奔3萬8！百檔跌停股「PCB、矽光子」難逃殺盤　富喬7千張賣單逃不掉",
-      "original_title": null,
-      "summary": "重點：[FTNN新聞網]記者陳宣穎／綜合報導台股今（19）日跌破年線39370.85點，加權指數盤中持續走低，截至上午11時30分暫報38,655.9…。",
-      "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%91%9C%E7%A0%B4%E5%B9%B4%E7%B7%9A%E7%9B%B4%E5%A5%943%E8%90%AC8-%E7%99%BE%E6%AA%94%E8%B7%8C%E5%81%9C%E8%82%A1-pcb-%E7%9F%BD%E5%85%89%E5%AD%90-%E9%9B%A3%E9%80%83%E6%AE%BA%E7%9B%A4-034000046.html",
       "published_at": null,
       "source": "yahoo_news"
     },
